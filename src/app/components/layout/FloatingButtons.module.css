@@ -1,0 +1,90 @@
+/* Floating Buttons Styles */
+.floatingButtons {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 1000;
+}
+
+.floatingButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  animation: pulse 2s infinite;
+}
+
+.floatingButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+}
+
+.whatsapp {
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  color: white;
+}
+
+.phone {
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  color: white;
+}
+
+.buttonIcon {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 0 0 10px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.phone {
+  animation: pulseBlue 2s infinite;
+}
+
+@keyframes pulseBlue {
+  0% {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 0 0 0 rgba(59, 130, 246, 0.7);
+  }
+  70% {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 0 0 10px rgba(59, 130, 246, 0);
+  }
+  100% {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 0 0 0 rgba(59, 130, 246, 0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .floatingButtons {
+    left: 15px;
+  }
+  
+  .floatingButton {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .buttonIcon {
+    font-size: 1.3rem;
+  }
+}

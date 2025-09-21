@@ -1,0 +1,559 @@
+/* Article Detail Page Styles */
+.articleDetail {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Article Header */
+.articleHeader {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.categoryBadge {
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.articleTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.articleExcerpt {
+  font-size: 1.25rem;
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+.articleMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.authorInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.authorAvatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #2563eb;
+}
+
+.authorAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.authorDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.authorName {
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 1.1rem;
+}
+
+.authorTitle {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.articleStats {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.publishDate,
+.readTime,
+.wordCount {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+/* Table of Contents */
+.tableOfContents {
+  background: #f9fafb;
+  padding: 2rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.tocTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.tocList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tocItem {
+  margin-bottom: 0.5rem;
+}
+
+.tocItem.level1 { padding-right: 0; }
+.tocItem.level2 { padding-right: 1rem; }
+.tocItem.level3 { padding-right: 2rem; }
+.tocItem.level4 { padding-right: 3rem; }
+
+.tocLink {
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.tocLink:hover {
+  color: #2563eb;
+}
+
+/* Article Content */
+.articleContent {
+  padding: 4rem 0;
+}
+
+.contentWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  line-height: 1.8;
+  color: #374151;
+  text-align: right;
+  direction: rtl;
+}
+
+.h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 2rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #2563eb;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 1.5rem 0 1rem;
+}
+
+.h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 1.25rem 0 0.75rem;
+}
+
+.h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4b5563;
+  margin: 1rem 0 0.5rem;
+}
+
+.paragraph {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.list {
+  margin: 1.5rem 0;
+  padding-right: 2rem;
+}
+
+.list li {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Article Tags */
+.articleTags {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.tagsTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.tagsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tag {
+  background: #eff6ff;
+  color: #2563eb;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid #bfdbfe;
+}
+
+/* FAQ Section */
+.faqSection {
+  background: #f9fafb;
+  padding: 4rem 0;
+}
+
+.faqTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.faqList {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faqItem {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.faqQuestion {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.faqAnswer {
+  color: #4b5563;
+  line-height: 1.7;
+  text-align: right;
+  margin: 0;
+}
+
+/* Author Bio */
+.authorBio {
+  padding: 4rem 0;
+  background: white;
+}
+
+.bioCard {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: #f8fafc;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.bioAvatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #2563eb;
+  flex-shrink: 0;
+}
+
+.bioAvatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bioContent {
+  flex: 1;
+  text-align: right;
+}
+
+.bioName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.bioTitle {
+  font-size: 1.1rem;
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.bioDescription {
+  color: #4b5563;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.bioActions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.bioBtn,
+.contactBtn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.bioBtn {
+  background: #2563eb;
+  color: white;
+}
+
+.bioBtn:hover {
+  background: #1d4ed8;
+}
+
+.contactBtn {
+  background: transparent;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+
+.contactBtn:hover {
+  background: #2563eb;
+  color: white;
+}
+
+/* Related Articles */
+.relatedArticles {
+  background: #f9fafb;
+  padding: 4rem 0;
+}
+
+.relatedTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.relatedCard {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+}
+
+.relatedCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.relatedImage {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.relatedContent {
+  text-align: right;
+}
+
+.relatedCardTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.relatedExcerpt {
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.relatedLink {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.relatedLink:hover {
+  color: #1d4ed8;
+}
+
+/* Call to Action */
+.ctaSection {
+  background: linear-gradient(135deg, #1f2937 0%, #374151 100%);
+  padding: 4rem 0;
+  color: white;
+}
+
+.ctaCard {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ctaText {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.ctaActions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.primaryBtn,
+.phoneBtn {
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.primaryBtn {
+  background: #fbbf24;
+  color: #1f2937;
+}
+
+.primaryBtn:hover {
+  background: #f59e0b;
+  transform: translateY(-1px);
+}
+
+.phoneBtn {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.phoneBtn:hover {
+  background: white;
+  color: #1f2937;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .articleTitle {
+    font-size: 1.75rem;
+  }
+  
+  .articleExcerpt {
+    font-size: 1.1rem;
+  }
+  
+  .articleMeta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .bioCard {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .bioContent {
+    text-align: center;
+  }
+  
+  .relatedGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .ctaActions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .primaryBtn,
+  .phoneBtn {
+    width: 100%;
+    max-width: 300px;
+  }
+}

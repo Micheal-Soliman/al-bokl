@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.albokl.com/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Allow all medical content
+Allow: /surgeries/
+Allow: /articles/
+Allow: /videos/
+Allow: /about/
+Allow: /contact/
+Allow: /infertility/
+Allow: /sexual-health/
+Allow: /puberty-issues/
+Allow: /emergency-surgeries/
+
+# Block admin areas (if any in future)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Block duplicate content
+Disallow: /*?*
+Disallow: /*#*

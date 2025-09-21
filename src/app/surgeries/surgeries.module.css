@@ -1,0 +1,566 @@
+/* Surgeries Page Styles */
+.surgeriesPage {
+  min-height: 100vh;
+  direction: rtl;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Hero Section */
+.heroSection {
+  background: linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%);
+  color: white;
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
+}
+
+.heroContent {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.heroDescription {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.primaryBtn {
+  background: linear-gradient(45deg, #f97316, #ea580c);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(249, 115, 22, 0.3);
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(249, 115, 22, 0.4);
+}
+
+.secondaryBtn {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.secondaryBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.heroImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.heroIcon {
+  font-size: 4rem;
+}
+
+/* Statistics Section */
+.statisticsSection {
+  background: #f8fafc;
+  padding: 4rem 0;
+  margin-top: -2rem;
+  position: relative;
+  z-index: 3;
+}
+
+.statisticsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.statCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-5px);
+}
+
+.statNumber {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #059669;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 1.1rem;
+  color: #64748b;
+  font-weight: 500;
+}
+
+/* Section Styles */
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #1e293b;
+  position: relative;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(45deg, #059669, #10b981);
+  border-radius: 2px;
+}
+
+/* Introduction Section */
+.introSection {
+  padding: 6rem 0;
+  background: white;
+}
+
+.introContent {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.introText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #475569;
+}
+
+.introText p {
+  margin-bottom: 1.5rem;
+}
+
+/* Procedures Section */
+.proceduresSection {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.proceduresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.procedureCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  display: block;
+}
+
+.procedureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  border-color: #059669;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cardIcon {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  background: #ecfdf5;
+  border-radius: 15px;
+}
+
+.complexityBadge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.complexityBadge.بسيطة {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.complexityBadge.متوسطة {
+  background: #fef3c7;
+  color: #d97706;
+}
+
+.complexityBadge.متوسطةإلىعالية {
+  background: #fed7aa;
+  color: #ea580c;
+}
+
+.complexityBadge.عالية {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.cardTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1e293b;
+  line-height: 1.4;
+}
+
+.cardDescription {
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.procedureStats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+
+.statItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.statLabel {
+  color: #64748b;
+}
+
+.statValue {
+  font-weight: 600;
+  color: #059669;
+}
+
+.procedureDetails {
+  margin-bottom: 1.5rem;
+}
+
+.procedureDetails h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.procedureDetails ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.procedureDetails li {
+  padding: 0.25rem 0;
+  color: #475569;
+  font-size: 0.9rem;
+  position: relative;
+  padding-right: 1rem;
+}
+
+.procedureDetails li::before {
+  content: '✓';
+  position: absolute;
+  right: 0;
+  color: #059669;
+  font-weight: bold;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1rem;
+}
+
+.readMore {
+  color: #059669;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Why Choose Us Section */
+.whyChooseSection {
+  padding: 6rem 0;
+  background: white;
+}
+
+.whyChooseGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.reasonCard {
+  background: #f8fafc;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  border: 2px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.reasonCard:hover {
+  border-color: #059669;
+  transform: translateY(-3px);
+}
+
+.reasonIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.reasonTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.reasonDescription {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/* Preparation Section */
+.preparationSection {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.preparationContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.preparationSteps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.stepNumber {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg, #059669, #10b981);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+.stepContent h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+.stepContent p {
+  color: #64748b;
+  line-height: 1.6;
+}
+
+/* CTA Section */
+.ctaSection {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  color: white;
+  text-align: center;
+}
+
+.ctaContent h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ctaContent p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroContent {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .proceduresGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .whyChooseGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .preparationSteps {
+    grid-template-columns: 1fr;
+  }
+
+  .statisticsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heroButtons {
+    justify-content: center;
+  }
+
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .step {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .heroSection {
+    padding: 4rem 0;
+  }
+
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .sectionTitle {
+    font-size: 2rem;
+  }
+
+  .statisticsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .procedureCard {
+    padding: 1.5rem;
+  }
+
+  .procedureStats {
+    grid-template-columns: 1fr;
+  }
+
+  .reasonCard {
+    padding: 1.5rem;
+  }
+
+  .step {
+    padding: 1.5rem;
+  }
+}

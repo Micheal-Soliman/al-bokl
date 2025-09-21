@@ -1,0 +1,118 @@
+/* Animations */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Video Sections */
+.videoContainer {
+  margin: 2rem 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  animation: scaleIn 0.8s ease-out;
+  animation-fill-mode: both;
+  animation-delay: 0.4s;
+}
+
+.videoTitle {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #1e40af;
+  text-align: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  padding: 1rem 0;
+}
+
+.videoTitle::before {
+  content: '🎥';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.3rem;
+  opacity: 0.8;
+}
+
+.videoTitle::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70px;
+  height: 3px;
+  background: linear-gradient(90deg, #1e40af, #3b82f6);
+  border-radius: 2px;
+}
+
+.videoWrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+}
+
+.videoDescription {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #1e293b;
+  text-align: justify;
+  margin: 0;
+  font-weight: 600;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  position: relative;
+}
+
+.videoDescription::before {
+  content: '📝';
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.2rem;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .videoContainer {
+    padding: 1.5rem;
+  }
+  
+  .videoTitle {
+    font-size: 1.3rem;
+  }
+  
+  .videoDescription {
+    font-size: 1rem;
+  }
+}

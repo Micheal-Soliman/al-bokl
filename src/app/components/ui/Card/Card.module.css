@@ -1,0 +1,106 @@
+/* Card Component Styles */
+
+/* Base Card Styles */
+.card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition-normal);
+  overflow: hidden;
+  position: relative;
+}
+
+/* Variants */
+.default {
+  background: var(--white);
+}
+
+.gradient {
+  background: var(--gradient-light);
+}
+
+.blue {
+  background: var(--gradient-blue);
+  color: var(--white);
+}
+
+.transparent {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: var(--white);
+}
+
+.service {
+  background: var(--gradient-light);
+  position: relative;
+}
+
+.service::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-blue);
+}
+
+/* Color Variants for Service Cards */
+.service.blue::before {
+  background: linear-gradient(90deg, var(--primary-blue), #4dabf7);
+}
+
+.service.green::before {
+  background: linear-gradient(90deg, var(--success-green), var(--light-green));
+}
+
+.service.red::before {
+  background: linear-gradient(90deg, var(--danger-red), var(--light-red));
+}
+
+.service.purple::before {
+  background: linear-gradient(90deg, var(--purple), var(--light-purple));
+}
+
+.service.cyan::before {
+  background: linear-gradient(90deg, var(--cyan), var(--light-cyan));
+}
+
+/* Hover Effect */
+.hover:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+.transparent.hover:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Padding Variants */
+.padding-small {
+  padding: var(--spacing-md);
+}
+
+.padding-medium {
+  padding: var(--spacing-xl);
+}
+
+.padding-large {
+  padding: var(--spacing-2xl) var(--spacing-md);
+}
+
+.padding-xlarge {
+  padding: var(--spacing-xl) var(--spacing-md);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .padding-large {
+    padding: var(--spacing-md);
+  }
+  
+  .padding-xlarge {
+    padding: var(--spacing-lg);
+  }
+}

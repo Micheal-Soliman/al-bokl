@@ -1,0 +1,517 @@
+/* Conditions Page Styles */
+.conditionsPage {
+  min-height: 100vh;
+  direction: rtl;
+}
+
+/* Hero Section */
+.heroSection {
+  background: linear-gradient(135deg, #dc2626 0%, #ef4444 50%, #f87171 100%);
+  color: white;
+  padding: 6rem 0 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="medical" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M10 5 L10 15 M5 10 L15 10" stroke="rgba(255,255,255,0.1)" stroke-width="2"/></pattern></defs><rect width="100" height="100" fill="url(%23medical)"/></svg>');
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.heroContent {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.heroDescription {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  opacity: 0.9;
+}
+
+.heroStats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.statCard {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  min-width: 120px;
+}
+
+.statNumber {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fbbf24;
+  margin-bottom: 0.5rem;
+}
+
+.statLabel {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Conditions Section */
+.conditionsSection {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.sectionDescription {
+  font-size: 1.1rem;
+  color: #6b7280;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.conditionsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.conditionCard {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.conditionCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #dc2626, #ef4444);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.conditionCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.conditionCard:hover::before {
+  transform: scaleX(1);
+}
+
+.conditionCard.red::before {
+  background: linear-gradient(90deg, #dc2626, #ef4444);
+}
+
+.conditionCard.orange::before {
+  background: linear-gradient(90deg, #ea580c, #f97316);
+}
+
+.conditionCard.blue::before {
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+}
+
+.conditionCard.purple::before {
+  background: linear-gradient(90deg, #7c3aed, #8b5cf6);
+}
+
+.conditionCard.green::before {
+  background: linear-gradient(90deg, #059669, #10b981);
+}
+
+.conditionCard.teal::before {
+  background: linear-gradient(90deg, #0891b2, #06b6d4);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.conditionIcon {
+  font-size: 3rem;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fef2f2, #fee2e2);
+  border-radius: 20px;
+  border: 1px solid #fecaca;
+}
+
+.prevalenceTag {
+  background: #eff6ff;
+  color: #1d4ed8;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid #bfdbfe;
+}
+
+.cardContent {
+  margin-bottom: 2rem;
+}
+
+.conditionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.conditionDescription {
+  color: #6b7280;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.conditionDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.detailSection {
+  background: #f8fafc;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.detailTitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.75rem;
+}
+
+.detailList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detailItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+  color: #6b7280;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.bulletPoint {
+  color: #dc2626;
+  font-weight: bold;
+  margin-top: 0.1rem;
+}
+
+.cardAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: #dc2626;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding-top: 1rem;
+  border-top: 1px solid #f3f4f6;
+}
+
+.conditionCard:hover .cardAction {
+  color: #b91c1c;
+}
+
+.actionArrow {
+  transition: transform 0.3s ease;
+}
+
+.conditionCard:hover .actionArrow {
+  transform: translateX(-4px);
+}
+
+/* Risk Factors Section */
+.riskFactorsSection {
+  padding: 6rem 0;
+  background: white;
+}
+
+.riskFactorsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.riskFactorCard {
+  text-align: center;
+  padding: 2rem;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.riskFactorCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(220, 38, 38, 0.1);
+  background: white;
+  border-color: #dc2626;
+}
+
+.factorIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.factorTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #dc2626;
+  margin-bottom: 1rem;
+}
+
+.factorDescription {
+  color: #6b7280;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Prevention Section */
+.preventionSection {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #ecfdf5, #d1fae5);
+}
+
+.preventionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.preventionCard {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  border: 1px solid #bbf7d0;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.preventionCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(16, 185, 129, 0.1);
+  border-color: #10b981;
+}
+
+.tipIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.tipTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #059669;
+  margin-bottom: 1rem;
+}
+
+.tipDescription {
+  color: #6b7280;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* CTA Section */
+.ctaSection {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #1f2937, #374151);
+  color: white;
+  text-align: center;
+}
+
+.ctaContent {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ctaTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.ctaDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  opacity: 0.9;
+}
+
+.ctaActions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.primaryBtn,
+.phoneBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.primaryBtn {
+  background: linear-gradient(135deg, #dc2626, #ef4444);
+  color: white;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(220, 38, 38, 0.4);
+}
+
+.phoneBtn {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.phoneBtn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+  
+  .heroDescription {
+    font-size: 1rem;
+  }
+  
+  .heroStats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .conditionsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .conditionDetails {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .ctaActions {
+    flex-direction: column;
+  }
+  
+  .primaryBtn,
+  .phoneBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .heroSection {
+    padding: 4rem 0 3rem;
+  }
+  
+  .conditionsSection,
+  .riskFactorsSection,
+  .preventionSection,
+  .ctaSection {
+    padding: 4rem 0;
+  }
+  
+  .conditionCard,
+  .riskFactorCard,
+  .preventionCard {
+    padding: 1.5rem;
+  }
+  
+  .cardHeader {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .conditionIcon {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+  }
+}

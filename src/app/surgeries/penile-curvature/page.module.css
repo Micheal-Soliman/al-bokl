@@ -1,0 +1,494 @@
+/* Penile Curvature Surgery Page Styles - Updated */
+
+/* Container */
+.container {
+  min-height: 100vh;
+  background: var(--gradient-bg-primary);
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
+
+/* Hero Section */
+.heroSection {
+  background: linear-gradient(135deg, var(--blue-800) 0%, var(--blue-600) 30%, var(--blue-500) 70%, var(--yellow-400) 100%);
+  color: var(--white);
+  padding: var(--spacing-3xl) var(--spacing-lg);
+  border-radius: var(--radius-3xl);
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+  box-shadow: var(--shadow-blue);
+  position: relative;
+  overflow: hidden;
+}
+
+.heroTitle {
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-md);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  line-height: var(--line-height-tight);
+}
+
+.heroSubtitle {
+  font-size: var(--font-size-2xl);
+  margin-bottom: var(--spacing-md);
+  opacity: 0.95;
+  font-weight: 500;
+}
+
+.heroDescription {
+  font-size: var(--font-size-xl);
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: var(--line-height-relaxed);
+  opacity: 0.9;
+}
+
+/* Section Titles */
+.sectionTitle {
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  color: var(--blue-800);
+  margin-bottom: var(--spacing-xl);
+  text-align: center;
+  position: relative;
+  line-height: var(--line-height-tight);
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: var(--gradient-yellow);
+  border-radius: var(--radius-sm);
+}
+
+/* Cards */
+.card {
+  background: var(--white);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-2xl);
+  margin-bottom: var(--spacing-xl);
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition-normal);
+  border: 1px solid var(--gray-100);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+/* Definition Section */
+.definitionSection {
+  background: var(--gradient-surgery-card-2);
+  border: 2px solid var(--blue-200);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-2xl);
+  margin-bottom: var(--spacing-xl);
+  box-shadow: var(--shadow-lg);
+}
+
+.definitionContent {
+  text-align: justify;
+}
+
+.definitionText {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-relaxed);
+  color: var(--gray-800);
+  margin-bottom: var(--spacing-md);
+}
+
+/* Anatomy Section */
+.anatomySection {
+  background: var(--gradient-surgery-card-1);
+  border: 2px solid var(--yellow-200);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-2xl);
+  margin-bottom: var(--spacing-xl);
+  box-shadow: var(--shadow-lg);
+}
+
+.anatomyContent {
+  text-align: justify;
+}
+
+.anatomyText {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
+  color: var(--gray-800);
+  margin-bottom: var(--spacing-md);
+}
+
+/* Causes Section */
+.causesSection {
+  margin-bottom: var(--spacing-xl);
+}
+
+.causesIntro {
+  font-size: var(--font-size-xl);
+  color: var(--gray-700);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  font-weight: var(--font-weight-medium);
+}
+
+.causeCard {
+  background: var(--white);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-2xl);
+  margin-bottom: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--gray-200);
+  transition: var(--transition-normal);
+}
+
+.causeCard:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.causeTitle {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--blue-800);
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+.causeDescription {
+  font-size: var(--font-size-lg);
+  color: var(--gray-700);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-md);
+  text-align: justify;
+}
+
+.causesList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.causeItem {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: var(--gray-50);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--blue-500);
+}
+
+.causeNumber {
+  color: var(--blue-600);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-lg);
+  min-width: 1rem;
+}
+
+.causeContent p {
+  margin: 0;
+  font-size: var(--font-size-base);
+  color: var(--gray-800);
+  line-height: var(--line-height-relaxed);
+}
+
+.riskFactors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.riskFactor {
+  background: var(--gradient-light);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--yellow-500);
+  font-size: var(--font-size-base);
+  color: var(--gray-800);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Treatment Indications Section */
+.treatmentIndicationsSection {
+  margin-bottom: var(--spacing-xl);
+}
+
+.indicationsContent {
+  background: var(--white);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-md);
+  border: 2px solid var(--blue-200);
+}
+
+.indicationsText {
+  font-size: var(--font-size-lg);
+  color: var(--gray-700);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-lg);
+  text-align: justify;
+}
+
+.indicationsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.indicationItem {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+  background: var(--blue-50);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--blue-600);
+}
+
+.indicationIcon {
+  color: var(--blue-600);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-lg);
+  min-width: 1rem;
+}
+
+.indicationItem p {
+  margin: 0;
+  font-size: var(--font-size-base);
+  color: var(--gray-800);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Diagnosis Section */
+.diagnosisSection {
+  margin-bottom: var(--spacing-xl);
+}
+
+.diagnosisList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.diagnosisItem {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background: var(--white);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  transition: var(--transition-normal);
+}
+
+.diagnosisItem:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.diagnosisIcon {
+  color: var(--yellow-600);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-lg);
+  min-width: 1rem;
+}
+
+.diagnosisItem p {
+  margin: 0;
+  font-size: var(--font-size-base);
+  color: var(--gray-800);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Treatment Section */
+.treatmentSection {
+  margin-bottom: var(--spacing-xl);
+}
+
+.treatmentCard {
+  background: var(--white);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-2xl);
+  margin-bottom: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--gray-200);
+  transition: var(--transition-normal);
+}
+
+.treatmentCard:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.treatmentTitle {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--blue-800);
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+.treatmentDescription {
+  font-size: var(--font-size-lg);
+  color: var(--gray-700);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-md);
+  text-align: justify;
+}
+
+.treatmentContent {
+  text-align: justify;
+}
+
+.treatmentContent p {
+  font-size: var(--font-size-base);
+  color: var(--gray-800);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-md);
+}
+
+/* Final Section */
+.finalSection {
+  background: var(--gradient-blue);
+  color: var(--white);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-2xl);
+  margin-bottom: var(--spacing-xl);
+  box-shadow: var(--shadow-blue);
+  text-align: center;
+}
+
+.finalContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.finalText {
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+  color: var(--white);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content {
+    padding: var(--spacing-sm);
+  }
+
+  .heroSection {
+    padding: var(--spacing-xl) var(--spacing-md);
+  }
+
+  .heroTitle {
+    font-size: var(--font-size-3xl);
+  }
+
+  .heroSubtitle {
+    font-size: var(--font-size-xl);
+  }
+
+  .heroDescription {
+    font-size: var(--font-size-lg);
+  }
+
+  .sectionTitle {
+    font-size: var(--font-size-3xl);
+  }
+
+  .riskFactors {
+    grid-template-columns: 1fr;
+  }
+
+  .causeItem,
+  .indicationItem,
+  .diagnosisItem {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-sm);
+  }
+
+  .causeNumber,
+  .indicationIcon,
+  .diagnosisIcon {
+    align-self: center;
+  }
+
+  .definitionSection,
+  .anatomySection,
+  .causeCard,
+  .treatmentCard {
+    padding: var(--spacing-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    padding: var(--spacing-lg) var(--spacing-sm);
+  }
+
+  .heroTitle {
+    font-size: var(--font-size-2xl);
+  }
+
+  .heroSubtitle {
+    font-size: var(--font-size-lg);
+  }
+
+  .heroDescription {
+    font-size: var(--font-size-base);
+  }
+
+  .sectionTitle {
+    font-size: var(--font-size-2xl);
+  }
+
+  .card,
+  .definitionSection,
+  .anatomySection,
+  .causeCard,
+  .treatmentCard,
+  .indicationsContent {
+    padding: var(--spacing-md);
+  }
+
+  .finalSection {
+    padding: var(--spacing-lg);
+  }
+
+  .finalText {
+    font-size: var(--font-size-lg);
+  }
+
+  .causeTitle,
+  .treatmentTitle {
+    font-size: var(--font-size-xl);
+  }
+
+  .definitionText,
+  .treatmentDescription {
+    font-size: var(--font-size-lg);
+  }
+
+  .anatomyText,
+  .causeDescription,
+  .indicationsText {
+    font-size: var(--font-size-base);
+  }
+}

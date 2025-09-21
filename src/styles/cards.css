@@ -1,0 +1,185 @@
+/* Unified Card System - Blue, Yellow, Gray, White */
+
+/* Base Card Styles */
+.card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+  transition: var(--transition-normal);
+  border: 1px solid var(--gray-100);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-4px);
+}
+
+/* Card Variants */
+.card-blue {
+  background: var(--gradient-surgery-card-2);
+  border: 1px solid var(--blue-100);
+}
+
+.card-blue:hover {
+  box-shadow: var(--shadow-blue-light);
+}
+
+.card-yellow {
+  background: var(--gradient-surgery-card-1);
+  border: 1px solid var(--yellow-100);
+}
+
+.card-yellow:hover {
+  box-shadow: var(--shadow-yellow-light);
+}
+
+.card-gray {
+  background: var(--gradient-surgery-card-3);
+  border: 1px solid var(--gray-100);
+}
+
+.card-gray:hover {
+  box-shadow: var(--shadow-gray);
+}
+
+.card-gradient-blue {
+  background: var(--gradient-blue);
+  color: var(--white);
+  border: none;
+}
+
+.card-gradient-blue:hover {
+  box-shadow: var(--shadow-blue);
+}
+
+.card-gradient-yellow {
+  background: var(--gradient-yellow);
+  color: var(--white);
+  border: none;
+}
+
+.card-gradient-yellow:hover {
+  box-shadow: var(--shadow-yellow);
+}
+
+/* Card Components */
+.card-header {
+  padding: var(--spacing-lg);
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.card-body {
+  padding: var(--spacing-lg);
+}
+
+.card-footer {
+  padding: var(--spacing-lg);
+  border-top: 1px solid var(--gray-100);
+  background: var(--gray-50);
+}
+
+/* Card Content */
+.card-title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--gray-900);
+  margin-bottom: var(--spacing-sm);
+  line-height: var(--line-height-tight);
+}
+
+.card-subtitle {
+  font-size: var(--font-size-base);
+  color: var(--gray-600);
+  margin-bottom: var(--spacing-md);
+}
+
+.card-text {
+  color: var(--gray-600);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Special Card Types */
+.card-service {
+  text-align: center;
+  padding: var(--spacing-xl);
+}
+
+.card-service .card-icon {
+  width: 4rem;
+  height: 4rem;
+  margin: 0 auto var(--spacing-lg);
+  background: var(--gradient-blue);
+  border-radius: var(--radius-circle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-size: var(--font-size-2xl);
+}
+
+.card-testimonial {
+  position: relative;
+  padding: var(--spacing-xl);
+  background: var(--gradient-light);
+}
+
+.card-testimonial::before {
+  content: '"';
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+  font-size: var(--font-size-6xl);
+  color: var(--blue-200);
+  font-family: serif;
+  line-height: 1;
+}
+
+.card-stats {
+  text-align: center;
+  padding: var(--spacing-xl);
+  background: var(--gradient-bg-primary);
+}
+
+.card-stats .stat-number {
+  font-size: var(--font-size-5xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--blue-600);
+  line-height: 1;
+  margin-bottom: var(--spacing-xs);
+}
+
+.card-stats .stat-label {
+  font-size: var(--font-size-base);
+  color: var(--gray-600);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Responsive Card Adjustments */
+@media (max-width: 767px) {
+  .card-header,
+  .card-body,
+  .card-footer {
+    padding: var(--spacing-md);
+  }
+  
+  .card-service {
+    padding: var(--spacing-lg);
+  }
+  
+  .card-service .card-icon {
+    width: 3rem;
+    height: 3rem;
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .card-stats {
+    padding: var(--spacing-lg);
+  }
+  
+  .card-stats .stat-number {
+    font-size: var(--font-size-4xl);
+  }
+}

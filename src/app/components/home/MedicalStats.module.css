@@ -1,0 +1,724 @@
+/* Medical Statistics Section */
+.medicalStats {
+  position: relative;
+  padding: 4rem 0;
+  background: 
+    linear-gradient(135deg, 
+      rgba(15, 23, 42, 0.95) 0%, 
+      rgba(30, 41, 59, 0.9) 25%, 
+      rgba(51, 65, 85, 0.85) 50%, 
+      rgba(71, 85, 105, 0.9) 75%, 
+      rgba(100, 116, 139, 0.95) 100%),
+    radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(251, 191, 36, 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(16, 185, 129, 0.2) 0%, transparent 50%),
+    url('/home/3.webp');
+  background-size: cover, 800px 800px, 600px 600px, 700px 700px, cover;
+  background-position: center, 20% 80%, 80% 20%, 40% 40%, center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  animation: backgroundShift 20s ease-in-out infinite;
+}
+
+.backgroundOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(135deg, 
+      rgba(30, 64, 175, 0.7) 0%, 
+      rgba(59, 130, 246, 0.5) 25%,
+      rgba(16, 185, 129, 0.3) 50%,
+      rgba(251, 191, 36, 0.2) 75%,
+      rgba(29, 78, 216, 0.6) 100%),
+    linear-gradient(45deg, 
+      transparent 0%, 
+      rgba(255, 255, 255, 0.05) 25%, 
+      transparent 50%, 
+      rgba(255, 255, 255, 0.03) 75%, 
+      transparent 100%);
+  background-size: 100% 100%, 200px 200px;
+  z-index: 1;
+  animation: overlayPulse 15s ease-in-out infinite;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.statsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  width: 100%;
+}
+
+/* Text Content */
+.textContent {
+  direction: rtl;
+  text-align: center;
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.08) 50%,
+    rgba(255, 255, 255, 0.12) 100%);
+  backdrop-filter: blur(25px);
+  border-radius: 30px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  box-shadow: 
+    0 25px 80px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    0 0 0 1px rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.mainTitle {
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.2;
+  text-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(135deg, 
+    var(--yellow-300) 0%,
+    var(--yellow-400) 25%,
+    #ffffff 50%,
+    var(--yellow-200) 75%,
+    var(--yellow-400) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 200%;
+  animation: titleGradient 4s ease-in-out infinite;
+  position: relative;
+}
+
+.description {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 2;
+  margin: 0;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  font-weight: 500;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Statistics Grid */
+.statsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  direction: ltr;
+  margin-top: 3rem;
+}
+
+.statsRow {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.statCard {
+  background: linear-gradient(135deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.2) 100%);
+  backdrop-filter: blur(30px);
+  border: 3px solid transparent;
+  border-radius: 25px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 
+    0 20px 60px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.2);
+  min-height: 180px;
+  min-width: 200px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  flex: 0 1 auto;
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.statCard:hover {
+  transform: translateY(-10px) scale(1.05) rotateY(5deg);
+  background: linear-gradient(135deg,
+    rgba(251, 191, 36, 0.3) 0%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(59, 130, 246, 0.2) 100%);
+  box-shadow: 
+    0 30px 80px rgba(0, 0, 0, 0.4),
+    0 0 40px rgba(251, 191, 36, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(251, 191, 36, 0.6);
+}
+
+.statCard:hover .statIcon {
+  transform: scale(1.3) rotate(360deg);
+  background: linear-gradient(135deg, 
+    var(--yellow-400), 
+    var(--yellow-500), 
+    var(--yellow-600));
+  border-color: rgba(251, 191, 36, 0.8);
+  box-shadow: 
+    0 8px 25px rgba(251, 191, 36, 0.6),
+    0 0 40px rgba(251, 191, 36, 0.4),
+    inset 0 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.statCard:hover .statNumber {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 25px rgba(251, 191, 36, 0.8));
+}
+
+.statCard:hover .statLabel {
+  color: rgba(255, 255, 255, 1);
+  text-shadow: 0 0 15px rgba(251, 191, 36, 0.5);
+}
+
+.statCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.statCard:hover::before {
+  left: 100%;
+}
+
+.statNumber {
+  font-size: 3rem;
+  font-weight: 900;
+  text-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+  margin: 0.5rem 0;
+  background: linear-gradient(135deg, 
+    var(--yellow-300) 0%,
+    var(--yellow-400) 25%,
+    var(--yellow-200) 50%,
+    var(--yellow-500) 75%,
+    var(--yellow-300) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 200%;
+  animation: numberGlow 3s ease-in-out infinite;
+  line-height: 1;
+  position: relative;
+}
+
+.statIcon {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, 
+    var(--blue-500) 0%,
+    var(--blue-600) 50%,
+    var(--blue-700) 100%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+  border: 3px solid rgba(59, 130, 246, 0.6);
+  box-shadow: 
+    0 6px 20px rgba(59, 130, 246, 0.4),
+    0 0 30px rgba(59, 130, 246, 0.2);
+  font-weight: 900;
+  transition: all 0.3s ease;
+  animation: iconPulse 2s ease-in-out infinite;
+}
+
+.statLabel {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  margin-top: 0.5rem;
+  text-align: center;
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(255, 255, 255, 0.7) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Enhanced Decorative Background Elements */
+.decorativeElements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.decorativeElements::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: 
+    radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.1) 0%, transparent 25%),
+    radial-gradient(circle at 75% 75%, rgba(251, 191, 36, 0.08) 0%, transparent 25%),
+    radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.06) 0%, transparent 20%),
+    radial-gradient(circle at 10% 90%, rgba(239, 68, 68, 0.05) 0%, transparent 15%);
+  animation: backgroundFloat 30s ease-in-out infinite;
+}
+
+.decorativeElements::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    linear-gradient(0deg, transparent 0%, rgba(255, 255, 255, 0.02) 50%, transparent 100%),
+    linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.02) 50%, transparent 100%);
+  background-size: 100px 100px, 100px 100px;
+  animation: gridMove 25s linear infinite;
+}
+
+.floatingCircle3 {
+  position: absolute;
+  top: 60%;
+  right: 8%;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(circle, 
+      rgba(16, 185, 129, 0.2) 0%, 
+      rgba(245, 158, 11, 0.12) 45%,
+      rgba(239, 68, 68, 0.08) 70%,
+      transparent 85%);
+  animation: pulse 8s ease-in-out infinite;
+  filter: blur(1px);
+  box-shadow: 
+    0 0 60px rgba(16, 185, 129, 0.08),
+    inset 0 0 30px rgba(255, 255, 255, 0.02);
+}
+
+.floatingCircle2 {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(circle, 
+      rgba(251, 191, 36, 0.18) 0%, 
+      rgba(16, 185, 129, 0.12) 40%,
+      rgba(59, 130, 246, 0.08) 70%,
+      transparent 85%);
+  animation: float 14s ease-in-out infinite reverse;
+  filter: blur(1.5px);
+  box-shadow: 
+    0 0 80px rgba(251, 191, 36, 0.1),
+    inset 0 0 40px rgba(255, 255, 255, 0.03);
+}
+
+.floatingCircle1 {
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(circle, 
+      rgba(59, 130, 246, 0.2) 0%, 
+      rgba(16, 185, 129, 0.15) 30%,
+      rgba(251, 191, 36, 0.1) 60%,
+      transparent 80%);
+  animation: float 12s ease-in-out infinite;
+  filter: blur(2px);
+  box-shadow: 
+    0 0 100px rgba(59, 130, 246, 0.1),
+    inset 0 0 50px rgba(255, 255, 255, 0.05);
+}
+
+.geometricShape1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+  transform: rotate(45deg);
+  top: 15%;
+  right: 25%;
+  animation: rotateFloat 10s linear infinite;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.geometricShape2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 70px solid rgba(255, 215, 0, 0.3);
+  bottom: 20%;
+  left: 10%;
+  animation: pulse 3s ease-in-out infinite;
+}
+
+.medicalCross {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  left: 15%;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+.medicalCross::before,
+.medicalCross::after {
+  content: '';
+  position: absolute;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.6), rgba(5, 150, 105, 0.4));
+  border-radius: 3px;
+}
+
+.medicalCross::before {
+  width: 50px;
+  height: 10px;
+  top: 20px;
+  left: 0;
+}
+
+.medicalCross::after {
+  width: 10px;
+  height: 50px;
+  top: 0;
+  left: 20px;
+}
+
+/* Enhanced Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes cardSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.8);
+  }
+  60% {
+    transform: translateY(-10px) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(180deg);
+  }
+}
+
+@keyframes floatMedium {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-15px) scale(1.1);
+  }
+}
+
+@keyframes floatFast {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+}
+
+@keyframes rotateFloat {
+  0% {
+    transform: rotate(45deg) translateY(0);
+  }
+  50% {
+    transform: rotate(225deg) translateY(-10px);
+  }
+  100% {
+    transform: rotate(405deg) translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 5px rgba(16, 185, 129, 0.5));
+  }
+  100% {
+    filter: drop-shadow(0 0 20px rgba(16, 185, 129, 0.8));
+  }
+}
+
+@keyframes backgroundShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes overlayPulse {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+@keyframes titleGradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes numberGlow {
+  0%, 100% {
+    background-position: 0% 50%;
+    filter: drop-shadow(0 0 10px rgba(251, 191, 36, 0.3));
+  }
+  50% {
+    background-position: 100% 50%;
+    filter: drop-shadow(0 0 20px rgba(251, 191, 36, 0.6));
+  }
+}
+
+@keyframes iconPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 
+      0 6px 20px rgba(59, 130, 246, 0.4),
+      0 0 30px rgba(59, 130, 246, 0.2);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 
+      0 8px 25px rgba(59, 130, 246, 0.6),
+      0 0 40px rgba(59, 130, 246, 0.4);
+  }
+}
+
+@keyframes borderGlow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes innerGlow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+@keyframes backgroundFloat {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  33% {
+    transform: rotate(120deg) scale(1.1);
+  }
+  66% {
+    transform: rotate(240deg) scale(0.9);
+  }
+}
+
+@keyframes gridMove {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(100px, 100px);
+  }
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.statCard {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.statCard:nth-child(1) { animation-delay: 0.1s; }
+.statCard:nth-child(2) { animation-delay: 0.2s; }
+.statCard:nth-child(3) { animation-delay: 0.3s; }
+.statCard:nth-child(4) { animation-delay: 0.4s; }
+.statCard:nth-child(5) { animation-delay: 0.5s; }
+.statCard:nth-child(6) { animation-delay: 0.6s; }
+
+.statNumber {
+  animation: countUp 0.8s ease-out;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  
+  .textContent {
+    text-align: center;
+  }
+  
+  .mainTitle {
+    font-size: 2rem;
+  }
+  
+  .statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .medicalStats {
+    min-height: 80vh;
+    background-attachment: scroll;
+  }
+  
+  .content {
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+  
+  .mainTitle {
+    font-size: 1.8rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+  }
+  
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .statCard {
+    padding: 1rem;
+  }
+  
+  .statNumber {
+    font-size: 2.5rem;
+  }
+  
+  .floatingIcons {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .phoneIcon,
+  .whatsappIcon {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainTitle {
+    font-size: 1.5rem;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+  }
+  
+  .statNumber {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,86 @@
+/* Breadcrumb Navigation */
+.breadcrumb {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  margin: 1rem 0 2rem 0;
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.breadcrumbList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.breadcrumbItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumbLink {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.breadcrumbLink:hover {
+  background: rgba(59, 130, 246, 0.1);
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.separator {
+  color: #64748b;
+  font-weight: 400;
+  margin: 0 0.25rem;
+}
+
+.currentPage {
+  color: #1e40af;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.25rem 0.5rem;
+  background: rgba(30, 64, 175, 0.1);
+  border-radius: 6px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .breadcrumb {
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0 1.5rem 0;
+  }
+  
+  .breadcrumbLink,
+  .currentPage {
+    font-size: 0.9rem;
+    padding: 0.2rem 0.4rem;
+  }
+  
+  .breadcrumbList {
+    gap: 0.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .breadcrumb {
+    padding: 0.5rem;
+  }
+  
+  .breadcrumbLink,
+  .currentPage {
+    font-size: 0.85rem;
+    padding: 0.15rem 0.3rem;
+  }
+}

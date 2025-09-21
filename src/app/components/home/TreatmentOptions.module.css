@@ -1,0 +1,216 @@
+/* Treatment Options Section Styles */
+.treatmentOptions {
+  background: white;
+  padding: 5rem 0;
+}
+
+.treatmentHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.treatmentTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.treatmentSubtitle {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.treatmentGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+.treatmentCard {
+  background: #f8f9fa;
+  padding: 2.5rem;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  border: 1px solid #e9ecef;
+  position: relative;
+  overflow: hidden;
+}
+
+.treatmentCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-blue), var(--secondary-blue));
+}
+
+.treatmentCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  margin-bottom: 0.5rem;
+}
+
+.cardSubtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--secondary-blue);
+  margin-bottom: 1.5rem;
+}
+
+.cardDescription {
+  font-size: 1rem;
+  color: var(--text-light);
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.cardButton {
+  display: inline-block;
+  background: var(--primary-blue);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.cardButton:hover {
+  background: var(--secondary-blue);
+  transform: translateX(-5px);
+}
+
+.callToAction {
+  background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+  color: white;
+  padding: 3rem;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.ctaText {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.ctaHighlight {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.ctaHighlight strong {
+  color: #FFD700;
+  font-weight: 700;
+}
+
+.ctaButtons {
+  margin-top: 2rem;
+}
+
+.trustText {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.trustText strong {
+  color: #FFD700;
+  font-size: 1.3rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.consultationButton,
+.appointmentButton {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.consultationButton:hover,
+.appointmentButton:hover {
+  background: white;
+  color: var(--primary-blue);
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .treatmentOptions {
+    padding: 3rem 0;
+  }
+  
+  .treatmentTitle {
+    font-size: 2rem;
+  }
+  
+  .treatmentSubtitle {
+    font-size: 1.1rem;
+  }
+  
+  .treatmentGrid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .treatmentCard {
+    padding: 2rem;
+  }
+  
+  .callToAction {
+    padding: 2rem;
+  }
+  
+  .ctaText {
+    font-size: 1.1rem;
+  }
+  
+  .ctaHighlight {
+    font-size: 1.2rem;
+  }
+  
+  .trustText {
+    font-size: 1.1rem;
+  }
+  
+  .buttonGroup {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .consultationButton,
+  .appointmentButton {
+    padding: 1rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}

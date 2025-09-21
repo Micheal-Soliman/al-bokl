@@ -1,0 +1,409 @@
+/* Diagnosis Section Styles */
+.diagnosisSection {
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  padding: 3rem 0;
+  position: relative;
+}
+
+.diagnosisContent {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  gap: 2.5rem;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.textContent {
+  direction: rtl;
+  text-align: right;
+}
+
+.header {
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--primary-blue);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.description {
+  margin-bottom: 2rem;
+}
+
+.description p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin: 0;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+  border-color: #fbbf24;
+}
+
+.featureIcon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.featureContent {
+  flex: 1;
+}
+
+.featureTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  margin: 0 0 0.5rem 0;
+}
+
+.featureDescription {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+.philosophy {
+  margin-bottom: 2rem;
+  padding: 1.2rem;
+  background: linear-gradient(135deg, #fef3c7 0%, #fbbf24 100%);
+  border-radius: 12px;
+  border: 1px solid #f59e0b;
+}
+
+.philosophy p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #92400e;
+  margin: 0;
+  text-align: center;
+}
+
+.ctaSection {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.ctaText {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-blue);
+  margin: 0 0 1rem 0;
+}
+
+.requestList {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+  justify-content: center;
+}
+
+.requestList li {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+  transition: all 0.3s ease;
+}
+
+.requestList li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+}
+
+.finalText {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  margin: 0 0 1rem 0;
+}
+
+.surgeryNote {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  margin: 0;
+  font-style: italic;
+}
+
+.appointmentBtn {
+  background: linear-gradient(135deg, var(--blue-600) 0%, var(--blue-700) 50%, var(--blue-800) 100%);
+  color: white;
+  border: none;
+  padding: 1.5rem 3.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 8px 30px rgba(59, 130, 246, 0.4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 1.5rem auto 0;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid transparent;
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+}
+
+.appointmentBtn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.6s;
+}
+
+.appointmentBtn:hover::before {
+  left: 100%;
+}
+
+.appointmentBtn::after {
+  content: '📞';
+  font-size: 1.3rem;
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.appointmentBtn:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(59, 130, 246, 0.5);
+  border-color: var(--yellow-400);
+  background: linear-gradient(135deg, var(--yellow-500) 0%, var(--yellow-400) 50%, var(--yellow-300) 100%);
+  color: var(--blue-900);
+}
+
+.appointmentBtn:hover::after {
+  transform: rotate(15deg) scale(1.1);
+}
+
+.appointmentBtn:active {
+  transform: translateY(-2px) scale(0.98);
+  transition: all 0.1s ease;
+}
+
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.imageContent {
+  position: relative;
+}
+
+.doctorImage {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  height: 650px;
+  width: 100%;
+}
+
+.doctorImage img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.imageOverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.overlayBanner {
+  display: flex;
+  height: 60px;
+  border-radius: 0 0 20px 20px;
+  overflow: hidden;
+}
+
+.bannerLeft {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.bannerRight {
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  width: 80px;
+  position: relative;
+}
+
+.bannerRight::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  transform: skewX(-20deg);
+  z-index: -1;
+}
+
+.bannerText {
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  direction: rtl;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .diagnosisContent {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  
+  .textContent {
+    text-align: center;
+  }
+  
+  .imageContent {
+    order: -1;
+  }
+  
+  .doctorImage {
+    max-width: 500px;
+    height: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .diagnosisSection {
+    padding: 3rem 0;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .features {
+    gap: 1.5rem;
+  }
+  
+  .feature {
+    padding: 1rem;
+  }
+  
+  .featureIcon {
+    font-size: 2rem;
+  }
+  
+  .requestList {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .appointmentBtn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  
+  .doctorImage {
+    height: 600px;
+  }
+  
+  .overlayBanner {
+    height: 50px;
+  }
+  
+  .bannerText {
+    font-size: 0.9rem;
+  }
+  
+  .bannerRight {
+    width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .diagnosisContent {
+    gap: 2rem;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .feature {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .ctaSection {
+    padding: 1.5rem;
+  }
+}

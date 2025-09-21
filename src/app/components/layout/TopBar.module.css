@@ -1,0 +1,98 @@
+/* TopBar Styles - Enhanced Design */
+.topBar {
+  background: var(--gradient-blue);
+  color: white;
+  padding: 0.75rem 0;
+  font-size: 0.85rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.topBarContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.contactItem:hover {
+  transform: translateY(-1px);
+}
+
+.contactIcon {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.socialLink {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  font-size: 1.1rem;
+}
+
+.socialLink:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .topBar {
+    padding: 0.6rem 0;
+    font-size: 0.8rem;
+  }
+  
+  .topBarContent {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contactInfo {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contactItem {
+    font-size: 0.8rem;
+  }
+  
+  .socialLinks {
+    gap: 0.8rem;
+  }
+  
+  .socialLink {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9rem;
+  }
+}

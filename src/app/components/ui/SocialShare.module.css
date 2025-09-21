@@ -1,0 +1,150 @@
+/* Social Share Component Styles */
+.socialShare {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.shareTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.shareButtons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.shareBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.shareBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+/* Platform-specific colors */
+.facebook {
+  background: #1877f2;
+}
+
+.facebook:hover {
+  background: #166fe5;
+}
+
+.twitter {
+  background: #1da1f2;
+}
+
+.twitter:hover {
+  background: #1a91da;
+}
+
+.linkedin {
+  background: #0077b5;
+}
+
+.linkedin:hover {
+  background: #006ba1;
+}
+
+.whatsapp {
+  background: #25d366;
+}
+
+.whatsapp:hover {
+  background: #22c55e;
+}
+
+.telegram {
+  background: #0088cc;
+}
+
+.telegram:hover {
+  background: #007bb5;
+}
+
+.email {
+  background: #6b7280;
+}
+
+.email:hover {
+  background: #4b5563;
+}
+
+.copy {
+  background: #8b5cf6;
+}
+
+.copy:hover {
+  background: #7c3aed;
+}
+
+.copy.copied {
+  background: #10b981;
+}
+
+.copy.copied:hover {
+  background: #059669;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .shareButtons {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+  
+  .shareBtn {
+    padding: 0.6rem 0.8rem;
+    font-size: 0.85rem;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .socialShare {
+    padding: 1.5rem;
+  }
+  
+  .shareButtons {
+    grid-template-columns: 1fr;
+  }
+  
+  .shareBtn {
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+}

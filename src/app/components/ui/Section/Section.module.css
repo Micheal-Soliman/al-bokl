@@ -1,0 +1,97 @@
+/* Section Component Styles */
+
+/* Base Section Styles */
+.section {
+  position: relative;
+  width: 100%;
+}
+
+/* Background Variants */
+.bg-white {
+  background: var(--white);
+}
+
+.bg-light {
+  background: var(--light-gray);
+}
+
+.bg-gradient {
+  background: var(--gradient-light);
+}
+
+.bg-blue {
+  background: var(--gradient-blue);
+  color: var(--white);
+}
+
+.bg-light-blue {
+  background: var(--gradient-light-blue);
+}
+
+.bg-hero {
+  background: var(--gradient-hero);
+  color: var(--white);
+}
+
+/* Padding Variants */
+.padding-none {
+  padding: 0;
+}
+
+.padding-small {
+  padding: var(--spacing-lg) 0;
+}
+
+.padding-medium {
+  padding: var(--spacing-xl) 0;
+}
+
+.padding-large {
+  padding: var(--spacing-3xl) 0;
+}
+
+.padding-xlarge {
+  padding: var(--spacing-2xl) 0 var(--spacing-3xl);
+}
+
+/* Section Variants */
+.default {
+  position: relative;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.with-border {
+  position: relative;
+}
+
+.with-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-blue);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .padding-large {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .padding-xlarge {
+    padding: var(--spacing-lg) 0 var(--spacing-xl);
+  }
+  
+  .hero {
+    min-height: auto;
+    padding: var(--spacing-xl) 0;
+  }
+}

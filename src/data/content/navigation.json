@@ -1,0 +1,164 @@
+{
+  "main_navigation": [
+    {
+      "id": "home",
+      "name": "الرئيسية",
+      "url": "/",
+      "icon": "🏠"
+    },
+    {
+      "id": "about",
+      "name": "عن الدكتور",
+      "url": "/about",
+      "icon": "👨‍⚕️"
+    },
+    {
+      "id": "surgeries",
+      "name": "العمليات الجراحية",
+      "url": "/surgeries",
+      "icon": "🔬",
+      "submenu": [
+        {
+          "name": "عملية دوالي الخصية",
+          "url": "/surgeries/varicocele",
+          "description": "علاج دوالي الخصية بالميكروسكوب الجراحي"
+        },
+        {
+          "name": "التفتيش الميكروسكوبي للخصية",
+          "url": "/surgeries/microscopic-inspection",
+          "description": "استخراج الحيوانات المنوية من الخصية"
+        },
+        {
+          "name": "زراعة دعامات القضيب",
+          "url": "/surgeries/penile-implants",
+          "description": "علاج ضعف الانتصاب الشديد"
+        },
+        {
+          "name": "عملية انحناء القضيب",
+          "url": "/surgeries/penile-curvature",
+          "description": "تصحيح انحناء القضيب الخلقي أو المكتسب"
+        }
+      ]
+    },
+    {
+      "id": "conditions",
+      "name": "الحالات الطبية",
+      "url": "/conditions",
+      "icon": "🩺",
+      "submenu": [
+        {
+          "name": "ضعف الانتصاب",
+          "url": "/conditions/erectile-dysfunction",
+          "description": "تشخيص وعلاج ضعف الانتصاب"
+        },
+        {
+          "name": "تأخر الإنجاب عند الرجال",
+          "url": "/conditions/male-infertility",
+          "description": "علاج أسباب تأخر الإنجاب والعقم"
+        },
+        {
+          "name": "سرعة القذف",
+          "url": "/conditions/premature-ejaculation",
+          "description": "علاج سرعة القذف والمشاكل الجنسية"
+        },
+        {
+          "name": "نقص هرمون الذكورة",
+          "url": "/conditions/low-testosterone",
+          "description": "تشخيص وعلاج نقص التستوستيرون"
+        }
+      ]
+    },
+    {
+      "id": "treatments",
+      "name": "العلاجات",
+      "url": "/treatments",
+      "icon": "💊",
+      "submenu": [
+        {
+          "name": "العلاج الهرموني",
+          "url": "/treatments/hormone-therapy",
+          "description": "علاج اضطرابات الهرمونات الذكرية"
+        },
+        {
+          "name": "علاج الصحة الجنسية",
+          "url": "/treatments/sexual-health",
+          "description": "علاج شامل للمشاكل الجنسية"
+        },
+        {
+          "name": "علاج الخصوبة",
+          "url": "/treatments/fertility-treatment",
+          "description": "برامج علاج تأخر الإنجاب"
+        }
+      ]
+    },
+    {
+      "id": "articles",
+      "name": "المقالات",
+      "url": "/articles",
+      "icon": "📚"
+    },
+    {
+      "id": "videos",
+      "name": "الفيديوهات",
+      "url": "/videos",
+      "icon": "🎥"
+    },
+    {
+      "id": "contact",
+      "name": "التواصل",
+      "url": "/contact",
+      "icon": "📞"
+    }
+  ],
+  "footer_navigation": [
+    {
+      "title": "الخدمات الطبية",
+      "links": [
+        { "name": "عملية دوالي الخصية", "url": "/surgeries/varicocele" },
+        { "name": "التفتيش الميكروسكوبي", "url": "/surgeries/microscopic-inspection" },
+        { "name": "علاج ضعف الانتصاب", "url": "/conditions/erectile-dysfunction" },
+        { "name": "علاج تأخر الإنجاب", "url": "/conditions/male-infertility" }
+      ]
+    },
+    {
+      "title": "معلومات طبية",
+      "links": [
+        { "name": "المقالات الطبية", "url": "/articles" },
+        { "name": "الفيديوهات التعليمية", "url": "/videos" },
+        { "name": "الأسئلة الشائعة", "url": "/faq" },
+        { "name": "نصائح طبية", "url": "/tips" }
+      ]
+    },
+    {
+      "title": "عن العيادة",
+      "links": [
+        { "name": "عن الدكتور", "url": "/about" },
+        { "name": "التواصل", "url": "/contact" },
+        { "name": "حجز موعد", "url": "/appointment" },
+        { "name": "الموقع", "url": "/location" }
+      ]
+    }
+  ],
+  "breadcrumb_templates": {
+    "surgeries": [
+      { "name": "الرئيسية", "url": "/" },
+      { "name": "العمليات الجراحية", "url": "/surgeries" }
+    ],
+    "conditions": [
+      { "name": "الرئيسية", "url": "/" },
+      { "name": "الحالات الطبية", "url": "/conditions" }
+    ],
+    "treatments": [
+      { "name": "الرئيسية", "url": "/" },
+      { "name": "العلاجات", "url": "/treatments" }
+    ],
+    "articles": [
+      { "name": "الرئيسية", "url": "/" },
+      { "name": "المقالات الطبية", "url": "/articles" }
+    ],
+    "videos": [
+      { "name": "الرئيسية", "url": "/" },
+      { "name": "الفيديوهات التعليمية", "url": "/videos" }
+    ]
+  }
+}

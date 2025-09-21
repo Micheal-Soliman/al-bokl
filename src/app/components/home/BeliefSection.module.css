@@ -1,0 +1,219 @@
+/* Belief Section Styles */
+.beliefSection {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 5rem 0;
+  position: relative;
+}
+
+.beliefSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-blue), var(--secondary-blue));
+}
+
+.beliefContent {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.beliefHeader {
+  margin-bottom: 3rem;
+}
+
+.beliefSubtitle {
+  font-size: 1.2rem;
+  color: var(--primary-blue);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.beliefTitle {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+
+.beliefText {
+  text-align: right;
+  margin-bottom: 3rem;
+}
+
+.beliefText p {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+.beliefText p:last-child {
+  font-size: 1.3rem;
+  color: var(--primary-blue);
+  font-weight: 600;
+  text-align: center;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  border-left: 4px solid var(--primary-blue);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.requirementsSection {
+  background: white;
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+}
+
+.requirementsTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.requirementsList {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.requirementItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  min-width: 120px;
+}
+
+.requirementItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background: var(--primary-blue);
+  color: white;
+}
+
+.requirementIcon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.requirementText {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.requirementItem:hover .requirementText {
+  color: white;
+}
+
+.requirementsDescription {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  line-height: 1.7;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.surgeryNote {
+  font-size: 1.1rem;
+  color: var(--primary-blue);
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+}
+
+.callToAction {
+  text-align: center;
+}
+
+.ctaButton {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+  color: white;
+  padding: 1.2rem 3rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.ctaButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .beliefSection {
+    padding: 3rem 0;
+  }
+  
+  .beliefTitle {
+    font-size: 2rem;
+  }
+  
+  .beliefText p {
+    font-size: 1.1rem;
+  }
+  
+  .beliefText p:last-child {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+  
+  .requirementsSection {
+    padding: 2rem;
+  }
+  
+  .requirementsTitle {
+    font-size: 1.6rem;
+  }
+  
+  .requirementsList {
+    gap: 1.5rem;
+  }
+  
+  .requirementItem {
+    min-width: 100px;
+    padding: 1rem;
+  }
+  
+  .requirementIcon {
+    font-size: 2rem;
+  }
+  
+  .requirementText {
+    font-size: 1rem;
+  }
+  
+  .requirementsDescription {
+    font-size: 1.1rem;
+  }
+  
+  .surgeryNote {
+    font-size: 1rem;
+  }
+  
+  .ctaButton {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,160 @@
+/* About Section Styles */
+.about {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.aboutContent {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+}
+
+.aboutText {
+  text-align: center;
+}
+
+.aboutTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+}
+
+.aboutDescription {
+  font-size: 1.125rem;
+  color: var(--text-light);
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.testsSection {
+  margin: 3rem 0;
+}
+
+.testsTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.testsGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.testCard {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.testIcon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.testTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 0.75rem;
+}
+
+.testDescription {
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.statsSection {
+  background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%);
+  padding: 3rem 0;
+  border-radius: 1rem;
+  margin-top: 3rem;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.statCard {
+  text-align: center;
+  background: white;
+  padding: 2rem 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.statNumber {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.statLabel {
+  color: var(--text-light);
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .testsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .statsGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .aboutContent {
+    grid-template-columns: 1fr;
+  }
+  
+  .aboutTitle {
+    font-size: 3rem;
+  }
+  
+  .aboutDescription {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding: 2rem 0;
+  }
+  
+  .aboutTitle {
+    font-size: 2rem;
+  }
+  
+  .testsTitle {
+    font-size: 1.5rem;
+  }
+  
+  .statsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .statNumber {
+    font-size: 2rem;
+  }
+}
