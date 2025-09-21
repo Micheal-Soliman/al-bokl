@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
 import styles from './ArticleComments.module.css';
 import { analytics } from '../../../lib/analytics/articleAnalytics';

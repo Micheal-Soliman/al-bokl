@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './ArticleSearch.module.css';
 import Link from 'next/link';

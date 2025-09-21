@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useEffect } from 'react';
 import styles from './ArticleDetailPage.module.css';
 import Link from 'next/link';

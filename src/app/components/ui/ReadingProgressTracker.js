@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect, useRef } from 'react';
 import { analytics } from '../../../lib/analytics/articleAnalytics';
 import styles from './ReadingProgressTracker.module.css';
