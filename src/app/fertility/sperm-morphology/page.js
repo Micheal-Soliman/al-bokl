@@ -64,7 +64,7 @@ export default function SpermMorphologyPage() {
       conditions: [
         "ارتفاع فى درجة حرارة الخصية (زى الشغل فى صناعة الازاز)",
         "التعرض لتلوث اشعاعى او مواد كيماوية",
-        <Link href="/surgeries/varicocele" style={{color: '#3b82f6', textDecoration: 'underline'}}>دوالى على الخصية من الدرجة التانية او التالته</Link>,
+        <Link key="varicocele-link" href="/surgeries/varicocele" style={{color: '#3b82f6', textDecoration: 'underline'}}>دوالى على الخصية من الدرجة التانية او التالته</Link>,
         "التدخين بكميات كبيرة",
         "ادمان المواد المخدرة او شرب كحوليات بكميات كبيرة",
         "سمنه مفرطة",

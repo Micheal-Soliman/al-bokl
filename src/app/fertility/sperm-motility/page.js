@@ -90,7 +90,7 @@ export default function SpermMotilityPage() {
       category: "اسباب مكتسبة",
       description: "أسباب يمكن علاجها وتحسين الحركة من خلال العلاج المناسب",
       conditions: [
-        <Link href="/surgeries/varicocele" style={{color: '#3b82f6', textDecoration: 'underline'}}>دوالى فى الخصية من الدرجة التانية او التالته</Link>,
+        <Link key="varicocele-link" href="/surgeries/varicocele" style={{color: '#3b82f6', textDecoration: 'underline'}}>دوالى فى الخصية من الدرجة التانية او التالته</Link>,
         "التدخين بشراهه",
         "سمنة مفرطة",
         "التهاب في الجهاز التناسلي (الحوصلة المنوية – البروستاتا)",

@@ -427,7 +427,7 @@ export default function Navbar() {
                 </>
               ) : searchQuery ? (
                 <div className={styles.noResults}>
-                  <p>لا توجد نتائج للبحث عن "{searchQuery}"</p>
+                  <p>لا توجد نتائج للبحث عن &ldquo;{searchQuery}&rdquo;</p>
                 </div>
               ) : (
                 <div className={styles.searchSuggestions}>

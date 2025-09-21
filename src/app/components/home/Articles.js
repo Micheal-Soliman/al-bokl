@@ -88,7 +88,7 @@ export default function Articles() {
           <div className={styles.reviewsGrid}>
             <div className={styles.reviewCard}>
               <p className={styles.reviewText}>
-                "الدكتور أسامة البكل طبيب ممتاز ومتفهم جداً. ساعدني في حل مشكلتي بكل احترافية وخبرة."
+                &ldquo;الدكتور أسامة البكل طبيب ممتاز ومتفهم جداً. ساعدني في حل مشكلتي بكل احترافية وخبرة.&rdquo;
               </p>
               <div className={styles.reviewAuthor}>أحمد محمد</div>
               <div className={styles.reviewRating}>⭐⭐⭐⭐⭐</div>
@@ -96,7 +96,7 @@ export default function Articles() {
             
             <div className={styles.reviewCard}>
               <p className={styles.reviewText}>
-                "أنصح بشدة بالدكتور أسامة. العلاج كان فعال جداً والنتائج ممتازة. شكراً دكتور."
+                &ldquo;أنصح بشدة بالدكتور أسامة. العلاج كان فعال جداً والنتائج ممتازة. شكراً دكتور.&rdquo;
               </p>
               <div className={styles.reviewAuthor}>محمد علي</div>
               <div className={styles.reviewRating}>⭐⭐⭐⭐⭐</div>

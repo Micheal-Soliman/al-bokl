@@ -39,7 +39,7 @@ export default function Testimonials() {
                 <span key={i} className={styles.star}>⭐</span>
               ))}
             </div>
-            <p className={styles.testimonialText}>"{testimonial.text}"</p>
+            <p className={styles.testimonialText}>&ldquo;{testimonial.text}&rdquo;</p>
             <div className={styles.testimonialAuthor}>
               <strong>{testimonial.name}</strong>
             </div>

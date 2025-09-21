@@ -57,7 +57,7 @@ export default function HormonalProblemsPage() {
     {
       category: "أسباب نقص هرمون الذكورة",
       conditions: [
-        <Link href="/surgeries/varicocele" style={{color: '#3b82f6', textDecoration: 'underline'}}>دوالى على الخصية من الدرجة التانية او التالته</Link>,
+        <Link key="varicocele-link" href="/surgeries/varicocele" style={{color: '#3b82f6', textDecoration: 'underline'}}>دوالى على الخصية من الدرجة التانية او التالته</Link>,
         "التعرض لعلاج كيميائى او اشعاعى على الحوض، بسبب الاصابه بسرطان الخصيه او البروستاتا",
         "مشاكل فى الغده النخامية",
         "سمنه مفرطة",
