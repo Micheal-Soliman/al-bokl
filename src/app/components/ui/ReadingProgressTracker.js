@@ -22,8 +22,8 @@ const ReadingProgressTracker = ({ articleSlug, articleContent }) => {
     }, 1000);
 
     const handleScroll = () => {
-      const scrollTop = window.pageYOffset;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollTop = typeof window !== 'undefined' ? window.pageYOffset : 0;
+      const docHeight = typeof window !== 'undefined' ? document.documentElement.scrollHeight - window.innerHeight : 0;
       const scrollPercent = (scrollTop / docHeight) * 100;
       
       setProgress(Math.min(100, Math.max(0, scrollPercent)));
@@ -50,16 +50,18 @@ const ReadingProgressTracker = ({ articleSlug, articleContent }) => {
       analytics.trackReadingProgress(articleSlug, progress, totalTimeSpent);
     };
 
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('beforeunload', handleBeforeUnload);
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', handleScroll);
+      window.addEventListener('beforeunload', handleBeforeUnload);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('beforeunload', handleBeforeUnload);
-      if (intervalRef.current) {
-        clearInterval(intervalRef.current);
-      }
-    };
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+        window.removeEventListener('beforeunload', handleBeforeUnload);
+        if (intervalRef.current) {
+          clearInterval(intervalRef.current);
+        }
+      };
+    }
   }, [articleSlug, progress]);
 
   const formatTime = (seconds) => {

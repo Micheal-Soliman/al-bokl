@@ -6,7 +6,7 @@ import styles from './SocialShare.module.css';
 const SocialShare = ({ article, url }) => {
   const [copied, setCopied] = useState(false);
   
-  const shareUrl = encodeURIComponent(url || window.location.href);
+  const shareUrl = encodeURIComponent(url || (typeof window !== 'undefined' ? window.location.href : ''));
   const shareTitle = encodeURIComponent(article.title);
   const shareText = encodeURIComponent(article.excerpt);
   
@@ -21,7 +21,7 @@ const SocialShare = ({ article, url }) => {
   
   const copyToClipboard = async () => {
     try {
-      await navigator.clipboard.writeText(url || window.location.href);
+      await navigator.clipboard.writeText(url || (typeof window !== 'undefined' ? window.location.href : ''));
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
@@ -35,7 +35,9 @@ const SocialShare = ({ article, url }) => {
       return;
     }
     
-    window.open(socialLinks[platform], '_blank', 'width=600,height=400');
+    if (typeof window !== 'undefined') {
+      window.open(socialLinks[platform], '_blank', 'width=600,height=400');
+    }
   };
   
   return (

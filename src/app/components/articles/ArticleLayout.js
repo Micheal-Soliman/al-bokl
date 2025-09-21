@@ -190,7 +190,7 @@ const ArticleLayout = ({ article }) => {
                 <h3>شارك المقال:</h3>
                 <div className={styles.shareButtons}>
                   <a 
-                    href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`}
+                    href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`${styles.shareBtn} ${styles.facebook}`}
@@ -198,7 +198,7 @@ const ArticleLayout = ({ article }) => {
                     📘 فيسبوك
                   </a>
                   <a 
-                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent(article.title)}`}
+                    href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}&text=${encodeURIComponent(article.title)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`${styles.shareBtn} ${styles.twitter}`}
@@ -206,7 +206,7 @@ const ArticleLayout = ({ article }) => {
                     🐦 تويتر
                   </a>
                   <a 
-                    href={`https://wa.me/?text=${encodeURIComponent(article.title + ' ' + window.location.href)}`}
+                    href={`https://wa.me/?text=${encodeURIComponent(article.title + ' ' + (typeof window !== 'undefined' ? window.location.href : ''))}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`${styles.shareBtn} ${styles.whatsapp}`}

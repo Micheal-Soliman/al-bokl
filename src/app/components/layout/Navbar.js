@@ -35,7 +35,7 @@ export default function Navbar() {
           const rect = event.currentTarget.getBoundingClientRect();
           const dropdown = document.querySelector(`[data-dropdown="${index}"]`);
           if (dropdown) {
-            const viewportWidth = window.innerWidth;
+            const viewportWidth = typeof window !== 'undefined' ? window.innerWidth : 1024;
             const dropdownWidth = 250; // Approximate dropdown width
             
             let leftPosition = rect.left;
@@ -99,7 +99,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
+      const scrollTop = typeof window !== 'undefined' ? window.scrollY : 0;
       setIsScrolled(scrollTop > 100);
     };
 
@@ -109,13 +109,15 @@ export default function Navbar() {
       }
     };
 
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    document.addEventListener('click', handleClickOutside);
-    
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      document.removeEventListener('click', handleClickOutside);
-    };
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', handleScroll, { passive: true });
+      document.addEventListener('click', handleClickOutside);
+      
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+        document.removeEventListener('click', handleClickOutside);
+      };
+    }
   }, []);
 
   const handleSearch = () => {
