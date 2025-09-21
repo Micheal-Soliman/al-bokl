@@ -1,4 +1,4 @@
-import { generateSEOMetadata } from '@/lib/seo/articleSEO';
+import { generateSEOMetadata } from '../../../lib/seo/articleSEO';
 import ArticleLayout from '../../components/articles/ArticleLayout';
 
 // Article metadata

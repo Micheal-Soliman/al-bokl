@@ -40,13 +40,13 @@ export default function ArticlePage({ params }) {
   
   // Generate structured data
   const articleStructuredData = generateArticleStructuredData(article);
-  const faqStructuredData = generateFAQStructuredData(article.faqs);
+  const faqStructuredData = (article && article.faqs) ? generateFAQStructuredData(article.faqs) : null;
   
   // Breadcrumb items
   const breadcrumbItems = [
     { name: 'الرئيسية', url: 'https://www.albokl.com/' },
     { name: 'المقالات', url: 'https://www.albokl.com/articles' },
-    { name: article.title, url: `https://www.albokl.com/articles/${article.slug}` }
+    { name: article.title || 'مقال طبي', url: `https://www.albokl.com/articles/${article.slug || params.slug}` }
   ];
   
   const breadcrumbStructuredData = generateBreadcrumbStructuredData(breadcrumbItems);
@@ -54,12 +54,14 @@ export default function ArticlePage({ params }) {
   return (
     <MainLayout>
       {/* Article Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(articleStructuredData)
-        }}
-      />
+      {articleStructuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(articleStructuredData)
+          }}
+        />
+      )}
       
       {/* FAQ Structured Data */}
       {faqStructuredData && (
@@ -72,12 +74,14 @@ export default function ArticlePage({ params }) {
       )}
       
       {/* Breadcrumb Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(breadcrumbStructuredData)
-        }}
-      />
+      {breadcrumbStructuredData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(breadcrumbStructuredData)
+          }}
+        />
+      )}
       
       <div style={{ padding: '0 2rem' }}>
         {/* Breadcrumb Navigation */}

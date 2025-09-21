@@ -1,0 +1,9 @@
+@echo off
+echo Starting Dr. Al-Bokl Medical Website...
+echo.
+echo Installing dependencies if needed...
+npm install
+echo.
+echo Starting development server...
+npm run dev
+pause

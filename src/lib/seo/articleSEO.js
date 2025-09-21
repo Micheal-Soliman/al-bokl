@@ -159,13 +159,17 @@ export const generateArticleMetadata = (article) => {
 
 // Generate JSON-LD structured data for articles
 export const generateArticleStructuredData = (article) => {
+  if (!article) {
+    return null;
+  }
+  
   const baseUrl = 'https://www.albokl.com';
   
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: article.title,
-    description: article.excerpt || article.description,
+    headline: article.title || 'مقال طبي',
+    description: article.excerpt || article.description || 'مقال طبي متخصص',
     image: {
       '@type': 'ImageObject',
       url: article.featuredImage || `${baseUrl}/images/doctor-osama.webp`,
@@ -240,14 +244,18 @@ export const generateFAQStructuredData = (faqs) => {
 
 // Generate BreadcrumbList structured data
 export const generateBreadcrumbStructuredData = (breadcrumbs) => {
+  if (!breadcrumbs || !Array.isArray(breadcrumbs) || breadcrumbs.length === 0) {
+    return null;
+  }
+  
   return {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: breadcrumbs.map((item, index) => ({
       '@type': 'ListItem',
       position: index + 1,
-      name: item.name,
-      item: item.url
+      name: item.name || 'صفحة',
+      item: item.url || '#'
     }))
   };
 };
