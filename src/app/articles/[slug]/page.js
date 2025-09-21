@@ -87,7 +87,7 @@ export default function ArticlePage({ params }) {
         {/* Breadcrumb Navigation */}
         <Breadcrumb items={breadcrumbItems.map(item => ({ 
           name: item.name, 
-          url: item.url.replace('https://www.albokl.com', '') 
+          url: (item.url || '').replace('https://www.albokl.com', '') 
         }))} />
         
         <ArticleDetailPage article={article} />
