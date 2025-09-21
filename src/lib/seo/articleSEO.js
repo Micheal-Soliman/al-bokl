@@ -254,6 +254,15 @@ export const generateBreadcrumbStructuredData = (breadcrumbs) => {
 
 // SEO optimization utilities
 export const optimizeContentForSEO = (content) => {
+  // Check if content exists
+  if (!content || typeof content !== 'string') {
+    return {
+      readingTime: 0,
+      wordCount: 0,
+      headings: []
+    };
+  }
+  
   // Add reading time calculation
   const wordsPerMinute = 200;
   const wordCount = content.split(/\s+/).length;
