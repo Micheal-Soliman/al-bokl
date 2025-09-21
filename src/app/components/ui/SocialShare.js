@@ -3,12 +3,12 @@
 import React, { useState } from 'react';
 import styles from './SocialShare.module.css';
 
-const SocialShare = ({ article, url }) => {
+const SocialShare = ({ article, url, title, description, articleSlug }) => {
   const [copied, setCopied] = useState(false);
   
   const shareUrl = encodeURIComponent(url || (typeof window !== 'undefined' ? window.location.href : ''));
-  const shareTitle = encodeURIComponent(article.title);
-  const shareText = encodeURIComponent(article.excerpt);
+  const shareTitle = encodeURIComponent(title || (article && article.title) || 'مقال طبي');
+  const shareText = encodeURIComponent(description || (article && article.excerpt) || 'مقال طبي متخصص');
   
   const socialLinks = {
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`,

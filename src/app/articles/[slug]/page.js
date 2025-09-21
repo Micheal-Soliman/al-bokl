@@ -26,27 +26,15 @@ export async function generateMetadata({ params }) {
 
 // Generate static params for all articles
 export async function generateStaticParams() {
-  console.log('Generating static params for articles:', medicalArticles.length);
-  const params = medicalArticles.map((article) => {
-    console.log('Adding slug:', article.slug);
-    return {
-      slug: article.slug,
-    };
-  });
-  console.log('Generated params:', params);
-  return params;
+  return medicalArticles.map((article) => ({
+    slug: article.slug,
+  }));
 }
 
 export default function ArticlePage({ params }) {
-  console.log('Looking for article with slug:', params.slug);
-  console.log('Available articles:', medicalArticles.map(a => a.slug));
-  
   const article = medicalArticles.find(a => a.slug === params.slug);
   
-  console.log('Found article:', article ? article.title : 'Not found');
-  
   if (!article) {
-    console.log('Article not found, calling notFound()');
     notFound();
   }
   
