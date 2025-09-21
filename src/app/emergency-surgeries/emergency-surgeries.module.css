@@ -751,3 +751,626 @@
     gap: 0.5rem;
   }
 }
+
+/* Testicular Torsion Specific Styles */
+
+/* Emergency Alert */
+.emergencyAlert {
+  background: linear-gradient(135deg, #dc2626, #b91c1c);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 1rem;
+  box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+/* Definition Section */
+.definitionSection {
+  padding: 4rem 0;
+  background: #f8fafc;
+}
+
+.definitionCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #dc2626;
+}
+
+.definitionText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #374151;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.mechanismExplanation {
+  background: #fef2f2;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #fecaca;
+}
+
+.subTitle {
+  color: #dc2626;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.mechanismText {
+  color: #374151;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0;
+  text-align: justify;
+}
+
+/* Causes Section */
+.causesSection {
+  padding: 4rem 0;
+  background: white;
+}
+
+.causesCard {
+  background: #f8fafc;
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #e5e7eb;
+}
+
+.causesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.causeItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.causeItem:last-child {
+  margin-bottom: 0;
+}
+
+.causeBullet {
+  color: #f59e0b;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.causeText {
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* Symptoms Section */
+.symptomsSection {
+  padding: 4rem 0;
+  background: #fef2f2;
+}
+
+.symptomsCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #fecaca;
+}
+
+.symptomsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.symptomItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #fef2f2;
+  border-radius: 10px;
+  border-left: 4px solid #dc2626;
+}
+
+.symptomItem:last-child {
+  margin-bottom: 0;
+}
+
+.symptomBullet {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.symptomText {
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* Procedure Section */
+.procedureSection {
+  padding: 4rem 0;
+  background: white;
+}
+
+.procedureCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.urgencyCard, .surgeryCard {
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.urgencyCard {
+  background: linear-gradient(135deg, #fef2f2, #fee2e2);
+  border: 2px solid #fecaca;
+}
+
+.surgeryCard {
+  background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+  border: 2px solid #bae6fd;
+}
+
+.urgencyTitle, .surgeryTitle {
+  color: #1f2937;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.urgencyText, .surgeryText {
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+}
+
+/* Notes Section */
+.notesSection {
+  padding: 4rem 0;
+  background: #f8fafc;
+}
+
+.notesList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.noteCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #10b981;
+}
+
+.noteTitle {
+  color: #10b981;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.noteDescription {
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+}
+
+/* Final Message Section */
+.finalMessageSection {
+  padding: 4rem 0;
+  background: white;
+}
+
+.finalMessageCard {
+  background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #bbf7d0;
+  text-align: center;
+}
+
+.finalMessageText {
+  color: #374151;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.finalMessageText:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive Design for Torsion Page */
+@media (max-width: 768px) {
+  .procedureCard {
+    grid-template-columns: 1fr;
+  }
+  
+  .causeItem, .symptomItem {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .causeBullet, .symptomBullet {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Testicular Rupture Specific Styles */
+
+/* Treatment Steps Section */
+.treatmentSection {
+  padding: 4rem 0;
+  background: white;
+}
+
+.treatmentSteps {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.treatmentStep {
+  background: linear-gradient(135deg, #fef2f2, #fee2e2);
+  padding: 2rem;
+  border-radius: 15px;
+  border-left: 5px solid #dc2626;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stepTitle {
+  color: #dc2626;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.stepText {
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+}
+
+/* Post-Operative Care Section */
+.postOpSection {
+  padding: 4rem 0;
+  background: #f0fdf4;
+}
+
+.postOpCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #bbf7d0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.postOpList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.postOpItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #f0fdf4;
+  border-radius: 10px;
+  border-left: 4px solid #10b981;
+}
+
+.postOpItem:last-child {
+  margin-bottom: 0;
+}
+
+.postOpBullet {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.postOpText {
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* Prevention Section */
+.preventionSection {
+  padding: 4rem 0;
+  background: white;
+}
+
+.preventionCard {
+  background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #bae6fd;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.preventionMethod {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.preventionIcon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.preventionText {
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+}
+
+.relatedLink {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+}
+
+.relatedLink p {
+  margin: 0;
+  color: #374151;
+  text-align: center;
+}
+
+.inlineLink {
+  color: #3b82f6;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.inlineLink:hover {
+  color: #1d4ed8;
+}
+
+/* Enhanced Cause and Symptom Bullets for Rupture */
+.causeItem .causeBullet {
+  color: #f59e0b;
+}
+
+.symptomItem .symptomBullet {
+  color: #dc2626;
+}
+
+/* Responsive Design for Rupture Page */
+@media (max-width: 768px) {
+  .treatmentSteps {
+    gap: 1.5rem;
+  }
+  
+  .treatmentStep {
+    padding: 1.5rem;
+  }
+  
+  .preventionMethod {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  
+  .preventionIcon {
+    align-self: center;
+  }
+  
+  .postOpItem {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .postOpBullet {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Penile Fracture Specific Styles */
+
+/* Types Section */
+.typesSection {
+  padding: 4rem 0;
+  background: #fef2f2;
+}
+
+.typesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.typeCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  border-left: 5px solid #dc2626;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.typeCard:hover {
+  transform: translateY(-5px);
+}
+
+.typeTitle {
+  color: #dc2626;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.typeTitle::before {
+  content: "🔴";
+  font-size: 1.2rem;
+}
+
+.typeDescription {
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+}
+
+/* Treatment Card */
+.treatmentCard {
+  background: linear-gradient(135deg, #f0f9ff, #e0f2fe);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #3b82f6;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.treatmentIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.treatmentText {
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+/* Complications Section */
+.complicationsSection {
+  padding: 4rem 0;
+  background: #fef2f2;
+}
+
+.complicationsCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #fca5a5;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.complicationsWarning {
+  color: #dc2626;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 1rem;
+  background: #fee2e2;
+  border-radius: 10px;
+}
+
+.complicationsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.complicationItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: #fef2f2;
+  border-radius: 10px;
+  border-left: 4px solid #dc2626;
+}
+
+.complicationItem:last-child {
+  margin-bottom: 0;
+}
+
+.complicationBullet {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.complicationText {
+  color: #374151;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+/* Enhanced Cause Bullets for Fracture */
+.causeItem .causeBullet {
+  color: #f59e0b;
+}
+
+/* Responsive Design for Fracture Page */
+@media (max-width: 768px) {
+  .typesGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .typeCard {
+    padding: 1.5rem;
+  }
+  
+  .treatmentCard {
+    padding: 1.5rem;
+  }
+  
+  .complicationItem {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .complicationBullet {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .complicationsWarning {
+    font-size: 1.1rem;
+  }
+}

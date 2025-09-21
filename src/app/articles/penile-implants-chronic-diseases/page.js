@@ -1,5 +1,5 @@
 import { generateSEOMetadata } from '@/lib/seo/articleSEO';
-import ArticleLayout from '@/components/articles/ArticleLayout';
+import ArticleLayout from '../../components/articles/ArticleLayout';
 
 // Article metadata
 const article = {
