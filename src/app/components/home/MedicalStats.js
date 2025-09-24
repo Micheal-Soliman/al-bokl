@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import styles from './MedicalStats.module.css';
-import { useState, useEffect, useRef } from 'react';
-import CounterNumber from './CounterNumber';
+import styles from "./MedicalStats.module.css";
+import { useState, useEffect, useRef } from "react";
+import CounterNumber from "./CounterNumber";
 
 export default function MedicalStats() {
   const [isVisible, setIsVisible] = useState(false);
@@ -10,15 +10,19 @@ export default function MedicalStats() {
 
   // Exact order and labels from the new image - right to left reading
   const topRowStats = [
-    { number: 193, label: 'تركيب\nدعامة مرنة', icon: '✓' },
-    { number: 117, label: 'تركيب\nدعامة\nهيدروليكية', icon: '✓' },
-    { number: 432, label: 'عملية\nدوالي', icon: '✓' }
+    { number: 193, label: "تركيب\nدعامة مرنة", icon: "✓" },
+    { number: 117, label: "تركيب\nدعامة\nهيدروليكية", icon: "✓" },
+    { number: 432, label: "عملية\nدوالي", icon: "✓" },
   ];
-  
+
   const bottomRowStats = [
-    { number: 85, label: 'عملية\nتصحيح\nانحناء', icon: '✓' },
-    { number: 136, label: 'عملية\nدوالي\nخصية', icon: '✓' },
-    { number: 472, label: 'عملية\nختان\nطبي', icon: '✓' }
+    { number: 85, label: "عملية إصلاح إعوجاج القضيب", icon: "✓" },
+    {
+      number: 136,
+      label: `عملية قيلة مائية`,
+      icon: "✓",
+    },
+    { number: 472, label: " عملية تفتيش ميكروسكوبي ناجحه", icon: "✓" },
   ];
 
   useEffect(() => {
@@ -41,7 +45,7 @@ export default function MedicalStats() {
   return (
     <section ref={sectionRef} className={styles.medicalStats}>
       <div className={styles.backgroundOverlay}></div>
-      
+
       {/* Decorative Background Elements */}
       <div className={styles.decorativeElements}>
         <div className={styles.floatingCircle1}></div>
@@ -60,7 +64,10 @@ export default function MedicalStats() {
               قد وثقنا الله لإجراء أكثر من 1704 عملية جراحية ناجحة
             </h2>
             <p className={styles.description}>
-              نقوم بالعديد من العمليات الجراحية يومياً، وهذا ما يضيف إلى كل يوم المزيد من الخبرة والممارسة والتقنيات العالية في إجراء العمليات الجراحية بكل إحترافية للوصول إلى أفضل معدلات النجاح وتحقيق الأهداف العلاجية في العملية.
+              نقوم بالعديد من العمليات الجراحية يومياً، وهذا ما يضيف إلى كل يوم
+              المزيد من الخبرة والممارسة والتقنيات العالية في إجراء العمليات
+              الجراحية بكل إحترافية للوصول إلى أفضل معدلات النجاح وتحقيق الأهداف
+              العلاجية في العملية.
             </p>
           </div>
 
@@ -72,15 +79,15 @@ export default function MedicalStats() {
                 <div key={index} className={styles.statCard}>
                   <div className={styles.statIcon}>{stat.icon}</div>
                   <div className={styles.statNumber}>
-                    <CounterNumber 
-                      targetNumber={stat.number} 
+                    <CounterNumber
+                      targetNumber={stat.number}
                       isVisible={isVisible}
-                      duration={2000 + (index * 200)}
+                      duration={2000 + index * 200}
                     />
                   </div>
                   {stat.label && (
                     <div className={styles.statLabel}>
-                      {stat.label.split('\n').map((line, i) => (
+                      {stat.label.split("\n").map((line, i) => (
                         <div key={i}>{line}</div>
                       ))}
                     </div>
@@ -88,22 +95,22 @@ export default function MedicalStats() {
                 </div>
               ))}
             </div>
-            
+
             {/* Bottom Row */}
             <div className={styles.statsRow}>
               {bottomRowStats.map((stat, index) => (
                 <div key={index} className={styles.statCard}>
                   <div className={styles.statIcon}>{stat.icon}</div>
                   <div className={styles.statNumber}>
-                    <CounterNumber 
-                      targetNumber={stat.number} 
+                    <CounterNumber
+                      targetNumber={stat.number}
                       isVisible={isVisible}
-                      duration={2000 + ((index + 3) * 200)}
+                      duration={2000 + (index + 3) * 200}
                     />
                   </div>
                   {stat.label && (
                     <div className={styles.statLabel}>
-                      {stat.label.split('\n').map((line, i) => (
+                      {stat.label.split("\n").map((line, i) => (
                         <div key={i}>{line}</div>
                       ))}
                     </div>

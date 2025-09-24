@@ -66,7 +66,7 @@
 
 .imageContainer {
   position: relative;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
 }
 
@@ -192,40 +192,40 @@
   .medicalArticles {
     padding: 4rem 0;
   }
-  
+
   .container {
     padding: 0 1.5rem;
   }
-  
+
   .title {
     font-size: 2rem;
   }
-  
+
   .subtitle {
     font-size: 1rem;
   }
-  
+
   .articlesGrid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .imageContainer {
     height: 180px;
   }
-  
+
   .articleContent {
     padding: 1.5rem;
   }
-  
+
   .articleTitle {
     font-size: 1.2rem;
   }
-  
+
   .dateBox {
     padding: 0.6rem;
   }
-  
+
   .dateNumber {
     font-size: 1.5rem;
   }
