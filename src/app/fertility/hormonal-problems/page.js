@@ -244,7 +244,7 @@ export default function HormonalProblemsPage() {
               </div>
             </div> */}
 
-            <div className="image-wrapper">
+            <div className={styles.heroImage}>
               <Image
                 src="/harmoun.webp"
                 alt="Hormonal Problems"

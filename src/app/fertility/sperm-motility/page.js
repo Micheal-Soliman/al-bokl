@@ -2,6 +2,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { generateSEOMetadata } from "../../../lib/seo/articleSEO";
 import Link from "next/link";
 import styles from "../fertility-condition.module.css";
+import Image from "next/image";
 
 // SEO metadata
 export async function generateMetadata() {
@@ -210,36 +211,53 @@ export default function SpermMotilityPage() {
         {/* Hero Section */}
         <section className={styles.heroSection}>
           <div className={styles.container}>
-            <div className={styles.breadcrumb}>
-              <Link href="/">الرئيسية</Link>
-              <span>/</span>
-              <Link href="/fertility">تأخر الإنجاب</Link>
-              <span>/</span>
-              <span>ضعف حركة الحيوانات المنوية</span>
-            </div>
-            <h1 className={styles.heroTitle}>ضعف حركة الحيوانات المنوية</h1>
-            <p className={styles.heroDescription}>
-              حركة الحيوان المنوى هى الدليل على حيويته و جودته، وهى الطريقة اللى
-              بيتنقل بيها الحيوان المنوى من الخصية للقنوات المنوية و بعد مايدخل
-              لعنق الرحم مع القذف، بيفضل الحيوان المنوى يعوم لحد ما يوصل لقناة
-              فالوب وده المكان اللى بيكون فيه البويضة، فكل ما كان فى ضعف او بطئ
-              فى الحركة، كل ما قلت فرص وصول الحيوان المنوى للبويضه، وده طبعا
-              هيسبب تأخر فى الانجاب.
-            </p>
-            <div className={styles.heroStats}>
-              <div className={styles.stat}>
-                <span className={styles.statNumber}>15</span>
-                <span className={styles.statLabel}>مليون حيوان منوي/مل</span>
+            <div className={styles.heroGrid}>
+              <div className={styles.heroContent}>
+                <div className={styles.breadcrumb}>
+                  <Link href="/">الرئيسية</Link>
+                  <span>/</span>
+                  <Link href="/fertility">تأخر الإنجاب</Link>
+                  <span>/</span>
+                  <span>ضعف حركة الحيوانات المنوية</span>
+                </div>
+                <h1 className={styles.heroTitle}>ضعف حركة الحيوانات المنوية</h1>
+                <p className={styles.heroDescription}>
+                  حركة الحيوان المنوى هى الدليل على حيويته و جودته، وهى الطريقة
+                  اللى بيتنقل بيها الحيوان المنوى من الخصية للقنوات المنوية و
+                  بعد مايدخل لعنق الرحم مع القذف، بيفضل الحيوان المنوى يعوم لحد
+                  ما يوصل لقناة فالوب وده المكان اللى بيكون فيه البويضة، فكل ما
+                  كان فى ضعف او بطئ فى الحركة، كل ما قلت فرص وصول الحيوان المنوى
+                  للبويضه، وده طبعا هيسبب تأخر فى الانجاب.
+                </p>
+                <div className={styles.heroStats}>
+                  <div className={styles.stat}>
+                    <span className={styles.statNumber}>15</span>
+                    <span className={styles.statLabel}>
+                      مليون حيوان منوي/مل
+                    </span>
+                  </div>
+                  <div className={styles.stat}>
+                    <span className={styles.statNumber}>32%</span>
+                    <span className={styles.statLabel}>
+                      الحد الأدنى للحركة المتقدمة
+                    </span>
+                  </div>
+                  <div className={styles.stat}>
+                    <span className={styles.statNumber}>40%</span>
+                    <span className={styles.statLabel}>
+                      إجمالي الحركة الطبيعية
+                    </span>
+                  </div>
+                </div>
               </div>
-              <div className={styles.stat}>
-                <span className={styles.statNumber}>32%</span>
-                <span className={styles.statLabel}>
-                  الحد الأدنى للحركة المتقدمة
-                </span>
-              </div>
-              <div className={styles.stat}>
-                <span className={styles.statNumber}>40%</span>
-                <span className={styles.statLabel}>إجمالي الحركة الطبيعية</span>
+              <div className={styles.heroImage}>
+                <Image
+                  src="/motility-.webp"
+                  alt="ضعف حركة الحيوانات المنوية"
+                  layout="responsive"
+                  width={800}
+                  height={600}
+                />
               </div>
             </div>
           </div>
