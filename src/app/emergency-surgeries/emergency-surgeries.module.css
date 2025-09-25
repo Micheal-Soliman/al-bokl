@@ -10,11 +10,35 @@
   padding: 0 2rem;
 }
 
+.breadcrumb {
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.breadcrumb a {
+  color: rgb(57, 87, 237);
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.breadcrumb a:hover {
+  opacity: 0.8;
+}
+
+.breadcrumb span {
+  opacity: 0.7;
+}
+
 /* Hero Section */
 .heroSection {
-  background: linear-gradient(135deg, #dc2626 0%, #991b1b 50%, #7f1d1d 100%);
+  /* background: linear-gradient(135deg, #dc2626 0%, #991b1b 50%, #7f1d1d 100%); */
   color: white;
-  padding: 6rem 0;
+  padding: 2rem 0;
   position: relative;
   overflow: hidden;
 }
@@ -69,8 +93,15 @@
 }
 
 @keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.05); }
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
 }
 
 .alertIcon {
@@ -79,8 +110,16 @@
 }
 
 @keyframes blink {
-  0%, 50% { opacity: 1; }
-  51%, 100% { opacity: 0.5; }
+
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0.5;
+  }
 }
 
 .alertText strong {
@@ -769,8 +808,15 @@
 }
 
 @keyframes pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.02); }
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.02);
+  }
 }
 
 /* Definition Section */
@@ -921,7 +967,8 @@
   gap: 2rem;
 }
 
-.urgencyCard, .surgeryCard {
+.urgencyCard,
+.surgeryCard {
   padding: 2rem;
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -937,14 +984,16 @@
   border: 2px solid #bae6fd;
 }
 
-.urgencyTitle, .surgeryTitle {
+.urgencyTitle,
+.surgeryTitle {
   color: #1f2937;
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
-.urgencyText, .surgeryText {
+.urgencyText,
+.surgeryText {
   color: #374151;
   line-height: 1.7;
   text-align: justify;
@@ -1016,13 +1065,15 @@
   .procedureCard {
     grid-template-columns: 1fr;
   }
-  
-  .causeItem, .symptomItem {
+
+  .causeItem,
+  .symptomItem {
     flex-direction: column;
     text-align: center;
   }
-  
-  .causeBullet, .symptomBullet {
+
+  .causeBullet,
+  .symptomBullet {
     margin-left: 0;
     margin-bottom: 0.5rem;
   }
@@ -1184,26 +1235,26 @@
   .treatmentSteps {
     gap: 1.5rem;
   }
-  
+
   .treatmentStep {
     padding: 1.5rem;
   }
-  
+
   .preventionMethod {
     flex-direction: column;
     text-align: center;
     gap: 0.5rem;
   }
-  
+
   .preventionIcon {
     align-self: center;
   }
-  
+
   .postOpItem {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .postOpBullet {
     margin-left: 0;
     margin-bottom: 0.5rem;
@@ -1351,25 +1402,25 @@
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .typeCard {
     padding: 1.5rem;
   }
-  
+
   .treatmentCard {
     padding: 1.5rem;
   }
-  
+
   .complicationItem {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .complicationBullet {
     margin-left: 0;
     margin-bottom: 0.5rem;
   }
-  
+
   .complicationsWarning {
     font-size: 1.1rem;
   }
