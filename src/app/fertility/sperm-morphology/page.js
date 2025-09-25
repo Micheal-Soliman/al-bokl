@@ -2,6 +2,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import { generateSEOMetadata } from "../../../lib/seo/articleSEO";
 import Link from "next/link";
 import styles from "../fertility-condition.module.css";
+import Image from "next/image";
 
 // SEO metadata
 export async function generateMetadata() {
@@ -124,42 +125,52 @@ export default function SpermMorphologyPage() {
         {/* Hero Section */}
         <section className={styles.heroSection}>
           <div className={styles.container}>
-            <div className={styles.breadcrumb}>
-              <Link href="/">الرئيسية</Link>
-              <span>/</span>
-              <Link href="/fertility">تأخر الإنجاب</Link>
-              <span>/</span>
-              <span>تشوهات الحيوان المنوي</span>
-            </div>
-            <h1 className={styles.heroTitle}>تشوهات الحيوان المنوي</h1>
-            <p className={styles.heroDescription}>
-              تشوه الحيوانات المنوية يعتبر من اهم اسباب تأخر الانجاب، و اللى
-              احيانا كتير بيتشخص غلط لاننا بنعمل التحليل فى مكان مش متخصص و لا
-              بنلجأ لدكتور متخصص فى علاجه. و عشان نفهم كويس امتى الحيوان المنوى
-              يكون مشوه، تعالوا نعرف الحيوان المنوى بيتكون من اى، و امتى اقول ان
-              الحيوان المنوى مشوه.
-            </p>
-            <div className={styles.heroStats}>
-              <div className={styles.stat}>
-                <span className={styles.statNumber}>4</span>
-                <span className={styles.statLabel}>أجزاء للحيوان المنوي</span>
+            <div className={styles.heroGrid}>
+              <div className={styles.heroContent}>
+                <div className={styles.breadcrumb}>
+                  <Link href="/">الرئيسية</Link>
+                  <span>/</span>
+                  <Link href="/fertility">تأخر الإنجاب</Link>
+                  <span>/</span>
+                  <span>تشوهات الحيوان المنوي</span>
+                </div>
+                <h1 className={styles.heroTitle}>تشوهات الحيوان المنوي</h1>
+                <p className={styles.heroDescription}>
+                  تشوه الحيوانات المنوية يعتبر من اهم اسباب تأخر الانجاب، و اللى
+                  احيانا كتير بيتشخص غلط لاننا بنعمل التحليل فى مكان مش متخصص و
+                  لا بنلجأ لدكتور متخصص فى علاجه. و عشان نفهم كويس امتى الحيوان
+                  المنوى يكون مشوه، تعالوا نعرف الحيوان المنوى بيتكون من اى، و
+                  امتى اقول ان الحيوان المنوى مشوه.
+                </p>
+                <div className={styles.heroStats}>
+                  <div className={styles.stat}>
+                    <span className={styles.statNumber}>4</span>
+                    <span className={styles.statLabel}>
+                      أجزاء للحيوان المنوي
+                    </span>
+                  </div>
+                  <div className={styles.stat}>
+                    <span className={styles.statNumber}>96%</span>
+                    <span className={styles.statLabel}>
+                      الحد الأقصى للتشوهات المقبولة
+                    </span>
+                  </div>
+                  <div className={styles.stat}>
+                    <span className={styles.statNumber}>6</span>
+                    <span className={styles.statLabel}>شهور مدة العلاج</span>
+                  </div>
+                </div>
               </div>
-              <div className={styles.stat}>
-                <span className={styles.statNumber}>96%</span>
-                <span className={styles.statLabel}>
-                  الحد الأقصى للتشوهات المقبولة
-                </span>
-              </div>
-              <div className={styles.stat}>
-                <span className={styles.statNumber}>6</span>
-                <span className={styles.statLabel}>شهور مدة العلاج</span>
+
+              {/* الصورة */}
+              <div className={styles.heroImage}>
+                <img src="/sparm.webp" alt="تشوهات الحيوان المنوي" />
               </div>
             </div>
           </div>
         </section>
-
         {/* Important Question Section */}
-        <section className={styles.definitionSection}>
+        {/* <section className={styles.definitionSection}>
           <div className={styles.container}>
             <h2 className={styles.sectionTitle}>معلومة مهمه جدا</h2>
             <div className={styles.definitionContent}>
@@ -195,10 +206,9 @@ export default function SpermMorphologyPage() {
               </div>
             </div>
           </div>
-        </section>
-
+        </section> */}
         {/* Normal Ranges Section */}
-        <section className={styles.definitionSection}>
+        {/* <section className={styles.definitionSection}>
           <div className={styles.container}>
             <h2 className={styles.sectionTitle}>نسبة التشوهات المقبولة</h2>
             <div className={styles.definitionContent}>
@@ -227,8 +237,7 @@ export default function SpermMorphologyPage() {
               </div>
             </div>
           </div>
-        </section>
-
+        </section> */}
         {/* Sperm Parts Section */}
         <section className={styles.causesSection}>
           <div className={styles.container}>
@@ -299,6 +308,404 @@ export default function SpermMorphologyPage() {
           </div>
         </section>
 
+        {/* Sperm Parts Section */}
+        <section className={styles.divider}>
+          <h3>
+            ولو عايزين تعرفوا اكثر عن تكوين الحيوان المنوي ، تقدروا تعرفوا كل
+            المعلومات عنه في الفيديو ده من دكتور اسامة محمد البكل………
+          </h3>
+
+          <div className={styles.videoWrapper}>
+            <iframe
+              className={styles.video}
+              src="https://www.youtube.com/embed/kuyYLWETZFE?start=1"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
+
+        {/* When Sperm is Abnormal Section */}
+        <section className={styles.definitionSection}>
+          <div className={styles.container}>
+            <h2 className={styles.sectionTitle}>
+              و دلوقتى هنعرف امتى الحيوان المنوى يكون مشوه
+            </h2>
+            <div
+              className={styles.definitionContent}
+              style={{ gridTemplateColumns: "1fr", textAlign: "center" }}
+            >
+              <div className={styles.definitionText}>
+                {/* <div
+                  style={{
+                    background:
+                      "linear-gradient(135deg, #fef3c7 0%, #fef9c3 100%)",
+                    padding: "2rem",
+                    borderRadius: "15px",
+                    border: "3px solid #f59e0b",
+                    marginBottom: "2rem",
+                  }}
+                >
+                  <h3
+                    style={{
+                      color: "#92400e",
+                      fontSize: "1.5rem",
+                      fontWeight: "700",
+                      marginBottom: "1rem",
+                    }}
+                  >
+                    🧬 Sperm Abnormalities - تشوه الحيوانات المنوية
+                  </h3>
+                </div> */}
+                <Image
+                  src="/sperm-2.webp"
+                  alt="Sperm Abnormalities"
+                  width={600}
+                  height={300}
+                  style={{ borderRadius: "15px" }}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Abnormalities List Section */}
+        <section className={styles.causesSection}>
+          <div className={styles.container}>
+            <h2 className={styles.sectionTitle}>حالات تشوه الحيوان المنوي</h2>
+            <div className={styles.causesGrid}>
+              <div className={styles.causeCard}>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "1rem",
+                    marginBottom: "1rem",
+                  }}
+                >
+                  <span style={{ fontSize: "2rem", color: "#dc2626" }}>🎯</span>
+                  <h3 className={styles.causeType}>الاكروسوم المفقود</h3>
+                </div>
+                <p className={styles.causeDescription}>
+                  لو الاكروسوم مش موجود ده معناه ان الحيوان المنوى مش هيقدر انه
+                  يخترق البويضة و بكده مش هيحصل تلقيح للبويضة.
+                </p>
+              </div>
+
+              <div className={styles.causeCard}>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "1rem",
+                    marginBottom: "1rem",
+                  }}
+                >
+                  <span style={{ fontSize: "2rem", color: "#dc2626" }}>🧠</span>
+                  <h3 className={styles.causeType}>تشوهات الرأس</h3>
+                </div>
+                <div className={styles.causeDescription}>
+                  <p>• لو رأس الحيوان المنوى كانت اكبر او اصغر من الطبيعى</p>
+                  <p>
+                    • لو رأس الحيوان المنوى مش مدوره، زى ما احنا شايفين فى
+                    الصوره كده انها ممكن تكون طويله شويه او مستطيلة
+                  </p>
+                  <p>
+                    • لو الحيوان المنوى عده رأسين، كده برضو الحيوان المنوى هيكون
+                    مشوه
+                  </p>
+                </div>
+              </div>
+
+              <div className={styles.causeCard}>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "1rem",
+                    marginBottom: "1rem",
+                  }}
+                >
+                  <span style={{ fontSize: "2rem", color: "#dc2626" }}>⚡</span>
+                  <h3 className={styles.causeType}>مشاكل الرقبة</h3>
+                </div>
+                <div className={styles.causeDescription}>
+                  <p>• لو عنق الحيوان المنوى مش موجود</p>
+                  <p>
+                    • لو فى مشكله فى الميتوكوندريا، كده مش هيكون فى طاقة تساعد
+                    الديل على الحركة
+                  </p>
+                </div>
+              </div>
+
+              <div className={styles.causeCard}>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "1rem",
+                    marginBottom: "1rem",
+                  }}
+                >
+                  <span style={{ fontSize: "2rem", color: "#dc2626" }}>🏊‍♂️</span>
+                  <h3 className={styles.causeType}>تشوهات الذيل</h3>
+                </div>
+                <div className={styles.causeDescription}>
+                  <p>
+                    • لو الديل كان فى مشكلة زى انه يكون قصير او معوج او مشقوق
+                  </p>
+                  <p>• ان الحيوان المنوى يكون ليه ديلين</p>
+                  <p>• او ان الديل يكون اصلا مش موجود</p>
+                  <p>• و كده الحيوان المنوى مش هيقدر انه يتحرك من مكانة</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Important Question Section */}
+        <section className={styles.definitionSection}>
+          <div className={styles.container}>
+            <h2 className={styles.sectionTitle}>معلومة مهمه جدا</h2>
+            <div className={styles.definitionContent}>
+              <div className={styles.definitionText}>
+                <div
+                  style={{
+                    background:
+                      "linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%)",
+                    padding: "2rem",
+                    borderRadius: "15px",
+                    border: "3px solid #3b82f6",
+                    marginBottom: "2rem",
+                  }}
+                >
+                  <p
+                    style={{
+                      color: "#1e40af",
+                      fontWeight: "600",
+                      fontSize: "1.1rem",
+                    }}
+                  >
+                    <strong>
+                      🔵 و هنا خلينا نعرف معلومة مهمه جدا، وده بيكون اول سؤال
+                      بتسئله فى العياده:
+                    </strong>
+                  </p>
+                  <p
+                    style={{
+                      fontSize: "1.3rem",
+                      color: "#1e40af",
+                      fontWeight: "700",
+                      textAlign: "center",
+                      margin: "1.5rem 0",
+                    }}
+                  >
+                    هو يا دكتور معنى ان الحيوان المنوى مشوه ده معناه ان الطفل
+                    كمان هيتولد مشوه ؟
+                  </p>
+                </div>
+
+                <div
+                  style={{
+                    background:
+                      "linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%)",
+                    padding: "2rem",
+                    borderRadius: "15px",
+                    border: "3px solid #22c55e",
+                  }}
+                >
+                  <p
+                    style={{
+                      color: "#15803d",
+                      fontWeight: "700",
+                      fontSize: "1.2rem",
+                      marginBottom: "1rem",
+                    }}
+                  >
+                    👈 و الاجابه طبعا لا،
+                  </p>
+                  <p style={{ color: "#15803d", lineHeight: "1.8" }}>
+                    لان الحيوان المنوى المشوه ده ولا هيقدر انه يخترق البويضه و
+                    يخصبها، ولا هيكون قادر انه يوصلها، و بكده مش هيحصل حمل اصلاّ
+                    عشان ينتج عنه حيوان مشوه، ده غير ان اللى ممكن يسبب تشوه
+                    للأجنه هو مشكله فى الماده الوراثيه، وده ملهوش علاقة بتشوه
+                    الحيوانات المنوية.
+                  </p>
+                </div>
+              </div>
+              <div className={styles.definitionImage}>
+                <div className={styles.imageContainer}>
+                  <span className={styles.conditionIcon}>❓</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Next Steps Section */}
+        <section className={styles.microTeseSection}>
+          <div className={styles.container}>
+            <h2 className={styles.sectionTitle}>
+              و دلوقتى و بعد ما عرفنا امتى الحيوان المنوى يكون مشوه 👇
+            </h2>
+            <div className={styles.microTeseContent}>
+              <div className={styles.microTeseInfo}>
+                <div
+                  style={{
+                    background:
+                      "linear-gradient(135deg, #fef3c7 0%, #fde68a 100%)",
+                    padding: "2rem",
+                    borderRadius: "15px",
+                    border: "2px solid #f59e0b",
+                    marginBottom: "2rem",
+                  }}
+                >
+                  <h3
+                    style={{
+                      color: "#92400e",
+                      marginBottom: "1rem",
+                      fontSize: "1.3rem",
+                    }}
+                  >
+                    الخطوات التالية:
+                  </h3>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      gap: "1rem",
+                    }}
+                  >
+                    <p
+                      style={{
+                        color: "#92400e",
+                        fontWeight: "600",
+                        fontSize: "1.1rem",
+                      }}
+                    >
+                      1️⃣ تعالوا نعرف اى هى اسباب تشوهات الحيوان المنوى ؟
+                    </p>
+                    <p
+                      style={{
+                        color: "#92400e",
+                        fontWeight: "600",
+                        fontSize: "1.1rem",
+                      }}
+                    >
+                      2️⃣ و اي هى نسب التشوه اللى ممكن يحصل فيها حمل طبيعى ؟
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className={styles.procedureSteps}>
+                <h3>أولاً: نسبة التشوهات المقبولة</h3>
+                <div className={styles.steps}>
+                  <div className={styles.step}>
+                    <div className={styles.stepNumber}>1</div>
+                    <div className={styles.stepContent}>
+                      <h4>التحليل المتخصص</h4>
+                      <p>لازم التحليل يتم فى مراكز الخصوبه او معامل متخصصة</p>
+                    </div>
+                  </div>
+                  <div className={styles.step}>
+                    <div className={styles.stepNumber}>2</div>
+                    <div className={styles.stepContent}>
+                      <h4>الصبغة الخاصة</h4>
+                      <p>نصبغ الحيوان المنوى بصبغه معينه تحت ميكروسكوب معين</p>
+                    </div>
+                  </div>
+                  <div className={styles.step}>
+                    <div className={styles.stepNumber}>3</div>
+                    <div className={styles.stepContent}>
+                      <h4>النسبة المقبولة</h4>
+                      <p>أقل من 96% تشوهات = حمل طبيعي محتمل</p>
+                    </div>
+                  </div>
+                  <div className={styles.step}>
+                    <div className={styles.stepNumber}>4</div>
+                    <div className={styles.stepContent}>
+                      <h4>أكثر من 96%</h4>
+                      <p>فرص الحمل الطبيعى بتكون أقل</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Important Treatment Note */}
+        <section className={styles.definitionSection}>
+          <div className={styles.container}>
+            <div
+              style={{
+                background: "linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%)",
+                padding: "3rem",
+                borderRadius: "20px",
+                border: "3px solid #ef4444",
+                textAlign: "center",
+              }}
+            >
+              <h3
+                style={{
+                  color: "#dc2626",
+                  fontSize: "1.4rem",
+                  fontWeight: "700",
+                  marginBottom: "1.5rem",
+                }}
+              >
+                ‼️ نقطة مهمه قبل الحقن المجهرى
+              </h3>
+              <p
+                style={{
+                  color: "#7f1d1d",
+                  fontSize: "1.1rem",
+                  lineHeight: "1.8",
+                  marginBottom: "1rem",
+                }}
+              >
+                و هى اي اصلاّ السبب فى تشوه الحيوانات المنوية لاننا لو عرفنا
+                السبب و قدرنا اننا نعالجة هنقدر اننا نقلل من نسبة تشوه الحيوان
+                المنوى
+              </p>
+              <p
+                style={{
+                  color: "#7f1d1d",
+                  fontSize: "1.1rem",
+                  lineHeight: "1.8",
+                  fontWeight: "600",
+                }}
+              >
+                و فى حالات بعد العلاج بيكون عندها فرصه ان يحصل حمل طبيعى هتكون
+                كبيرة جدا و تعالوا بقى دلوقتى نعرف اسباب تشوه الحيوانات المنوية
+                وازاى بنقدر اننا نعالجها
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Video Section */}
+        <section className={styles.divider}>
+          <h3>
+            ولو عايزين تعرفوا اكثر عن النسبة الطبيعية لتشوه الحيوانات المنوية ،
+            تقدروا تعرفوا كل المعلومات عنها من دكتور اسامة محمد البكل………
+          </h3>
+
+          <div className={styles.videoWrapper}>
+            <iframe
+              className={styles.video}
+              src="https://www.youtube.com/embed/kuyYLWETZFE?start=1"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </section>
+
         {/* Causes Section */}
         <section className={styles.diagnosisSection}>
           <div className={styles.container}>
@@ -361,7 +768,6 @@ export default function SpermMorphologyPage() {
             </div>
           </div>
         </section>
-
         {/* ICSI Cases Section */}
         <section className={styles.microTeseSection}>
           <div className={styles.container}>
@@ -387,7 +793,7 @@ export default function SpermMorphologyPage() {
                     حقن مجهرى
                   </li>
                 </ul>
-
+                {/* 
                 <h3>نقطة مهمة قبل الحقن المجهري:</h3>
                 <ul>
                   <li>
@@ -402,7 +808,7 @@ export default function SpermMorphologyPage() {
                     و فى حالات بعد العلاج بيكون عندها فرصه ان يحصل حمل طبيعى
                     هتكون كبيرة جدا
                   </li>
-                </ul>
+                </ul> */}
               </div>
 
               {/* <div className={styles.procedureSteps}>
@@ -441,18 +847,17 @@ export default function SpermMorphologyPage() {
             </div>
           </div>
         </section>
-
         {/* CTA Section */}
         <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
-              <h2>لا تفقد الأمل في تحقيق حلم الأبوة</h2>
+              {/* <h2>لا تفقد الأمل في تحقيق حلم الأبوة</h2>
               <p>
                 و اخيراّ خليك عارف ان تشوه الحيوانات المنوية حتى لو وصل 100%، ده
                 مش معناه ان كده خلاص مفيش امل انك تبقى اب، بالعكس ديماّ لسه
                 عندنا فرص أن يكون عندنا اطفال، بس المهم انك متيأسش و خد قرار
                 العلاج.
-              </p>
+              </p> */}
               <div className={styles.ctaButtons}>
                 <Link href="/contact/appointment" className={styles.primaryBtn}>
                   احجز استشارة الآن
@@ -464,9 +869,8 @@ export default function SpermMorphologyPage() {
             </div>
           </div>
         </section>
-
         {/* Related Conditions */}
-        <section className={styles.relatedSection}>
+        {/* <section className={styles.relatedSection}>
           <div className={styles.container}>
             <h2 className={styles.sectionTitle}>حالات ذات صلة</h2>
             <div className={styles.relatedGrid}>
@@ -496,7 +900,7 @@ export default function SpermMorphologyPage() {
               </Link>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </MainLayout>
   );

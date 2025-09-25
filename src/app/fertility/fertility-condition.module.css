@@ -14,8 +14,31 @@
 .heroSection {
   background: linear-gradient(135deg, #1e40af 0%, #3b82f6 50%, #06b6d4 100%);
   color: white;
-  padding: 4rem 0;
+  /* padding: 4rem 0; */
   position: relative;
+  padding: 60px 20px;
+}
+
+.heroContent {
+  width: 50%;
+}
+
+.heroGrid {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.heroImage {
+  flex: 1;
+}
+
+.heroImage img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .breadcrumb {
