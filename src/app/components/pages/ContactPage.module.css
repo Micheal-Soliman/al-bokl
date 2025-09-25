@@ -7,7 +7,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 2rem;
 }
@@ -270,7 +270,7 @@
 /* Clinics Section */
 .clinicsSection {
   padding: 5rem 0;
-  background: linear-gradient(135deg, var(--gray-50) 0%, var(--blue-50) 100%);
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
 }
 
 .sectionHeader {
@@ -300,18 +300,122 @@
 
 .sectionSubtitle {
   font-size: var(--font-size-lg);
-  color: var(--gray-800);
-  font-weight: 600;
+  color: var(--gray-600);
+  font-weight: 500;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 
-.clinicsGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+/* Clinic Cards - Matching Reference Design */
+.clinicsMainGrid {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  gap: 1rem;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem; */
+
 }
 
-.clinicCard {
+/* .clinicCard { */
+/* background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto; */
+/* } */
+
+.clinicCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: #3b82f6;
+}
+
+.clinicCard.active {
+  border-color: #3b82f6;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(59, 130, 246, 0.2);
+}
+
+.mapSection {
+  position: relative;
+  overflow: hidden;
+}
+
+.clinicInfo {
+  padding: 1.5rem;
+}
+
+.clinicTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2563eb;
+  text-align: center;
+  margin: 0 0 1.5rem 0;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #f3f4f6;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contactItem {
+  display: flex;
+  /* align-items: center; */
+  gap: 0.75rem;
+  /* padding: 0.75rem 0; */
+}
+
+.locationIcon,
+.emailIcon,
+.phoneIcon {
+  font-size: 1.1rem;
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.contactText {
+  flex: 1;
+  color: #374151;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.addressLine {
+  color: #374151;
+  margin-bottom: 0.25rem;
+}
+
+.addressLine:last-child {
+  margin-bottom: 0;
+}
+
+.contactLink {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contactLink:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+
+
+/* .clinicCard {
   background: white;
   padding: 2rem;
   border-radius: var(--radius-2xl);
@@ -321,7 +425,7 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
-}
+} */
 
 .clinicCard::before {
   content: '';
@@ -458,6 +562,270 @@
 
 .actionBtn.whatsapp:hover {
   box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+}
+
+/* Help Section */
+/* .helpSection {
+  margin-top: 3rem;
+  padding: 2rem 0;
+} */
+
+
+.helpGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.workingHoursCard,
+.helpMethodsCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.workingHoursCard::before,
+.helpMethodsCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6 0%, #f59e0b 100%);
+}
+
+.workingHoursCard:hover,
+.helpMethodsCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border-color: #3b82f6;
+}
+
+.cardIcon {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e40af;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.scheduleList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.scheduleItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border-right: 4px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.scheduleItem:hover {
+  background: #f0f9ff;
+  border-right-color: #3b82f6;
+  transform: translateX(5px);
+}
+
+.scheduleItem.emergency {
+  background: linear-gradient(135deg, #fee2e2 0%, #fef7f7 100%);
+  border-right-color: #dc2626;
+  font-weight: 600;
+}
+
+.scheduleItem.emergency .timeRange {
+  color: #dc2626;
+  font-weight: 700;
+}
+
+.dayLabel {
+  font-weight: 600;
+  color: #374151;
+}
+
+.timeRange {
+  font-weight: 700;
+  color: #059669;
+  font-size: 1.1rem;
+}
+
+.helpNote {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%);
+  border-radius: 12px;
+  border: 1px solid #c7d2fe;
+}
+
+.helpNote p {
+  margin: 0;
+  color: #1e40af;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* Social Links within Working Hours Card */
+.workingHoursCard .socialLinks {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #e5e7eb;
+}
+
+.workingHoursCard .socialLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border-radius: 12px;
+  text-decoration: none;
+  color: #374151;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  min-width: 80px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.workingHoursCard .socialLink:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.workingHoursCard .socialLink.facebook {
+  background: linear-gradient(135deg, #1877f2 0%, #4267b2 100%);
+  color: white;
+}
+
+.workingHoursCard .socialLink.facebook:hover {
+  background: linear-gradient(135deg, #166fe5 0%, #365899 100%);
+  box-shadow: 0 8px 25px rgba(24, 119, 242, 0.4);
+}
+
+.workingHoursCard .socialLink.instagram {
+  background: linear-gradient(135deg, #e4405f 0%, #c13584 100%);
+  color: white;
+}
+
+.workingHoursCard .socialLink.instagram:hover {
+  background: linear-gradient(135deg, #d63384 0%, #a02d6b 100%);
+  box-shadow: 0 8px 25px rgba(228, 64, 95, 0.4);
+}
+
+.workingHoursCard .socialLink.youtube {
+  background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
+  color: white;
+}
+
+.workingHoursCard .socialLink.youtube:hover {
+  background: linear-gradient(135deg, #e60000 0%, #b30000 100%);
+  box-shadow: 0 8px 25px rgba(255, 0, 0, 0.4);
+}
+
+.workingHoursCard .socialIcon {
+  font-size: 1.3rem;
+}
+
+.workingHoursCard .socialName {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.helpMethods {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.helpMethod {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border-right: 4px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.helpMethod:hover {
+  background: #f0f9ff;
+  border-right-color: #3b82f6;
+  transform: translateX(5px);
+}
+
+.methodIcon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.methodText {
+  font-weight: 600;
+  color: #374151;
+  font-size: 0.95rem;
+}
+
+.contactButtonsRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.contactMethodBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0.5rem;
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
+}
+
+.contactMethodBtn.whatsapp {
+  background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+}
+
+.contactMethodBtn.email {
+  background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.3);
+}
+
+.contactMethodBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* All Maps Section */
@@ -649,13 +1017,13 @@
 }
 
 .contactItem {
-  display: flex;
+  /* display: flex;
   align-items: flex-start;
   margin-bottom: 2rem;
   padding: 1.5rem;
   background: white;
   border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
 }
 
 .contactIcon {
@@ -796,32 +1164,128 @@
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
 }
 
+/* Social Media Section */
+.socialSection {
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+}
+
+.socialGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.followCard {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.followTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.socialLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  min-width: 80px;
+}
+
+.socialLink:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.socialLink.instagram:hover {
+  border-color: #e4405f;
+  box-shadow: 0 10px 25px rgba(228, 64, 95, 0.3);
+}
+
+.socialLink.youtube:hover {
+  border-color: #ff0000;
+  box-shadow: 0 10px 25px rgba(255, 0, 0, 0.3);
+}
+
+.socialLink.facebook:hover {
+  border-color: #1877f2;
+  box-shadow: 0 10px 25px rgba(24, 119, 242, 0.3);
+}
+
+.socialIcon {
+  font-size: 1.5rem;
+}
+
+.socialName {
+  font-size: 0.8rem;
+}
+
 /* Emergency Section */
 .emergencySection {
   padding: 3rem 0;
-  background: linear-gradient(135deg, #dc3545 0%, #ff6b6b 100%);
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
 }
 
 .emergencyCard {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(220, 38, 38, 0.1);
+  backdrop-filter: blur(10px);
   padding: 2rem;
   border-radius: 20px;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(220, 38, 38, 0.3);
   text-align: center;
   color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.emergencyCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #dc2626 0%, #ef4444 100%);
 }
 
 .emergencyTitle {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: #fef2f2;
 }
 
 .emergencyText {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
-  color: #ffe6e6;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
 }
 
 .emergencyPhone {
@@ -832,14 +1296,33 @@
   direction: ltr;
   display: inline-block;
   padding: 1rem 2rem;
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 15px;
+  background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+  border-radius: 50px;
   transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(220, 38, 38, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 1rem;
 }
 
 .emergencyPhone:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, #b91c1c 0%, #dc2626 100%);
   transform: scale(1.05);
+  box-shadow: 0 12px 35px rgba(220, 38, 38, 0.6);
+}
+
+.emergencyNote {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.emergencyNote p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
 }
 
 /* Responsive Design */
@@ -847,133 +1330,166 @@
   .heroSection {
     min-height: 60vh;
   }
-  
+
   .heroContent {
     grid-template-columns: 1fr;
     gap: var(--spacing-2xl);
     text-align: center;
   }
-  
+
   .heroImage {
     order: -1;
   }
-  
+
   .heroTitle {
     font-size: var(--font-size-3xl);
   }
-  
+
   .heroSubtitle {
     font-size: var(--font-size-lg);
   }
-  
+
   .heroDescription {
     font-size: var(--font-size-md);
   }
-  
+
   .heroStats {
     justify-content: center;
   }
-  
+
   .heroButtons {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .heroBtn {
     width: 100%;
     max-width: 300px;
     justify-content: center;
   }
-  
+
   .doctorCard {
     max-width: 300px;
     margin: 0 auto;
   }
-  
+
   .sectionTitle {
     font-size: 2.2rem;
   }
-  
-  .clinicsGrid {
+
+  /* Clinic Cards - Mobile */
+  .clinicsMainGrid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .clinicCard {
-    padding: 1.5rem;
+    max-width: 100%;
+    margin: 0 auto;
   }
-  
-  .clinicHeader {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
-  }
-  
+
   .clinicTitle {
     font-size: 1.3rem;
   }
-  
-  .clinicActions {
-    flex-direction: column;
+
+  .clinicInfo {
+    padding: 1.25rem;
   }
-  
+
+  .contactItem {
+    padding: 0.5rem 0;
+  }
+
+  /* Help Section - Mobile */
+  .helpGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .workingHoursCard,
+  .helpMethodsCard {
+    padding: 1.5rem;
+  }
+
+  .contactButtonsRow {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* Social Section - Mobile */
+  .socialGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .socialLinks {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .socialLink {
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+
   .contactGrid {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .formRow {
     grid-template-columns: 1fr;
   }
-  
+
   .container {
     padding: 0 1rem;
   }
-  
+
   .contactInfo,
   .contactForm {
     padding: 2rem;
   }
-  
+
   .contactItem {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .contactIcon {
     margin-left: 0;
     margin-bottom: 0.5rem;
   }
-  
+
   .contactActions {
     justify-content: center;
   }
-  
+
   .emergencyPhone {
     font-size: 1.5rem;
   }
-  
+
   .allMapsSection {
     padding: var(--spacing-lg);
   }
-  
+
   .mapsGrid {
     grid-template-columns: 1fr;
     gap: var(--spacing-lg);
   }
-  
+
   .mapCard {
     padding: var(--spacing-md);
   }
-  
+
   .mapCardActions {
     flex-direction: column;
   }
-  
+
   .selectedMapSection {
     padding: var(--spacing-lg);
   }
-  
+
   .mapActions {
     flex-direction: column;
     align-items: center;
@@ -984,84 +1500,181 @@
   .heroSection {
     min-height: 80vh;
   }
-  
+
   .heroTitle {
     font-size: var(--font-size-2xl);
   }
-  
+
   .heroSubtitle {
     font-size: var(--font-size-lg);
   }
-  
+
   .heroStats {
     gap: var(--spacing-lg);
   }
-  
+
   .statNumber {
     font-size: var(--font-size-xl);
   }
-  
+
   .doctorCard {
     padding: var(--spacing-lg);
   }
-  
+
   .doctorAvatar {
     width: 100px;
     height: 100px;
   }
-  
+
   .heroDescription {
     font-size: var(--font-size-base);
   }
-  
+
   .sectionTitle {
     font-size: 1.8rem;
   }
-  
+
+  /* Clinic Cards - Extra Small Mobile */
   .clinicCard {
+    max-width: 100%;
+  }
+
+  .clinicTitle {
+    font-size: 1.2rem;
+  }
+
+  .clinicInfo {
     padding: 1rem;
   }
-  
-  .clinicTitle {
-    font-size: 1.1rem;
+
+  .contactItem {
+    gap: 0.5rem;
+    padding: 0.4rem 0;
   }
-  
-  .clinicBadge {
-    font-size: 0.75rem;
-    padding: 0.25rem 0.75rem;
+
+  .locationIcon,
+  .emailIcon,
+  .phoneIcon {
+    font-size: 1rem;
   }
-  
-  .infoItem {
+
+  .contactText {
+    font-size: 0.9rem;
+  }
+
+  /* Working Hours Card Social Links - Extra Small Mobile */
+  .workingHoursCard .socialLinks {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .workingHoursCard .socialLink {
+    flex-direction: row;
+    justify-content: center;
+    min-width: auto;
+    width: 100%;
+    max-width: 200px;
+    padding: 0.75rem 1rem;
+  }
+
+  .workingHoursCard .socialIcon {
+    font-size: 1rem;
+  }
+
+  /* Help Section - Extra Small Mobile */
+  .workingHoursCard,
+  .helpMethodsCard {
+    padding: 1rem;
+  }
+
+  .cardTitle {
+    font-size: 1.2rem;
+  }
+
+  .scheduleItem {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .helpMethod {
     flex-direction: column;
     text-align: center;
-    gap: 0.5rem;
+    gap: 0.75rem;
   }
-  
-  .actionBtn {
-    font-size: 0.8rem;
-    padding: 0.5rem 0.75rem;
+
+  .methodIcon {
+    font-size: 1.2rem;
   }
-  
+
+  .methodText {
+    font-size: 0.85rem;
+  }
+
+  .contactMethodBtn {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  /* Working Hours Card Social Links - Mobile */
+  .workingHoursCard .socialLinks {
+    flex-direction: row;
+    gap: 0.75rem;
+  }
+
+  .workingHoursCard .socialLink {
+    min-width: 70px;
+    padding: 0.75rem 0.5rem;
+  }
+
+  .workingHoursCard .socialIcon {
+    font-size: 1.1rem;
+  }
+
+  .workingHoursCard .socialName {
+    font-size: 0.7rem;
+  }
+
+  /* Social Section - Extra Small Mobile */
+  .followCard,
+  .emergencyCard {
+    padding: 1.5rem;
+  }
+
+  .socialLinks {
+    gap: 0.75rem;
+  }
+
+  .socialLink {
+    padding: 0.75rem 1.5rem;
+  }
+
+  .emergencyPhone {
+    font-size: 1.3rem;
+    padding: 0.75rem 1.5rem;
+  }
+
   .contactActions {
     flex-direction: column;
   }
-  
+
   .contactBtn {
     text-align: center;
   }
-  
+
   .allMapsTitle {
     font-size: var(--font-size-2xl);
   }
-  
+
   .mapsGrid {
     grid-template-columns: 1fr;
   }
-  
+
   .mapCardTitle {
     font-size: var(--font-size-lg);
   }
-  
+
   .directionsBtn,
   .callBtn,
   .searchBtn {
