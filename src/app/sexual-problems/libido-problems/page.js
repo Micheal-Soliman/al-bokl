@@ -195,7 +195,7 @@ export default function LibidoProblemsPage() {
               <div className={styles.breadcrumb}>
                 <Link href="/">الرئيسية</Link>
                 <span>/</span>
-                <Link href="/fertility">المشاكل الجنسيه</Link>
+                <Link href="/sexual-problems">المشاكل الجنسيه</Link>
                 <span>/</span>
                 <span>المشاكل الجنسيه</span>
               </div>
