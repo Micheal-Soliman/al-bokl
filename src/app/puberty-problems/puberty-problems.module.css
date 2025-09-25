@@ -774,6 +774,512 @@
   font-size: 0.9rem;
 }
 
+/* Puberty Types Styles */
+.pubertyTypesContainer {
+  margin-top: 3rem;
+}
+
+.pubertyType {
+  margin-bottom: 4rem;
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 2px solid #e2e8f0;
+}
+
+.pubertyTypeHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pubertyTypeNumber {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(45deg, #3b82f6, #1e40af);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.pubertyTypeTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0;
+}
+
+.pubertyTypeSubtitle h4 {
+  font-size: 1.3rem;
+  color: #475569;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.pubertySignsList {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.pubertySignCard {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+}
+
+.pubertySignCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: #3b82f6;
+}
+
+.pubertySignIcon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.pubertySignContent h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+}
+
+.pubertySignContent p {
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.importantNote {
+  background: linear-gradient(135deg, #fef3c7 0%, #fbbf24 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #f59e0b;
+  margin-top: 3rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.importantNoteIcon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.importantNoteContent h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #92400e;
+  margin: 0 0 0.5rem 0;
+}
+
+.importantNoteContent p {
+  color: #78350f;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Monitoring Section Styles */
+.monitoringContent {
+  max-width: none;
+}
+
+.monitoringText {
+  background: #f8fafc;
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  border: 1px solid #e2e8f0;
+}
+
+.monitoringText p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #475569;
+  margin: 0;
+}
+
+.congenitalDefectsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.defectCard {
+  background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #f87171;
+  text-align: center;
+}
+
+.defectIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.defectCard h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #dc2626;
+  margin-bottom: 1rem;
+}
+
+.defectCard p {
+  color: #7f1d1d;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.monitoringTimeline {
+  background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #22c55e;
+  margin-bottom: 2rem;
+}
+
+.monitoringTimeline h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #15803d;
+  margin-bottom: 1rem;
+}
+
+.timelineContent p {
+  color: #166534;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.importantClarification {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #0ea5e9;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.clarificationIcon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.clarificationContent h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0369a1;
+  margin: 0 0 1rem 0;
+}
+
+.clarificationContent p {
+  color: #0c4a6e;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Causes Section Styles */
+.causesSection {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.causesIntro {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.causesIntro p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #475569;
+  margin: 0;
+}
+
+.causesSubtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e293b;
+  text-align: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.causesList {
+  display: grid;
+  gap: 1rem;
+}
+
+.causeItem {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.causeItem:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: #3b82f6;
+}
+
+.causeIcon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.causeItem span {
+  color: #475569;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Obesity Section Styles */
+.obesitySection {
+  padding: 6rem 0;
+  background: white;
+}
+
+.obesityContent {
+  max-width: none;
+}
+
+.obesityIntro {
+  background: #f8fafc;
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  border: 1px solid #e2e8f0;
+}
+
+.obesityIntro p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #475569;
+  margin: 0;
+}
+
+.obesityReasons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.obesityReason {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #e2e8f0;
+}
+
+.obesityReasonHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.obesityReasonNumber {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, #8b5cf6, #7c3aed);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.obesityReason h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.obesityReason p {
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.weightLossWarning {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  padding: 2rem;
+  border-radius: 15px;
+  border: 2px solid #f59e0b;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.warningIcon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.warningContent h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #92400e;
+  margin: 0 0 1rem 0;
+}
+
+.warningContent p {
+  color: #78350f;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Treatment Main Section Styles */
+.treatmentMainSection {
+  padding: 6rem 0;
+  background: #f8fafc;
+}
+
+.treatmentTypes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 3rem;
+}
+
+.treatmentType {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 2px solid #e2e8f0;
+}
+
+.treatmentTypeHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.treatmentTypeIcon {
+  font-size: 2.5rem;
+}
+
+.treatmentType h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+.treatmentTypeContent p {
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Psychological Section Styles */
+.psychologicalSection {
+  padding: 6rem 0;
+  background: white;
+}
+
+.psychologicalContent {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.psychologicalAdvice {
+  background: linear-gradient(135deg, #fef7ed 0%, #fed7aa 100%);
+  padding: 3rem;
+  border-radius: 20px;
+  border: 2px solid #f97316;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.psychologicalIcon {
+  font-size: 3rem;
+  flex-shrink: 0;
+}
+
+.psychologicalText p {
+  color: #9a3412;
+  line-height: 1.8;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+/* Final Message Section Styles */
+.finalMessageSection {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  color: white;
+  text-align: center;
+}
+
+.finalMessageContent h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.finalMessageContent p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactInfo {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contactInfo p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.contactInfo strong {
+  color: #fbbf24;
+  font-size: 1.3rem;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .heroContent {
@@ -989,4 +1495,115 @@
   margin-bottom: var(--spacing-md);
   color: var(--white);
   text-align: center;
+}
+
+/* Additional Responsive Styles for New Sections */
+@media (max-width: 768px) {
+  .pubertyType {
+    padding: 1.5rem;
+  }
+
+  .pubertyTypeHeader {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .pubertyTypeNumber {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+
+  .pubertyTypeTitle {
+    font-size: 1.5rem;
+  }
+
+  .pubertySignCard {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .pubertySignIcon {
+    font-size: 2.5rem;
+  }
+
+  .congenitalDefectsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .importantNote,
+  .importantClarification,
+  .psychologicalAdvice,
+  .weightLossWarning {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+
+  .obesityReasons {
+    grid-template-columns: 1fr;
+  }
+
+  .treatmentTypes {
+    grid-template-columns: 1fr;
+  }
+
+  .obesityReasonHeader {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .finalMessageContent h2 {
+    font-size: 2rem;
+  }
+
+  .finalMessageContent p {
+    font-size: 1.1rem;
+  }
+
+  .causeItem {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+
+  .causeIcon {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pubertyTypeTitle {
+    font-size: 1.3rem;
+  }
+
+  .pubertyTypeSubtitle h4 {
+    font-size: 1.1rem;
+  }
+
+  .importantNote,
+  .importantClarification,
+  .psychologicalAdvice,
+  .weightLossWarning {
+    padding: 1rem;
+  }
+
+  .finalMessageContent h2 {
+    font-size: 1.8rem;
+  }
+
+  .contactInfo {
+    padding: 1rem;
+  }
+
+  .defectCard,
+  .treatmentType {
+    padding: 1.5rem;
+  }
 }
