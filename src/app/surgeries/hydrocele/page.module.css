@@ -1,28 +1,45 @@
-/* Hydrocele Surgery Page Styles */
-
-/* Container */
-.container {
-  min-height: 100vh;
-  background: var(--gradient-bg-primary);
-  direction: rtl;
-  font-family: 'Cairo', sans-serif;
+/* Video Styles */
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
 }
 
-.content {
+.videoWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 30.25%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  background: #000;
+}
+
+/* Main Container */
+.conditionPage {
+  min-height: 100vh;
+  direction: rtl;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: var(--spacing-lg);
+  padding: 0 1rem;
 }
 
 /* Hero Section */
 .heroSection {
-  background: linear-gradient(135deg, var(--blue-800) 0%, var(--blue-600) 30%, var(--blue-500) 70%, var(--yellow-400) 100%);
-  color: var(--white);
-  padding: var(--spacing-3xl) var(--spacing-lg);
-  border-radius: var(--radius-3xl);
-  margin-bottom: var(--spacing-xl);
-  text-align: center;
-  box-shadow: var(--shadow-blue);
+  background: linear-gradient(135deg, #3182ce 0%, #2c5aa0 50%, #2a4d8d 100%);
+  color: white;
+  padding: 4rem 0 3rem;
   position: relative;
   overflow: hidden;
 }
@@ -36,46 +53,80 @@
   bottom: 0;
   background: url('/images/medical-pattern.svg') repeat;
   opacity: 0.1;
-  z-index: 1;
+  pointer-events: none;
 }
 
-.heroContent {
+.heroGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
   position: relative;
   z-index: 2;
 }
 
-.heroTitle {
-  font-size: var(--font-size-5xl);
-  font-weight: 700;
-  margin-bottom: var(--spacing-md);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  line-height: var(--line-height-tight);
+.heroImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.heroSubtitle {
-  font-size: var(--font-size-2xl);
-  margin-bottom: var(--spacing-md);
-  opacity: 0.95;
-  font-weight: 500;
+.heroImage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
 }
 
-.heroDescription {
-  font-size: var(--font-size-xl);
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: var(--line-height-relaxed);
-  opacity: 0.9;
+.heroImage img:hover {
+  transform: scale(1.02);
+}
+
+/* Main Content */
+.content {
+  padding: 3rem 0;
+  background: #ffffff;
+}
+
+/* Section Styling */
+.definitionSection,
+.causesSection,
+.symptomsSection,
+.treatmentSection,
+.complicationsSection,
+.diagnosticSection {
+  margin: 3rem 0;
+  padding: 2.5rem;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.definitionSection:hover,
+.causesSection:hover,
+.symptomsSection:hover,
+.treatmentSection:hover,
+.complicationsSection:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
 /* Section Titles */
 .sectionTitle {
-  font-size: var(--font-size-4xl);
+  font-size: 2rem;
   font-weight: 700;
-  color: var(--blue-800);
-  margin-bottom: var(--spacing-xl);
+  color: #1a202c;
+  margin-bottom: 2rem;
   text-align: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #3182ce 0%, #2c5aa0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: relative;
-  line-height: var(--line-height-tight);
 }
 
 .sectionTitle::after {
@@ -84,481 +135,294 @@
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
-  width: 80px;
+  width: 60px;
   height: 4px;
-  background: var(--gradient-secondary);
-  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, #3182ce 0%, #2c5aa0 100%);
+  border-radius: 2px;
 }
 
-/* Cards */
-.card {
-  background: var(--white);
-  padding: var(--spacing-xl);
-  border-radius: var(--radius-2xl);
-  margin-bottom: var(--spacing-xl);
-  box-shadow: var(--shadow-lg);
-  transition: var(--transition-normal);
-  border: 1px solid var(--gray-100);
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-xl);
-}
-
-/* Introduction Section */
-.introSection {
-  background: linear-gradient(135deg, var(--blue-50) 0%, var(--white) 50%, var(--yellow-50) 100%);
-  border: 2px solid var(--blue-200);
-  padding: var(--spacing-xl);
-  border-radius: var(--radius-2xl);
-  margin-bottom: var(--spacing-xl);
-  box-shadow: var(--shadow-lg);
-}
-
-.introContent {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.introText {
-  font-size: var(--font-size-xl);
-  line-height: var(--line-height-relaxed);
-  color: var(--gray-700);
-  margin-bottom: var(--spacing-md);
-  text-align: justify;
-}
-
-/* Testicular Changes Section */
-.testicularChangesSection {
-  margin-bottom: var(--spacing-xl);
-}
-
-.changesGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--spacing-lg);
-  margin-bottom: var(--spacing-xl);
-}
-
-.changeCard {
-  background: linear-gradient(135deg, var(--yellow-50) 0%, var(--white) 50%, var(--blue-50) 100%);
-  border: 2px solid var(--yellow-200);
-  padding: var(--spacing-xl);
-  border-radius: var(--radius-2xl);
-  box-shadow: var(--shadow-lg);
-  transition: var(--transition-normal);
-}
-
-.changeCard:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-xl);
-}
-
-.changeTitle {
-  font-size: var(--font-size-xl);
-  font-weight: 600;
-  color: var(--blue-800);
-  margin-bottom: var(--spacing-sm);
-  text-align: center;
-}
-
-.changesList {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-md);
-}
-
-.changeItem {
-  display: flex;
-  align-items: flex-start;
-  gap: var(--spacing-md);
-  padding: var(--spacing-md);
-  background: var(--white);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-  transition: var(--transition-fast);
-  border-left: 4px solid var(--yellow-400);
-}
-
-.changeItem:hover {
-  background: linear-gradient(135deg, var(--yellow-100) 0%, var(--blue-50) 100%);
-  box-shadow: var(--shadow-md);
-  transform: translateX(-5px);
-}
-
-.changeIcon {
-  font-size: var(--font-size-2xl);
-  min-width: 3rem;
-  text-align: center;
-  background: var(--gradient-secondary);
-  color: var(--white);
-  border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow-yellow);
-}
-
-.changeItem p {
-  margin: 0;
-  font-size: var(--font-size-lg);
-  line-height: var(--line-height-normal);
-  color: var(--gray-700);
-}
-
-/* Definition Section */
+/* Definition Section Specific */
 .definitionSection {
-  background: var(--gradient-card-2);
-  border: 2px solid var(--blue-200);
-  border-radius: var(--radius-2xl);
-  padding: var(--spacing-xl);
-  margin: var(--spacing-xl) 0;
-  box-shadow: var(--shadow-lg);
+  /* background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%); */
+  /* border-left: 5px solid #3182ce; */
 }
 
 .definitionContent {
-  max-width: 900px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .definitionText {
-  font-size: var(--font-size-xl);
-  line-height: var(--line-height-relaxed);
-  color: var(--gray-800);
-  margin-bottom: var(--spacing-md);
-  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 /* Causes Section */
 .causesSection {
-  margin-bottom: var(--spacing-xl);
+  /* background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%);
+  border-left: 5px solid #48bb78; */
 }
 
 .causesList {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-md);
-  margin-top: var(--spacing-lg);
+  display: grid;
+  gap: 1.5rem;
 }
 
 .causeItem {
-  background: var(--white);
-  padding: var(--spacing-xl);
-  border-radius: var(--radius-2xl);
-  margin-bottom: var(--spacing-xl);
-  box-shadow: var(--shadow-lg);
-  transition: var(--transition-normal);
-  border: 1px solid var(--gray-100);
   display: flex;
   align-items: flex-start;
-  gap: var(--spacing-lg);
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-left: 4px solid #48bb78;
 }
 
 .causeItem:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-xl);
+  transform: translateX(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .causeNumber {
-  background: var(--gradient-primary);
-  color: var(--white);
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: var(--font-size-xl);
-  font-weight: 700;
-  flex-shrink: 0;
-  box-shadow: var(--shadow-blue);
-}
-
-.causeContent {
-  flex: 1;
-}
-
-.causeContent h3 {
-  font-size: var(--font-size-xl);
-  font-weight: 600;
-  color: var(--blue-800);
-  margin-bottom: var(--spacing-xs);
-  line-height: var(--line-height-snug);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #48bb78;
+  min-width: 2rem;
 }
 
 .causeContent p {
-  font-size: var(--font-size-lg);
-  line-height: var(--line-height-relaxed);
-  color: var(--gray-700);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #2d3748;
   margin: 0;
 }
 
 /* Symptoms Section */
 .symptomsSection {
-  background: linear-gradient(135deg, var(--yellow-100) 0%, var(--yellow-50) 100%);
-  padding: var(--spacing-xl);
-  border-radius: var(--radius-2xl);
-  margin-bottom: var(--spacing-xl);
-  border: 2px solid var(--yellow-200);
+  /* background: linear-gradient(135deg, #fffaf0 0%, #fbd38d 100%);
+  border-left: 5px solid #ed8936; */
 }
 
 .symptomsList {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--spacing-lg);
-  margin-top: var(--spacing-lg);
+  gap: 1.5rem;
 }
 
 .symptomItem {
-  background: var(--white);
-  padding: var(--spacing-xl);
-  border-radius: var(--radius-2xl);
-  box-shadow: var(--shadow-lg);
-  transition: var(--transition-normal);
   display: flex;
   align-items: flex-start;
-  gap: var(--spacing-md);
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-left: 4px solid #ed8936;
 }
 
 .symptomItem:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-xl);
+  transform: translateX(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .symptomIcon {
-  font-size: var(--font-size-2xl);
-  min-width: 3rem;
-  text-align: center;
-  background: var(--gradient-secondary);
-  color: var(--white);
-  border-radius: 50%;
-  width: 3rem;
-  height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: var(--shadow-yellow);
-}
-
-.symptomContent {
-  flex: 1;
-}
-
-.symptomContent h3 {
-  font-size: var(--font-size-xl);
-  font-weight: 600;
-  color: var(--yellow-800);
-  margin-bottom: var(--spacing-xs);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ed8936;
+  min-width: 2rem;
 }
 
 .symptomContent p {
-  font-size: var(--font-size-lg);
-  line-height: var(--line-height-relaxed);
-  color: var(--gray-700);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #2d3748;
   margin: 0;
+}
+
+/* Diagnostic Section */
+.diagnosticSection {
+  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  border-left: 5px solid #718096;
+  text-align: center;
+}
+
+.diagnosticContent {
+  padding: 2rem;
+}
+
+.diagnosticText {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4a5568;
+  line-height: 1.6;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 /* Treatment Section */
 .treatmentSection {
-  margin-bottom: var(--spacing-xl);
+  /* background: linear-gradient(135deg, #f0f9ff 0%, #bfdbfe 100%);
+  border-left: 5px solid #3182ce; */
 }
 
 .treatmentContent {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: var(--spacing-lg);
-  margin-top: var(--spacing-lg);
-}
-
-.diagnosisCard {
-  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
-  border: 2px solid #86efac;
-  border-radius: var(--radius-2xl);
-  padding: var(--spacing-xl);
-  margin: var(--spacing-xl) 0;
-  box-shadow: var(--shadow-lg);
-}
-
-.surgeryCard {
-  background: linear-gradient(135deg, var(--blue-50) 0%, var(--white) 50%, var(--yellow-50) 100%);
-  border: 2px solid var(--blue-300);
-  padding: var(--spacing-xl);
-  border-radius: var(--radius-2xl);
-  box-shadow: var(--shadow-lg);
-}
-
-.treatmentTitle {
-  font-size: var(--font-size-2xl);
-  font-weight: 600;
-  color: var(--blue-800);
-  margin-bottom: var(--spacing-md);
   text-align: center;
 }
 
-.surgeryDescription {
-  font-size: var(--font-size-xl);
-  line-height: var(--line-height-relaxed);
-  color: var(--gray-700);
-  margin-bottom: var(--spacing-lg);
-  text-align: center;
+.treatmentIntro {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #2d3748;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .surgeryBenefits {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: var(--spacing-md);
-  margin-bottom: var(--spacing-lg);
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 .benefitItem {
   display: flex;
-  align-items: flex-start;
-  gap: var(--spacing-md);
-  padding: var(--spacing-md);
-  background: var(--white);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-  transition: var(--transition-fast);
-  border-left: 4px solid var(--yellow-400);
-  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-left: 4px solid #3182ce;
 }
 
 .benefitItem:hover {
-  background: linear-gradient(135deg, var(--yellow-100) 0%, var(--blue-50) 100%);
-  box-shadow: var(--shadow-md);
+  transform: translateX(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 .benefitIcon {
-  font-size: var(--font-size-xl);
-  min-width: 2rem;
+  font-size: 1.3rem;
+  color: #3182ce;
+  font-weight: bold;
+  min-width: 1.5rem;
 }
 
 .benefitItem p {
-  font-size: var(--font-size-lg);
-  line-height: var(--line-height-normal);
-  color: var(--gray-600);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #2d3748;
   margin: 0;
 }
 
-.drainageNote {
-  background: var(--yellow-100);
-  padding: var(--spacing-md);
-  border-radius: var(--radius-lg);
-  border-right: 4px solid var(--yellow-500);
+.videoReference {
+  margin-top: 2rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, #e6fffa 0%, #81e6d9 100%);
+  border-radius: 15px;
+  border-left: 4px solid #38b2ac;
 }
 
-.drainageNote h4 {
-  font-size: var(--font-size-xl);
-  font-weight: 600;
-  color: var(--yellow-800);
-  margin-bottom: var(--spacing-xs);
-}
-
-.drainageNote p {
-  font-size: var(--font-size-lg);
-  line-height: var(--line-height-normal);
-  color: var(--gray-700);
+.videoText {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #2d3748;
+  font-weight: 500;
   margin: 0;
 }
 
 /* Complications Section */
 .complicationsSection {
-  background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
-  border: 2px solid #ef4444;
-  border-radius: var(--radius-2xl);
-  padding: var(--spacing-xl);
-  margin: var(--spacing-xl) 0;
-  box-shadow: var(--shadow-lg);
+  /* background: linear-gradient(135deg, #fef5e7 0%, #fbb6ce 100%);
+  border-left: 5px solid #e53e3e; */
 }
 
 .complicationsContent {
-  max-width: 900px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .complicationsText {
-  font-size: var(--font-size-xl);
-  line-height: var(--line-height-relaxed);
-  color: var(--gray-700);
-  margin-bottom: var(--spacing-md);
-  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #2d3748;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .content {
-    padding: var(--spacing-sm);
+  .container {
+    padding: 0 0.5rem;
   }
 
   .heroSection {
-    padding: var(--spacing-xl) var(--spacing-md);
+    padding: 2rem 0 1.5rem;
   }
 
-  .heroTitle {
-    font-size: var(--font-size-3xl);
+  .content {
+    padding: 2rem 0;
   }
 
-  .heroSubtitle {
-    font-size: var(--font-size-xl);
-  }
-
-  .heroDescription {
-    font-size: var(--font-size-lg);
+  .definitionSection,
+  .causesSection,
+  .symptomsSection,
+  .treatmentSection,
+  .complicationsSection,
+  .diagnosticSection {
+    margin: 2rem 0;
+    padding: 1.5rem;
   }
 
   .sectionTitle {
-    font-size: var(--font-size-3xl);
+    font-size: 1.5rem;
   }
 
-  .changesGrid,
-  .symptomsList,
-  .treatmentContent {
-    grid-template-columns: 1fr;
-  }
-
-  .causeItem {
-    flex-direction: column;
-    text-align: center;
-    gap: var(--spacing-sm);
-  }
-
-  .surgeryBenefits {
-    grid-template-columns: 1fr;
-  }
-
+  .causeItem,
+  .symptomItem,
   .benefitItem {
-    justify-content: center;
+    padding: 1rem;
+  }
+
+  .definitionText,
+  .treatmentIntro,
+  .complicationsText {
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 480px) {
-  .heroSection {
-    padding: var(--spacing-lg) var(--spacing-sm);
-  }
 
-  .heroTitle {
-    font-size: var(--font-size-2xl);
-  }
-
-  .heroSubtitle {
-    font-size: var(--font-size-lg);
-  }
-
-  .heroDescription {
-    font-size: var(--font-size-base);
+  .definitionSection,
+  .causesSection,
+  .symptomsSection,
+  .treatmentSection,
+  .complicationsSection,
+  .diagnosticSection {
+    margin: 1.5rem 0;
+    padding: 1rem;
   }
 
   .sectionTitle {
-    font-size: var(--font-size-2xl);
+    font-size: 1.3rem;
   }
 
-  .card,
-  .changeCard,
-  .diagnosisCard,
-  .surgeryCard {
-    padding: var(--spacing-md);
+  .causeItem,
+  .symptomItem {
+    flex-direction: column;
+    text-align: center;
   }
 }
