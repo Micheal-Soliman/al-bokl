@@ -2,12 +2,12 @@
 .medicalStats {
   position: relative;
   padding: 4rem 0;
-  background: 
-    linear-gradient(135deg, 
-      rgba(15, 23, 42, 0.95) 0%, 
-      rgba(30, 41, 59, 0.9) 25%, 
-      rgba(51, 65, 85, 0.85) 50%, 
-      rgba(71, 85, 105, 0.9) 75%, 
+  background:
+    linear-gradient(135deg,
+      rgba(15, 23, 42, 0.95) 0%,
+      rgba(30, 41, 59, 0.9) 25%,
+      rgba(51, 65, 85, 0.85) 50%,
+      rgba(71, 85, 105, 0.9) 75%,
       rgba(100, 116, 139, 0.95) 100%),
     radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.3) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(251, 191, 36, 0.2) 0%, transparent 50%),
@@ -33,18 +33,18 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: 
-    linear-gradient(135deg, 
-      rgba(30, 64, 175, 0.7) 0%, 
+  background:
+    linear-gradient(135deg,
+      rgba(30, 64, 175, 0.7) 0%,
       rgba(59, 130, 246, 0.5) 25%,
       rgba(16, 185, 129, 0.3) 50%,
       rgba(251, 191, 36, 0.2) 75%,
       rgba(29, 78, 216, 0.6) 100%),
-    linear-gradient(45deg, 
-      transparent 0%, 
-      rgba(255, 255, 255, 0.05) 25%, 
-      transparent 50%, 
-      rgba(255, 255, 255, 0.03) 75%, 
+    linear-gradient(45deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.05) 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.03) 75%,
       transparent 100%);
   background-size: 100% 100%, 200px 200px;
   z-index: 1;
@@ -82,15 +82,15 @@
   width: 100%;
   margin: 0 auto;
   padding: 2.5rem 2rem;
-  background: linear-gradient(135deg, 
-    rgba(255, 255, 255, 0.15) 0%,
-    rgba(255, 255, 255, 0.08) 50%,
-    rgba(255, 255, 255, 0.12) 100%);
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(255, 255, 255, 0.08) 50%,
+      rgba(255, 255, 255, 0.12) 100%);
   backdrop-filter: blur(25px);
   border-radius: 30px;
   border: 3px solid transparent;
   background-clip: padding-box;
-  box-shadow: 
+  box-shadow:
     0 25px 80px rgba(0, 0, 0, 0.4),
     inset 0 1px 0 rgba(255, 255, 255, 0.3),
     0 0 0 1px rgba(255, 255, 255, 0.2);
@@ -105,12 +105,12 @@
   margin: 0 0 1.5rem 0;
   line-height: 1.2;
   text-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-  background: linear-gradient(135deg, 
-    var(--yellow-300) 0%,
-    var(--yellow-400) 25%,
-    #ffffff 50%,
-    var(--yellow-200) 75%,
-    var(--yellow-400) 100%);
+  background: linear-gradient(135deg,
+      var(--yellow-300) 0%,
+      var(--yellow-400) 25%,
+      #ffffff 50%,
+      var(--yellow-200) 75%,
+      var(--yellow-400) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -146,7 +146,7 @@
   .statsRow {
     padding-bottom: 2rem;
   }
-  
+
   .statsGrid::after {
     content: '← اسحب لرؤية المزيد →';
     position: absolute;
@@ -171,8 +171,15 @@
 }
 
 @keyframes fadeInOut {
-  0%, 100% { opacity: 0; }
-  50% { opacity: 1; }
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
 }
 
 /* Container responsive padding */
@@ -222,11 +229,11 @@
   .mainTitle {
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
   }
-  
+
   .description {
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   }
-  
+
   .statLabel {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
   }
@@ -262,7 +269,7 @@
     scroll-snap-type: x mandatory;
     gap: 1rem;
   }
-  
+
   .statCard {
     scroll-snap-align: center;
     flex-shrink: 0;
@@ -271,16 +278,16 @@
 
 .statCard {
   background: linear-gradient(135deg,
-    rgba(255, 255, 255, 0.25) 0%,
-    rgba(255, 255, 255, 0.15) 50%,
-    rgba(255, 255, 255, 0.2) 100%);
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(255, 255, 255, 0.15) 50%,
+      rgba(255, 255, 255, 0.2) 100%);
   backdrop-filter: blur(30px);
   border: 3px solid transparent;
   border-radius: 25px;
   padding: 2rem 1.5rem;
   text-align: center;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: 
+  box-shadow:
     0 20px 60px rgba(0, 0, 0, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.4),
     0 0 0 1px rgba(255, 255, 255, 0.2);
@@ -304,10 +311,10 @@
 .statCard:hover {
   transform: translateY(-10px) scale(1.05) rotateY(5deg);
   background: linear-gradient(135deg,
-    rgba(251, 191, 36, 0.3) 0%,
-    rgba(255, 255, 255, 0.25) 50%,
-    rgba(59, 130, 246, 0.2) 100%);
-  box-shadow: 
+      rgba(251, 191, 36, 0.3) 0%,
+      rgba(255, 255, 255, 0.25) 50%,
+      rgba(59, 130, 246, 0.2) 100%);
+  box-shadow:
     0 30px 80px rgba(0, 0, 0, 0.4),
     0 0 40px rgba(251, 191, 36, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.5);
@@ -316,12 +323,12 @@
 
 .statCard:hover .statIcon {
   transform: scale(1.3) rotate(360deg);
-  background: linear-gradient(135deg, 
-    var(--yellow-400), 
-    var(--yellow-500), 
-    var(--yellow-600));
+  background: linear-gradient(135deg,
+      var(--yellow-400),
+      var(--yellow-500),
+      var(--yellow-600));
   border-color: rgba(251, 191, 36, 0.8);
-  box-shadow: 
+  box-shadow:
     0 8px 25px rgba(251, 191, 36, 0.6),
     0 0 40px rgba(251, 191, 36, 0.4),
     inset 0 2px 0 rgba(255, 255, 255, 0.3);
@@ -357,12 +364,12 @@
   font-weight: 900;
   text-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
   margin: 0.5rem 0;
-  background: linear-gradient(135deg, 
-    var(--yellow-300) 0%,
-    var(--yellow-400) 25%,
-    var(--yellow-200) 50%,
-    var(--yellow-500) 75%,
-    var(--yellow-300) 100%);
+  background: linear-gradient(135deg,
+      var(--yellow-300) 0%,
+      var(--yellow-400) 25%,
+      var(--yellow-200) 50%,
+      var(--yellow-500) 75%,
+      var(--yellow-300) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -379,16 +386,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, 
-    var(--blue-500) 0%,
-    var(--blue-600) 50%,
-    var(--blue-700) 100%);
+  background: linear-gradient(135deg,
+      var(--blue-500) 0%,
+      var(--blue-600) 50%,
+      var(--blue-700) 100%);
   width: 45px;
   height: 45px;
   border-radius: 50%;
   text-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
   border: 3px solid rgba(59, 130, 246, 0.6);
-  box-shadow: 
+  box-shadow:
     0 6px 20px rgba(59, 130, 246, 0.4),
     0 0 30px rgba(59, 130, 246, 0.2);
   font-weight: 900;
@@ -404,9 +411,9 @@
   text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
   margin-top: 0.5rem;
   text-align: center;
-  background: linear-gradient(135deg, 
-    rgba(255, 255, 255, 0.9) 0%,
-    rgba(255, 255, 255, 0.7) 100%);
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.9) 0%,
+      rgba(255, 255, 255, 0.7) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -429,11 +436,11 @@
   .decorativeElements {
     opacity: 0.3;
   }
-  
+
   .decorativeElements::before {
     opacity: 0.5;
   }
-  
+
   .decorativeElements::after {
     opacity: 0.3;
   }
@@ -452,7 +459,7 @@
   left: -50%;
   width: 200%;
   height: 200%;
-  background: 
+  background:
     radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.1) 0%, transparent 25%),
     radial-gradient(circle at 75% 75%, rgba(251, 191, 36, 0.08) 0%, transparent 25%),
     radial-gradient(circle at 50% 10%, rgba(16, 185, 129, 0.06) 0%, transparent 20%),
@@ -467,7 +474,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: 
+  background:
     linear-gradient(0deg, transparent 0%, rgba(255, 255, 255, 0.02) 50%, transparent 100%),
     linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.02) 50%, transparent 100%);
   background-size: 100px 100px, 100px 100px;
@@ -481,15 +488,15 @@
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background: 
-    radial-gradient(circle, 
-      rgba(16, 185, 129, 0.2) 0%, 
+  background:
+    radial-gradient(circle,
+      rgba(16, 185, 129, 0.2) 0%,
       rgba(245, 158, 11, 0.12) 45%,
       rgba(239, 68, 68, 0.08) 70%,
       transparent 85%);
   animation: pulse 8s ease-in-out infinite;
   filter: blur(1px);
-  box-shadow: 
+  box-shadow:
     0 0 60px rgba(16, 185, 129, 0.08),
     inset 0 0 30px rgba(255, 255, 255, 0.02);
 }
@@ -501,15 +508,15 @@
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background: 
-    radial-gradient(circle, 
-      rgba(251, 191, 36, 0.18) 0%, 
+  background:
+    radial-gradient(circle,
+      rgba(251, 191, 36, 0.18) 0%,
       rgba(16, 185, 129, 0.12) 40%,
       rgba(59, 130, 246, 0.08) 70%,
       transparent 85%);
   animation: float 14s ease-in-out infinite reverse;
   filter: blur(1.5px);
-  box-shadow: 
+  box-shadow:
     0 0 80px rgba(251, 191, 36, 0.1),
     inset 0 0 40px rgba(255, 255, 255, 0.03);
 }
@@ -521,15 +528,15 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  background: 
-    radial-gradient(circle, 
-      rgba(59, 130, 246, 0.2) 0%, 
+  background:
+    radial-gradient(circle,
+      rgba(59, 130, 246, 0.2) 0%,
       rgba(16, 185, 129, 0.15) 30%,
       rgba(251, 191, 36, 0.1) 60%,
       transparent 80%);
   animation: float 12s ease-in-out infinite;
   filter: blur(2px);
-  box-shadow: 
+  box-shadow:
     0 0 100px rgba(59, 130, 246, 0.1),
     inset 0 0 50px rgba(255, 255, 255, 0.05);
 }
@@ -595,6 +602,7 @@
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -606,9 +614,11 @@
     opacity: 0;
     transform: translateY(50px) scale(0.8);
   }
+
   60% {
     transform: translateY(-10px) scale(1.05);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0) scale(1);
@@ -616,27 +626,36 @@
 }
 
 @keyframes floatSlow {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0) rotate(0deg);
   }
+
   50% {
     transform: translateY(-20px) rotate(180deg);
   }
 }
 
 @keyframes floatMedium {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0) scale(1);
   }
+
   50% {
     transform: translateY(-15px) scale(1.1);
   }
 }
 
 @keyframes floatFast {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-25px);
   }
@@ -646,19 +665,24 @@
   0% {
     transform: rotate(45deg) translateY(0);
   }
+
   50% {
     transform: rotate(225deg) translateY(-10px);
   }
+
   100% {
     transform: rotate(405deg) translateY(0);
   }
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.6;
     transform: scale(1);
   }
+
   50% {
     opacity: 1;
     transform: scale(1.1);
@@ -669,43 +693,56 @@
   0% {
     filter: drop-shadow(0 0 5px rgba(16, 185, 129, 0.5));
   }
+
   100% {
     filter: drop-shadow(0 0 20px rgba(16, 185, 129, 0.8));
   }
 }
 
 @keyframes backgroundShift {
-  0%, 100% {
+
+  0%,
+  100% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
 }
 
 @keyframes overlayPulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.8;
   }
+
   50% {
     opacity: 0.6;
   }
 }
 
 @keyframes titleGradient {
-  0%, 100% {
+
+  0%,
+  100% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
 }
 
 @keyframes numberGlow {
-  0%, 100% {
+
+  0%,
+  100% {
     background-position: 0% 50%;
     filter: drop-shadow(0 0 10px rgba(251, 191, 36, 0.3));
   }
+
   50% {
     background-position: 100% 50%;
     filter: drop-shadow(0 0 20px rgba(251, 191, 36, 0.6));
@@ -713,34 +750,43 @@
 }
 
 @keyframes iconPulse {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
-    box-shadow: 
+    box-shadow:
       0 6px 20px rgba(59, 130, 246, 0.4),
       0 0 30px rgba(59, 130, 246, 0.2);
   }
+
   50% {
     transform: scale(1.1);
-    box-shadow: 
+    box-shadow:
       0 8px 25px rgba(59, 130, 246, 0.6),
       0 0 40px rgba(59, 130, 246, 0.4);
   }
 }
 
 @keyframes borderGlow {
-  0%, 100% {
+
+  0%,
+  100% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
 }
 
 @keyframes innerGlow {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 0.3;
     transform: translate(-50%, -50%) scale(1);
   }
+
   50% {
     opacity: 0.6;
     transform: translate(-50%, -50%) scale(1.2);
@@ -748,12 +794,16 @@
 }
 
 @keyframes backgroundFloat {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: rotate(0deg) scale(1);
   }
+
   33% {
     transform: rotate(120deg) scale(1.1);
   }
+
   66% {
     transform: rotate(240deg) scale(0.9);
   }
@@ -763,6 +813,7 @@
   0% {
     transform: translate(0, 0);
   }
+
   100% {
     transform: translate(100px, 100px);
   }
@@ -773,6 +824,7 @@
     opacity: 0;
     transform: scale(0.5);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
@@ -783,12 +835,29 @@
   animation: fadeInUp 0.6s ease-out;
 }
 
-.statCard:nth-child(1) { animation-delay: 0.1s; }
-.statCard:nth-child(2) { animation-delay: 0.2s; }
-.statCard:nth-child(3) { animation-delay: 0.3s; }
-.statCard:nth-child(4) { animation-delay: 0.4s; }
-.statCard:nth-child(5) { animation-delay: 0.5s; }
-.statCard:nth-child(6) { animation-delay: 0.6s; }
+.statCard:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.statCard:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.statCard:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.statCard:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.statCard:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.statCard:nth-child(6) {
+  animation-delay: 0.6s;
+}
 
 .statNumber {
   animation: countUp 0.8s ease-out;
@@ -800,11 +869,11 @@
   .content {
     max-width: 1600px;
   }
-  
+
   .statsRow {
     gap: 3rem;
   }
-  
+
   .statCard {
     min-width: 280px;
     max-width: 320px;
@@ -816,11 +885,11 @@
   .content {
     max-width: 1200px;
   }
-  
+
   .statsRow {
     gap: 2.5rem;
   }
-  
+
   .statCard {
     min-width: 240px;
     max-width: 280px;
@@ -833,23 +902,23 @@
     max-width: 1000px;
     gap: 2.5rem;
   }
-  
+
   .textContent {
     padding: 2rem 1.5rem;
   }
-  
+
   .mainTitle {
     font-size: 2.5rem;
   }
-  
+
   .description {
     font-size: 1.3rem;
   }
-  
+
   .statsRow {
     gap: 2rem;
   }
-  
+
   .statCard {
     min-width: 200px;
     max-width: 240px;
@@ -863,37 +932,37 @@
     gap: 2rem;
     padding: 2rem 1.5rem;
   }
-  
+
   .textContent {
     padding: 1.8rem 1.5rem;
     max-width: 800px;
   }
-  
+
   .mainTitle {
     font-size: 2.2rem;
   }
-  
+
   .description {
     font-size: 1.2rem;
     line-height: 1.8;
   }
-  
+
   .statsGrid {
     gap: 2rem;
   }
-  
+
   .statsRow {
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
   }
-  
+
   .statCard {
     min-width: 180px;
     max-width: 220px;
     flex: 0 1 calc(50% - 0.75rem);
   }
-  
+
   /* Ensure 3 cards fit properly */
   .statsRow:first-child .statCard:nth-child(3) {
     flex: 0 1 100%;
@@ -908,37 +977,37 @@
     padding: 3rem 0;
     background-attachment: scroll;
   }
-  
+
   .content {
     padding: 1.5rem 1rem;
     gap: 2rem;
   }
-  
+
   .textContent {
     padding: 1.5rem 1rem;
     border-radius: 20px;
   }
-  
+
   .mainTitle {
     font-size: 1.8rem;
     line-height: 1.3;
   }
-  
+
   .description {
     font-size: 1.1rem;
     line-height: 1.7;
   }
-  
+
   .statsGrid {
     gap: 1.5rem;
   }
-  
+
   .statsRow {
     flex-direction: column;
     align-items: center;
     gap: 1.2rem;
   }
-  
+
   .statCard {
     min-width: 280px;
     max-width: 320px;
@@ -946,11 +1015,11 @@
     padding: 1.5rem 1rem;
     min-height: 160px;
   }
-  
+
   .statNumber {
     font-size: 2.5rem;
   }
-  
+
   .statLabel {
     font-size: 0.85rem;
   }
@@ -963,53 +1032,53 @@
     padding: 2.5rem 0;
     background-attachment: scroll;
   }
-  
+
   .content {
     padding: 1rem 0.75rem;
     gap: 1.5rem;
   }
-  
+
   .textContent {
     padding: 1.25rem 1rem;
     border-radius: 15px;
   }
-  
+
   .mainTitle {
     font-size: 1.6rem;
     margin-bottom: 1rem;
   }
-  
+
   .description {
     font-size: 1rem;
     line-height: 1.6;
   }
-  
+
   .statsGrid {
     gap: 1.25rem;
   }
-  
+
   .statsRow {
     flex-direction: column;
     gap: 1rem;
   }
-  
+
   .statCard {
     min-width: 260px;
     max-width: 300px;
     padding: 1.25rem 0.75rem;
     min-height: 140px;
   }
-  
+
   .statNumber {
     font-size: 2.2rem;
   }
-  
+
   .statIcon {
     width: 35px;
     height: 35px;
     font-size: 1.2rem;
   }
-  
+
   .statLabel {
     font-size: 0.8rem;
   }
@@ -1022,38 +1091,38 @@
     padding: 2rem 0;
     background-attachment: scroll;
   }
-  
+
   .content {
     padding: 1rem 0.5rem;
     gap: 1.25rem;
   }
-  
+
   .textContent {
     padding: 1rem 0.75rem;
     border-radius: 12px;
   }
-  
+
   .mainTitle {
     font-size: 1.4rem;
     margin-bottom: 0.75rem;
     line-height: 1.4;
   }
-  
+
   .description {
     font-size: 0.9rem;
     line-height: 1.5;
   }
-  
+
   .statsGrid {
     gap: 1rem;
     margin-top: 1.5rem;
   }
-  
+
   .statsRow {
     flex-direction: column;
     gap: 0.8rem;
   }
-  
+
   .statCard {
     min-width: 220px;
     max-width: 280px;
@@ -1061,32 +1130,32 @@
     min-height: 120px;
     margin: 0 auto;
   }
-  
+
   .statNumber {
     font-size: 2rem;
     margin: 0.25rem 0;
   }
-  
+
   .statIcon {
     width: 30px;
     height: 30px;
     font-size: 1rem;
     margin-bottom: 0.25rem;
   }
-  
+
   .statLabel {
     font-size: 0.75rem;
     line-height: 1.2;
     margin-top: 0.25rem;
   }
-  
+
   /* Simplify decorative elements on very small screens */
   .floatingCircle1,
   .floatingCircle2,
   .floatingCircle3 {
     display: none;
   }
-  
+
   .geometricShape1,
   .geometricShape2,
   .medicalCross {
@@ -1099,16 +1168,16 @@
   .statCard:hover {
     transform: translateY(-5px) scale(1.02);
   }
-  
+
   .decorativeElements {
     opacity: 0.5;
   }
-  
+
   /* Reduce animation intensity on mobile */
   .backgroundOverlay {
     animation-duration: 20s;
   }
-  
+
   .floatingCircle1,
   .floatingCircle2,
   .floatingCircle3 {
@@ -1121,11 +1190,11 @@
   .statCard:hover {
     transform: none;
     background: linear-gradient(135deg,
-      rgba(255, 255, 255, 0.25) 0%,
-      rgba(255, 255, 255, 0.15) 50%,
-      rgba(255, 255, 255, 0.2) 100%);
+        rgba(255, 255, 255, 0.25) 0%,
+        rgba(255, 255, 255, 0.15) 50%,
+        rgba(255, 255, 255, 0.2) 100%);
   }
-  
+
   .statCard:active {
     transform: scale(0.98);
   }
@@ -1133,6 +1202,7 @@
 
 /* Accessibility - Reduced motion */
 @media (prefers-reduced-motion: reduce) {
+
   .medicalStats,
   .backgroundOverlay,
   .decorativeElements,
