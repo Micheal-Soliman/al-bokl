@@ -6,6 +6,7 @@ import { NAVIGATION_ITEMS, SITE_CONFIG } from "../utils/constants";
 import styles from "./Navbar.module.css";
 import { FaTiktok, FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 import { IoTimeOutline, IoLocationOutline } from "react-icons/io5";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -209,10 +210,12 @@ export default function Navbar() {
               <div className={styles.navLeft}>
                 <Link href="/" className={styles.logo}>
                   <div className={styles.logoContainer}>
-                    <img
-                      src="/home/logo.webp"
+                    <Image
+                      src="/logo-final-22222.webp"
                       alt="د. أسامة البكل"
-                      className={styles.logoImage}
+                      width={140}
+                      height={60}
+                      // className={styles.logoImage}
                     />
                   </div>
                 </Link>

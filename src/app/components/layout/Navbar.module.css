@@ -207,7 +207,7 @@
 /* Logo */
 .logo {
   text-decoration: none;
-  color: var(--primary-blue);
+  /* color: var(--primary-blue); */
 }
 
 .logoContainer {
@@ -217,8 +217,8 @@
 }
 
 .logoImage {
-  width: 130px;
-  height: 45px;
+  width: 140px;
+  height: 60px;
   border-radius: 10px;
   object-fit: cover;
   border: 2px solid var(--primary-blue);
