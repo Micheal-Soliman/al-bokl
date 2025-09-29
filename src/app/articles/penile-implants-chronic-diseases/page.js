@@ -1,15 +1,23 @@
-import { generateSEOMetadata } from '../../../lib/seo/articleSEO';
-import ArticleLayout from '../../components/articles/ArticleLayout';
+import { generateSEOMetadata } from "../../../lib/seo/articleSEO";
+import ArticleLayout from "../../components/articles/ArticleLayout";
 
 // Article metadata
 const article = {
   title: "هل دعامة الانتصاب تنفع لأصحاب الأمراض المزمنة؟",
   author: "د. أسامة محمد البكل",
   publishDate: "26 أغسطس، 2025",
+  img: "/26-8-هل-دعامة-الانتصاب-تنفع-لاصحاب-الامراض-المزمنة-؟-1536x1161.webp",
   category: "دعامات الانتصاب",
   readTime: "6 دقائق قراءة",
-  tags: ["دعامة الانتصاب", "الأمراض المزمنة", "ضعف الانتصاب", "السكري", "القلب"],
-  excerpt: "تعرف على إمكانية استخدام دعامات الانتصاب للمرضى المصابين بالأمراض المزمنة والاحتياطات اللازمة.",
+  tags: [
+    "دعامة الانتصاب",
+    "الأمراض المزمنة",
+    "ضعف الانتصاب",
+    "السكري",
+    "القلب",
+  ],
+  excerpt:
+    "تعرف على إمكانية استخدام دعامات الانتصاب للمرضى المصابين بالأمراض المزمنة والاحتياطات اللازمة.",
   content: `
     <p>واحد من أكثر الأسئلة اللي بتوصلنا من المرضى هو: هل دعامة الانتصاب تنفع لأصحاب الأمراض المزمنة؟ وده سؤال مهم جداً لأن كتير من المرضى اللي بيعانوا من ضعف الانتصاب بيكون عندهم أمراض مزمنة زي السكري وأمراض القلب وارتفاع ضغط الدم.</p>
 
@@ -45,8 +53,30 @@ const article = {
         <li>بيقلل مرونة الأوعية الدموية</li>
       </ul>
     </div>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            ولو عايز تعرف ليه المنشطات الجنسية ممكن تضر مريض القلب ، اسمع الفيديو ده مع الدكتور اسامة البكل…
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759139847/%D9%87%D9%84-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9%D9%8A-%D9%85%D9%85%D9%83%D9%86-%D9%8A%D8%B6%D8%B1-%D9%85%D8%B1%D9%8A%D8%B6-%D8%A7%D9%84%D9%82%D9%84%D8%A8_-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A%D8%A9_akkx7b.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
 
-    <h2>✅ هل دعامة الانتصاب مناسبة للأمراض المزمنة؟</h2>
+    <h2>ودلوقتي تعالوا نعرف مع بعض ايه هي دعامة الانتصاب : </h2>
+
+<p>
+دعامة الانتصاب هي جهاز طبي بيتزرع في القضيب ، وبتساعد على انتصاب العضو الذكري بشكل طبيعي ، ده غير إنها بتخلي القضيب يفضل منتصب فترة طويلة لحد ما نخلص العلاقة الزوجية ، واللي بيميز الدعامة عن أي علاج تاني إنها بتعالج مشكلة الضعف الجنسي بشكل نهائي من غير أي مضاعفات ، ده غير إن مش بيشترط في تركيبها سن معين ، وينفع اي شخص يركبها سواء كان شاب أو في منتصف العمر أو حتى كبير في السن بشرط يكون محتاجها فعلا.
+
+</p>
+        <h2>✅ هل دعامة الانتصاب مناسبة للأمراض المزمنة؟</h2>
     <p>الإجابة هي <strong>نعم</strong>، دعامة الانتصاب ممكن تكون الحل الأمثل لمرضى الأمراض المزمنة، وده لعدة أسباب:</p>
 
     <div class="advantages-grid">
@@ -205,19 +235,19 @@ const article = {
     {
       title: "ما هو سبب ارتخاء القضيب فجأة أثناء العلاقة الزوجية؟",
       excerpt: "تعرف على الأسباب المختلفة لارتخاء القضيب المفاجئ وطرق العلاج.",
-      url: "/articles/sudden-penis-relaxation"
+      url: "/articles/sudden-penis-relaxation",
     },
     {
       title: "ما هي الحقن الموضعية المستخدمة في علاج ضعف الانتصاب؟",
       excerpt: "معلومات شاملة حول الحقن الموضعية كبديل لدعامات الانتصاب.",
-      url: "/articles/local-injections-erectile-dysfunction"
+      url: "/articles/local-injections-erectile-dysfunction",
     },
     {
       title: "متى تكون دوالي الخصية خطيرة؟",
       excerpt: "تعرف على العلامات التي تشير إلى خطورة دوالي الخصية.",
-      url: "/articles/when-varicocele-dangerous"
-    }
-  ]
+      url: "/articles/when-varicocele-dangerous",
+    },
+  ],
 };
 
 // SEO metadata
@@ -225,12 +255,20 @@ export async function generateMetadata() {
   return generateSEOMetadata({
     title: article.title,
     description: article.excerpt,
-    keywords: ["دعامة الانتصاب", "الأمراض المزمنة", "ضعف الانتصاب", "السكري", "أمراض القلب", "ارتفاع الضغط", "د أسامة البكل"],
+    keywords: [
+      "دعامة الانتصاب",
+      "الأمراض المزمنة",
+      "ضعف الانتصاب",
+      "السكري",
+      "أمراض القلب",
+      "ارتفاع الضغط",
+      "د أسامة البكل",
+    ],
     canonical: "/articles/penile-implants-chronic-diseases",
     image: "/images/articles/penile-implants-chronic-diseases.webp",
     publishDate: article.publishDate,
     author: article.author,
-    category: article.category
+    category: article.category,
   });
 }
 
