@@ -126,7 +126,7 @@ export default function TesticularTorsionPage() {
             <div className={styles.heroGrid}>
               <div className={styles.heroImage}>
                 <Image
-                  src="/Puberty.webp"
+                  src="/torsion.webp"
                   alt="مشاكل الخصية"
                   layout="responsive"
                   width={800}
