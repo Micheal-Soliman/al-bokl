@@ -1,4 +1,56 @@
 /* Article Layout Styles */
+.heroGrid {
+  margin-top: 1rem;
+}
+
+.videoWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 30.25%;
+  /* 16:9 aspect ratio */
+  border-radius: 20px;
+  overflow: hidden;
+  /* box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15); */
+  /* background: #000; */
+}
+
+.videoWrapperyoutube {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 50.25%;
+  /* 16:9 aspect ratio */
+  border-radius: 20px;
+  overflow: hidden;
+  /* box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15); */
+  /* background: #000; */
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 100%; */
+  border: none;
+  border-radius: 20px;
+}
+
+.videoYou {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+}
+
 .articleLayout {
   min-height: 100vh;
   direction: rtl;
@@ -968,12 +1020,12 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .sidebar {
     order: 2;
     position: static;
   }
-  
+
   .mainContent {
     order: 1;
   }
@@ -983,41 +1035,42 @@
   .container {
     padding: 0 1rem;
   }
-  
+
   .articleTitle {
     font-size: 2rem;
   }
-  
+
   .articleContent {
     padding: 2rem;
   }
-  
+
   .contentBody {
     font-size: 1rem;
   }
-  
+
   .contentBody h2 {
     font-size: 1.5rem;
   }
-  
+
   .formRow {
     grid-template-columns: 1fr;
   }
-  
+
   .shareButtons {
     flex-direction: column;
   }
-  
+
   .shareBtn {
     justify-content: center;
   }
-  
+
   .relatedGrid {
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
+
   .articleHeader,
   .articleContent,
   .articleFooter,
@@ -1026,17 +1079,17 @@
   .widget {
     padding: 1.5rem;
   }
-  
+
   .articleMeta {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
   }
-  
+
   .breadcrumbNav {
     flex-wrap: wrap;
   }
-  
+
   .articleTitle {
     font-size: 1.75rem;
   }

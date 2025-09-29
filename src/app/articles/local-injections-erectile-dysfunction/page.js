@@ -1,37 +1,43 @@
-import { generateSEOMetadata } from '../../../lib/seo/articleSEO';
-import MainLayout from '../../components/layout/MainLayout';
-import ArticleLayout from '../../components/articles/ArticleLayout';
+import { generateSEOMetadata } from "../../../lib/seo/articleSEO";
+import MainLayout from "../../components/layout/MainLayout";
+import ArticleLayout from "../../components/articles/ArticleLayout";
 
 export const metadata = generateSEOMetadata({
-  title: 'ما هي الحقن الموضعية المستخدمة في علاج ضعف الانتصاب؟ - د. أسامة البكل',
-  description: 'تعرف على الحقن الموضعية لعلاج ضعف الانتصاب، طريقة الاستخدام، المخاطر والمضاعفات، والبدائل العلاجية مع د. أسامة البكل.',
+  title:
+    "ما هي الحقن الموضعية المستخدمة في علاج ضعف الانتصاب؟ - د. أسامة البكل",
+  description:
+    "تعرف على الحقن الموضعية لعلاج ضعف الانتصاب، طريقة الاستخدام، المخاطر والمضاعفات، والبدائل العلاجية مع د. أسامة البكل.",
   keywords: [
-    'الحقن الموضعية',
-    'علاج ضعف الانتصاب',
-    'حقن القضيب',
-    'دعامة العضو الذكري',
-    'المشاكل الجنسية',
-    'د. أسامة البكل',
-    'الضعف الجنسي'
+    "الحقن الموضعية",
+    "علاج ضعف الانتصاب",
+    "حقن القضيب",
+    "دعامة العضو الذكري",
+    "المشاكل الجنسية",
+    "د. أسامة البكل",
+    "الضعف الجنسي",
   ],
-  canonical: '/articles/local-injections-erectile-dysfunction',
+  canonical: "/articles/local-injections-erectile-dysfunction",
   breadcrumb: [
-    { name: 'الرئيسية', url: '/' },
-    { name: 'المقالات', url: '/articles' },
-    { name: 'ما هي الحقن الموضعية المستخدمة في علاج ضعف الانتصاب؟', url: '/articles/local-injections-erectile-dysfunction' }
+    { name: "الرئيسية", url: "/" },
+    { name: "المقالات", url: "/articles" },
+    {
+      name: "ما هي الحقن الموضعية المستخدمة في علاج ضعف الانتصاب؟",
+      url: "/articles/local-injections-erectile-dysfunction",
+    },
   ],
-  publishDate: '2025-08-30',
-  author: 'د. أسامة البكل',
-  category: 'المشاكل الجنسية'
+  publishDate: "2025-08-30",
+  author: "د. أسامة البكل",
+  category: "المشاكل الجنسية",
 });
 
 const articleData = {
-  title: 'ما هي الحقن الموضعية المستخدمة في علاج ضعف الانتصاب؟',
-  author: 'د. أسامة البكل',
-  publishDate: '30 أغسطس، 2025',
-  category: 'المشاكل الجنسية',
-  readTime: '7 دقائق',
-  tags: ['الحقن الموضعية', 'ضعف الانتصاب', 'دعامة القضيب', 'المشاكل الجنسية'],
+  title: "ما هي الحقن الموضعية المستخدمة في علاج ضعف الانتصاب؟",
+  author: "د. أسامة البكل",
+  publishDate: "30 أغسطس، 2025",
+  img: "/ما-هي-الحقن-الموضعية-المستخدمة-في؟-1-1536x1161.webp",
+  category: "المشاكل الجنسية",
+  readTime: "7 دقائق",
+  tags: ["الحقن الموضعية", "ضعف الانتصاب", "دعامة القضيب", "المشاكل الجنسية"],
   content: `
     <div class="article-intro">
       <p>ضعف الانتصاب يعتبر من المشاكل اللي بتهدد حياة العديد من الرجال حول العالم، والمشكلة دي ليها أكتر من طريقة علاج مختلفة علشان تناسب كل حالات الضعف الجنسي عند الرجال، وأحد أهم الطرق المستخدمة في علاج ضعف الانتصاب وهو الحقن الموضعي.</p>
@@ -51,7 +57,7 @@ const articleData = {
         <li><strong>الحالات اللي عندهم امراض مزمنة</strong> زي القلب او الضغط او السكر ممنوع ياخدوا منشطات جنسية علشان خطر على صحتهم</li>
       </ul>
     </div>
-
+  
     <h2>كيف تعمل الحقن الموضعية؟</h2>
     
     <p>وده بيتم عن طريق حقن القضيب موضعيا بابرة رفيعة جدا، ويقوم الطبيب بتدريب المريض على استخدامها في العيادة حتى يتمكن من حقن نفسه في المنزل قبل كل علاقة، والحقن دي بتعمل على توسيع الأوعية الدموية داخل العضو، علشان الدم يوصله بشكل كافي ويحصل انتصاب قوي يكفي لممارسة العلاقة الزوجية.</p>
@@ -59,6 +65,24 @@ const articleData = {
     <div class="warning-box">
       <h3>⚠️ تحذير مهم</h3>
       <p>إذ كدة الحقن الموضعي مناسب وآمن لكل حالات ضعف الانتصاب؟ لا طبعا، لان في بعض الحالات مينفعش تستخدم الحقن الموضعي في القضيب.</p>
+      
+        <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+             هل الحقن الموضعي مناسب لكل حالات ضعف الانتصاب ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل…
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759136781/%D9%87%D9%84-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D9%84%D9%83%D9%84-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%85%D8%B1%D8%B6-%D8%A8%D9%8A%D8%B1%D9%88%D9%86%D9%89_kahwqp.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
+
     </div>
 
     <h2>المخاطر والمضاعفات للحقن الموضعي</h2>
@@ -131,21 +155,24 @@ const articleData = {
   `,
   relatedArticles: [
     {
-      title: 'هل تشوه الحيوانات المنوية سبب الاجهاض المتكرر؟',
-      url: '/articles/sperm-abnormality-miscarriage',
-      excerpt: 'دراسة شاملة حول العلاقة بين تشوهات الحيوانات المنوية والإجهاض المتكرر وطرق العلاج المتاحة.'
+      title: "هل تشوه الحيوانات المنوية سبب الاجهاض المتكرر؟",
+      url: "/articles/sperm-abnormality-miscarriage",
+      excerpt:
+        "دراسة شاملة حول العلاقة بين تشوهات الحيوانات المنوية والإجهاض المتكرر وطرق العلاج المتاحة.",
     },
     {
-      title: 'متى تكون دوالي الخصية خطيرة؟',
-      url: '/articles/when-varicocele-dangerous',
-      excerpt: 'معلومات مهمة حول دوالي الخصية ومتى تصبح خطيرة وتحتاج لتدخل جراحي عاجل.'
+      title: "متى تكون دوالي الخصية خطيرة؟",
+      url: "/articles/when-varicocele-dangerous",
+      excerpt:
+        "معلومات مهمة حول دوالي الخصية ومتى تصبح خطيرة وتحتاج لتدخل جراحي عاجل.",
     },
     {
-      title: 'هل دعامة الانتصاب تنفع لأصحاب الأمراض المزمنة؟',
-      url: '/articles/penile-implants-chronic-diseases',
-      excerpt: 'تعرف على إمكانية تركيب دعامة الانتصاب لمرضى القلب والسكري والضغط.'
-    }
-  ]
+      title: "هل دعامة الانتصاب تنفع لأصحاب الأمراض المزمنة؟",
+      url: "/articles/penile-implants-chronic-diseases",
+      excerpt:
+        "تعرف على إمكانية تركيب دعامة الانتصاب لمرضى القلب والسكري والضغط.",
+    },
+  ],
 };
 
 export default function LocalInjectionsErectileDysfunctionArticle() {
