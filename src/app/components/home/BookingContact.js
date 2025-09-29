@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import styles from './BookingContact.module.css';
+import Link from "next/link";
+import styles from "./BookingContact.module.css";
 
 export default function BookingContact() {
   return (
@@ -10,13 +10,10 @@ export default function BookingContact() {
         {/* Left Side - Blue Section */}
         <div className={styles.leftSection}>
           <div className={styles.blueCard}>
-            <h2 className={styles.title}>
-              حجز موعد في العيادة
-            </h2>
+            <h2 className={styles.title}>حجز موعد في العيادة</h2>
             <p className={styles.description}>
-              يمكنك الحجز مع الدكتور أسامة البوكل في العيادة
-              أو الحصول على استشارة طبية من خلال الهاتف
-              أو الواتساب. نحن هنا لخدمتك في أي وقت
+              يمكنك الحجز مع الدكتور أسامة البكل في العيادة أو الحصول على
+              استشارة طبية من خلال الهاتف أو الواتساب. نحن هنا لخدمتك في أي وقت
               لتقديم أفضل الخدمات الطبية المتخصصة
             </p>
             <div className={styles.contactInfo}>
@@ -33,7 +30,10 @@ export default function BookingContact() {
               <Link href="/contact" className={styles.bookingBtn}>
                 احجز موعد الآن
               </Link>
-              <Link href="https://wa.me/201017912197" className={styles.whatsappBtn}>
+              <Link
+                href="https://wa.me/201017912197"
+                className={styles.whatsappBtn}
+              >
                 تواصل عبر الواتساب
               </Link>
             </div>
@@ -49,23 +49,19 @@ export default function BookingContact() {
               </div>
               <div className={styles.reviewContent}>
                 <h3 className={styles.patientName}>أحد المرضى</h3>
-                <div className={styles.stars}>
-                  ⭐⭐⭐⭐⭐
-                </div>
+                <div className={styles.stars}>⭐⭐⭐⭐⭐</div>
                 <p className={styles.reviewText}>
-                  الدكتور أسامة البوكل طبيب ممتاز ومتخصص في علاج المشاكل الجنسية والعقم. 
-                  لديه خبرة كبيرة وأسلوب راقي في التعامل مع المرضى. 
-                  نصيحتي لكل من يعاني من مشاكل جنسية أن يذهب إليه. 
-                  العيادة مجهزة بأحدث الأجهزة والتقنيات الطبية المتطورة.
-                  شكراً دكتور على كل شيء وربنا يبارك فيك
+                  الدكتور أسامة البوكل طبيب ممتاز ومتخصص في علاج المشاكل الجنسية
+                  والعقم. لديه خبرة كبيرة وأسلوب راقي في التعامل مع المرضى.
+                  نصيحتي لكل من يعاني من مشاكل جنسية أن يذهب إليه. العيادة مجهزة
+                  بأحدث الأجهزة والتقنيات الطبية المتطورة. شكراً دكتور على كل
+                  شيء وربنا يبارك فيك
                 </p>
-                <div className={styles.reviewDate}>
-                  منذ أسبوعين
-                </div>
+                <div className={styles.reviewDate}>منذ أسبوعين</div>
               </div>
             </div>
             <div className={styles.navigationDots}>
-              <span className={styles.dot + ' ' + styles.active}></span>
+              <span className={styles.dot + " " + styles.active}></span>
               <span className={styles.dot}></span>
               <span className={styles.dot}></span>
             </div>
