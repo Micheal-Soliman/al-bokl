@@ -1,37 +1,42 @@
-import { generateSEOMetadata } from '../../../lib/seo/articleSEO';
-import MainLayout from '../../components/layout/MainLayout';
-import ArticleLayout from '../../components/articles/ArticleLayout';
+import { generateSEOMetadata } from "../../../lib/seo/articleSEO";
+import MainLayout from "../../components/layout/MainLayout";
+import ArticleLayout from "../../components/articles/ArticleLayout";
 
 export const metadata = generateSEOMetadata({
-  title: 'هل تشوه الحيوانات المنوية سبب الإجهاض المتكرر؟ - د. أسامة البكل',
-  description: 'دراسة شاملة حول العلاقة بين تشوهات الحيوانات المنوية والإجهاض المتكرر. تعرف على الأسباب وطرق العلاج مع د. أسامة البكل.',
+  title: "هل تشوه الحيوانات المنوية سبب الإجهاض المتكرر؟ - د. أسامة البكل",
+  description:
+    "دراسة شاملة حول العلاقة بين تشوهات الحيوانات المنوية والإجهاض المتكرر. تعرف على الأسباب وطرق العلاج مع د. أسامة البكل.",
   keywords: [
-    'تشوه الحيوانات المنوية',
-    'الإجهاض المتكرر',
-    'تكسير المادة الوراثية',
-    'دوالي الخصية',
-    'العقم عند الرجال',
-    'د. أسامة البكل',
-    'تأخر الإنجاب'
+    "تشوه الحيوانات المنوية",
+    "الإجهاض المتكرر",
+    "تكسير المادة الوراثية",
+    "دوالي الخصية",
+    "العقم عند الرجال",
+    "د. أسامة البكل",
+    "تأخر الإنجاب",
   ],
-  canonical: '/articles/sperm-abnormality-miscarriage',
+  canonical: "/articles/sperm-abnormality-miscarriage",
   breadcrumb: [
-    { name: 'الرئيسية', url: '/' },
-    { name: 'المقالات', url: '/articles' },
-    { name: 'هل تشوه الحيوانات المنوية سبب الإجهاض المتكرر؟', url: '/articles/sperm-abnormality-miscarriage' }
+    { name: "الرئيسية", url: "/" },
+    { name: "المقالات", url: "/articles" },
+    {
+      name: "هل تشوه الحيوانات المنوية سبب الإجهاض المتكرر؟",
+      url: "/articles/sperm-abnormality-miscarriage",
+    },
   ],
-  publishDate: '2025-08-30',
-  author: 'د. أسامة البكل',
-  category: 'مقالات عامة'
+  publishDate: "2025-08-30",
+  author: "د. أسامة البكل",
+  category: "مقالات عامة",
 });
 
 const articleData = {
-  title: 'هل تشوه الحيوانات المنوية سبب الإجهاض المتكرر؟',
-  author: 'د. أسامة البكل',
-  publishDate: '30 أغسطس، 2025',
-  category: 'مقالات عامة',
-  readTime: '8 دقائق',
-  tags: ['تشوه الحيوانات المنوية', 'الإجهاض المتكرر', 'دوالي الخصية', 'العقم'],
+  title: "هل تشوه الحيوانات المنوية سبب الإجهاض المتكرر؟",
+  author: "د. أسامة البكل",
+  publishDate: "30 أغسطس، 2025",
+  category: "مقالات عامة",
+  img: "/هل-تشوه-الحيوانات-المنوية-سبب-الاجهاض-المتكرر-؟-.webp",
+  readTime: "8 دقائق",
+  tags: ["تشوه الحيوانات المنوية", "الإجهاض المتكرر", "دوالي الخصية", "العقم"],
   content: `
     <div class="article-intro">
       <p>في نسبة كبيرة من الناس بتعتقد ان طالما جسم الأم هو اللي بيحتضن الجنين، فبالتالي هتكون هي المسؤولة عن أي ضرر يحصل له زي موضوع الاجهاض المتكرر، ومن ناحية تانية بيجهلوا خالص الوضع الصحي للاب وبالتحديد جودة الحيوانات المنوية اللي بتكون اصلا هي المسؤولة عن تكوين الجنين.</p>
@@ -53,7 +58,23 @@ const articleData = {
     </div>
 
     <p>ولان تكسير الماده الوراثية بيكون السبب في عدم قدرة الحيوان المنوي على تخصيب البويضة من الأساس، وده طبعًا هيسبب تأخر في الإنجاب، أو ان ممكن يحصل التخصيب فعلاً ويبدأ الجنين يتكون، لكن بسبب وجود مشكلة في المادة الوراثية (الحمض النووي)، الحمل مش هيكمل وهيحصل إجهاض مبكر، خصوصا في اول 3 شهور من الحمل.</p>
-
+     <section class="">
+          <div class="">
+            <h3>
+             ولو عايز تعرف ايه هي النسبة الطبيعية لتشوه الحيوانات المنوية ، اسمع الفيديو ده مع الدكتور اسامة البكل…
+            </h3>
+           <div class="videoWrapper">
+            <iframe
+              class="iframeVideo"
+              src="https://www.youtube.com/embed/v37kh4b0dtQ"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+          </div>
+        </section>
     <h2>أسباب تشوه الحيوانات المنوية</h2>
 
     <h3>1. دوالي الخصية</h3>
@@ -115,21 +136,24 @@ const articleData = {
   `,
   relatedArticles: [
     {
-      title: 'ما هي الحقن الموضعية المستخدمة في علاج ضعف الانتصاب؟',
-      url: '/articles/local-injections-erectile-dysfunction',
-      excerpt: 'تعرف على أنواع الحقن الموضعية المستخدمة في علاج ضعف الانتصاب وكيفية عملها وفعاليتها في العلاج.'
+      title: "ما هي الحقن الموضعية المستخدمة في علاج ضعف الانتصاب؟",
+      url: "/articles/local-injections-erectile-dysfunction",
+      excerpt:
+        "تعرف على أنواع الحقن الموضعية المستخدمة في علاج ضعف الانتصاب وكيفية عملها وفعاليتها في العلاج.",
     },
     {
-      title: 'متى تكون دوالي الخصية خطيرة؟',
-      url: '/articles/when-varicocele-dangerous',
-      excerpt: 'معلومات مهمة حول دوالي الخصية ومتى تصبح خطيرة وتحتاج لتدخل جراحي عاجل.'
+      title: "متى تكون دوالي الخصية خطيرة؟",
+      url: "/articles/when-varicocele-dangerous",
+      excerpt:
+        "معلومات مهمة حول دوالي الخصية ومتى تصبح خطيرة وتحتاج لتدخل جراحي عاجل.",
     },
     {
-      title: 'ما هو سبب ارتخاء القضيب فجأة أثناء العلاقة الزوجية؟',
-      url: '/articles/sudden-penis-relaxation',
-      excerpt: 'أسباب ارتخاء القضيب المفاجئ أثناء العلاقة الزوجية وطرق العلاج المتاحة.'
-    }
-  ]
+      title: "ما هو سبب ارتخاء القضيب فجأة أثناء العلاقة الزوجية؟",
+      url: "/articles/sudden-penis-relaxation",
+      excerpt:
+        "أسباب ارتخاء القضيب المفاجئ أثناء العلاقة الزوجية وطرق العلاج المتاحة.",
+    },
+  ],
 };
 
 export default function SpermAbnormalityMiscarriageArticle() {
