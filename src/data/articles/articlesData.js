@@ -10080,7 +10080,7 @@ export const medicalArticles = [
     id: 65,
     slug: "do-stem-cells-treat-erectile-dysfunction",
     title: "هل الخلايا الجذعية بتعالج ضعف الانتصاب؟",
-    img: "/",
+    img: "/Copy-of-هل-الخلايا-الجذعية-بتعالج-ضعف-الانتصاب-؟--720x544.webp",
     excerpt:
       "تعرف على حقيقة استخدام الخلايا الجذعية وحقن البلازما في علاج ضعف الانتصاب ولماذا لا تزال تحت التجربة",
     description:
@@ -10151,7 +10151,7 @@ export const medicalArticles = [
     id: 66,
     slug: "is-local-injection-suitable-all-cases-erectile-dysfunction",
     title: "هل الحقن الموضعي يناسب كل حالات ضعف الانتصاب؟",
-    img: "/",
+    img: "/Copy-of-هل-الحقن-الموضعي-يناسب-كل-حالات-ضعف-الانتصاب-؟-720x544.webp",
     excerpt:
       "تعرف على الحالات التي لا يناسبها الحقن الموضعي ومخاطره (الانتصاب المستمر والتليفات) وبدائل العلاج",
     description:
@@ -10242,7 +10242,7 @@ export const medicalArticles = [
     id: 67,
     slug: "what-the-cases-which-hydraulic-penile-implant-cannot-implanted",
     title: "ايه الحالات اللى مينفعش تركب دعامة الانتصاب الهيدروليكية؟",
-    img: "/",
+    img: "/Copy-of-ايه-الحالات-اللى-مينفعش-تركب-دعامة-الانتصاب-الهيدروليكية-؟-720x544.webp",
     excerpt:
       "تعرف على 3 حالات لا يمكن فيها تركيب الدعامة الهيدروليكية والفرق بينها وبين الدعامة المرنة",
     description:
@@ -10327,7 +10327,7 @@ export const medicalArticles = [
     id: 68,
     slug: "is-wife-the-reason-for-delayed-childbearing",
     title: "هل الزوجة دائما هي السبب في تاخر الانجاب؟",
-    img: "/",
+    img: "/Copy-of-هل-الزوجة-دائما-هي-السبب-في-تاخر-الانجاب-؟-1-720x544.webp",
     excerpt:
       "تعرف على أهمية فحص الزوج والزوجة معاً عند تأخر الإنجاب وخطورة تأخير تحليل السائل المنوي",
     description:
@@ -10402,7 +10402,7 @@ export const medicalArticles = [
     id: 69,
     slug: "is-it-possible-to-have-children-with-varicocele",
     title: "هل ممكن يحصل إنجاب مع وجود دوالي في الخصية؟",
-    img: "/",
+    img: "/Copy-of-هل-ممكن-يحصل-انجاب-مع-وجود-دوالى-فى-الخصيه-720x544.webp",
     excerpt:
       "تعرف على العلاقة بين دوالي الخصية والإنجاب الثانوي ولماذا التأثير التراكمي للدوالي يزيد مع الوقت",
     description:
@@ -10473,7 +10473,7 @@ export const medicalArticles = [
     id: 70,
     slug: "when-can-sexual-intercourse-after-penile-implant",
     title: "امتى تمارس العلاقة الزوجية بعد تركيب دعامة الانتصاب؟",
-    img: "/",
+    img: "/Copy-of-امتى-تمارس-العلاقة-الزوجية-بعد-تركيب-دعامة-الانتصاب؟-720x544.webp",
     excerpt:
       "تعرف على فترة الانتظار (1-2 شهر) بعد تركيب دعامة القضيب ومخاطر ممارسة العلاقة مبكراً",
     description:
@@ -10544,7 +10544,7 @@ export const medicalArticles = [
     id: 71,
     slug: "does-hydrocele-affect-fertility-or-erection",
     title: "هل القيلة المائية تؤثر على الانجاب او الانتصاب؟",
-    img: "/",
+    img: "/Copy-of-هل-القيلة-المائية-تؤثر-على-الانجاب-او-الانتصاب-؟-720x544.webp",
     excerpt:
       "تعرف على تأثير القيلة المائية على الخصوبة والانتصاب ومتى تسبب مشاكل في الإنجاب",
     description:
@@ -10617,7 +10617,7 @@ export const medicalArticles = [
     id: 72,
     slug: "when-return-work-after-microscopic-varicocele-surgery",
     title: "امتي اقدر ارجع شغلي بعد عملية دوالي الخصية بالميكروسكوب؟",
-    img: "/",
+    img: "/Copy-of-امتي-اقدر-ارجع-شغلي-بعد-عملية-دوالي-الخصية-بالميكروسكوب-؟-720x544.webp",
     excerpt:
       "تعرف على جدول التعافي بعد عملية دوالي الخصية: العودة للعمل بعد أسبوع والرياضة العنيفة بعد شهر",
     description:
