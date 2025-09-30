@@ -5908,7 +5908,7 @@ export const medicalArticles = [
     id: 33,
     slug: "what-are-the-specifications-of-normal-semen-for-pregnancy",
     title: "ما هي مواصفات السائل المنوي الطبيعي لحدوث الحمل؟",
-    img: "/ما-هي-مواصفات-السائل-المنوي-الطبيعي-لحدوث-الحمل.webp",
+    img: "/Copy-of-ما-هي-مواصفات-السائل-المنوي-الطبيعي-لحدوث-الحمل-؟-720x544.webp",
     excerpt:
       "تعرف على مواصفات السائل المنوي الطبيعي والفرق بينه وبين الحيوانات المنوية وتأثيرها على الخصوبة والحمل",
     description:
@@ -5949,6 +5949,23 @@ export const medicalArticles = [
       <p>بمعنى ان الجهاز المناعي وظيفته انه يهاجم أي أجسام غريبة في جسمنا ، والحيوانات المنوية بالنسبة للجهاز المناعي هي اجسام غريبة ، علشان كدة ربنا سبحانه وتعالي خلق حاجز علشان يمنع الجهاز المناعي انه يتعرف على الحيوانات المنوية ويهاجمها ، لكن لو حصل اي خلل في الحاجز ده ، هيبدأ الجهاز المناعي يكتشف وجود الحيوانات المنوية ويهاجمها ويكون ضدها أجسام مضادة ممكن تتسبب في موتها ، أو أن الحيوانات المنوية كلها تلزق في بعض وقت الحركة ، وده هيسبب ضعف في حركة الحيوانات المنوية و تأخر في الإنجاب.</p>
 
       <p>ولو عايز تعرف معلومات اكثر عن مواصفات السائل المنوي وامتي السائل المنوي يكون طبيعي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+             
+            </h3>
+            <div className={styles.videoWrapperyoutube}>
+              <iframe
+                className={styles.videoYou}
+                src="https://www.youtube.com/embed/XjE1ImOavjs"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
 
       <h2>ودلوقتي خليني اقولك ان في اسباب كتير ممكن تكون السبب في أن السائل المنوي ميخرجش اصلا وقت العلاقة الزوجية :</h2>
       <p>زي اننا نكون بنمارس العلاقة الزوجية بس مش بنوصل للنشوة الجنسية وبالتالي مش بيكون في قذف ، والحالة دي ممكن نقسمها ل 3 اسباب ، زي :</p>
@@ -6001,8 +6018,7 @@ export const medicalArticles = [
       {
         title: "تحليل السائل المنوي وتفسير النتائج",
         url: "/articles/semen-analysis-interpretation",
-        excerpt:
-          "دليل شامل لفهم نتائج تحليل السائل المنوي والقيم الطبيعية.",
+        excerpt: "دليل شامل لفهم نتائج تحليل السائل المنوي والقيم الطبيعية.",
       },
       {
         title: "أسباب ضعف حركة الحيوانات المنوية",
@@ -6016,7 +6032,7 @@ export const medicalArticles = [
     id: 34,
     slug: "post-penis-implant-tips",
     title: "نصائح ما بعد تركيب دعامة القضيب",
-    img: "/نصائح-ما-بعد-تركيب-دعامة-القضيب.webp",
+    img: "/Copy-of-نصائح-ما-بعد-تركيب-دعامة-القضيب-720x544.webp",
     excerpt:
       "دليل شامل للنصائح والتعليمات قبل وأثناء وبعد عملية تركيب دعامة القضيب لضمان نجاح العملية وتجنب المضاعفات",
     description:
@@ -6113,6 +6129,21 @@ export const medicalArticles = [
       </ul>
 
       <p>ولو عاوز تعرف هل الاحساس بالعلاقة الزوجية هيتأثر بعد تركيب دعامة القضيب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759222676/%D9%87%D9%84-%D8%A7%D9%84%D8%A5%D8%AD%D8%B3%D8%A7%D8%B3-%D8%A8%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D9%87%D9%8A%D8%AA%D8%A3%D8%AB%D8%B1-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A%D8%A9_-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D9%88-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8_e98tvt.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
 
       <h2>خلاصة القول</h2>
       <p>وفي النهاية ، احب اقولك ان عملية تركيب دعامة القضيب عملية سهلة وبسيطة جدا ، وان نتائجها مش بتعتمد بس على خبرة الجراح علي قد ما بتعتمد عليك أنت في المقام الأول وعلى التزامك بكل التعليمات اللي ذكرناها ، في حالة دى هتحقق أعلى نسبة نجاح للعملية و هتستمتع بحياتك الزوجية وانتصاب قوي طول مدة العلاقة.</p>
@@ -6164,9 +6195,9 @@ export const medicalArticles = [
   },
   {
     id: 35,
-    slug: "erectile-dysfunction-medications",
+    slug: "what-medications-are-used-to-treat-erectile-dysfunction",
     title: "ما هي الأدوية المستخدمة في علاج ضعف الانتصاب؟",
-    img: "/ما-هي-الأدوية-المستخدمة-في-علاج-ضعف-الانتصاب.webp",
+    img: "/Copy-of-ما-هي-الأدوية-المستخدمة-في-علاج-ضعف-الانتصاب-؟-720x544.webp",
     excerpt:
       "تعرف على الأدوية والمنشطات الجنسية المستخدمة في علاج ضعف الانتصاب وفوائدها ومضاعفاتها وكيفية استخدامها بشكل آمن",
     description:
@@ -6248,6 +6279,21 @@ export const medicalArticles = [
       <p>لو في ضعف شديد بالقلب، أو فشل في عضلة القلب، لازم يتم تقييم الحالة بعناية قبل الاستخدام.</p>
 
       <p>ولو عايز تعرف هل في بديل ولا لا للمنشطات الجنسية في علاج ضعف الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759222568/%D9%87%D9%84-%D9%81%D9%8A-%D8%A8%D8%AF%D9%8A%D9%84-%D9%84%D9%84%D9%85%D9%86%D8%B4%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A9-%D9%84%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%B5%D8%A7%D8%A8_-%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A9_b5mbx0.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
 
       <h2>خلاصة القول</h2>
       <p>في النهاية ، لازم تكون عارف ان الادوية والمنشطات الجنسية عمرها ما كانت الحل والا كان الدكاترة اعتمدوا عليها اعتماد كامل ، لأنها ببساطة هتضرك أكثر من أنها تساعدك ، علشان مشكلتك ممكن تكون بسيطة وليها علاج ومش محتاجة لمنشط جنسي ، ومع العلاج يرجع الانتصاب أقوى من الأول ، علشان كدة بننبه دايما باستشارة دكتور متخصص في الحالات دي علشان منعرضش نفسنا لاي مضاعفات.</p>
@@ -6280,8 +6326,7 @@ export const medicalArticles = [
       {
         title: "الحقن الموضعية لعلاج ضعف الانتصاب",
         url: "/articles/local-injections-erectile-dysfunction",
-        excerpt:
-          "تعرف على الحقن الموضعية كبديل للأدوية في علاج ضعف الانتصاب.",
+        excerpt: "تعرف على الحقن الموضعية كبديل للأدوية في علاج ضعف الانتصاب.",
       },
       {
         title: "أسباب ضعف الانتصاب وطرق العلاج",
@@ -6292,8 +6337,7 @@ export const medicalArticles = [
       {
         title: "دعامة القضيب: الحل النهائي لضعف الانتصاب",
         url: "/articles/penile-implants-complete-guide",
-        excerpt:
-          "تعرف على دعامة القضيب كحل نهائي وفعال لعلاج ضعف الانتصاب.",
+        excerpt: "تعرف على دعامة القضيب كحل نهائي وفعال لعلاج ضعف الانتصاب.",
       },
     ],
   },
@@ -6301,7 +6345,7 @@ export const medicalArticles = [
     id: 36,
     slug: "what-are-the-natural-remedies-and-exercises-that-improve-erection",
     title: "ما هي العلاجات الطبيعية والتمارين اللي بتحسن من الانتصاب؟",
-    img: "/ما-هي-العلاجات-الطبيعية-والتمارين-اللي-بتحسن-من-الانتصاب.webp",
+    img: "/Copy-of-ما-هي-العلاجات-الطبيعية-والتمارين-اللي-بتحسن-من-الانتصاب-؟-720x544.webp",
     excerpt:
       "تعرف على العلاجات الطبيعية والتمارين الرياضية التي تحسن من وظيفة الانتصاب دون الحاجة للأدوية والمنشطات الجنسية",
     description:
@@ -6318,6 +6362,23 @@ export const medicalArticles = [
       <p>وضعف الانتصاب بيحصل نتيجة عدم قدرة الشخص على بلوغ الانتصاب أو الحفاظ عليه المدة الكافية لحد ما نخلص العلاقة الزوجية، وده بيكون نتيجة خلل في الاوعية الدموية اللي بتوصل الدم إلى القضيب ، والخلل ده إما بيكون بسبب ضعف في ضخ الدم إلى القضيب ، أو أن مش بيتم الاحتفاظ بالدم داخل القضيب لحد ما نخلص العلاقة الزوجية ، نتيجة تسربه خارج العضو الذكري.</p>
 
       <p>ولو عايز تعرف ايه هو أسلوب الحياة الغير صحي وتأثيره على الضعف الجنسي عند الرجال ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+       <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+             
+            </h3>
+            <div className={styles.videoWrapperyoutube}>
+              <iframe
+                className={styles.videoYou}
+                src="https://www.youtube.com/embed/QeSMDFzxpOY"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
 
       <h2>ودلوقتي تعالي اقولك ان عشان نحسن من وظيفة الانتصاب ويكون عندنا انتصاب طبيعي وقوي اثناء العلاقة الزوجية ، في شوية تمارين لازم تعملها ، زي :</h2>
 
@@ -6404,14 +6465,12 @@ export const medicalArticles = [
       {
         title: "أسباب ضعف الانتصاب النفسية والعضوية",
         url: "/articles/erectile-dysfunction-causes",
-        excerpt:
-          "دليل شامل حول الأسباب المختلفة لضعف الانتصاب وطرق التشخيص.",
+        excerpt: "دليل شامل حول الأسباب المختلفة لضعف الانتصاب وطرق التشخيص.",
       },
       {
         title: "نمط الحياة الصحي وتأثيره على الصحة الجنسية",
         url: "/articles/healthy-lifestyle-sexual-health",
-        excerpt:
-          "تعرف على كيفية تحسين الصحة الجنسية من خلال نمط حياة صحي.",
+        excerpt: "تعرف على كيفية تحسين الصحة الجنسية من خلال نمط حياة صحي.",
       },
     ],
   },
@@ -6419,7 +6478,7 @@ export const medicalArticles = [
     id: 37,
     slug: "what-is-the-treatment-of-varicocele-with-interventional-radiology",
     title: "ما هو علاج دوالي الخصية بالأشعة التداخلية؟",
-    img: "/ما-هو-علاج-دوالي-الخصية-بالأشعة-التداخلية.webp",
+    img: "/Copy-of-ما-هو-علاج-دوالي-الخصية-بالأشعة-التداخلية-؟-720x544.webp",
     excerpt:
       "تعرف على كيفية علاج دوالي الخصية بالأشعة التداخلية ومضاعفاتها ولماذا الجراحة الميكروسكوبية هي الخيار الأفضل",
     description:
@@ -6477,6 +6536,21 @@ export const medicalArticles = [
       <p>ودي تعتبر أعلى نسبة بين كل طرق علاج دوالي الخصية.</p>
 
       <p>ولو عايز تعرف معلومات اكثر عن اضرار علاج دوالي الخصية بالأشعة التداخلية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759222379/%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%A7%D8%B4%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%A7%D9%81%D8%B6%D9%84-%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9_1_jorsva.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
 
       <h2>وبكدة تكون عرفت ازاي بيتم علاج دوالي الخصية بالأشعة التداخلية ، وايه هي المضاعفات اللي بتسببها الاشعة التداخلية في الخصية ، ودلوقتي خليني اقولك على احسن وافضل طريقة طريقة تعالج بيها دوالي الخصية وانت مطمن من غير ما تضر الخصية ، وهي الجراحة الميكروسكوبية :</h2>
 
@@ -6540,16 +6614,16 @@ export const medicalArticles = [
       {
         title: "أعراض دوالي الخصية ومتى تحتاج لعملية",
         url: "/articles/varicocele-symptoms-surgery",
-        excerpt:
-          "تعرف على أعراض دوالي الخصية ومتى تحتاج للتدخل الجراحي.",
+        excerpt: "تعرف على أعراض دوالي الخصية ومتى تحتاج للتدخل الجراحي.",
       },
     ],
   },
   {
     id: 38,
     slug: "what-is-the-difference-between-the-ams-penile-implant-and-the-coloplast-implant-in-treating-erectile-dysfunction",
-    title: "الفرق بين دعامة القضيب AMS ودعامة ال COLOPLAST في علاج ضعف الانتصاب؟",
-    img: "/الفرق-بين-دعامة-القضيب-AMS-ودعامة-ال-COLOPLAST.webp",
+    title:
+      "الفرق بين دعامة القضيب AMS ودعامة ال COLOPLAST في علاج ضعف الانتصاب؟",
+    img: "/Copy-of-الفرق-بين-دعامة-القضيب-AMS-ودعامة-ال-COLOPLAST-في-علاج-ضعف-الانتصاب-؟-720x544.webp",
     excerpt:
       "تعرف على الفرق بين دعامة AMS ودعامة Coloplast ومميزات كل منهما وكيفية اختيار الأنسب لحالتك",
     description:
@@ -6651,6 +6725,21 @@ export const medicalArticles = [
       <p>بنبدا نقفل الجرح بخيوط تجميلية علشان ميكونش ليه اي اثر خالص.</p>
 
       <p>ولو عايز تعرف ازاي ممكن نمنع حدوث التهابات او عدوي بعد تركيب دعامة العضو الذكري ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759222298/%D8%A7%D8%B2%D8%A7%D9%8A-%D9%86%D9%85%D9%86%D8%B9-%D8%AD%D8%AF%D9%88%D8%AB-%D8%A7%D9%84%D8%AA%D9%87%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%88-%D8%B9%D8%AF%D9%88%D9%89-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B6%D9%88-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9_lqayxy.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
 
       <h2>خلاصة القول</h2>
       <p>وفي النهاية ، لازم تكون عارف ان دعامات العضو الذكري هي الحل الفعال والآمن للتخلص من مشكلة ضعف الانتصاب نهائيا ، فهى بتدي الرجل القدرة على تحقيق الانتصاب وممارسة النشاط الجنسي بشكل طبيعي ، وده بيساعده انه يكون عنده ثقة في نفسه ويحسن من حياته الجنسية والعاطفية ، وعلى الرغم من وجود بعض المضاعفات ، إلا أن نسبة نجاح العملية مرتفعة وتصل إلى حوالي 95% ، ده غير أن معدلات الرضا بين المرضى اللي عملوا العملية مرتفعة ، وان لو جتلهم الفرصة تاني هياخدوا قرار تركيب دعامة القضيب.</p>
@@ -6704,7 +6793,7 @@ export const medicalArticles = [
     id: 39,
     slug: "why-is-varicocele-surgery-performed-before-icsi",
     title: "لماذا يتم إجراء عملية دوالي الخصية قبل اللجوء للحقن المجهري؟",
-    img: "/لماذا-يتم-إجراء-عملية-دوالي-الخصية-قبل-اللجوء-للحقن-المجهري.webp",
+    img: "/Copy-of-لماذا-يتم-إجراء-عملية-دوالي-الخصية-قبل-اللجوء-للحقن-المجهري-؟-720x544.webp",
     excerpt:
       "تعرف على أهمية علاج دوالي الخصية قبل الحقن المجهري وكيف تؤثر الدوالي على نجاح عملية الحقن المجهري",
     description:
@@ -6740,7 +6829,21 @@ export const medicalArticles = [
       <p>ساعتها هنعمل الحقن المجهري بس واحنا مطمنين اننا بنستخدم حيوان منوي سليم وجودته كويسة وده طبعا هيرفع من فرص نجاح عملية الحقن المجهري.</p>
 
       <p>ولو عايز تعرف معلومات اكثر عن هل الحقن المجهري بديل لعملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759222102/%D9%87%D9%84-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D8%AC%D9%87%D8%B1%D9%8A-%D8%A8%D8%AF%D9%8A%D9%84-%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-_-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D9%81%D8%B4%D9%84-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D8%AC%D9%87%D8%B1%D9%89_v2g0dq.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
       <h2>ودلوقتي بقي تعالي اقولك على افضل واحسن طريقة تعمل بيها عملية دوالي الخصية ومن غير ما تضر الخصية وبنسب نجاح للحمل الطبيعي تتخطى الـ 70% ، وهي الجراحة الميكروسكوبية ، وخليني اقولك ليه هي أفضل طريقة :</h2>
 
       <h3>اولا : لان جراح العملية بيكون صغير جدا حوالي ( 2-3سم ).</h3>
@@ -6809,7 +6912,7 @@ export const medicalArticles = [
     id: 40,
     slug: "when-do-we-resort-to-microscopic-examination-of-the-testicles",
     title: "امتي نلجأ لعملية التفتيش الميكروسكوبي من الخصية؟",
-    img: "/امتي-نلجأ-لعملية-التفتيش-الميكروسكوبي-من-الخصية.webp",
+    img: "/Copy-of-امتي-نلجأ-لعملية-التفتيش-الميكروسكوبي-من-الخصية-؟.webp",
     excerpt:
       "تعرف على عملية التفتيش الميكروسكوبي للخصية ومتى نلجأ لها في حالات انعدام الحيوانات المنوية وكيفية إجرائها",
     description:
@@ -6876,6 +6979,21 @@ export const medicalArticles = [
       <p>لكن ده بيكون الم بسيط جدا وبيروح بالمسكنات و بالكمادات الباردة.</p>
 
       <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي مش هتحتاج للتفتيش الميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759221983/%D8%AD%D8%AA%D9%89-%D9%84%D9%88-%D9%81%D9%89-%D8%A7%D9%86%D8%B9%D8%AF%D8%A7%D9%85-%D9%81%D9%89-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%85%D8%B4-%D9%87%D8%AA%D8%AD%D8%AA%D8%A7%D8%AC-%D9%84%D9%84%D8%AA%D9%81%D8%AA%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8%D9%89-%D9%88-%D9%84%D8%B3%D9%87-%D9%81%D9%89-%D9%81%D8%B1%D8%B5%D8%A9-%D9%84%D8%AD%D8%AF%D9%88%D8%AB-%D8%AD%D9%85%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A_kylqkr.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
 
       <h2>خلاصة القول</h2>
       <p>وفي النهاية ، لازم تكون عارف ان اي مشكلة هتقابلك وتسبب لك تاخر في الانجاب ، فهي اكيد ليها علاج ، المهم أنك تتشخص صح وتعرف حالتك كويس علشان تمشي على خطة علاج مناسبة معاك وتقدر تحقق حلمك وتكون أب ويكون عندك طفل.</p>
@@ -6914,8 +7032,7 @@ export const medicalArticles = [
       {
         title: "الحقن المجهري: متى نلجأ له؟",
         url: "/articles/when-to-use-icsi",
-        excerpt:
-          "دليل شامل حول الحقن المجهري ومتى يكون الخيار الأنسب للإنجاب.",
+        excerpt: "دليل شامل حول الحقن المجهري ومتى يكون الخيار الأنسب للإنجاب.",
       },
       {
         title: "متلازمة كلاينفلتر وتأثيرها على الخصوبة",
