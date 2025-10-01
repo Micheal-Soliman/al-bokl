@@ -9322,7 +9322,21 @@ export const medicalArticles = [
         <li><strong>أو لو كان انعدام الحيوانات المنوية سببه انسداد فى مسار خروج الحيوانات المنوية من الخصية</strong></li>
         <li><strong>واخيرا لو كان سبب انعدام الحيوانات المنوية مشكلة بالخصية زي دوالي الخصية</strong></li>
       </ul>
-
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759319041/%D8%AD%D8%AA%D9%89-%D9%84%D9%88-%D9%81%D9%89-%D8%A7%D9%86%D9%80%D8%B9%D9%80%D8%AF%D8%A7%D9%85-%D9%81%D9%89-%D8%A7%D9%84%D9%80%D8%AD%D9%80%D9%8A%D9%80%D9%88%D8%A7%D9%86%D9%80%D8%A7%D8%AA-%D8%A7%D9%84%D9%80%D9%85%D9%80%D9%86%D9%80%D9%88%D9%8A%D9%80%D8%A9-%D9%85%D9%85%D9%83%D9%86-%D9%8A%D9%80%D8%AD%D9%80%D8%B5%D9%80%D9%84-%D8%A7%D9%86%D9%80%D8%AC%D9%80%D8%A7%D8%A8-%D8%B7%D9%80%D8%A8%D9%80%D9%8A%D9%80%D8%B9%D9%80%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8_fwc6al.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
       <h2>لو عملت تحليل سائل منوي كذا مرة وطلع في إنعدام في الحيوانات المنوية ، هل معناه إن مفيش أمل للانجاب أو مفيش أمل للإنجاب الطبيعي ؟</h2>
 
       <p>لا طبعاً ، في أمل أن يحصل حمل وممكن كمان يحصل حمل طبيعي مش بحقن مجهري.</p>
@@ -9463,9 +9477,25 @@ export const medicalArticles = [
       <p>لأن الأشخاص المصابين بالسمنة المفرطة بيحسوا بالحرج من أجسامهم وده بيخليهم يتجنبوا العلاقة الزوجية.</p>
 
       <p>ولو عايز تعرف معلومات أكثر عن أسلوب الحياة الغير صحي اللي بيسبب ضعف جنسي عند الرجال ، اسمع الفيديو ده مع الدكتور اسامة محمد البكل…</p>
-
+ <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+             
+            </h3>
+            <div className={styles.videoWrapperyoutube}>
+              <iframe
+                className={styles.videoYou}
+                src="https://www.youtube.com/embed/QeSMDFzxpOY"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
       <h2>وبعد ما عرفنا العلاقة القوية بين السمنة والضعف الجنسي ، تعالوا نعرف ازاي هنعالج المشكلة دي :</h2>
-
+ 
       <h3>1/ اتباع نظام غذائي صحي ومتوازن :</h3>
       <p>غني بالأطعمة الصحية زي الخضروات والفاكهة والحبوب الكاملة والأسماك.</p>
 
@@ -9557,7 +9587,21 @@ export const medicalArticles = [
       </ul>
 
       <p>عشان كده مهم قبل ما نقرر نعمل عملية دوالى الخصية نتأكد من سلامة تحليل السائل المنوي وسلامة الزوجة ومن حجم الخصيتين.</p>
-
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318847/videoplayback-5_ttpnxm.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
       <p>حتى لو عندك دوالي في الخصية كبيرة مش هي السبب الرئيسي في تأخر الإنجاب ومش هي السبب الرئيسي للوجع اللي موجود عندك.</p>
 
       <h2>طب ده ازاي ؟</h2>
@@ -9645,7 +9689,21 @@ export const medicalArticles = [
         <li><strong>تشخيص تسريب وريدي غير دقيق</strong></li>
         <li><strong>عادات صحية غلط ماثرة على الانتصاب</strong></li>
       </ul>
-
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318752/videoplayback-6_fizfly.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
       <p>ولكن بالعلاج كل المشاكل دي هتتحل ومش هنلجا لتركيب الدعامة.</p>
 
       <h2>مين اللي قالك أن علاج ضعف الانتصاب اللي عندك حله الوحيد هو تركيب الدعامة ؟</h2>
@@ -9747,7 +9805,21 @@ export const medicalArticles = [
         <li><strong>3/ والرجوع لممارسة الحياة الطبيعية.</strong></li>
         <li><strong>4/ والمتابعة مع الطبيب المعالج لضمان نجاح العملية وتحسن وظيفة الخصية.</strong></li>
       </ul>
-
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318668/videoplayback-3_1_c6ctue.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
       <h2>نصائح ما بعد عملية دوالي الخصية بالجراحة الميكروسكوبية</h2>
 
       <h3>نبتدي من بعد الخروج من غرفة العمليات مباشرة :</h3>
@@ -9839,10 +9911,24 @@ export const medicalArticles = [
       <h2>المرضي اللي بيعانوا من تأخر في الإنجاب وبياخدوا علاج وحاسين ان مفيش نتيجة ؟</h2>
 
       <p>خليني اقولك ان الخصية بتحتاج وقت من 74 لـ 90 يوم عشان تنتج الحيوانات المنوية ، عشان كده المريض لازم ياخد العلاج لمدة متقلش عن 90 يوم ، وبعدها يعمل تحليل سائل منوى جديد عشان نقدر نحكم ، هل العلاج جايب نتيجة وهيحصل حمل بشكل طبيعى ، ولا محتاجين نشوف خطة علاج ثانية.</p>
-
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318545/videoplayback-4_2_ix6uvb.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
       <h2>ليه علاج تأخر الإنجاب عند الرجال بياخد فترة طويلة ؟</h2>
 
-      <p>في البداية لازم تكون عارف ان دي حاجة بتزعج عدد كبير من المرضى ، وتتسبب في أن مرضى كتير مش بيكملوا العلاج أو بيغيروا الدكتور لاقتناعهم أن فترة العلاج دي طويلة جداً.</p>
+      <p>في البداية لازم تكون عارف ان دي حاجة بتزعج عدد كبير من المرضى ، وتسبب في أن مرضى كتير مش بيكملوا العلاج أو بيغيروا الدكتور لاقتناعهم أن فترة العلاج دي طويلة جداً.</p>
 
       <p>ولكن خليني اقولك ان دورة إنتاج الحيوانات المنوية في الخصية بتاخد من 74 الى 90 يوم ، فأي علاج للانجاب لازم ياخد أكثر من 90 يوم علشان ننشط جميع مراحل إنتاج الحيوان المنوي ونشوف هل العلاج ده فعلا جايب نتيجة هنكمل عليه أو ربنا يكرم ويحصل حمل او لاقدر الله العلاج ده مش جايب نتيجة هندور علي خطة علاجية ثانية ، لكن أقل من 90 يوم مقدرش اخد حكم كافي علي العلاج ، ولكن ده مش معناه ان لازم بعد ال 90 يوم هيحصل حمل طبيعي ، أحياناً بعض الناس بيحصل حمل أثناء فترة العلاج قبل ما ال 3 شهور يخلصوا.</p>
 
@@ -9912,7 +9998,21 @@ export const medicalArticles = [
       <p>لو عندك دوالي على الخصية وبتخطط لعملية الحقن المجهري ، فاحب اقولك انك لازم تعمل عملية دوالي الخصية الأول.</p>
 
       <p>لان دوالي الخصية هتحسن من وظيفة الخصية وممكن يحصل حمل طبيعي من غير حتي ما نلجأ للحقن المجهري ، و حتى لو لجأنا للحقن المجهري ، فبرضوه عملية دوالي الخصية هترفع من نسب نجاح عملية الحقن المجهري.</p>
-
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318438/videoplayback-1_1_kpg1lu.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
       <h2>ايه هي أهمية عملية دوالي الخصية في عصر الحقن المجهري اللي احنا عايشين فيه ؟</h2>
 
       <p>بعض الناس تخيلت في وجود الحقن المجهري أن ممكن عملية دوالي الخصية تصبح شئ من الماضي أو أنها تبقي حل بس للناس اللي بتدور علي الحمل الطبيعي ، لكن اللي مستعجل هيروح يعمل الحقن المجهري علي طول.</p>
@@ -10021,7 +10121,21 @@ export const medicalArticles = [
       </ul>
 
       <p><strong>إذ تركيب دعامة القضيب بعيدة عن مصادر الإحساس والإستمتاع.</strong></p>
-
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318368/videoplayback-2_1_hz2pwd.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
       <h2>من اكثر الأسئلة اللي بتجيلنا من المرضى المقبلين على عملية تركيب دعامة القضيب ، هل الاحساس هيفضل زي ماهو ولا هيتاثر بعد عملية تركيب دعامة الانتصاب ؟</h2>
 
       <p>اولا : لازم نكون عارفين ان دعامة الانتصاب أيا كان نوعها سواء الدعامة المرنة أو الدعامة الهيدروليكية ، فهي بتتركب داخل النسيج الكهفي ، والإحساس بيكون ليه علاقة بالضفيرة العصبية والجلد بتاع القضيب والمكان الأكثر إحساسا هو رأس العضو الذكري ، واحنا في عملية تركيب دعامة الانتصاب سواء مرنة أو هيدروليكية وسواء في الفتحة اللي تحت الحشفة أو الفتحة اللي ما بين كيس الصفن والقضيب ، فكل الأحوال احنا بنكون بعاد كل البعد عن الضفيرة العصبية اللي مسؤولة عن الإحساس وبعاد عن رأس العضو الذكري ، حتى المكان اللي بيتفتح فيه الجلد فهو بيلتئم خلال شهر بالكتير من العملية ، بالتالي الاحساس مش بيتاثر والإحساس بالاستمتاع بالنسبة للمريض أو الزوجة مش بيختلف عن الانتصاب الطبيعي ، والقذف بيكون طبيعي زي ما هو ، والوصول للنشوة الجنسية بالنسبة لكلا الطرفين بيفضل زي ما هو.</p>
@@ -10088,7 +10202,21 @@ export const medicalArticles = [
     content: `
       <h2>هل الخلايا الجذعية بتعالج ضعف الانتصاب ؟</h2>
       <p>الخلايا الجذعيه وحقن البلازما مش علاج لضعف الانتصاب ، لانهم لسه تحت التجربة والبحث العلمي ومفيش أي حاجة تثبت أنهم علاج فعال لضعف الانتصاب.</p>
-
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318274/videoplayback_1_keaj5r.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
       <h2>الخلايا الجذعية كعلاج لضعف الانتصاب والعجز الجنسي</h2>
 
       <p>اولا خلينا ناكد أن الخلايا الجذعية مازالت قيد التجربة واتعمل عليها بعض الأبحاث العلمية اللي عددها محدود على مستوى العالم ويصل إلى حوالي 10 أبحاث علمية على تأثيرها على ضعف الانتصاب بالنسبة للمرضي اللي فشل معاهم كل الطرق العلاجية الأخرى في علاج ضعف الانتصاب عندهم.</p>
@@ -10165,6 +10293,21 @@ export const medicalArticles = [
         <li><strong>المريض اللي سنه صغير لاننا مش هنقدر نحقنه غير مرة كل اسبوع ، وده مش هيكون كافى للزوج ولا الزوجة.</strong></li>
         <li><strong>المرضى اللى بياخدوا ادوية سيولة بجرعات كبيرة مينفعش معاهم الحقن الموضعي.</strong></li>
       </ul>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318187/WhatsApp-Video-2025-06-01-at-1.54.35-PM_fcwrgf.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
 
       <h2>هل الحقن الموضعي يناسب كل حالات ضعف الانتصاب ؟ وإيه هي مشاكل الحقن الموضعي ؟ وليه هو مش اول اختيار لعلاج ضعف الانتصاب على الرغم من أن فعاليته أفضل من العلاج الدوائي ؟</h2>
 
@@ -10256,6 +10399,20 @@ export const medicalArticles = [
         <li><strong>الحالات اللي عندها مشاكل عصبية في ايدها.</strong></li>
         <li><strong>الحالات اللي ركبت دعامة قبل كدة وشالتها.</strong></li>
       </ul>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318126/%D8%A7%D9%89-%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D9%89-%D9%85%D8%AA%D9%82%D8%AF%D8%B1%D8%B4-%D8%AA%D8%B1%D9%83%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8_1_nr8gk0.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
 
       <h2>اختيار نوع الدعامة الذكرية المناسبة لحالة المريض ، هل الموضوع بيرجع لرأي المريض لوحده ولا رأي الدكتور لوحده ولا الاتنين ؟</h2>
 
@@ -10335,6 +10492,20 @@ export const medicalArticles = [
     content: `
       <h2>هل الزوجة دائما هي السبب في تاخر الانجاب ؟</h2>
       <p>لو فى تأخر في الإنجاب أكثر من سنة ، لازم الزوج و الزوجة يكشفوا هما الاتنين ، لان مش دايما بيكون تأخر الإنجاب سببه مشكلة عند الزوجة و ممكن يكون فى مشكلة كمان عند الزوج هي السبب الرئيسي في تاخر الانجاب.</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318051/WhatsApp-Video-2025-06-01-at-1.39.31-PM_mt3r36.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
 
       <h2>واحدة من المشاكل اللي بنواجهها كثير في العيادة وبتسبب تأخر تشخيص حالات تأخر الإنجاب ،</h2>
 
