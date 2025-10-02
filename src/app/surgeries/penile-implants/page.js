@@ -140,7 +140,8 @@ export default function PenileImplantsPage() {
               <div className={styles.benefitItem}>
                 <div className={styles.benefitBullet}>•</div>
                 <div className={styles.benefitContent}>
-                  <p>مش بنحتاج نقل دم لان مش بيكون فى اى نزيف .</p>
+                  {/* <p>مش بنحتاج نقل دم لان مش بيكون فى اى نزيف .</p> */}
+                  <p>عادة لا نحتاج لنقل دم و نسبة فقد الدم محدودة . </p>
                 </div>
               </div>
               <div className={styles.benefitItem}>
@@ -309,12 +310,8 @@ export default function PenileImplantsPage() {
 
             <div className={styles.typeCard}>
               <h3 className={styles.typeTitle}>الدعامة المرنة</h3>
-              <p className={styles.typeDescription}>
-                و دى عبارة عن معدن و بيغلفة طبقه من السيلكون ،و المعدن هنا هو
-                اللى بيحقق الانتصاب للعضو و السيلكون ده هو اللى بيساعد ان الجسم
-                يتقبل الدعامة بسرعه ، و الدعامة دى بتخلى القضيب ديماّ منتصب ، و
-                بعد ما بنخلص العلاقة الزوجية بنتنى العضو لتحت فبتتنى معاه
-                الدعامة .
+              <p className={styles.typeDescription}>التركيز على الوظيفة الميكانيكية بدل الادعاء بزيادة الحجم
+
               </p>
               <div className={styles.typesList}>
                 <h4>و الدعامات المرنة دى فى منها 4 انواع :</h4>

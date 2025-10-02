@@ -23,6 +23,44 @@ export default function Footer() {
     { name: "إصلاح إعوجاج القضيب", href: "/surgeries/penile-curvature" },
   ];
 
+  const clinics = [
+    {
+      name: "عيادة الشيخ زايد",
+      location: "توين تاورز الشيخ زايد محور ٢٦ يوليو - برج C الدور الثاني عيادة D",
+      hours: [
+        "الإثنين ٨ ل ١١ م",
+        "الأربعاء ٧ مساءً حتى 10 مساءً"
+      ],
+      mapLink: "https://maps.app.goo.gl/o19rgM12eVzAFX3y8"
+    },
+    {
+      name: "عيادة الجيزة",
+      location: "30 ش مراد - بالقرب من ميدان الجيزة و حديقة الحيوان - الدور الرابع - عيادة 312",
+      hours: [
+        "الأحد – من 3 حتى 8 مساءً",
+        "الثلاثاء – من 3 حتى 8 مساءً",
+        "الأربعاء – من 2 حتى 5 مساءً"
+      ],
+      mapLink: "https://maps.app.goo.gl/dKdzFCAewVMvjE1o6"
+    },
+    {
+      name: "عيادة شبين الكوم - المنوفية",
+      location: "برج الديوان - ميدان شرف - الدور الخامس",
+      hours: [
+        "السبت من كل أسبوع – من 1 حتى 5 مساءً"
+      ],
+      mapLink: "https://maps.app.goo.gl/BUsVzBLoHiypUSa66"
+    },
+    {
+      name: "عيادة أشمون - المنوفية",
+      location: "ش عبد المنعم رياض - خلف مكتب البريد - مستشفى الدكتور محمد البكل",
+      hours: [
+        "الإثنين من كل أسبوع – من 1 حتى 5 مساءً"
+      ],
+      mapLink: "https://maps.app.goo.gl/tUThtGhDPPPiwV766"
+    }
+  ];
+
   return (
     <footer className={styles.footer}>
       <div className="container">
@@ -30,9 +68,7 @@ export default function Footer() {
           {/* About Section */}
           <div className={styles.footerSection}>
             <h3 className={styles.footerTitle}>الدكتور أسامة البكل</h3>
-            <p className={styles.footerText}>
-              مدرس وإستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب والصحة الجنسية
-              بطب قصر العيني
+            <p className={styles.footerText}>مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب القصر العيني 
             </p>
             <div className={styles.socialLinks}>
               <a href="#" className={styles.socialLink}>
@@ -95,41 +131,41 @@ export default function Footer() {
                 <span className={styles.contactIcon}>✉️</span>
                 <p className={styles.contactText}>Booking@albokl.com</p>
               </div>
-              <div className={styles.contactItem}>
-                <span className={styles.contactIcon}>🕒</span>
-                <p className={styles.contactText}>
-                  السبت - الأربعاء: 12:00 ظ - 8:00 م
-                </p>
-              </div>
-              <div className={styles.contactItem}>
-                <span className={styles.contactIcon}>📍</span>
-                <p className={styles.contactText}>
-                  عيادة الشيخ زايد : توين تاورز الشيخ زايد محور ٢٦ يوليو برج c
-                  الدور الثاني عيادة D
-                </p>
-              </div>
-              <div className={styles.contactItem}>
-                <span className={styles.contactIcon}>📍</span>
-                <p className={styles.contactText}>
-                  عيادة الجيزة : 30 ش مراد - بالقرب من ميدان الجيزة و حديقة
-                  الحيوان - الدور الرابع - عيادة 312
-                </p>
-              </div>
-              <div className={styles.contactItem}>
-                <span className={styles.contactIcon}>📍</span>
-                <p className={styles.contactText}>
-                  عيادة شبين الكوم - المنوفية : برج الديوان - ميدان شرف - الدور
-                  الخامس
-                </p>
-              </div>
-              <div className={styles.contactItem}>
-                <span className={styles.contactIcon}>📍</span>
-                <p className={styles.contactText}>
-                  عيادة أشمون - المنوفية : ش عبد المنعم رياض - خلف مكتب البريد -
-                  مستشفى الدكتور محمد البكل
-                </p>
-              </div>
             </div>
+          </div>
+        </div>
+
+        {/* Clinics Section */}
+        <div className={styles.clinicsSection}>
+          <h3 className={styles.clinicsTitle}>عياداتنا</h3>
+          <div className={styles.clinicsGrid}>
+            {clinics.map((clinic, index) => (
+              <a
+                key={index}
+                href={clinic.mapLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.clinicCard}
+              >
+                <div className={styles.clinicHeader}>
+                  <span className={styles.clinicIcon}>📍</span>
+                  <h4 className={styles.clinicName}>{clinic.name}</h4>
+                </div>
+                <p className={styles.clinicLocation}>{clinic.location}</p>
+                <div className={styles.clinicHours}>
+                  <span className={styles.hoursIcon}>🕒</span>
+                  <div className={styles.hoursText}>
+                    {clinic.hours.map((hour, idx) => (
+                      <p key={idx}>{hour}</p>
+                    ))}
+                  </div>
+                </div>
+                <div className={styles.mapLinkText}>
+                  <span>عرض على الخريطة</span>
+                  <span className={styles.arrowIcon}>←</span>
+                </div>
+              </a>
+            ))}
           </div>
         </div>
 

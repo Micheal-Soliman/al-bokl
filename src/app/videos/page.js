@@ -69,7 +69,7 @@ export default function VideosPage() {
         </section> */}
         <Videos />
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
               <h2>هل لديك سؤال طبي؟</h2>
@@ -87,7 +87,7 @@ export default function VideosPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
     </MainLayout>
   );

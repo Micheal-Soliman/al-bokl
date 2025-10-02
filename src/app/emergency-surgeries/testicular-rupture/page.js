@@ -256,7 +256,7 @@ export default function TesticularRupturePage() {
         </section>
 
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
               <h2>استبشر خيراً - ماتفقدش الأمل</h2>
@@ -274,7 +274,7 @@ export default function TesticularRupturePage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Related Topics */}
         {/* <section className={styles.relatedSection}>

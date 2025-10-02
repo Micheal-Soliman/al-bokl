@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="ar" dir="rtl">
       <body className={cairo.variable}>
         {children}
+        
       </body>
     </html>
   );

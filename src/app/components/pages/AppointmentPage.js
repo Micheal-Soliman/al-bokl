@@ -365,7 +365,7 @@ const AppointmentPage = () => {
               </div>
             </div>
 
-            <div className={styles.emergencyInfo}>
+            {/* <div className={styles.emergencyInfo}>
               <h3 className={styles.emergencyTitle}>حالات الطوارئ</h3>
               <p className={styles.emergencyText}>
                 في حالات الطوارئ الطبية، يرجى الاتصال فوراً أو التوجه لأقرب مستشفى
@@ -373,7 +373,7 @@ const AppointmentPage = () => {
               <a href={`tel:${clinicInfo.phone}`} className={styles.emergencyButton}>
                 📞 اتصال طارئ
               </a>
-            </div>
+            </div> */}
 
             <div className={styles.mapSection}>
               <h3 className={styles.mapTitle}>موقع العيادة</h3>

@@ -8,11 +8,12 @@ import {
   articleCategories,
 } from "../../../data/articles/articlesData";
 import ArticleSearch from "../ui/ArticleSearch";
+import Image from "next/image";
 
 const ArticlesPage = () => {
   const [selectedCategory, setSelectedCategory] = useState("جميع المقالات");
   const [currentPage, setCurrentPage] = useState(1);
-  const articlesPerPage = 6;
+  const articlesPerPage = 8;
 
   // Filter articles by category
   const filteredArticles =
@@ -157,14 +158,20 @@ const ArticlesPage = () => {
                 className={styles.articleCard}
               >
                 <div className={styles.articleImage}>
-                  <span className={styles.articleIcon}>📄</span>
+                  {/* <span className={styles.articleIcon}>📄</span> */}
+                  <Image
+                    src={article.img}
+                    alt={article.title}
+                    width={400}
+                    height={300}
+                  />
                   <div className={styles.categoryBadge}>{article.category}</div>
                 </div>
                 <div className={styles.articleContent}>
                   <h3 className={styles.articleTitle}>{article.title}</h3>
                   <p className={styles.articleExcerpt}>{article.excerpt}</p>
                   <div className={styles.articleMeta}>
-                    <span className={styles.author}>{article.author}</span>
+                    {/* <span className={styles.author}>{article.author}</span> */}
                     <span className={styles.date}>
                       {new Date(article.publishedDate).toLocaleDateString(
                         "ar-EG"

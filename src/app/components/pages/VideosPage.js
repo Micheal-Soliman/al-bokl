@@ -78,17 +78,7 @@ const VideosPage = () => {
       </section>
 
       {/* CTA Section */}
-      <section className={styles.ctaSection}>
-        <div className={styles.container}>
-          <div className={styles.ctaCard}>
-            <h3 className={styles.ctaTitle}>هل لديك سؤال محدد؟</h3>
-            <p className={styles.ctaText}>
-              تواصل معنا مباشرة للحصول على استشارة طبية متخصصة
-            </p>
-            <a href="/contact" className={styles.ctaButton}>احجز استشارة</a>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 };

@@ -124,7 +124,7 @@
   .footerContent {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  
+
   .footerBottomContent {
     flex-direction: row;
     justify-content: space-between;
@@ -133,6 +133,131 @@
 
 @media (min-width: 1024px) {
   .footerContent {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* Clinics Section */
+.clinicsSection {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #374151;
+}
+
+.clinicsTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.clinicsGrid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+
+.clinicCard {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+.clinicCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(37, 99, 235, 0.3);
+}
+
+.clinicHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.clinicIcon {
+  font-size: 1.5rem;
+}
+
+.clinicName {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.clinicLocation {
+  color: #e0e7ff;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.clinicHours {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+}
+
+.hoursIcon {
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.hoursText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  color: #e0e7ff;
+  font-size: 0.9rem;
+}
+
+.hoursText p {
+  margin: 0;
+}
+
+.mapLinkText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  color: white;
+}
+
+.arrowIcon {
+  font-size: 1.25rem;
+  transition: transform 0.3s ease;
+}
+
+.clinicCard:hover .arrowIcon {
+  transform: translateX(-4px);
+}
+
+/* Responsive for Clinics Grid */
+@media (min-width: 640px) {
+  .clinicsGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .clinicsGrid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }

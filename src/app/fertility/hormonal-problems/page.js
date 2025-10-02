@@ -1353,15 +1353,15 @@ export default function HormonalProblemsPage() {
         </section> */}
 
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
-              {/* <h2>استعد توازنك الهرموني وخصوبتك</h2>
+              <h2>استعد توازنك الهرموني وخصوبتك</h2>
               <p>
                 اضطرابات الهرمونات قابلة للعلاج بنجاح عالي. لا تدع المشكلة
                 تتفاقم، احجز استشارة مع د. أسامة البكل للحصول على تقييم شامل
                 وخطة علاج مناسبة.
-              </p> */}
+              </p>
               <div className={styles.ctaButtons}>
                 <Link href="/contact/appointment" className={styles.primaryBtn}>
                   احجز استشارة الآن
@@ -1388,7 +1388,7 @@ export default function HormonalProblemsPage() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Related Conditions */}
         {/* <section className={styles.relatedSection}>

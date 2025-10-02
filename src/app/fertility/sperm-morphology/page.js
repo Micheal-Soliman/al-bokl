@@ -848,16 +848,16 @@ export default function SpermMorphologyPage() {
           </div>
         </section>
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
-              {/* <h2>لا تفقد الأمل في تحقيق حلم الأبوة</h2>
+              <h2>لا تفقد الأمل في تحقيق حلم الأبوة</h2>
               <p>
                 و اخيراّ خليك عارف ان تشوه الحيوانات المنوية حتى لو وصل 100%، ده
                 مش معناه ان كده خلاص مفيش امل انك تبقى اب، بالعكس ديماّ لسه
                 عندنا فرص أن يكون عندنا اطفال، بس المهم انك متيأسش و خد قرار
                 العلاج.
-              </p> */}
+              </p>
               <div className={styles.ctaButtons}>
                 <Link href="/contact/appointment" className={styles.primaryBtn}>
                   احجز استشارة الآن
@@ -868,7 +868,7 @@ export default function SpermMorphologyPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Related Conditions */}
         {/* <section className={styles.relatedSection}>
           <div className={styles.container}>

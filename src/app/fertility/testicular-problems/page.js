@@ -967,7 +967,7 @@ export default function TesticularProblemsPage() {
           </div>
         </section>
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
               <h2>ابدأ رحلة العلاج معنا</h2>
@@ -987,7 +987,7 @@ export default function TesticularProblemsPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Related Conditions */}
         {/* <section className={styles.relatedSection}>
           <div className={styles.container}>

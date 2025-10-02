@@ -114,7 +114,7 @@ export default function MicroscopicTESEPage() {
                   </h3>
                 </div>
                 <p className={styles.causeDescription}>
-                  ان النسيج اللى احنا هنطلعة احتمالية وجود حيوانات حيوانات منوية
+                  ان النسيج اللى احنا هنطلعة احتمالية وجود  حيوانات منوية
                   فيه كبير، وده اللى بيضمن نجاح العملية.
                 </p>
               </div>

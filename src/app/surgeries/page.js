@@ -35,14 +35,14 @@ export default function SurgeriesPage() {
         "تحسين الخصوبة",
       ],
       duration: "1-2 ساعة",
-      recovery: "1-2 أسبوع",
-      success: "90-95%",
+      recovery: "5-10 ايام",
+      success: "70%-90%",
       href: "/surgeries/varicocele",
       icon: "🩸",
       complexity: "متوسطة",
     },
     {
-      title: "عينات الخصية",
+      title: "التفتيش الميكروسكوبى",
       description:
         "استخراج الحيوانات المنوية من الخصية للرجال الذين يعانون من انعدام الحيوانات المنوية",
       benefits: [
@@ -52,8 +52,8 @@ export default function SurgeriesPage() {
         "حل نهائي",
       ],
       duration: "30 دقيقة - 2 ساعة",
-      recovery: "3-7 أيام",
-      success: "60-90%",
+      recovery: "5 - 10 أيام",
+      success: "50%-60%",
       href: "/surgeries/testicular-biopsy",
       icon: "🔍",
       complexity: "متوسطة إلى عالية",
@@ -69,8 +69,9 @@ export default function SurgeriesPage() {
         "رضا عالي",
       ],
       duration: "1-2 ساعة",
-      recovery: "4-6 أسابيع",
-      success: "95-98%",
+      recovery: " 1 - 2 اسبوع",
+      success: " أكتر من 95% ",
+      wife:"4 - 6 أسابيع",
       href: "/surgeries/penile-implants",
       icon: "🔧",
       complexity: "عالية",
@@ -85,8 +86,8 @@ export default function SurgeriesPage() {
         "منع المضاعفات",
       ],
       duration: "30-60 دقيقة",
-      recovery: "1-2 أسبوع",
-      success: "95-99%",
+      recovery: "5 - 10 أيام",
+      success: "أكتر من 95% ",
       href: "/surgeries/hydrocele",
       icon: "💧",
       complexity: "بسيطة",
@@ -102,8 +103,9 @@ export default function SurgeriesPage() {
         "تخفيف الألم",
       ],
       duration: "1-3 ساعات",
-      recovery: "4-8 أسابيع",
-      success: "85-95%",
+      recovery: "1 - 2 اسبوع",
+      success: "أكتر من 96%",
+      wife:" 1 - 2 اسبوع",
       href: "/surgeries/penile-curvature",
       icon: "📐",
       complexity: "عالية",
@@ -259,6 +261,12 @@ export default function SurgeriesPage() {
                       <span className={styles.statLabel}>نسبة النجاح:</span>
                       <span className={styles.statValue}>
                         {procedure.success}
+                      </span>
+                    </div>
+                    <div className={styles.statItem}>
+                      <span className={styles.statLabel}>ممارسة العلاقة الزوجية</span>
+                      <span className={styles.statValue}>
+                        {procedure.wife || "لا يوجد"}
                       </span>
                     </div>
                   </div>

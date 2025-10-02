@@ -621,10 +621,10 @@ export default function PrematureEjaculationPage() {
           </div>
         </section>
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
-              {/*<h2>لا تتردد في طلب المساعدة المتخصصة</h2>
+              <h2>لا تتردد في طلب المساعدة المتخصصة</h2>
                <p>
                 و فى النهاية لو لسة متلغبط ومش قادر تحدد انت عندك سرعة قذف ولا
                 لأ، او مش قادر تحدد ايه هى طريقة العلاج اللى هتجيب معاك نتيجة،
@@ -633,7 +633,7 @@ export default function PrematureEjaculationPage() {
                 والصحة الجنسية بطب القصر العيني وهو هيجاوبك على كل الاسئلة اللى
                 قلقاك و هيحددلك العلاج المناسب ليك عشان توصل للعلاقة الزوجية
                 اللى ترضيك.
-              </p> */}
+              </p>
               <div className={styles.ctaButtons}>
                 <Link href="/contact/appointment" className={styles.primaryBtn}>
                   احجز استشارة متخصصة
@@ -644,7 +644,7 @@ export default function PrematureEjaculationPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Related Conditions */}
         {/* <section className={styles.relatedSection}>

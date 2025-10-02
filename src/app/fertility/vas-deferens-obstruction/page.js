@@ -734,15 +734,15 @@ export default function VasDeferensObstructionPage() {
         </section>
 
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
-              {/* <h2>ابدأ رحلة العلاج معنا</h2>
+              <h2>ابدأ رحلة العلاج معنا</h2>
               <p>
                 انعدام الحيوانات المنوية مش نهاية الطريق. معنا هتلاقي الحل
                 المناسب لحالتك سواء كان تسليك جراحي أو عينة ميكروسكوبية. ابدأ
                 معنا النهارده عشان تبقى أب قريباً بإذن الله.
-              </p> */}
+              </p>
               <div className={styles.ctaButtons}>
                 <Link href="/contact/appointment" className={styles.primaryBtn}>
                   احجز استشارة مع د. أسامة البكل
@@ -753,7 +753,7 @@ export default function VasDeferensObstructionPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Related Conditions */}
         {/* <section className={styles.relatedSection}>

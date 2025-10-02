@@ -251,7 +251,7 @@ export default function PenileFracturePage() {
         </section>
 
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
               <h2>استبشر خيراً - ماتفقدش الأمل</h2>
@@ -269,7 +269,7 @@ export default function PenileFracturePage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Related Topics */}
         {/* <section className={styles.relatedSection}>

@@ -457,7 +457,7 @@ const ContactPage = () => {
       </section>
 
       {/* Social Media & Follow Section */}
-      <section className={styles.socialSection}>
+      {/* <section className={styles.socialSection}>
         <div className={styles.container}>
           <div className={styles.socialGrid}>
             <div className={styles.followCard}>
@@ -507,7 +507,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

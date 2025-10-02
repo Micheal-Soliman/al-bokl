@@ -139,7 +139,7 @@ export default function LibidoProblemsPage() {
     },
     {
       condition: "السلوكيات الخاطئة",
-      treatment: "و لو السبب كان سلوكيات غلط احنا بنعملها نبدء اننا نعدلها",
+      treatment: "و لو السبب كان سلوكيات غلط احنا بنعملها نبدء اننا نعدلها العلاج السلوكي/النفسي قد يكون جزءًا مهمًا بالخطة حسب الحالة",
       icon: "🔄",
     },
     {
@@ -450,16 +450,16 @@ export default function LibidoProblemsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
-              {/* <h2>استعد رغبتك الجنسية الطبيعية</h2>
+              <h2>استعد رغبتك الجنسية الطبيعية</h2>
               <p>
                 مشاكل الرغبة الجنسية لها أسباب كثيرة ومتنوعة، ولكل سبب علاج
                 مناسب. لا تدع هذه المشكلة تحول علاقتك الزوجية إلى مجرد واجب
                 بدلاً من متعة. احجز استشارة مع د. أسامة البكل لتحديد السبب
                 والحصول على العلاج المناسب لحالتك.
-              </p> */}
+              </p>
               <div className={styles.ctaButtons}>
                 <Link href="/contact/appointment" className={styles.primaryBtn}>
                   احجز استشارة متخصصة
@@ -470,7 +470,7 @@ export default function LibidoProblemsPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Related Conditions */}
         {/* <section className={styles.relatedSection}>

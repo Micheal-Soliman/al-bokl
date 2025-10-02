@@ -933,7 +933,7 @@ export default function SpermMotilityPage() {
         </section>
 
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
               <h2>حرك حيواناتك المنوية نحو النجاح</h2>
@@ -949,7 +949,7 @@ export default function SpermMotilityPage() {
                   اتصل الآن: 01017912197
                 </Link>
               </div>
-              {/* <div
+              <div
                 style={{
                   marginTop: "3rem",
                   padding: "2rem",
@@ -979,10 +979,10 @@ export default function SpermMotilityPage() {
                     تضغط هنا
                   </Link>
                 </p>
-              </div> */}
+              </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Related Conditions */}
         {/* <section className={styles.relatedSection}>

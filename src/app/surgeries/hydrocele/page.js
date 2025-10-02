@@ -289,9 +289,7 @@ export default function HydrocelePage() {
               <div className={styles.symptomItem}>
                 <div className={styles.symptomIcon}>•</div>
                 <div className={styles.symptomContent}>
-                  <p>
-                    لو حسيت انك مش مرتاح فى الحركة ، أو وقت العلاقة الزوجية بسبب
-                    تقل الخصية خصوصاّ لو كان التورم كبير .
+                  <p>قد تسبب ثِقَلًا وقد تؤثر على النشاط اليومي أو العلاقة في الحالات الكبيرة
                   </p>
                 </div>
               </div>
@@ -349,7 +347,7 @@ export default function HydrocelePage() {
                 <div className={styles.benefitItem}>
                   <div className={styles.benefitIcon}>•</div>
                   <p>
-                    بنقدر نمارس العلاقة الزوجية بعد اسبوع من العمليه ، عشان يكون
+                    بنقدر نمارس العلاقة الزوجية من 2 - 4 أسابيع من العمليه ، عشان يكون
                     الجرح التأم .
                   </p>
                 </div>

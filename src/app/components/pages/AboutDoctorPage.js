@@ -82,14 +82,23 @@ export default function AboutDoctorPage() {
                 خبرة أكثر من 10 سنوات فى : علاج تأخر الإنجاب والمشاكل الجنسية
                 وتأخر البلوغ
               </p>
-              {/* <ul className="ullist"> */}
-              <div>✅ عضو الأكاديمية الأوروبية للذكورة</div>
-              <div>✅ عضو الجمعية المصرية للذكورة</div>
-              <div>
-                ✅ خبرة أكثر من 10 سنوات فى : علاج تأخر الإنجاب والمشاكل الجنسية
-                وتأخر البلوغ
+              <div className={styles.qualifications}>
+                <h3>المؤهلات الأكاديمية</h3>
+                <div>✅ بكالوريوس الطب والجراحة – كلية طب قصر العيني، جامعة القاهرة.</div>
+                <div>✅ ماجستير طب وجراحة أمراض الذكورة – كلية طب قصر العيني، جامعة القاهرة.</div>
+                <div>✅ دكتوراه طب وجراحة أمراض الذكورة – كلية طب قصر العيني، جامعة القاهرة.</div>
+                
+                <h3>العضويات العلمية</h3>
+                <div>✅ عضو الجمعية المصرية لأمراض الذكورة.</div>
+                <div>✅ عضو الأكاديمية الأوروبية لأمراض الذكورة (EAA – European Academy of Andrology).</div>
+                <div>✅ عضو الجمعية الأوروبية للتكاثر البشري والأجنة (ESHRE – European Society of Human Reproduction and Embryology).</div>
+                
+                <h3>الإنجازات والأنشطة العلمية</h3>
+                <div>✅ المشاركة المنتظمة في مؤتمرات الجمعية الأوروبية للذكورة و الجمعية الأوروبية للتكاثر وطب الأجنة (ESHRE).</div>
+                <div>✅ تقديم أبحاث ومحاضرات علمية متقدمة في مجال العقم الذكوري والضعف الجنسي.</div>
+                <div>✅ الإسهام في أحدث بروتوكولات العلاج والبحث العلمي بمجال طب وجراحة الذكورة في مصر والشرق الأوسط.</div>
+                <div>✅ الإشراف على العديد من رسائل الماجستير والدكتوراه في مجال أمراض الذكورة بكلية طب قصر العيني.</div>
               </div>
-              {/* </ul> */}
               <Link href="/contact" className={styles.bookingBtn}>
                 <span>اضغط هنا لو محتاج تحجز كشف</span>
                 <span className={styles.btnArrow}>←</span>
@@ -267,7 +276,7 @@ export default function AboutDoctorPage() {
         </div>
       </section> */}
 
-      <section className={styles.contactSection}>
+      {/* <section className={styles.contactSection}>
         <div className={styles.contactSectionContainer}>
           <div className={styles.contactGrid}>
             <div className={styles.contactCard}>
@@ -298,7 +307,7 @@ export default function AboutDoctorPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

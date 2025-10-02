@@ -46,9 +46,9 @@ export default function Hero() {
             <div className={styles.doctorLabel}>الدكتور</div>
             <h1 className={styles.doctorName}>أسامة البكل</h1>
             <p className={styles.doctorTitle}>
-              مدرس وإستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب
-              <br />
-              والصحة الجنسية بطب قصر العيني
+              مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب القصر العيني 
+              {/* <br />
+              والصحة الجنسية بطب قصر العيني */}
             </p>
             <button className={styles.contactBtn}>
               تواصل معنا

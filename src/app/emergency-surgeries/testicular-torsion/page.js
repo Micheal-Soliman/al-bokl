@@ -249,7 +249,7 @@ export default function TesticularTorsionPage() {
         </section>
 
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
               <h2>استبشر خيراً - ماتفقدش الأمل</h2>
@@ -267,7 +267,7 @@ export default function TesticularTorsionPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Related Topics */}
         {/* <section className={styles.relatedSection}>

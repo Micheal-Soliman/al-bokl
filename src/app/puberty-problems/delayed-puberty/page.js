@@ -1144,10 +1144,10 @@ export default function DelayedPubertyPage() {
         </section> */}
 
         {/* CTA Section */}
-        <section className={styles.ctaSection}>
+        {/* <section className={styles.ctaSection}>
           <div className={styles.container}>
             <div className={styles.ctaContent}>
-              {/* <h2>استبشر خيراً - ماتفقدش الأمل</h2>
+              <h2>استبشر خيراً - ماتفقدش الأمل</h2>
               <p>
                 فى النهاية لازم كل أب وأم يكون عندهم وعي بمتابعة نمو أطفالهم،
                 سواء النمو الجسدي أو نمو الأعضاء التناسلية، و فى حالة اننا لقينا
@@ -1156,8 +1156,8 @@ export default function DelayedPubertyPage() {
               </p>
               <p className={styles.finalContactText}>
                 و دلوقتى لو عايزين تطمنوا على صحة اولادكم تقدروا تتواصلوا مع
-                الفريق الطبى، <strong>01018874287</strong> */}
-              {/* </p> */}
+                الفريق الطبى، <strong>01018874287</strong>
+              
               <div className={styles.ctaButtons}>
                 <Link href="/contact/appointment" className={styles.primaryBtn}>
                   احجز استشارة الآن
@@ -1168,7 +1168,7 @@ export default function DelayedPubertyPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Related Topics */}
         {/* <section className={styles.relatedSection}>

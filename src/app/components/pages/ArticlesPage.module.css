@@ -80,7 +80,7 @@
 
 .articlesGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
 }
 
@@ -94,6 +94,7 @@
   color: inherit;
   display: flex;
   flex-direction: column;
+  max-width: 400px;
 }
 
 .articleCard:hover {
@@ -102,7 +103,7 @@
 }
 
 .articleImage {
-  height: 200px;
+  /* height: 200px; */
   background: linear-gradient(135deg, #eff6ff 0%, #f0fdf4 100%);
   display: flex;
   align-items: center;
@@ -290,33 +291,33 @@
   .heroTitle {
     font-size: 2.5rem;
   }
-  
+
   .articlesGrid {
     grid-template-columns: 1fr;
   }
-  
+
   .container {
     padding: 0 1rem;
   }
-  
+
   .heroSection {
     padding: 4rem 0;
   }
-  
+
   .categoriesFilter {
     justify-content: flex-start;
     overflow-x: auto;
     padding-bottom: 0.5rem;
   }
-  
+
   .categoryBtn {
     white-space: nowrap;
   }
-  
+
   .newsletterForm {
     flex-direction: column;
   }
-  
+
   .articleMeta {
     flex-direction: column;
     gap: 0.5rem;
