@@ -14865,6 +14865,21 @@ export const medicalArticles = [
       <p>وده عيب خلقي بيصيب الأطفال الذكور بعد الولادة مباشرة ، و يتسبب في أن خصية واحدة أو الاثنين فضلوا معلقين داخل البطن ومنزلتش إلى مكانها الطبيعي في كيس الصفن ، والخصية المعلقة لازم تتعالج بالجراحة خلال السنة الأولى من عمر الطفل ، لأنها لو فضلت معلقة داخل البطن ، هتتعرض لدرجة حرارة الجسم العالية ، وده طبعا هيسبب ضمور للخصية وعدم إنتاجها للحيوانات المنوية.</p>
       
       <p>ولو عايز تعرف اي علاقة الخصية المعلقة بتاخر الانجاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+        <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410938/141_xwlefi.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
 
       <h3>5/ التدخين بشراهة</h3>
       <p>لأن النيكوتين الموجود في السجائر بياثر بشكل كبير جدا على الخصية وانتاجها للحيوانات المنوية ، ده غير كمان انه بيسبب ضيق في الأوعية الدموية الموصلة للعضو الذكري وبيقلل من وصول الدم إلى القضيب وبيسبب ضعف انتصاب.</p>
@@ -15013,6 +15028,22 @@ export const medicalArticles = [
       </ul>
       
       <p>ولو عايز تعرف ليه المنشطات الجنسية مبقتش تجيب معاك نتيجة زي الاول ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410942/142_gbvehi.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
+
     </div>
 
     <h2>وبعد ما عرفنا ايه هي اضرار المنشطات الجنسية ، لازم تكون عارف ان الحل الوحيد هنا هو :</h2>
@@ -15125,7 +15156,23 @@ export const medicalArticles = [
     </ul>
 
     <p>ولو عايز تعرف ازاي المشاكل والخلافات الزوجية بتسبب ضعف انتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-
+       <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+             
+            </h3>
+            <div className={styles.videoWrapperyoutube}>
+              <iframe
+                className={styles.videoYou}
+                src="https://www.youtube.com/embed/E_w2fJ_Dh68"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
     <h2>ايه هي الدعامة المرنة ؟</h2>
     
     <div class="flexible-implant-definition">
@@ -15207,6 +15254,22 @@ export const medicalArticles = [
       <p><strong>إذا الجراح هو اللي بيختار نوع الدعامة المناسبة للمريض حسب تفضيلاته وحالته الصحية.</strong></p>
 
       <p>ولو عايز تعرف ايه هي الاجراءات اللي لازم تعملها قبل تركيب دعامة القضيب علشان تمنع حدوث اي التهابات او عدوي بعد العملية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410948/1403_haqlgj.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
+
     </div>
 
     <div class="conclusion-section">
@@ -15332,6 +15395,22 @@ export const medicalArticles = [
 
     <div class="video-section">
       <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي لازم تعمل تفتيش ميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410945/144_ue6uvf.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
+
     </div>
 
     <div class="conclusion-section">
@@ -15461,6 +15540,21 @@ export const medicalArticles = [
       </ul>
 
       <p>ولو عايز تعرف امتي ممكن يحصل حمل طبيعي وتحسن في تحليل السائل المنوي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410942/145_li2bth.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     </div>
 
     <div class="conclusion-section">
@@ -15562,7 +15656,23 @@ export const medicalArticles = [
       <p>وده بيكون عن طريق جهاز الدوبلر الملون هو عبارة عن فحص آمن وغير مؤلم بيستخدمه الدكتور علشان يوضح حجم الخصيتين بالظبط بالملى ، وطبيعة تدفق الدم في أوردة كيس الصفن ، وبيوضح حجم الأوردة داخل كيس الصفن ، لأن حجم الاوردة الطبيعي مش بيزيد عن 2 ملم فلما تزيد حجم الأوردة عن 3 ملم بيؤكد وجود دوالي في الخصية.</p>
 
       <p>ولو عايز تعرف أهمية أشعة الدوبلكس في تشخيص دوالي الخصيتين ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    </div>
+    
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410932/146_a7xfhs.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
+      </div>
 
     <h2>ودلوقتي تعالوا نعرف مع بعض ازاي نعالج دوالي الخصية</h2>
 
@@ -15641,7 +15751,7 @@ export const medicalArticles = [
   {
     id: 111,
     slug: "what-the-cases-of-infertility-and-delayed-reproduction-in-men-and-their-treatment",
-    img:"/ما-هي-درجات-دوالي-الخصية-وازاى-نعالجها؟-720x544.webp",
+    img:"/WhatsApp-Image-2025-01-15-at-16.31.21-720x544.webp",
     title: "ما هي حالات العقم وتأخر الإنجاب عند الرجال وعلاجها؟",
     excerpt:
       "تعرف على أهم حالات العقم وتأخر الإنجاب عند الرجال، أسبابها المختلفة، وطرق العلاج الفعالة لكل حالة.",
@@ -15694,7 +15804,21 @@ export const medicalArticles = [
       <p>ودي حالة مرضية بتحصل للأطفال الذكور بعد الولادة مباشرة ، و هنا الخصية مش بتنزل لكيس الصفن و بتفضل متعلقة فى البطن ، ولازم نعالجها قبل عمر سنة ونصف على يد جراح متخصص ، لأن لو اتأخرنا في علاجها ، ده هيسبب مشاكل كتير جداً في الإنجاب.</p>
 
       <p>ولو عايز تعرف اي علاقة الخصية المعلقة بتأخر الانجاب عند الرجل ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410933/147_dkviqx.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
       <h3>5/ الإصابة بالأمراض السرطانية</h3>
       <p>لأن التعرض للعلاج الإشعاعي والكيماوي بيأثر على الخصية وعلي إنتاجها للحيوانات المنوية ، علشان كده بننصح اللي بيتعرضوا للعلاج الكيماوي أنهم يجمدوا عينة من الحيوانات المنوية علشان يستخدموها بعد التعافي في عملية الحقن المجهري.</p>
 
@@ -15848,6 +15972,21 @@ export const medicalArticles = [
       </ul>
 
       <p>ولو عايز تعرف ازاى تهتم بجرح العملية واي الادوية اللي هتاخدها ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+      <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410936/148_n82ci0.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     </div>
 
     <div class="conclusion-section">
