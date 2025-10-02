@@ -61,7 +61,7 @@ export default function MedicalStats() {
           {/* Text Content */}
           <div className={styles.textContent}>
             <h2 className={styles.mainTitle}>
-              قد وثقنا الله لإجراء أكثر من 1704 عملية جراحية ناجحة
+              قد وفقنا الله لإجراء أكثر من 2000 عملية جراحية ناجحة
             </h2>
             <p className={styles.description}>
               نقوم بالعديد من العمليات الجراحية يومياً، وهذا ما يضيف إلى كل يوم

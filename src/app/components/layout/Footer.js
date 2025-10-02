@@ -2,6 +2,7 @@
 import Link from "next/link";
 // import { siteConfig } from '../utils/constants';
 import styles from "./Footer.module.css";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -26,39 +27,35 @@ export default function Footer() {
   const clinics = [
     {
       name: "عيادة الشيخ زايد",
-      location: "توين تاورز الشيخ زايد محور ٢٦ يوليو - برج C الدور الثاني عيادة D",
-      hours: [
-        "الإثنين ٨ ل ١١ م",
-        "الأربعاء ٧ مساءً حتى 10 مساءً"
-      ],
-      mapLink: "https://maps.app.goo.gl/o19rgM12eVzAFX3y8"
+      location:
+        "توين تاورز الشيخ زايد محور ٢٦ يوليو - برج C الدور الثاني عيادة D",
+      hours: ["الإثنين ٨ ل ١١ م", "الأربعاء ٧ مساءً حتى 10 مساءً"],
+      mapLink: "https://maps.app.goo.gl/o19rgM12eVzAFX3y8",
     },
     {
       name: "عيادة الجيزة",
-      location: "30 ش مراد - بالقرب من ميدان الجيزة و حديقة الحيوان - الدور الرابع - عيادة 312",
+      location:
+        "30 ش مراد - بالقرب من ميدان الجيزة و حديقة الحيوان - الدور الرابع - عيادة 312",
       hours: [
         "الأحد – من 3 حتى 8 مساءً",
         "الثلاثاء – من 3 حتى 8 مساءً",
-        "الأربعاء – من 2 حتى 5 مساءً"
+        "الأربعاء – من 2 حتى 5 مساءً",
       ],
-      mapLink: "https://maps.app.goo.gl/dKdzFCAewVMvjE1o6"
+      mapLink: "https://maps.app.goo.gl/dKdzFCAewVMvjE1o6",
     },
     {
       name: "عيادة شبين الكوم - المنوفية",
       location: "برج الديوان - ميدان شرف - الدور الخامس",
-      hours: [
-        "السبت من كل أسبوع – من 1 حتى 5 مساءً"
-      ],
-      mapLink: "https://maps.app.goo.gl/BUsVzBLoHiypUSa66"
+      hours: ["السبت من كل أسبوع – من 1 حتى 5 مساءً"],
+      mapLink: "https://maps.app.goo.gl/BUsVzBLoHiypUSa66",
     },
     {
       name: "عيادة أشمون - المنوفية",
-      location: "ش عبد المنعم رياض - خلف مكتب البريد - مستشفى الدكتور محمد البكل",
-      hours: [
-        "الإثنين من كل أسبوع – من 1 حتى 5 مساءً"
-      ],
-      mapLink: "https://maps.app.goo.gl/tUThtGhDPPPiwV766"
-    }
+      location:
+        "ش عبد المنعم رياض - خلف مكتب البريد - مستشفى الدكتور محمد البكل",
+      hours: ["الإثنين من كل أسبوع – من 1 حتى 5 مساءً"],
+      mapLink: "https://maps.app.goo.gl/tUThtGhDPPPiwV766",
+    },
   ];
 
   return (
@@ -68,7 +65,9 @@ export default function Footer() {
           {/* About Section */}
           <div className={styles.footerSection}>
             <h3 className={styles.footerTitle}>الدكتور أسامة البكل</h3>
-            <p className={styles.footerText}>مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب القصر العيني 
+            <p className={styles.footerText}>
+              مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب القصر
+              العيني
             </p>
             <div className={styles.socialLinks}>
               <a href="#" className={styles.socialLink}>
@@ -134,19 +133,13 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
+        {/* import { FaWhatsapp } from 'react-icons/fa'; */}
         {/* Clinics Section */}
         <div className={styles.clinicsSection}>
           <h3 className={styles.clinicsTitle}>عياداتنا</h3>
           <div className={styles.clinicsGrid}>
             {clinics.map((clinic, index) => (
-              <a
-                key={index}
-                href={clinic.mapLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.clinicCard}
-              >
+              <div key={index} className={styles.clinicCard}>
                 <div className={styles.clinicHeader}>
                   <span className={styles.clinicIcon}>📍</span>
                   <h4 className={styles.clinicName}>{clinic.name}</h4>
@@ -160,11 +153,50 @@ export default function Footer() {
                     ))}
                   </div>
                 </div>
-                <div className={styles.mapLinkText}>
+
+                <a
+                  href={clinic.mapLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.mapLinkText}
+                >
                   <span>عرض على الخريطة</span>
                   <span className={styles.arrowIcon}>←</span>
+                </a>
+
+                {/* Contact Buttons */}
+                <div className={styles.clinicContactButtons}>
+                  <div className={styles.whatsappButtonsRow}>
+                    <a
+                      href="https://wa.me/201018874287"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.whatsappButton}
+                    >
+                      <FaWhatsapp />
+                      <span>واتساب 1</span>
+                    </a>
+                    <a
+                      href="https://wa.me/201017912197"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.whatsappButton}
+                    >
+                      <FaWhatsapp />
+                      <span>واتساب 2</span>
+                    </a>
+                  </div>
+                  <a
+                    href="https://wa.me/201034637761"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.contactButton}
+                  >
+                    <span className={styles.phoneIcon}>📞</span>
+                    <span>للتواصل: 01034637761</span>
+                  </a>
                 </div>
-              </a>
+              </div>
             ))}
           </div>
         </div>
