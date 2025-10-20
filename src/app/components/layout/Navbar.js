@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { NAVIGATION_ITEMS, SITE_CONFIG } from "../utils/constants";
+import { NAVIGATION_ITEMS, SITE_CONFIG, CLINICS } from "../utils/constants";
 import styles from "./Navbar.module.css";
-import { FaTiktok, FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaTiktok, FaInstagram, FaYoutube, FaFacebook, FaWhatsapp } from "react-icons/fa";
 import { IoTimeOutline, IoLocationOutline } from "react-icons/io5";
 import Image from "next/image";
 
@@ -16,6 +16,8 @@ export default function Navbar() {
   const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isClinicModalOpen, setIsClinicModalOpen] = useState(false);
+  const [selectedClinic, setSelectedClinic] = useState(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -97,6 +99,16 @@ export default function Navbar() {
     setIsSearchModalOpen(false);
     setSearchQuery("");
     setSearchResults([]);
+  };
+
+  const openClinicModal = (clinic) => {
+    setSelectedClinic(clinic);
+    setIsClinicModalOpen(true);
+  };
+
+  const closeClinicModal = () => {
+    setIsClinicModalOpen(false);
+    setSelectedClinic(null);
   };
 
   useEffect(() => {
@@ -187,16 +199,17 @@ export default function Navbar() {
                   <FaFacebook />
                 </a>
               </div>
-              <div className={styles.topBarInfo}>
-                <span className={styles.workingHours}>
-                  <IoTimeOutline />
-                  السبت الي الاربعاء من 12:00 الي 8:00 م
-                </span>
-                <span className={styles.location}>
-                  <IoLocationOutline />
-                  الشيخ زايد - محور 26 يوليو - توين تاورز - برج سي - الدور
-                  الثاني - عيادة د
-                </span>
+              <div className={styles.clinicLocations}>
+                {CLINICS.map((clinic, index) => (
+                  <button
+                    key={index}
+                    onClick={() => openClinicModal(clinic)}
+                    className={styles.clinicButton}
+                  >
+                    <IoLocationOutline />
+                    {clinic.name}
+                  </button>
+                ))}
               </div>
             </div>
           </div>
@@ -551,6 +564,93 @@ export default function Navbar() {
                   </div>
                 </div>
               )}
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Clinic Modal */}
+      {isClinicModalOpen && selectedClinic && (
+        <div
+          className={styles.clinicModal}
+          onClick={closeClinicModal}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="clinic-modal-title"
+        >
+          <div
+            className={styles.clinicModalContent}
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className={styles.clinicModalHeader}>
+              <h3 id="clinic-modal-title">{selectedClinic.name}</h3>
+              <button
+                onClick={closeClinicModal}
+                className={styles.closeButton}
+                aria-label="إغلاق النافذة"
+              >
+                ✕
+              </button>
+            </div>
+            <div className={styles.clinicModalBody}>
+              <div className={styles.clinicCard}>
+                <div className={styles.clinicHeader}>
+                  <span className={styles.clinicIcon}>📍</span>
+                  <h4 className={styles.clinicName}>{selectedClinic.name}</h4>
+                </div>
+                <p className={styles.clinicLocation}>{selectedClinic.location}</p>
+                <div className={styles.clinicHours}>
+                  <span className={styles.hoursIcon}>🕒</span>
+                  <div className={styles.hoursText}>
+                    {selectedClinic.hours.map((hour, idx) => (
+                      <p key={idx}>{hour}</p>
+                    ))}
+                  </div>
+                </div>
+
+                <a
+                  href={selectedClinic.mapLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.mapLinkText}
+                >
+                  <span>عرض على الخريطة</span>
+                  <span className={styles.arrowIcon}>←</span>
+                </a>
+
+                {/* Contact Buttons */}
+                <div className={styles.clinicContactButtons}>
+                  <div className={styles.whatsappButtonsRow}>
+                    <a
+                      href="https://wa.me/201018874287"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.whatsappButton}
+                    >
+                      <FaWhatsapp />
+                      <span>واتساب 1</span>
+                    </a>
+                    <a
+                      href="https://wa.me/201017912197"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.whatsappButton}
+                    >
+                      <FaWhatsapp />
+                      <span>واتساب 2</span>
+                    </a>
+                  </div>
+                  <a
+                    href="https://wa.me/201034637761"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.contactButton}
+                  >
+                    <span className={styles.phoneIcon}>📞</span>
+                    <span>للتواصل: 01034637761</span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

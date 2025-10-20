@@ -38,7 +38,7 @@ export default function Hero() {
         <div className={styles.heroContent}>
           <div className={styles.heroImage}>
             <div className={styles.imageFrame}>
-              <img src="/home/3.webp" alt="د. أسامة البقل" />
+              <img src="/home/DSC03817.JPG" alt="د. أسامة البقل" />
             </div>
           </div>
           

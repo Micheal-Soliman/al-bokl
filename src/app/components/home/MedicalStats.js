@@ -10,15 +10,15 @@ export default function MedicalStats() {
 
   // Exact order and labels from the new image - right to left reading
   const topRowStats = [
-    { number: 193, label: "تركيب\nدعامة مرنة", icon: "✓" },
-    { number: 117, label: "تركيب\nدعامة\nهيدروليكية", icon: "✓" },
+    { number: 288, label: "تركيب\nدعامة مرنة", icon: "✓" },
+    { number: 373, label: "تركيب\nدعامة\nهيدروليكية", icon: "✓" },
     { number: 432, label: "عملية\nدوالي", icon: "✓" },
   ];
 
   const bottomRowStats = [
-    { number: 85, label: "عملية إصلاح إعوجاج القضيب", icon: "✓" },
+    { number: 204, label: "عملية إصلاح إعوجاج القضيب", icon: "✓" },
     {
-      number: 136,
+      number: 231,
       label: `عملية قيلة مائية`,
       icon: "✓",
     },

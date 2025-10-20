@@ -68,15 +68,11 @@
     flex-wrap: nowrap;
   }
 
-  .topBarInfo {
+  .clinicLocations {
     min-width: 0;
     flex-shrink: 1;
   }
 
-  .workingHours {
-    flex-shrink: 1;
-    min-width: 0;
-  }
 }
 
 .navbar.scrolled {
@@ -146,41 +142,41 @@
   background: rgba(255, 255, 255, 0.2);
 }
 
-.topBarInfo {
+.clinicLocations {
   display: flex;
-  gap: 1.5rem;
+  gap: 0.75rem;
   align-items: center;
   font-size: 0.7rem;
   flex-shrink: 1;
   min-width: 0;
+  flex-wrap: wrap;
 }
 
-.workingHours,
-.location {
+.clinicButton {
   color: var(--white);
+  text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.3rem;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   background: rgba(255, 255, 255, 0.1);
-  padding: 0.2rem 0.6rem;
-  border-radius: 12px;
+  padding: 0.25rem 0.5rem;
+  border-radius: 10px;
   transition: var(--transition-normal);
   border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.65rem;
+  font-weight: 500;
 }
 
-.workingHours:hover,
-.location:hover {
-  background: rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.3);
+.clinicButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
   transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.workingHours svg,
-.location svg {
-  font-size: 0.9rem;
+.clinicButton svg {
+  font-size: 0.8rem;
   flex-shrink: 0;
   opacity: 0.9;
   filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
@@ -1164,8 +1160,9 @@
 
 /* Large Screens - slight adjustments for better fit */
 @media (max-width: 1399px) and (min-width: 1200px) {
-  .topBarInfo .location {
-    font-size: 0.68rem;
+  .clinicButton {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.4rem;
   }
 
   .menuLink {
@@ -1175,8 +1172,8 @@
 
 /* Medium-Large Screens */
 @media (max-width: 1199px) and (min-width: 992px) {
-  .topBarInfo .workingHours {
-    font-size: 0.65rem;
+  .clinicLocations {
+    gap: 0.5rem;
   }
 
   .desktopMenu {
@@ -1200,11 +1197,9 @@
 
 /* Medium Screens - Tablet landscape */
 @media (max-width: 991px) and (min-width: 768px) {
-  .topBarInfo .location {
-    font-size: 0.7rem;
-    max-width: 200px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  .clinicButton {
+    font-size: 0.6rem;
+    padding: 0.2rem 0.4rem;
   }
 
   .desktopMenu {
@@ -1233,10 +1228,6 @@
 
 /* Small-Medium Screens - Tablet portrait */
 @media (max-width: 767px) and (min-width: 576px) {
-  .topBarInfo .location {
-    display: none;
-  }
-
   .desktopMenu {
     display: none;
   }
@@ -1259,8 +1250,26 @@
     max-height: 100px;
   }
 
-  .topBarInfo {
-    font-size: 0.7rem;
+  .clinicLocations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .clinicButton {
+    font-size: 0.6rem;
+    padding: 0.3rem 0.5rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
   }
 
   .socialIcon {
@@ -1327,8 +1336,26 @@
     max-height: 100px;
   }
 
-  .topBarInfo {
-    font-size: 0.65rem;
+  .clinicLocations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .clinicButton {
+    font-size: 0.55rem;
+    padding: 0.25rem 0.4rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
   }
 
   .socialIcon {
@@ -1385,17 +1412,29 @@
     max-height: 120px;
   }
 
-  .topBarInfo {
+  .clinicLocations {
     order: 1;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 0.25rem;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
   }
 
-  .workingHours {
-    font-size: 0.6rem !important;
-    padding: 0.15rem 0.4rem;
+  .clinicButton {
+    font-size: 0.5rem;
+    padding: 0.2rem 0.3rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
   }
+
 
   .desktopMenu {
     display: none;
@@ -1416,23 +1455,29 @@
 
   .hashtags {
     flex-direction: row;
-    gap: 0.4rem;
+    gap: 0.25rem;
     align-items: center;
+    justify-content: space-between;
   }
 
   .hashtagItem {
-    min-width: 150px;
-    max-width: 200px;
+    min-width: 90px;
+    max-width: 110px;
     justify-content: center;
-    padding: 0.4rem 0.6rem;
+    padding: 0.3rem 0.4rem;
+    flex: 1;
   }
 
   .hashtagText {
-    font-size: 0.65rem;
+    font-size: 0.55rem;
   }
 
   .hashtagSubtext {
-    font-size: 0.55rem;
+    font-size: 0.45rem;
+  }
+
+  .hashtagIcon {
+    font-size: 0.9rem;
   }
 
   .bottomBarContent {
@@ -1492,5 +1537,258 @@
   .mainNavContent,
   .bottomBarContent {
     padding: 0 0.5rem;
+  }
+}
+
+/* Clinic Modal Styles */
+.clinicModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10001;
+  backdrop-filter: blur(4px);
+  padding: 1rem;
+}
+
+.clinicModalContent {
+  background: var(--white);
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  animation: modalSlideIn 0.3s ease-out;
+}
+
+.clinicModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: linear-gradient(135deg, #dbeafe 0%, #eff6ff 100%);
+}
+
+.clinicModalHeader h3 {
+  margin: 0;
+  color: var(--primary-blue);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.clinicModalBody {
+  padding: 1.5rem;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.clinicCard {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.clinicHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.clinicIcon {
+  font-size: 1.5rem;
+  color: var(--primary-blue);
+}
+
+.clinicName {
+  margin: 0;
+  color: var(--primary-blue);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.clinicLocation {
+  color: var(--gray-600);
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.clinicHours {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.hoursIcon {
+  font-size: 1rem;
+  color: var(--primary-blue);
+  margin-top: 0.1rem;
+}
+
+.hoursText {
+  flex: 1;
+}
+
+.hoursText p {
+  margin: 0 0 0.25rem 0;
+  color: var(--gray-600);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.mapLinkText {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  transition: var(--transition-normal);
+}
+
+.mapLinkText:hover {
+  color: var(--secondary-blue);
+  transform: translateX(-2px);
+}
+
+.arrowIcon {
+  font-size: 0.8rem;
+  transition: var(--transition-normal);
+}
+
+.mapLinkText:hover .arrowIcon {
+  transform: translateX(-3px);
+}
+
+.clinicContactButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.whatsappButtonsRow {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.whatsappButton {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #25d366;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.85rem;
+  transition: var(--transition-normal);
+  box-shadow: 0 2px 8px rgba(37, 211, 102, 0.2);
+}
+
+.whatsappButton:hover {
+  background: #128c7e;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.contactButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: var(--primary-blue);
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.85rem;
+  transition: var(--transition-normal);
+  box-shadow: 0 2px 8px rgba(30, 64, 175, 0.2);
+}
+
+.contactButton:hover {
+  background: var(--secondary-blue);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+}
+
+/* Mobile responsiveness for clinic modal */
+@media (max-width: 768px) {
+  .clinicModal {
+    padding: 0.5rem;
+    align-items: flex-start;
+    padding-top: 10vh;
+  }
+
+  .clinicModalContent {
+    width: 95%;
+    max-height: 85vh;
+  }
+
+  .clinicModalHeader {
+    padding: 1rem;
+  }
+
+  .clinicModalHeader h3 {
+    font-size: 1rem;
+  }
+
+  .clinicModalBody {
+    padding: 1rem;
+  }
+
+  .clinicCard {
+    padding: 1rem;
+  }
+
+  .whatsappButtonsRow {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .whatsappButton,
+  .contactButton {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .clinicModal {
+    padding: 0.25rem;
+    padding-top: 5vh;
+  }
+
+  .clinicModalContent {
+    width: 98%;
+  }
+
+  .clinicModalHeader {
+    padding: 0.75rem;
+  }
+
+  .clinicModalBody {
+    padding: 0.75rem;
+  }
+
+  .clinicCard {
+    padding: 0.75rem;
   }
 }

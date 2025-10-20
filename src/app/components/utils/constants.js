@@ -145,6 +145,41 @@ export const NAVIGATION_ITEMS = [
   },
 ];
 
+// Clinics Data
+export const CLINICS = [
+  {
+    name: "عيادة الشيخ زايد",
+    location:
+      "توين تاورز الشيخ زايد محور ٢٦ يوليو - برج C الدور الثاني عيادة D",
+    hours: ["الإثنين من ٨ مساءً حتى ١١ مساء", "الأربعاء من ٧ مساءً حتى 10 مساءً"],
+    mapLink: "https://maps.app.goo.gl/o19rgM12eVzAFX3y8",
+  },
+  {
+    name: "عيادة الجيزة",
+    location:
+      "30 ش مراد - بالقرب من ميدان الجيزة و حديقة الحيوان - الدور الرابع - عيادة 312",
+    hours: [
+      "الأحد – من 3 حتى 8 مساءً",
+      "الثلاثاء – من 3 حتى 8 مساءً",
+      "الأربعاء – من 2 حتى 5 مساءً",
+    ],
+    mapLink: "https://maps.app.goo.gl/dKdzFCAewVMvjE1o6",
+  },
+  {
+    name: "عيادة شبين الكوم - المنوفية",
+    location: "برج الديوان - ميدان شرف - الدور الخامس",
+    hours: ["السبت من كل أسبوع – من 1 حتى 5 مساءً"],
+    mapLink: "https://maps.app.goo.gl/BUsVzBLoHiypUSa66",
+  },
+  {
+    name: "عيادة أشمون - المنوفية",
+    location:
+      "ش عبد المنعم رياض - خلف مكتب البريد - مستشفى الدكتور محمد البكل",
+    hours: ["الإثنين من كل أسبوع – من 1 حتى 5 مساءً"],
+    mapLink: "https://maps.app.goo.gl/tUThtGhDPPPiwV766",
+  },
+];
+
 // Services Data
 export const SERVICES = [
   {

@@ -1,6 +1,6 @@
 // Icons replaced with emojis for compatibility
 import Link from "next/link";
-// import { siteConfig } from '../utils/constants';
+import { CLINICS } from "../utils/constants";
 import styles from "./Footer.module.css";
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -24,39 +24,6 @@ export default function Footer() {
     { name: "إصلاح إعوجاج القضيب", href: "/surgeries/penile-curvature" },
   ];
 
-  const clinics = [
-    {
-      name: "عيادة الشيخ زايد",
-      location:
-        "توين تاورز الشيخ زايد محور ٢٦ يوليو - برج C الدور الثاني عيادة D",
-      hours: ["الإثنين ٨ ل ١١ م", "الأربعاء ٧ مساءً حتى 10 مساءً"],
-      mapLink: "https://maps.app.goo.gl/o19rgM12eVzAFX3y8",
-    },
-    {
-      name: "عيادة الجيزة",
-      location:
-        "30 ش مراد - بالقرب من ميدان الجيزة و حديقة الحيوان - الدور الرابع - عيادة 312",
-      hours: [
-        "الأحد – من 3 حتى 8 مساءً",
-        "الثلاثاء – من 3 حتى 8 مساءً",
-        "الأربعاء – من 2 حتى 5 مساءً",
-      ],
-      mapLink: "https://maps.app.goo.gl/dKdzFCAewVMvjE1o6",
-    },
-    {
-      name: "عيادة شبين الكوم - المنوفية",
-      location: "برج الديوان - ميدان شرف - الدور الخامس",
-      hours: ["السبت من كل أسبوع – من 1 حتى 5 مساءً"],
-      mapLink: "https://maps.app.goo.gl/BUsVzBLoHiypUSa66",
-    },
-    {
-      name: "عيادة أشمون - المنوفية",
-      location:
-        "ش عبد المنعم رياض - خلف مكتب البريد - مستشفى الدكتور محمد البكل",
-      hours: ["الإثنين من كل أسبوع – من 1 حتى 5 مساءً"],
-      mapLink: "https://maps.app.goo.gl/tUThtGhDPPPiwV766",
-    },
-  ];
 
   return (
     <footer className={styles.footer}>
@@ -138,7 +105,7 @@ export default function Footer() {
         <div className={styles.clinicsSection}>
           <h3 className={styles.clinicsTitle}>عياداتنا</h3>
           <div className={styles.clinicsGrid}>
-            {clinics.map((clinic, index) => (
+            {CLINICS.map((clinic, index) => (
               <div key={index} className={styles.clinicCard}>
                 <div className={styles.clinicHeader}>
                   <span className={styles.clinicIcon}>📍</span>
