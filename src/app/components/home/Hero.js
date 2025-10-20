@@ -43,8 +43,7 @@ export default function Hero() {
           </div>
           
           <div className={styles.heroText}>
-            <div className={styles.doctorLabel}>الدكتور</div>
-            <h1 className={styles.doctorName}>أسامة البكل</h1>
+            <h1 className={styles.doctorName}>الدكتور أسامة البكل - إستشاري طب وجراحة أمراض الذكورة</h1>
             <p className={styles.doctorTitle}>
               مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب القصر العيني 
               {/* <br />
