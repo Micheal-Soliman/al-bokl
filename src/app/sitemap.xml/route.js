@@ -38,12 +38,25 @@ export async function GET() {
   ];
 
   // Article pages
-  const articlePages = medicalArticles.map((article) => ({
-    url: `${baseUrl}/articles/${article.slug}`,
-    lastModified: new Date(article.updatedDate || article.publishedDate),
-    changeFrequency: 'monthly',
-    priority: 0.8,
-  }));
+  const articlePages = medicalArticles.map((article) => {
+    const dateString = article.updatedDate || article.publishedDate;
+    let lastModified = new Date();
+    
+    // Only use article date if it's valid
+    if (dateString) {
+      const articleDate = new Date(dateString);
+      if (!isNaN(articleDate.getTime())) {
+        lastModified = articleDate;
+      }
+    }
+    
+    return {
+      url: `${baseUrl}/articles/${article.slug}`,
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    };
+  });
 
   const allPages = [...staticPages, ...articlePages];
 
