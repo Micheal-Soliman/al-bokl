@@ -56,7 +56,7 @@ export default function NewsSection() {
               </div>
               
               <div className={styles.cardContent}>
-                <h3 className={styles.cardTitle}>{article.title}</h3>
+                <p className={styles.cardTitle}><strong>{article.title}</strong></p>
                 <p className={styles.excerpt}>{article.excerpt}</p>
                 
                 <div className={styles.cardFooter}>
@@ -64,7 +64,7 @@ export default function NewsSection() {
                     {new Date(article.date).toLocaleDateString('ar-EG')}
                   </span>
                   <Link href={article.link} className={styles.readMore}>
-                    اقرأ المزيد
+                    المزيد
                   </Link>
                 </div>
               </div>

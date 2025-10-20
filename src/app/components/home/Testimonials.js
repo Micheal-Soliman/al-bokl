@@ -59,7 +59,7 @@ export default function Testimonials() {
           size="large"
           href="/contact"
         >
-          احجز موعدك الآن
+          ابدأ رحلة العلاج
         </Button>
       </Card>
     </Section>

@@ -77,11 +77,11 @@ export default function MedicalArticles() {
 
                 <div className={styles.articleContent}>
                   <div className={styles.category}>{article.category}</div>
-                  <h3 className={styles.articleTitle}>{article.title}</h3>
+                  <p className={styles.articleTitle}><strong>{article.title}</strong></p>
                   <p className={styles.articleDescription}>
                     {article.description}
                   </p>
-                  <div className={styles.readMore}>اقرأ المزيد ←</div>
+                  <div className={styles.readMore}>اقرأ التفاصيل ←</div>
                 </div>
               </div>
             </Link>

@@ -15,7 +15,7 @@ export default function ContactSection() {
         <div className={styles.contactGrid}>
           <div className={styles.contactCard}>
             <div className={styles.icon}>📞</div>
-            <h3 className={styles.cardTitle}>اتصل بنا</h3>
+            <p className={styles.cardTitle}><strong>اتصل بنا</strong></p>
             <div className={styles.contactInfo}>
               <a href="tel:+201017912197" className={styles.contactLink}>
                 +201017912197
@@ -28,7 +28,7 @@ export default function ContactSection() {
           
           <div className={styles.contactCard}>
             <div className={styles.icon}>📧</div>
-            <h3 className={styles.cardTitle}>البريد الإلكتروني</h3>
+            <p className={styles.cardTitle}><strong>البريد الإلكتروني</strong></p>
             <div className={styles.contactInfo}>
               <a href="mailto:Booking@albokl.com" className={styles.contactLink}>
                 Booking@albokl.com
@@ -38,7 +38,7 @@ export default function ContactSection() {
           
           <div className={styles.contactCard}>
             <div className={styles.icon}>📍</div>
-            <h3 className={styles.cardTitle}>العنوان</h3>
+            <p className={styles.cardTitle}><strong>العنوان</strong></p>
             <div className={styles.contactInfo}>
               <p className={styles.address}>
                 الشيخ زايد، محور 26 يوليو<br />
@@ -50,7 +50,7 @@ export default function ContactSection() {
           
           <div className={styles.contactCard}>
             <div className={styles.icon}>🕒</div>
-            <h3 className={styles.cardTitle}>مواعيد العمل</h3>
+            <p className={styles.cardTitle}><strong>مواعيد العمل</strong></p>
             <div className={styles.contactInfo}>
               <p className={styles.workingHours}>
                 السبت إلى الأربعاء<br />
@@ -62,10 +62,10 @@ export default function ContactSection() {
         
         <div className={styles.ctaSection}>
           <Link href="/contact" className={styles.ctaButton}>
-            احجز موعدك الآن
+            احجز معنا الآن
           </Link>
           <Link href="https://wa.me/201017912197" className={styles.whatsappButton}>
-            تواصل عبر واتساب
+            راسلنا على واتساب
           </Link>
         </div>
       </div>

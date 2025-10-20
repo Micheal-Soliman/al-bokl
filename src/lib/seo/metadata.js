@@ -8,7 +8,7 @@ export const generatePageMetadata = ({
   type = 'website'
 }) => {
   const baseUrl = 'https://www.albokl.com';
-  const fullTitle = title ? `${title} - الدكتور أسامة البكل` : 'الدكتور أسامة البكل - مدرس وإستشاري طب وجراحة أمراض الذكورة';
+  const fullTitle = title ? `${title} - الدكتور أسامة البكل` : 'الدكتور أسامة البكل - إستشاري طب وجراحة أمراض الذكورة';
   
   return {
     title: fullTitle,
