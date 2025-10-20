@@ -24,6 +24,8 @@ Disallow: /api/
 Disallow: /_next/
 Disallow: /private/
 
-# Block duplicate content
-Disallow: /*?*
-Disallow: /*#*
+# Block specific query parameters that create duplicate content
+Disallow: /*?sort=
+Disallow: /*?filter=
+Disallow: /*?page=
+# Allow normal URLs without blocking all query parameters

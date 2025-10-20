@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./ContactPage.module.css";
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import ProtectedEmail from "../ui/ProtectedEmail";
 
 const ContactPage = () => {
   const [selectedClinic, setSelectedClinic] = useState(null);
@@ -171,7 +172,6 @@ const ContactPage = () => {
                     src={clinic.mapUrl}
                     width="100%"
                     height="250"
-                    style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
@@ -198,12 +198,12 @@ const ContactPage = () => {
                     <div className={styles.contactItem}>
                       <span className={styles.emailIcon}>✉️</span>
                       <div className={styles.contactText}>
-                        <a
-                          href={`mailto:${clinic.email}`}
+                        <ProtectedEmail 
+                          email={clinic.email}
                           className={styles.contactLink}
                         >
                           {clinic.email}
-                        </a>
+                        </ProtectedEmail>
                       </div>
                     </div>
 
