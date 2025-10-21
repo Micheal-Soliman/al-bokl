@@ -28,7 +28,7 @@ export default function BookingContact() {
             </div>
             <div className={styles.buttons}>
               <Link href="/contact" className={styles.bookingBtn}>
-                احجز موعد الآن
+                احجز استشارتك الآن
               </Link>
               <Link
                 href="https://wa.me/201017912197"
@@ -48,7 +48,7 @@ export default function BookingContact() {
                 <span>👤</span>
               </div>
               <div className={styles.reviewContent}>
-                <h3 className={styles.patientName}>أحد المرضى</h3>
+                <p className={styles.patientName}><strong>أحد المرضى</strong></p>
                 <div className={styles.stars}>⭐⭐⭐⭐⭐</div>
                 <p className={styles.reviewText}>
                   الدكتور أسامة البوكل طبيب ممتاز ومتخصص في علاج المشاكل الجنسية

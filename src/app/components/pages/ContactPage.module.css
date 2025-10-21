@@ -349,6 +349,11 @@
   overflow: hidden;
 }
 
+.mapSection iframe {
+  border: 0;
+  display: block;
+}
+
 .clinicInfo {
   padding: 1.5rem;
 }
@@ -1014,16 +1019,6 @@
   font-weight: 700;
   color: #1e40af;
   margin-bottom: 2rem;
-}
-
-.contactItem {
-  /* display: flex;
-  align-items: flex-start;
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); */
 }
 
 .contactIcon {

@@ -82,7 +82,7 @@ export default function Diagnosis() {
             </div>
 
             <Link href="/contact" className={styles.appointmentBtn}>
-              اضغط هنا لو محتاج تحجز كشف
+              احجز كشفك الطبي
             </Link>
           </div>
 

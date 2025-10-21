@@ -17,12 +17,12 @@ export default function Services() {
                 <div className={styles.serviceIconContainer}>
                   <div className={styles.serviceIcon}>{service.icon}</div>
                 </div>
-                <h3 className={styles.serviceTitle}>{service.title}</h3>
+                <p className={styles.serviceTitle}><strong>{service.title}</strong></p>
                 <p className={styles.serviceSubtitle}>{service.subtitle}</p>
                 <p className={styles.serviceDescription}>{service.description}</p>
                 <div className={styles.serviceArrow}>
                   <span className={styles.arrowIcon}>←</span>
-                  <span className={styles.arrowText}>اقرأ المزيد</span>
+                  <span className={styles.arrowText}>تفاصيل أكثر</span>
                 </div>
               </div>
             </Link>

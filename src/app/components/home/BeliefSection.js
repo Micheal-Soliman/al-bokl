@@ -7,7 +7,7 @@ export default function BeliefSection() {
     <Section background="gradient" padding="large" variant="with-border">
       <div className={styles.beliefContent}>
         <div className={styles.beliefHeader}>
-          <h3 className={styles.beliefSubtitle}>نؤمن بأن ...</h3>
+          <p className={styles.beliefSubtitle}><strong>نؤمن بأن ...</strong></p>
           <h2 className={styles.beliefTitle}>
             التشخيص الدقيق هو أساس العلاج الناجح
           </h2>
@@ -35,7 +35,7 @@ export default function BeliefSection() {
 
           <div className={styles.callToAction}>
             <a href="/contact" className={styles.ctaButton}>
-              اضغط هنا لو محتاج تحجز كشف
+              احجز موعدك للفحص
             </a>
           </div>
         </div>

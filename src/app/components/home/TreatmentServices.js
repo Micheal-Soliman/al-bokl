@@ -90,12 +90,12 @@ export default function TreatmentServices() {
             >
               <div className={styles.serviceCard}>
                 <div className={styles.serviceIcon}>{service.icon}</div>
-                <h3 className={styles.serviceTitle}>{service.title}</h3>
+                <p className={styles.serviceTitle}><strong>{service.title}</strong></p>
                 <p className={styles.serviceSubtitle}>{service.subtitle}</p>
                 <p className={styles.serviceDescription}>
                   {service.description}
                 </p>
-                <div className={styles.readMore}>اقرأ المزيد ←</div>
+                <div className={styles.readMore}>اعرف أكثر ←</div>
               </div>
             </Link>
           ))}
