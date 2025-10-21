@@ -22798,7 +22798,21 @@ export const medicalArticles = [
     <p>لو حصل التهاب في البروستاتا ، والالتهاب ده بيكون موجود بنسبة كبيرة عند الذكور من سن 30-50 سنة ، وده طبعاً بيأثر على عدد وجودة الحيوانات المنوية ، حتى لو كان تحليل السائل المنوي ظاهر طبيعي ومفيش فيه اي مشكلة ، بمعني أن لو عدد الحيوانات المنوية طبيعي والحركة ونسبة التشوهات طبيعية بس في التهاب في البروستاتا وفي نسبة عالية من الصديد في القذف ، فبالتالي جودة الحيوانات المنوية اللي هتبقي خارجة أثناء القذف هتكون أقل من الطبيعي وقدرتها على حدوث حمل هتكون قليلة ، حتي لو الشخص ده عمل عملية حقن مجهري وهو عنده التهاب في البروستاتا ، ففرصة نجاح الحقن المجهري هتكون ضعيفة .</p>
     
     <p>ولو عايز تعرف اكثر عن علاقة مشاكل البروستاتا بتاخر الانجاب وفشل عملية الحقن المجهري ، اسمع الفيديو ده مع الدكتور اسامة البكل………</p>
-    
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051497/211_khyzp1.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     <h2>أعراض التهاب البروستاتا</h2>
     
     <p>ودلوقتي تعالوا نعرف مع بعض الأعراض والأسباب اللي أدت إلي إلتهاب البروستاتا ، و خلونا نبدأ بالاعرض :</p>
@@ -22844,6 +22858,21 @@ export const medicalArticles = [
     <p>في النهاية ، لازم تكون عارف أن مشاكل البروستاتا بتؤثر بشكل كبير على قدرة الرجل الجنسية والانجابية ، ويجب عليك الاهتمام بصحة البروستاتا من خلال الفحوصات الدورية اللازمة اللي بتساعد على الحد من خطر الإصابة بأمراض البروستاتا وزيادة فرص الكشف المبكر عنها.</p>
     
     <p>ولو عايز تعرف ازاي مشاكل وأمراض البروستاتا بتاثر على قدرة الرجل الجنسية ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051513/2101_qqbd3s.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <p>ولو احتجت انك تتابع معانا حالتك تقدر تتواصل معانا واحنا هنحددلك ميعاد مع الدكتور أسامة محمد البكل مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب والصحة الجنسية بطب القصر العيني ، تقدر تتواصل معانا علي الرقم ده 01018874287.</p>
   `,
@@ -22938,6 +22967,21 @@ export const medicalArticles = [
     <p>احسن وافضل طريقة نعالج بيها عملية دوالي الخصية ، علشان بتساعدنا نكبر مكان العملية لأن قوة تكبير الميكروسكوب تصل إلى 40 مرة ، فبنقدر نشوف الأوردة والشرايين بشكل واضح ودقيق، ونقدر نشوف الشعيرات الليمفاوية ونتجنب اننا نربطها بالغلط مع الاوردة لان ده ممكن يسبب قيلة مائية على الخصية، ده غير كمان ان وقت العملية مش بياخد اكثر من الساعة وتقدر ترجع بيتك في نفس اليوم وتمارس حياتك العملية بعدها بيومين.</p>
     
     <p>ولو عايز تعرف اكثر عن الفرق بين جراحة المنظار والجراحة الميكروسكوبية في علاج دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051517/212_jfprbt.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <h2>الخلاصة</h2>
     
@@ -23007,7 +23051,21 @@ export const medicalArticles = [
     <p>أولًا، من خلال أخذ عينة من السائل المنوي وفحصها تحت الميكروسكوب ، و الفحص ده لازم يتكرر مرتين او تلاته علشان نتأكد من عدد الحيوانات المنوية في العينة وشكلها وحركتها، و لو لقينا إن العدد أقل من 15 مليون حيوان منوي ، كدة الشخص ده بيعاني من نقص في الحيوانات المنوية وهيواجه مشكلة كبيرة في الإنجاب.</p>
     
     <p>ولو عايز تعرف ايه هي اسباب نقص عدد الحيوانات المنوية ، اسمع الفيديو ده من الدكتور اسامة البكل..</p>
-    
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051525/213_kycvgn.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     <h2>كيف تؤثر دوالي الخصية على عدد الحيوانات المنوية؟</h2>
     
     <p>وزي ما قولنا في الأول إن دوالي الخصية من اهم الاسباب في نقص عدد الحيوانات المنوية ، وده لأن دوالي الخصية من المشاكل المنتشرة جدًا بين الرجال،</p>
@@ -23133,6 +23191,21 @@ export const medicalArticles = [
     <p>وده اثبتته دراسة علمية بأن حوالي من 20-40 % من الرجال بتكون نتائج تحليل السائل المنوي عندهم طبيعية ومع ذلك بيكون عندهم خلل وتكسير في المادة الوراثية ، وده طبعا بيكون السبب في حالات تأخر الإنجاب أو الإجهاض المتكرر للزوجة .</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن اسباب تفتت المادة الوراثية عند الرجال وعلاقته بتاخر الانجاب والسقط المبكر عند الزوجة ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051514/214_rcmk18.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <h2>علاج تكسير المادة الوراثية</h2>
     
@@ -23228,6 +23301,21 @@ export const medicalArticles = [
     </ol>
     
     <p>ولو عايز تعرف اكثر عن اسباب وجع الخصية ، وامتي الوجع ده يكون بسبب الدوالي ، اسمع الفيديو ده مع الدكتور اسامة البكل……..</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051471/215_plpjq7.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <p>فالحل الوحيد علشان نعالج دوالي الخصية هو الجراحة، وعلي الرغم من أن في اكتر من طريقة لعلاج دوالي الخصية، الا ان في تقنية تعتبر هي أفضل التقنيات الحديثة والمستخدمة في علاج دوالي الخصية وهي الجراحة الميكروسكوبية.</p>
     
@@ -23281,6 +23369,21 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف معلومات اكثر عن ازاى تهتم بالجرح بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…….</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051487/2105_dp6xbf.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <h2>الخلاصة</h2>
     
@@ -23379,6 +23482,21 @@ export const medicalArticles = [
     <p>الدكتور بيطلب التحليل ده عشان يوضح تأثير دوالي الخصية علي انتاج الحيوانات المنوية وعددها و جودتها من حيث الحركة و نسبة التشوهات و في بعض الاحيان علشان يوضح مدي تكسير الحمض النووي للحيوانات المنوية.</p>
     
     <p>ولو لسه عايزين تعرفوا معلومات اكثر عن اهمية أشعة الدوبلكس في تشخيص دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051504/216_b2pnnu.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <h2>مضاعفات الدرجة الثالثة من دوالي الخصية</h2>
     
@@ -23407,6 +23525,21 @@ export const medicalArticles = [
     <p>وبنقدر اننا نروح من المستشفى في نفس اليوم، وننزل شغلنا عادى جدا بعد 3-5 ايام، أما بالنسبة للعلاقة الزوجة، فبنقدر نمارسها بعد العملية بأسبوع.</p>
     
     <p>ولو لسه عايزين تعرفوا الفرق بين جراحة المنظار والجراحة الميكروسكوبية في علاج دوالي الخصية ، اعرف كل المعلومات عنهم من الدكتور اسامة البكل….</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051480/2106_c8q5oq.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <h2>الخلاصة</h2>
     
@@ -23532,7 +23665,24 @@ export const medicalArticles = [
     <p>كل الحاجات دي بتأكد إن الحيوان المنوي مشوه ومش هيقدر يخصب البويضة، وبالتالي هتأخر الإنجاب أو تمنع حدوثه.</p>
     
     <p>ولو عايزين تعرفوا أكتر عن المواصفات الطبيعية لشكل الحيوان المنوي وازاي بيتحرك ويوصل للبويضة علشان يحصل حمل ، اسمع الفيديو ده من الدكتور اسامة البكل….</p>
-    
+
+     <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+             
+            </h3>
+            <div className={styles.videoWrapperyoutube}>
+              <iframe
+                className={styles.videoYou}
+                src="https://www.youtube.com/embed/kuyYLWETZFE"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
     <h2>علاقة دوالي الخصية بتشوه الحيوان المنوي</h2>
     
     <p>ودلوقتي تعالوا نعرف مع بعض</p>
@@ -23654,6 +23804,21 @@ export const medicalArticles = [
     </ol>
     
     <p>ولو عايز تعرف اكتر امتي تقدر تمارس العلاقة الزوجية وتنزل شغلك بعد عملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051465/218_u00y84.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <h2>كيفية تنشيط الخصية بعد عملية الدوالي</h2>
     
@@ -23681,7 +23846,21 @@ export const medicalArticles = [
     <p>وبعد عملية دوالي الخصية وبعد ما بناخد العلاج الهرموني المنشط للخصية ، اول تحليل سائل منوي بنعمله بيكون بعد العملية بحوالي 6 شهور ، لأن دورة تكوين الحيوان المنوي بتستغرق 3 شهور ، فبكدة نكون اخدنا وقتنا الكافي لبداية تعافي الخصية من تأثير الدوالي ، وبنلاحظ كمان في تحليل السائل المنوي ان في تحسن في جودة الحيوانات المنوية حوالي 70%، وان عدد الحيوانات المنوية زاد والحركة كمان زادت ونسبة التشوهات قلت ، وان امكانية ان يحصل حمل طبيعي بعد عملية دوالي الخصية واصلة لحوالي 40% الي 45%.</p>
     
     <p>ولو لسه عايزين تعرفوا أكتر عن امتي ممكن يحصل حمل بعد عملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…………</p>
-    
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051503/2108_mkho3o.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     <h2>الخلاصة</h2>
     
     <p>في النهاية ، لازم تكون عارف ان تنشيط الخصية أمر مهم بعد عملية الدوالي لأنه بيعزز من وظيفة الخصية في انتاج الحيوانات المنوية واللي بدوره بيساهم في ارتفاع معدل حدوث الحمل ، فمتترددش انك تاخد قرار العملية ، ولو احتاجت انك تتواصل معانا ونحجز لك ميعاد مع الدكتور اسامة محمد البكل مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب والصحة الجنسية بطب القصر العيني ، تقدر تتواصل معانا على الرقم ده 01018874287.</p>
@@ -23791,7 +23970,21 @@ export const medicalArticles = [
     <p>و اللي بيقيم حجم الخصيتين بالظبط بالملى وبيوضح هل في ارتجاع للدم في الأوردة ولا لا ، وحجم الاوردة قد ايه لان حجم الاوردة الطبيعي مش بيزيد عن 2 ملم ، فلما يزيد عن الطبيعي ده بيأكد في الاشعة ان الشخص ده عنده دوالي في الخصية.</p>
     
     <p>ولو عايزين تعرفوا معلومات اكثر ازاي بنشخص دوالي الخصية باشعة الدوبلكس ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054474/221_hqiwap.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     <h2>علاج دوالي الخصية</h2>
     
     <p>و بعد ما اتاكدنا ان عندنا دوالي في الخصية وانها هي السبب في تاخر الانجاب عندنا ، مفيش قدامنا غير العلاج ، وعلاج دوالي الخصية هو الجراحة .</p>
@@ -23883,7 +24076,24 @@ export const medicalArticles = [
     <p>وبكدة نكون عرفنا يعني ايه ضعف حركة الحيوان المنوي</p>
     
     <p>ولو لسه عايزين تعرفوا معلومات اكثر عن حركة الحيوان المنوي المطلوبة علشان يحصل انجاب ن اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-    
+
+     <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+             
+            </h3>
+            <div className={styles.videoWrapperyoutube}>
+              <iframe
+                className={styles.videoYou}
+                src="https://www.youtube.com/embed/U7ixTYALfoA"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
     <h2>كيف تؤثر دوالي الخصية على حركة الحيوان المنوي</h2>
     
     <p>تعالوا بقى نعرف ازاي دوالي الخصية ممكن تأثر على حركة وسرعة الحيوان المنوي :</p>
@@ -23997,6 +24207,21 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايزين تعرفوا اي علاقة تفتت المادة الوراثية في الحيوان المنوي بالسقط المتكرر عند الزوجة ، اسمع الفيديو ده مع الدكتور اسامة البكل……….</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054440/223_jfaewz.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <h2>كيف تسبب دوالي الخصية تكسير المادة الوراثية</h2>
     
@@ -24023,6 +24248,21 @@ export const medicalArticles = [
     <p>ولازم تكون عارف انك لما تعالج دوالي الخصية، بتحسن من نسبة التشوهات وده هيقلل من معدل تكسير المادة الوراثية الموجودة في رأس الحيوان المنوي وهيكون عندك زيادة في عدد الحيوانات المنوية السليمة والصالحة لتخصيب البويضة وحدوث حمل سليم.</p>
     
     <p>ولو لسه عايزين تعرفوا معلومات اكثر عن اسباب تفتت المادة الوراثية وعلاقتها بتأخر الإنجاب والسقط المبكر عند الزوجة ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054438/2203_g60hvp.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <h2>رسالة أمل</h2>
     
@@ -24141,7 +24381,21 @@ export const medicalArticles = [
     <p>لو عايز تعرف طرق علاج دوالي الخصية اضغط هنا…</p>
     
     <p>ولو عايزين تعرفوا اكثر عن الفرق بين جراحة المنظار والميكروسكوب في علاج دوالي الخصية اسمع الفيديو ده مع الدكتور اسامة البكل..</p>
-    
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054478/224_zx02yx.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     <h2>التواصل والاستشارة</h2>
     
     <p>ولو لسه عاوز تعرف اكثر عن علاقة دوالي الخصية بانخفاض هرمون الذكورة ، تقدر تتواصل مع الفريق الطبي علي رقم 01018874287 ، وهما هيجاوبوا علي كل استفساراتك ، أو تقدر تطلب منهم تحديد ميعاد مع الدكتور اسامة محمد البكل مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب والصحة الجنسية بطب القصر العيني</p>
@@ -24255,7 +24509,21 @@ export const medicalArticles = [
     <p>وبيخرج المريض من المستشفى في نفس اليوم ويقدر بعد يومين من العملية يمارس حياته بشكل طبيعي بس ميعملش اي نشاطات مجهدة وعدم ممارسة العلاقة الزوجية لمدة أسبوع او اتنين من العملية.</p>
     
     <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي هتحتاج تعمل تفتيش ميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-    
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054475/225_yzgxu9.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     <h2>رسالة أمل</h2>
     
     <p>في النهاية خليني اقولك ان لسه في امل في العلاج وانه يكون عندك طفل واثنين وثلاثة بس الاهم اننا نمشي رحلة علاج صح ، ولو قررت تبدا معانا رحلتك تقدر تتواصل معانا واحنا هنحدد لك ميعاد مع الدكتور اسامة محمد البكل مدرس واستشاري طب وجراحة امراض الذكورة وتاخر الانجاب والصحة الجنسية بطب القصر العيني.</p>
@@ -24374,6 +24642,23 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف اكتر عن ضعف الانتصاب الاولي ، اسمع الفيديو ده مع الدكتور اسامة البكل………</p>
+     <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+             
+            </h3>
+            <div className={styles.videoWrapperyoutube}>
+              <iframe
+                className={styles.videoYou}
+                src="https://www.youtube.com/embed/OBzJfvC6ANw"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
     
     <h3>2. ضعف الانتصاب الثانوي</h3>
     
@@ -24510,6 +24795,21 @@ export const medicalArticles = [
     
     <p>ولو لسه عايز تعرف معلومات اكثر عن الحالات اللي بتعاني من نقص في عدد الحيوانات المنوية واللي لسه عندهم فرصة في العلاج وحدوث حمل طبيعي ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
     
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054471/227_kdzfbn.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     <h2>رسالة أمل</h2>
     
     <p>في النهاية ، خلينا متفقين انك مش لازم تيأس وتفقد الامل لو اتشخصت ان عندك نقص في عدد الحيوانات المنوية ، المهم اننا نعرف السبب ونتشخص صح علشان نتعالج صح ، ولو قررت انك تتعالج متترددش لحظة واتصل بينا واحنا هنحدد لك ميعاد مع الدكتور/ اسامة محمد البكل مدرس واستشاري طب وجراحة أمراض الذكورة وتاخر الانجاب والصحة الجنسية بطب القصر العيني</p>
@@ -24580,7 +24880,23 @@ export const medicalArticles = [
     <p>ده مرض بيحصل بسبب وجود خلل في جينات الشخص، بمعنى فى الطبيعي إن جينات الشخص بتتكون من 46 كروموسوم، اتنين منهم الكروموسومات الجنسية ( XX للإناث وXY للذكور) ، أما لو الشخص كان مصاب بمتلازمة كلاينفلترفيه فبيكون عندهم كروموسوم X زيادة ، يعنى عدد الكروموسومات عندهم 47 كروموسوم ، ده بيحصل بسبب خلل في مرحلة انقسام الخلايا أثناء توزيع الكروموسومات للجنين من الأب والأم، والمتلازمة دي بتسبب نقص في هرمون الذكورة وبتأثر على إنتاج الخصية للحيوانات المنوية.</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن متلازمة كلاينفلتر وطرق علاجها ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
-    
+     <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+             
+            </h3>
+            <div className={styles.videoWrapperyoutube}>
+              <iframe
+                className={styles.videoYou}
+                src="https://www.youtube.com/embed/Sy_NauCgzfI"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
     <h3>2. وجود التهابات في الخصية</h3>
     
     <p>إصابة الخصيتين بالالتهابات البكتيرية أو الفيروسية</p>
@@ -24602,6 +24918,21 @@ export const medicalArticles = [
     <p>و ده عيب خلقي بيصيب الأطفال الذكور بعد الولادة، و اللى بيتسبب فى ان خصية واحدة أو الاتنين مش بينزلوا لكيس الصفن، وبتفضل معلقة جوا البطن ، و الخصية المعلقة لازم تتعالج خلال السنة الأولى من عمر الطفل ، لأن الخصية لو فضلت معلقة جوا البطن ده هيسبب مشاكل كتير للطفل في مرحلة البلوغ والإنجاب لما يكبر، لأن الخصية المعلقة جوا البطن بتتعرض لدرجة حرارة عالية وده بيسبب ضمور للخصية وعدم إنتاجها للحيوانات المنوية.</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن الخصية المعلقة وتاثيرها على الانجاب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
+    <section className={styles.divider}>
+          <div className={styles.container}>
+            <h3>
+            </h3>
+            <div className={styles.videoWrapper}>
+              <video className={styles.video} controls>
+                <source
+                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054487/2208_uqodxi.mp4"
+                  type="video/mp4"
+                />
+                متصفحك لا يدعم تشغيل الفيديو.
+              </video>
+            </div>
+          </div>
+        </section>
     
     <h3>5. التعرض للعلاج الإشعاعي أو الكيماوي</h3>
     
