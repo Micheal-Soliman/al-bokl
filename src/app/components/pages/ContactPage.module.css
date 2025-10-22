@@ -691,73 +691,90 @@
 /* Social Links within Working Hours Card */
 .workingHoursCard .socialLinks {
   display: flex;
-  gap: 1rem;
+  gap: 0rem;
   justify-content: center;
   margin-top: 1.5rem;
   padding-top: 1.5rem;
-  border-top: 2px solid #e5e7eb;
+  /* border-top: 2px solid #e5e7eb; */
+  flex-wrap: wrap;
 }
 
 .workingHoursCard .socialLink {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
-  padding: 1rem;
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-  border-radius: 12px;
+  justify-content: center;
+  /* padding: 0.6rem; */
+  background: transparent;
+  border-radius: 50%;
   text-decoration: none;
-  color: #374151;
+  color: #6b7280;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   transition: all 0.3s ease;
-  border: 2px solid transparent;
-  min-width: 80px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  /* border: 2px solid #e5e7eb; */
+  /* width: 40px; */
+  /* height: 40px; */
+  /* box-shadow: none; */
 }
 
 .workingHoursCard .socialLink:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px) scale(1.1);
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); */
 }
+
+.workingHoursCard .socialLink.snapchat {
+  color: #FFFC00;
+  /* border-color: #FFFC00; */
+}
+
+
+
+.workingHoursCard .socialLink.twitter {
+  color: #000000;
+  /* border-color: #000000; */
+}
+
+
+.workingHoursCard .socialLink.tiktok {
+  color: #000000;
+  /* border-color: #000000; */
+}
+
+
 
 .workingHoursCard .socialLink.facebook {
-  background: linear-gradient(135deg, #1877f2 0%, #4267b2 100%);
-  color: white;
+  color: #1877f2;
+  /* border-color: #1877f2; */
 }
 
-.workingHoursCard .socialLink.facebook:hover {
-  background: linear-gradient(135deg, #166fe5 0%, #365899 100%);
-  box-shadow: 0 8px 25px rgba(24, 119, 242, 0.4);
-}
 
 .workingHoursCard .socialLink.instagram {
-  background: linear-gradient(135deg, #e4405f 0%, #c13584 100%);
-  color: white;
+  color: #e4405f;
+  /* border-color: #e4405f; */
 }
 
-.workingHoursCard .socialLink.instagram:hover {
-  background: linear-gradient(135deg, #d63384 0%, #a02d6b 100%);
-  box-shadow: 0 8px 25px rgba(228, 64, 95, 0.4);
-}
+
 
 .workingHoursCard .socialLink.youtube {
-  background: linear-gradient(135deg, #ff0000 0%, #cc0000 100%);
-  color: white;
+  color: #ff0000;
+  /* border-color: #ff0000; */
 }
 
-.workingHoursCard .socialLink.youtube:hover {
-  background: linear-gradient(135deg, #e60000 0%, #b30000 100%);
-  box-shadow: 0 8px 25px rgba(255, 0, 0, 0.4);
+
+
+.workingHoursCard .socialLink.linkedin {
+  color: #0077b5;
+  /* border-color: #0077b5; */
 }
+
+
 
 .workingHoursCard .socialIcon {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .workingHoursCard .socialName {
-  font-size: 0.75rem;
-  font-weight: 600;
+  display: none;
 }
 
 .helpMethods {

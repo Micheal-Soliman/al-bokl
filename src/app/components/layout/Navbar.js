@@ -4,7 +4,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { NAVIGATION_ITEMS, SITE_CONFIG, CLINICS } from "../utils/constants";
 import styles from "./Navbar.module.css";
-import { FaTiktok, FaInstagram, FaYoutube, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaTiktok, FaInstagram, FaYoutube, FaFacebook, FaWhatsapp, FaSnapchat, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { IoTimeOutline, IoLocationOutline } from "react-icons/io5";
 import Image from "next/image";
 
@@ -175,28 +176,67 @@ export default function Navbar() {
             <div className={styles.topBarContent}>
               <div className={styles.socialIcons}>
                 <a
+                  href={SITE_CONFIG.socialMedia.snapchat}
+                  className={styles.socialIcon}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Snapchat"
+                >
+                  <FaSnapchat />
+                </a>
+                <a
+                  href={SITE_CONFIG.socialMedia.x}
+                  className={styles.socialIcon}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="X (Twitter)"
+                >
+                  <FaXTwitter />
+                </a>
+                <a
                   href={SITE_CONFIG.socialMedia.tiktok}
                   className={styles.socialIcon}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="TikTok"
                 >
                   <FaTiktok />
                 </a>
                 <a
                   href={SITE_CONFIG.socialMedia.instagram}
                   className={styles.socialIcon}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
                 >
                   <FaInstagram />
                 </a>
                 <a
                   href={SITE_CONFIG.socialMedia.youtube}
                   className={styles.socialIcon}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Youtube"
                 >
                   <FaYoutube />
                 </a>
                 <a
                   href={SITE_CONFIG.socialMedia.facebook}
                   className={styles.socialIcon}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
                 >
                   <FaFacebook />
+                </a>
+                <a
+                  href={SITE_CONFIG.socialMedia.linkedin}
+                  className={styles.socialIcon}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <FaLinkedin />
                 </a>
               </div>
               <div className={styles.clinicLocations}>

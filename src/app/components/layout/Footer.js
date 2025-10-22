@@ -37,7 +37,7 @@ export default function Footer() {
               مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب القصر
               العيني
             </p>
-            <div className={styles.socialLinks}>
+            {/* <div className={styles.socialLinks}>
               <a href="#" className={styles.socialLink}>
                 📘
               </a>
@@ -47,7 +47,7 @@ export default function Footer() {
               <a href="#" className={styles.socialLink}>
                 📺
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Quick Links */}

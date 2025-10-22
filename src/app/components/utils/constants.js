@@ -16,10 +16,13 @@ export const SITE_CONFIG = {
   address: "الشيخ زايد محور 26 يوليو - توين تاورز برج C - الدور الثاني عيادة D",
   workingHours: "السبت - الخميس، 12:00 ظ - 8:00 م",
   socialMedia: {
-    facebook: "#",
-    twitter: "#",
-    instagram: "#",
-    youtube: "#",
+    snapchat: "https://www.snapchat.com/add/dr.osamaalbokl?share_id=T3kKuHjSvYw&locale=en-GB",
+    x: "https://x.com/drosamaalbokl?s=09",
+    tiktok: "https://www.tiktok.com/@drosamaalbokl",
+    youtube: "https://www.youtube.com/@OsamaAlbokl",
+    instagram: "https://www.instagram.com/osamaalbokl",
+    facebook: "https://www.facebook.com/drosamaalbokl",
+    linkedin: "https://www.linkedin.com/company/osama-albokl-clinics",
   },
 };
 
@@ -183,6 +186,15 @@ export const CLINICS = [
 // Services Data
 export const SERVICES = [
   {
+    title: "دعامات العضو الذكري",
+    subtitle: "الحل النهائي لضعف الإنتصاب",
+    description:
+      "يعني تنسي تماماً موضوع المنشطات والحقن الموضعي، الإنتصاب موجود في أي وقت زي زمان بالظبط وأكتر.",
+    icon: <FaMarsStroke />,
+    color: "gold",
+    link: "/surgeries/penile-implants",
+  },
+  {
     title: "عملية دوالي الخصيتين",
     subtitle: "بالجراحة الميكروسكوبية",
     description:
@@ -201,15 +213,7 @@ export const SERVICES = [
     color: "gold",
     link: "/surgeries/microscopic-inspection",
   },
-  {
-    title: "دعامات العضو الذكري",
-    subtitle: "الحل النهائي لضعف الإنتصاب",
-    description:
-      "يعني تنسي تماماً موضوع المنشطات والحقن الموضعي، الإنتصاب موجود في أي وقت زي زمان بالظبط وأكتر.",
-    icon: <FaMarsStroke />,
-    color: "gold",
-    link: "/surgeries/penile-implants",
-  },
+  
   {
     title: "إصلاح إعوجاج القضيب",
     subtitle: "لممارسة علاقة زوجية صح",
