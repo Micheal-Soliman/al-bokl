@@ -3,8 +3,10 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./ContactPage.module.css";
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube, FaTiktok, FaSnapchat, FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import ProtectedEmail from "../ui/ProtectedEmail";
+import { SITE_CONFIG } from "../utils/constants";
 
 const ContactPage = () => {
   const [selectedClinic, setSelectedClinic] = useState(null);
@@ -347,33 +349,80 @@ const ContactPage = () => {
                 </div>
                 <div className={styles.socialLinks}>
                   <a
-                    href="https://www.facebook.com/drosamaalbokl/"
-                    className={`${styles.socialLink} ${styles.facebook}`}
+                    href={SITE_CONFIG.socialMedia.snapchat}
+                    className={`${styles.socialLink} ${styles.snapchat}`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Snapchat"
                   >
-                    <FaFacebookF className={styles.socialIcon} />
-                    <span className={styles.socialName}>Facebook</span>
+                    <FaSnapchat className={styles.socialIcon} />
+                    <span className={styles.socialName}>Snapchat</span>
                   </a>
 
                   <a
-                    href="https://www.instagram.com/osamaalbokl/"
+                    href={SITE_CONFIG.socialMedia.x}
+                    className={`${styles.socialLink} ${styles.twitter}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="X (Twitter)"
+                  >
+                    <FaXTwitter className={styles.socialIcon} />
+                    <span className={styles.socialName}>X</span>
+                  </a>
+
+                  <a
+                    href={SITE_CONFIG.socialMedia.tiktok}
+                    className={`${styles.socialLink} ${styles.tiktok}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="TikTok"
+                  >
+                    <FaTiktok className={styles.socialIcon} />
+                    <span className={styles.socialName}>TikTok</span>
+                  </a>
+
+                  <a
+                    href={SITE_CONFIG.socialMedia.instagram}
                     className={`${styles.socialLink} ${styles.instagram}`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Instagram"
                   >
                     <FaInstagram className={styles.socialIcon} />
                     <span className={styles.socialName}>Instagram</span>
                   </a>
 
                   <a
-                    href="https://www.youtube.com/@OsamaAlbokl"
+                    href={SITE_CONFIG.socialMedia.youtube}
                     className={`${styles.socialLink} ${styles.youtube}`}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="YouTube"
                   >
                     <FaYoutube className={styles.socialIcon} />
                     <span className={styles.socialName}>YouTube</span>
+                  </a>
+
+                  <a
+                    href={SITE_CONFIG.socialMedia.facebook}
+                    className={`${styles.socialLink} ${styles.facebook}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                  >
+                    <FaFacebookF className={styles.socialIcon} />
+                    <span className={styles.socialName}>Facebook</span>
+                  </a>
+
+                  <a
+                    href={SITE_CONFIG.socialMedia.linkedin}
+                    className={`${styles.socialLink} ${styles.linkedin}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                  >
+                    <FaLinkedin className={styles.socialIcon} />
+                    <span className={styles.socialName}>LinkedIn</span>
                   </a>
                 </div>
               </div>
