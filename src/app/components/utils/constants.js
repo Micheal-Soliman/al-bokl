@@ -183,6 +183,15 @@ export const CLINICS = [
 // Services Data
 export const SERVICES = [
   {
+    title: "دعامات العضو الذكري",
+    subtitle: "الحل النهائي لضعف الإنتصاب",
+    description:
+      "يعني تنسي تماماً موضوع المنشطات والحقن الموضعي، الإنتصاب موجود في أي وقت زي زمان بالظبط وأكتر.",
+    icon: <FaMarsStroke />,
+    color: "gold",
+    link: "/surgeries/penile-implants",
+  },
+  {
     title: "عملية دوالي الخصيتين",
     subtitle: "بالجراحة الميكروسكوبية",
     description:
@@ -201,15 +210,7 @@ export const SERVICES = [
     color: "gold",
     link: "/surgeries/microscopic-inspection",
   },
-  {
-    title: "دعامات العضو الذكري",
-    subtitle: "الحل النهائي لضعف الإنتصاب",
-    description:
-      "يعني تنسي تماماً موضوع المنشطات والحقن الموضعي، الإنتصاب موجود في أي وقت زي زمان بالظبط وأكتر.",
-    icon: <FaMarsStroke />,
-    color: "gold",
-    link: "/surgeries/penile-implants",
-  },
+  
   {
     title: "إصلاح إعوجاج القضيب",
     subtitle: "لممارسة علاقة زوجية صح",
