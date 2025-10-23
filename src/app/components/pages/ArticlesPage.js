@@ -109,6 +109,41 @@ const ArticlesPage = () => {
     setCurrentPage(page);
   };
 
+  // Generate pagination numbers with ellipsis
+  const getPaginationNumbers = () => {
+    const pages = [];
+    const maxVisiblePages = 5;
+    
+    if (totalPages <= maxVisiblePages) {
+      // Show all pages if total is less than or equal to max visible
+      for (let i = 1; i <= totalPages; i++) {
+        pages.push(i);
+      }
+    } else {
+      // Always show first page
+      pages.push(1);
+      
+      if (currentPage <= 3) {
+        // Near the beginning
+        pages.push(2, 3, 4);
+        pages.push('...');
+        pages.push(totalPages);
+      } else if (currentPage >= totalPages - 2) {
+        // Near the end
+        pages.push('...');
+        pages.push(totalPages - 3, totalPages - 2, totalPages - 1, totalPages);
+      } else {
+        // In the middle
+        pages.push('...');
+        pages.push(currentPage - 1, currentPage, currentPage + 1);
+        pages.push('...');
+        pages.push(totalPages);
+      }
+    }
+    
+    return pages;
+  };
+
   return (
     <div className={styles.articlesPage}>
       {/* Hero Section */}
@@ -172,11 +207,11 @@ const ArticlesPage = () => {
                   <p className={styles.articleExcerpt}>{article.excerpt}</p>
                   <div className={styles.articleMeta}>
                     {/* <span className={styles.author}>{article.author}</span> */}
-                    <span className={styles.date}>
+                    {/* <span className={styles.date}>
                       {new Date(article.publishedDate).toLocaleDateString(
                         "ar-EG"
-                      )}
-                    </span>
+                      )} */}
+                    {/* </span> */}
                     <span className={styles.readTime}>
                       {article.readTime} دقائق
                     </span>
@@ -192,27 +227,36 @@ const ArticlesPage = () => {
               <button
                 onClick={() => handlePageChange(currentPage - 1)}
                 disabled={currentPage === 1}
-                className={styles.paginationBtn}
+                className={`${styles.paginationBtn} ${styles.prevNextBtn}`}
               >
                 السابق
               </button>
 
-              {[...Array(totalPages)].map((_, index) => (
-                <button
-                  key={index + 1}
-                  onClick={() => handlePageChange(index + 1)}
-                  className={`${styles.paginationBtn} ${
-                    currentPage === index + 1 ? styles.active : ""
-                  }`}
-                >
-                  {index + 1}
-                </button>
-              ))}
+              {getPaginationNumbers().map((page, index) => {
+                if (page === '...') {
+                  return (
+                    <span key={`ellipsis-${index}`} className={styles.ellipsis}>
+                      ...
+                    </span>
+                  );
+                }
+                return (
+                  <button
+                    key={page}
+                    onClick={() => handlePageChange(page)}
+                    className={`${styles.paginationBtn} ${
+                      currentPage === page ? styles.active : ""
+                    }`}
+                  >
+                    {page}
+                  </button>
+                );
+              })}
 
               <button
                 onClick={() => handlePageChange(currentPage + 1)}
                 disabled={currentPage === totalPages}
-                className={styles.paginationBtn}
+                className={`${styles.paginationBtn} ${styles.prevNextBtn}`}
               >
                 التالي
               </button>
