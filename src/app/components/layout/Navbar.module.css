@@ -319,6 +319,27 @@
   top: -12px;
 }
 
+/* Active Link Styles */
+.activeLink {
+  color: var(--primary-blue) !important;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(30, 64, 175, 0.1) 100%) !important;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
+}
+
+.activeLink::before,
+.activeLink::after {
+  opacity: 1 !important;
+}
+
+.activeLink::before {
+  top: -15px !important;
+}
+
+.activeLink::after {
+  top: -12px !important;
+}
+
 .dropdownArrow {
   font-size: 0.5rem;
   transition: transform 0.3s ease;
@@ -482,6 +503,13 @@
 
 .subDropdownLink:last-child {
   border-bottom: none;
+}
+
+/* Active Dropdown Link Styles */
+.activeDropdownLink {
+  background: var(--primary-blue) !important;
+  color: var(--white) !important;
+  font-weight: 600;
 }
 
 /* Bottom Bar - Clean Implementation */
@@ -766,8 +794,7 @@
 }
 
 /* Mobile menu close button */
-.mobileMenuContent::after {
-  content: '✕';
+.mobileCloseButton {
   position: absolute;
   top: 20px;
   right: 20px;
@@ -786,9 +813,13 @@
   z-index: 1000;
 }
 
-.mobileMenuContent:hover::after {
+.mobileCloseButton:hover {
   background: rgba(30, 64, 175, 0.15);
   transform: scale(1.05);
+}
+
+.mobileCloseButton:active {
+  transform: scale(0.95);
 }
 
 @keyframes slideInRight {
@@ -882,6 +913,16 @@
   color: var(--primary-blue);
   background: rgba(59, 130, 246, 0.1);
   transform: translateX(-2px);
+}
+
+/* Active Mobile Link Styles */
+.activeMobileLink {
+  color: var(--primary-blue) !important;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(30, 64, 175, 0.1) 100%) !important;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
+  transform: translateX(-3px);
+  border-right: 3px solid var(--primary-blue);
 }
 
 /* Search Modal */

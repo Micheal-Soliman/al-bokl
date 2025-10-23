@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { NAVIGATION_ITEMS, SITE_CONFIG, CLINICS } from "../utils/constants";
 import styles from "./Navbar.module.css";
 import { FaTiktok, FaInstagram, FaYoutube, FaFacebook, FaWhatsapp, FaSnapchat, FaLinkedin } from "react-icons/fa";
@@ -10,6 +11,7 @@ import { IoTimeOutline, IoLocationOutline } from "react-icons/io5";
 import Image from "next/image";
 
 export default function Navbar() {
+  const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [activeSubDropdown, setActiveSubDropdown] = useState(null);
@@ -22,6 +24,14 @@ export default function Navbar() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  // Check if link is active
+  const isLinkActive = (href) => {
+    if (href === '/') {
+      return pathname === '/';
+    }
+    return pathname.startsWith(href);
   };
 
   // Handle dropdown click
@@ -338,7 +348,7 @@ export default function Navbar() {
                                             <Link
                                               key={subSubIndex}
                                               href={subSubItem.href}
-                                              className={styles.subDropdownLink}
+                                              className={`${styles.subDropdownLink} ${isLinkActive(subSubItem.href) ? styles.activeDropdownLink : ''}`}
                                               onClick={closeAllDropdowns}
                                             >
                                               {subSubItem.name}
@@ -351,7 +361,7 @@ export default function Navbar() {
                                 ) : (
                                   <Link
                                     href={subItem.href}
-                                    className={styles.dropdownLink}
+                                    className={`${styles.dropdownLink} ${isLinkActive(subItem.href) ? styles.activeDropdownLink : ''}`}
                                     onClick={closeAllDropdowns}
                                   >
                                     {subItem.name}
@@ -365,7 +375,7 @@ export default function Navbar() {
                     ) : (
                       <Link
                         href={item.href}
-                        className={styles.menuLink}
+                        className={`${styles.menuLink} ${isLinkActive(item.href) ? styles.activeLink : ''}`}
                         onClick={() => closeAllDropdowns()}
                       >
                         {item.name}
@@ -442,13 +452,20 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className={styles.mobileMenu}>
-          <div className={styles.mobileMenuContent}>
+        <div className={styles.mobileMenu} onClick={() => setIsMenuOpen(false)}>
+          <div className={styles.mobileMenuContent} onClick={(e) => e.stopPropagation()}>
+            <button
+              className={styles.mobileCloseButton}
+              onClick={() => setIsMenuOpen(false)}
+              aria-label="إغلاق القائمة"
+            >
+              ✕
+            </button>
             {NAVIGATION_ITEMS.map((item, index) => (
               <div key={index}>
                 <Link
                   href={item.href}
-                  className={styles.mobileMenuLink}
+                  className={`${styles.mobileMenuLink} ${isLinkActive(item.href) ? styles.activeMobileLink : ''}`}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.name}
@@ -459,7 +476,7 @@ export default function Navbar() {
                       <div key={subIndex}>
                         <Link
                           href={subItem.href}
-                          className={styles.mobileSubmenuLink}
+                          className={`${styles.mobileSubmenuLink} ${isLinkActive(subItem.href) ? styles.activeMobileLink : ''}`}
                           onClick={() => setIsMenuOpen(false)}
                         >
                           • {subItem.name}
@@ -470,7 +487,7 @@ export default function Navbar() {
                               <Link
                                 key={subSubIndex}
                                 href={subSubItem.href}
-                                className={styles.mobileSubSubmenuLink}
+                                className={`${styles.mobileSubSubmenuLink} ${isLinkActive(subSubItem.href) ? styles.activeMobileLink : ''}`}
                                 onClick={() => setIsMenuOpen(false)}
                               >
                                 ◦ {subSubItem.name}
