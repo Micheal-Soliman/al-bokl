@@ -12,7 +12,7 @@ export const generateSEOMetadata = (options) => {
       title: options.title,
       description: options.description,
       url: `${baseUrl}${options.canonical}`,
-      siteName: ' د. أسامة البكل - استشاري أمراض الذكورة',
+      siteName: 'د. أسامة البكل - استشاري أمراض الذكورة',
       images: [
         {
           url: options.image || `${baseUrl}/images/doctor-osama.webp`,
