@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import styles from './AppointmentPage.module.css';
 import Link from 'next/link';
+import { CLINICS } from '../utils/constants';
 
 const AppointmentPage = () => {
   const [formData, setFormData] = useState({
@@ -315,8 +316,29 @@ const AppointmentPage = () => {
 
           {/* Clinic Info */}
           <div className={styles.infoSection}>
+
+            {/* All Clinics Info */}
+            <div className={styles.allClinicsInfo}>
+              <h3 className={styles.infoTitle}>جميع عياداتنا</h3>
+              {CLINICS.map((clinic, index) => (
+                <div key={index} className={styles.compactClinicCard}>
+                  <div className={styles.compactClinicHeader}>
+                    <span className={styles.compactClinicIcon}>📍</span>
+                    <h4 className={styles.compactClinicName}>{clinic.name}</h4>
+                  </div>
+                  <div className={styles.compactClinicHours}>
+                    <span className={styles.compactHoursIcon}>🕒</span>
+                    <div className={styles.compactHoursText}>
+                      {clinic.hours.map((hour, idx) => (
+                        <p key={idx}>{hour}</p>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
             <div className={styles.clinicInfo}>
-              <h3 className={styles.infoTitle}>معلومات العيادة</h3>
+              {/* <h3 className={styles.infoTitle}>معلومات العيادة</h3>
               
               <div className={styles.infoCard}>
                 <div className={styles.infoIcon}>📍</div>
@@ -324,16 +346,18 @@ const AppointmentPage = () => {
                   <h4>العنوان</h4>
                   <p>{clinicInfo.address}</p>
                 </div>
-              </div>
+              </div> */}
 
-              <div className={styles.infoCard}>
+              {/* <div className={styles.infoCard}>
                 <div className={styles.infoIcon}>🕒</div>
                 <div className={styles.infoContent}>
                   <h4>مواعيد العمل</h4>
                   <p>{clinicInfo.workingHours}</p>
                   <p className={styles.closedDays}>مغلق: الخميس والجمعة</p>
                 </div>
-              </div>
+              </div> */}
+
+              
 
               <div className={styles.infoCard}>
                 <div className={styles.infoIcon}>📞</div>
@@ -375,14 +399,16 @@ const AppointmentPage = () => {
               </a>
             </div> */}
 
-            <div className={styles.mapSection}>
+            
+
+            {/* <div className={styles.mapSection}>
               <h3 className={styles.mapTitle}>موقع العيادة</h3>
               <div className={styles.mapPlaceholder}>
                 <div className={styles.mapIcon}>🗺️</div>
                 <p>خريطة موقع العيادة</p>
                 <p className={styles.mapNote}>الشيخ زايد - مبنى التوين تاورز</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
