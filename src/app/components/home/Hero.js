@@ -45,8 +45,8 @@ export default function Hero() {
                 width={800}
                 height={600}
                 priority
-                quality={90}
-                sizes="(max-width: 768px) 100vw, 50vw"
+                quality={80}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
                 style={{ width: '100%', height: 'auto' }}
               />
             </div>
