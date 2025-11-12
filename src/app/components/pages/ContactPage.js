@@ -324,110 +324,8 @@ const ContactPage = () => {
                   <p className={styles.workingHours}>12:00 ظ - 8:00 م</p>
                 </div>
               </div>
-            </div> */}
-            <div className={styles.helpSection}>
-              {/* <div className={styles.helpGrid}> */}
-              <div className={styles.workingHoursCard}>
-                <div className={styles.cardIcon}>🕒</div>
-                <h3 className={styles.cardTitle}>ساعات العمل</h3>
-                <div className={styles.scheduleList}>
-                  <div className={styles.scheduleItem}>
-                    <span className={styles.dayLabel}>الإثنين، الجمعة</span>
-                    <span className={styles.timeRange}>09:00 - 17:00</span>
-                  </div>
-                  <div className={styles.scheduleItem}>
-                    <span className={styles.dayLabel}>يوم السبت</span>
-                    <span className={styles.timeRange}>09:00 - 17:00</span>
-                  </div>
-                  <div className={styles.scheduleItem}>
-                    <span className={styles.dayLabel}>الاحد</span>
-                    <span className={styles.timeRange}>مغلق</span>
-                  </div>
-                </div>
-                <div className={styles.helpNote}>
-                  <p>للحجز والاستفسار اتصل بنا في أي وقت</p>
-                </div>
-                <div className={styles.socialLinks}>
-                  <a
-                    href={SITE_CONFIG.socialMedia.snapchat}
-                    className={`${styles.socialLink} ${styles.snapchat}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Snapchat"
-                  >
-                    <FaSnapchat className={styles.socialIcon} />
-                    <span className={styles.socialName}>Snapchat</span>
-                  </a>
-
-                  <a
-                    href={SITE_CONFIG.socialMedia.x}
-                    className={`${styles.socialLink} ${styles.twitter}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="X (Twitter)"
-                  >
-                    <FaXTwitter className={styles.socialIcon} />
-                    <span className={styles.socialName}>X</span>
-                  </a>
-
-                  <a
-                    href={SITE_CONFIG.socialMedia.tiktok}
-                    className={`${styles.socialLink} ${styles.tiktok}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="TikTok"
-                  >
-                    <FaTiktok className={styles.socialIcon} />
-                    <span className={styles.socialName}>TikTok</span>
-                  </a>
-
-                  <a
-                    href={SITE_CONFIG.socialMedia.instagram}
-                    className={`${styles.socialLink} ${styles.instagram}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Instagram"
-                  >
-                    <FaInstagram className={styles.socialIcon} />
-                    <span className={styles.socialName}>Instagram</span>
-                  </a>
-
-                  <a
-                    href={SITE_CONFIG.socialMedia.youtube}
-                    className={`${styles.socialLink} ${styles.youtube}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="YouTube"
-                  >
-                    <FaYoutube className={styles.socialIcon} />
-                    <span className={styles.socialName}>YouTube</span>
-                  </a>
-
-                  <a
-                    href={SITE_CONFIG.socialMedia.facebook}
-                    className={`${styles.socialLink} ${styles.facebook}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Facebook"
-                  >
-                    <FaFacebookF className={styles.socialIcon} />
-                    <span className={styles.socialName}>Facebook</span>
-                  </a>
-
-                  <a
-                    href={SITE_CONFIG.socialMedia.linkedin}
-                    className={`${styles.socialLink} ${styles.linkedin}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="LinkedIn"
-                  >
-                    <FaLinkedin className={styles.socialIcon} />
-                    <span className={styles.socialName}>LinkedIn</span>
-                  </a>
-                </div>
-              </div>
-              {/* </div> */}
-            </div>
+          </div> */}
+            
             {/* Contact Form */}
             <div className={styles.contactForm}>
               <h2 className={styles.formTitle}>احجز موعدك الآن</h2>
@@ -500,6 +398,98 @@ const ContactPage = () => {
                   إرسال طلب الحجز
                 </button>
               </form>
+              <div className={styles.contactNumbers}>
+                <h4 className={styles.numbersTitle}>أرقام التواصل</h4>
+                <div className={styles.numbersRow}>
+                  <a href={`tel:${SITE_CONFIG.phone.primary}`} className={styles.phoneLink}>
+                    {SITE_CONFIG.phone.primary}
+                  </a>
+                  <a href={`tel:${SITE_CONFIG.phone.secondary}`} className={styles.phoneLink}>
+                    {SITE_CONFIG.phone.secondary}
+                  </a>
+                  <a href={`tel:${SITE_CONFIG.phone.callOnly}`} className={styles.phoneLink}>
+                    01034637761 (اتصال فقط)
+                  </a>
+                </div>
+              </div>
+              <div className={styles.socialLinks}>
+                <a
+                  href={SITE_CONFIG.socialMedia.snapchat}
+                  className={`${styles.socialLink} ${styles.snapchat}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Snapchat"
+                >
+                  <FaSnapchat className={styles.socialIcon} />
+                  <span className={styles.socialName}>Snapchat</span>
+                </a>
+
+                <a
+                  href={SITE_CONFIG.socialMedia.x}
+                  className={`${styles.socialLink} ${styles.twitter}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="X (Twitter)"
+                >
+                  <FaXTwitter className={styles.socialIcon} />
+                  <span className={styles.socialName}>X</span>
+                </a>
+
+                <a
+                  href={SITE_CONFIG.socialMedia.tiktok}
+                  className={`${styles.socialLink} ${styles.tiktok}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="TikTok"
+                >
+                  <FaTiktok className={styles.socialIcon} />
+                  <span className={styles.socialName}>TikTok</span>
+                </a>
+
+                <a
+                  href={SITE_CONFIG.socialMedia.instagram}
+                  className={`${styles.socialLink} ${styles.instagram}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <FaInstagram className={styles.socialIcon} />
+                  <span className={styles.socialName}>Instagram</span>
+                </a>
+
+                <a
+                  href={SITE_CONFIG.socialMedia.youtube}
+                  className={`${styles.socialLink} ${styles.youtube}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="YouTube"
+                >
+                  <FaYoutube className={styles.socialIcon} />
+                  <span className={styles.socialName}>YouTube</span>
+                </a>
+
+                <a
+                  href={SITE_CONFIG.socialMedia.facebook}
+                  className={`${styles.socialLink} ${styles.facebook}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                >
+                  <FaFacebookF className={styles.socialIcon} />
+                  <span className={styles.socialName}>Facebook</span>
+                </a>
+
+                <a
+                  href={SITE_CONFIG.socialMedia.linkedin}
+                  className={`${styles.socialLink} ${styles.linkedin}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                >
+                  <FaLinkedin className={styles.socialIcon} />
+                  <span className={styles.socialName}>LinkedIn</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

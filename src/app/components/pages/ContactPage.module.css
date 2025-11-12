@@ -1018,9 +1018,10 @@
 
 .contactGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 4rem;
   align-items: start;
+  justify-items: center;
 }
 
 /* Contact Info */
@@ -1101,6 +1102,9 @@
   padding: 3rem;
   border-radius: 20px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .formTitle {
@@ -1175,6 +1179,72 @@
   transform: translateY(-2px);
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
 }
+
+/* Contact numbers under the form */
+.contactNumbers {
+  margin-top: 1.25rem;
+  text-align: center;
+}
+
+.numbersTitle {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.1rem;
+  color: #1e40af;
+}
+
+.numbersRow {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.phoneLink {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.phoneLink:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.contactForm .socialLinks {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contactForm .socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #6b7280;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.contactForm .socialLink:hover {
+  transform: translateY(-3px) scale(1.1);
+}
+
+.contactForm .socialLink.snapchat { color: #FFFC00; }
+.contactForm .socialLink.twitter { color: #000000; }
+.contactForm .socialLink.tiktok { color: #000000; }
+.contactForm .socialLink.facebook { color: #1877f2; }
+.contactForm .socialLink.instagram { color: #e4405f; }
+.contactForm .socialLink.youtube { color: #ff0000; }
+.contactForm .socialLink.linkedin { color: #0077b5; }
+
+.contactForm .socialIcon { font-size: 1.2rem; }
+.contactForm .socialName { display: none; }
 
 /* Social Media Section */
 .socialSection {

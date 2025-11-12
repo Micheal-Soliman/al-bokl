@@ -373,6 +373,11 @@ const AppointmentPage = () => {
                       {clinicInfo.alternatePhone}
                     </a>
                   </p>
+                  <p>
+                    <a href={`tel:+201034637761`} className={styles.phoneLink}>
+                      01034637761 (اتصال فقط)
+                    </a>
+                  </p>
                 </div>
               </div>
 
