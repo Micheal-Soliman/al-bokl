@@ -11,12 +11,14 @@ export default function FloatingButtons() {
         className={`${styles.floatingButton} ${styles.whatsapp}`}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="تواصل عبر واتساب"
       >
         <span className={styles.buttonIcon}><FaWhatsapp /></span>
       </a>
       <a 
         href={`tel:${SITE_CONFIG.phone.primary}`}
         className={`${styles.floatingButton} ${styles.phone}`}
+        aria-label="اتصل بنا"
       >
         <span className={styles.buttonIcon}><FaPhone /></span>
       </a>

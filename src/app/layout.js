@@ -7,10 +7,14 @@ const cairo = Cairo({
   variable: "--font-cairo",
   subsets: ["arabic", "latin"],
   weight: ["300", "400", "500", "600", "700"],
+  display: "swap", // Prevent invisible text during font loading
+  preload: true,
+  fallback: ["Arial", "sans-serif"],
+  adjustFontFallback: true,
 });
 
 export const metadata = {
-  title: "الرئيسية الدكتور أسامة البكل",
+  title: "دكتور أسامة البكل",
   description: "موقع الدكتور أسامة البكل, مدرس وإستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب والصحة الجنسية بطب قصر العيني",
   icons: {
     icon: '/favicon.webp',
@@ -28,6 +32,18 @@ export default function RootLayout({ children }) {
   
   return (
     <html lang="ar" dir="rtl">
+      <head>
+        {/* Preconnect to external domains */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://connect.facebook.net" />
+        <link rel="preconnect" href="https://res.cloudinary.com" />
+        {/* DNS prefetch for faster lookups */}
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+      </head>
       <body className={cairo.variable}>
         {GA_MEASUREMENT_ID && <GoogleAnalytics measurementId={GA_MEASUREMENT_ID} />}
         <MetaPixel pixelId={META_PIXEL_ID} />

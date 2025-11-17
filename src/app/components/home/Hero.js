@@ -1,4 +1,5 @@
 import styles from './Hero.module.css';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -38,7 +39,16 @@ export default function Hero() {
         <div className={styles.heroContent}>
           <div className={styles.heroImage}>
             <div className={styles.imageFrame}>
-              <img src="/home/DSC03817.JPG" alt="د. أسامة البقل" />
+              <Image 
+                src="/home/DSC03817.JPG" 
+                alt="د. أسامة البقل" 
+                width={800}
+                height={600}
+                priority
+                quality={80}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 400px"
+                style={{ width: '100%', height: 'auto' }}
+              />
             </div>
           </div>
           

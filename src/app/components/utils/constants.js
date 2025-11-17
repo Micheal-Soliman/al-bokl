@@ -11,6 +11,7 @@ export const SITE_CONFIG = {
   phone: {
     primary: "+201017912197",
     secondary: "+201018874287",
+    callOnly: "+201034637761",
   },
   email: "Booking@albokl.com",
   address: "الشيخ زايد محور 26 يوليو - توين تاورز برج C - الدور الثاني عيادة D",

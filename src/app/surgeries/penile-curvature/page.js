@@ -110,10 +110,13 @@ export default function PenileCurvaturePage() {
                 <div className={styles.heroImage}>
                   <Image
                     src="/correction.webp"
-                    alt="دعامات العضو الذكري"
-                    layout="responsive"
+                    alt="إصلاح إعوجاج القضيب"
                     width={800}
                     height={600}
+                    priority
+                    quality={85}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 800px"
+                    style={{ width: '100%', height: 'auto' }}
                   />
                 </div>
               </div>

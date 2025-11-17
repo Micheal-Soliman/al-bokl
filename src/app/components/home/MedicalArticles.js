@@ -2,6 +2,7 @@
 
 import styles from "./MedicalArticles.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function MedicalArticles() {
   const articles = [
@@ -62,10 +63,15 @@ export default function MedicalArticles() {
                   <div className={styles.articleImage}>
                     <div className={styles.imagePlaceholder}>
                       {/* Medical icon placeholder */}
-                      <img
+                      <Image
                         src={article.image}
                         alt={article.title}
+                        width={360}
+                        height={272}
                         className={styles.articleImage}
+                        quality={75}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 360px"
+                        style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
                       />
                     </div>
                   </div>
