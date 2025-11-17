@@ -415,7 +415,7 @@ export default function Navbar() {
         >
           <div className="container">
             <div className={styles.bottomBarContent}>
-              <div className={styles.hashtags}>
+              {/* <div className={styles.hashtags}>
                 <div className={styles.hashtagItem}>
                   <span className={styles.hashtagIcon}>👍</span>
                   <div className={styles.hashtagContent}>
@@ -437,7 +437,7 @@ export default function Navbar() {
                     <span className={styles.hashtagSubtext}>طاقم عمل مؤهل</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <a href="tel:+201017912197" className={styles.phoneNumber}>
                 <span className={styles.phoneIcon}>📞</span>
                 <div className={styles.phoneContent}>

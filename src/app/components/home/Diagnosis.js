@@ -93,8 +93,7 @@ export default function Diagnosis() {
                 <div className={styles.overlayBanner}>
                   <div className={styles.bannerLeft}>
                     <span className={styles.bannerText}>
-                      معنا ♥ انت في أكتر مكان آمان !
-                    </span>
+معنا… أنت في المكان الأكثر أمانًا واهتمامًا بصحتك                    </span>
                   </div>
                   <div className={styles.bannerRight}></div>
                 </div>
