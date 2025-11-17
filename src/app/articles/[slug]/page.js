@@ -89,7 +89,7 @@ export default function ArticlePage({ params }) {
         />
       )}
 
-      <div style={{ padding: "0 2rem" }}>
+      <div >
         {/* Breadcrumb Navigation */}
         <Breadcrumb
           items={breadcrumbItems.map((item) => ({

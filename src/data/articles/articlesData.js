@@ -56,13 +56,13 @@ export const medicalArticles = [
       <h3>⚠️ تحذير مهم</h3>
       <p>إذ كدة الحقن الموضعي مناسب وآمن لكل حالات ضعف الانتصاب؟ لا طبعا، لان في بعض الحالات مينفعش تستخدم الحقن الموضعي في القضيب.</p>
       
-        <section className={styles.divider}>
-          <div className={styles.container}>
+        <section >
+          <div >
             <h3>
              هل الحقن الموضعي مناسب لكل حالات ضعف الانتصاب ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل…
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759136781/%D9%87%D9%84-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D9%84%D9%83%D9%84-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%85%D8%B1%D8%B6-%D8%A8%D9%8A%D8%B1%D9%88%D9%86%D9%89_kahwqp.mp4"
                   type="video/mp4"
@@ -384,12 +384,12 @@ export const medicalArticles = [
       <h3>🚨 دوالي الخصية من الدرجة الثالثة</h3>
       <p>لان الدرجة الثالثة هي أشد درجة من درجات دوالي الخصية من حيث خطورتها ودرجة تأثيرها على المريض، لأن الأوردة فيها بتكون <strong>متضخمة جداً ومرئية بوضوح</strong>، والدكتور بيقدر يشوفها ويحسها بسهولة من خلال الفحص، ده غير ان الدرجة دي بتعمل تغير كبير وواضح في شكل كيس الصفن وحجمه.</p>
     </div>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>ولو عايز تعرف هل كل شاب عنده دوالي في الخصية لازم يعمل عملية ؟ اسمع الفيديو ده مع الدكتور اسامة البكل…
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759139306/%D9%85%D8%B4-%D9%83%D9%84-%D8%B4%D8%A7%D8%A8-%D8%B9%D9%86%D8%AF%D9%87-%D8%AF%D9%88%D8%A7%D9%84%D9%8A-%D8%B9%D9%84%D9%8A-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D9%84%D8%A7%D8%B2%D9%85-%D9%8A%D8%B9%D9%85%D9%84-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%AA%D9%8A%D9%86-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%AF-.-%D8%A7%D8%B3%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D9%84_gaupy3.mp4"
                   type="video/mp4"
@@ -705,14 +705,14 @@ export const medicalArticles = [
       <h3>💔 المشاكل والخلافات الزوجية</h3>
       <p>لانها مش بتخلينا قادرين نستمتع بالعلاقة الزوجية ولا بيكون عندنا رغبة جنسية، وزي ما قولنا قبل كده علشان يحصل انتصاب لازم يكون في رغبة جنسية، والضغط النفسي مش بيخلي عندنا رغبة ولا إثارة جنسية علشان يحصل انتصاب.</p>
     </div>
-  <section className={styles.divider}>
-          <div className={styles.container}>
+  <section >
+          <div >
             <h3>
             وده فيديو توضيحي من الدكتور أسامة البكل ، بيوضح هل لو بيحصل ارتخاء للعضو الذكري أثناء العلاقة الزوجية ، يبقي عندي ضعف جنسي ؟ 
             </h3>
             
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759139558/%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8-%D8%A7%D8%B1%D8%AA%D8%AE%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D8%B6%D9%88-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%89-%D8%A7%D8%AB%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B2%D9%88%D8%AC%D9%8A%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D8%B9%D8%B1%D8%A7%D8%B6-%D9%88-%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A_ycfmip.mp4"
                   type="video/mp4"
@@ -848,13 +848,13 @@ export const medicalArticles = [
         <li>بيقلل مرونة الأوعية الدموية</li>
       </ul>
     </div>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             ولو عايز تعرف ليه المنشطات الجنسية ممكن تضر مريض القلب ، اسمع الفيديو ده مع الدكتور اسامة البكل…
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759139847/%D9%87%D9%84-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9%D9%8A-%D9%85%D9%85%D9%83%D9%86-%D9%8A%D8%B6%D8%B1-%D9%85%D8%B1%D9%8A%D8%B6-%D8%A7%D9%84%D9%82%D9%84%D8%A8_-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A%D8%A9_akkx7b.mp4"
                   type="video/mp4"
@@ -1440,12 +1440,12 @@ export const medicalArticles = [
       <h3>● تحليل تكسير الحمض النووي في الحيوانات المنوية (DNA) :</h3>
       <p>والدكتور ممكن يطلب التحليل ده علشان يقيس نسبة تلف أو تكسير المادة الوراثية داخل الحيوانات المنوية ، لأن التكسير ده ممكن يسبب ضعف في جودة الحيوانات المنوية ويؤثر على فرص حدوث الحمل ، حتى لو كان عدد الحيوانات المنوية كويس في تحليل السائل المنوي العادي.</p>
     </div>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>ولو عايز تعرف أهمية أشعة الدوبلكس في تشخيص دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759142183/%D8%A7%D9%87%D9%85%D9%8A%D8%A9-%D8%A7%D8%B4%D8%B9%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%A8%D9%84%D9%83%D8%B3-%D9%81%D9%89-%D8%AA%D8%B4%D8%AE%D9%8A%D8%B5-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8_2_wm0xbf.mp4"
                   type="video/mp4"
@@ -1616,12 +1616,12 @@ export const medicalArticles = [
           <li>وتساهم في تحسين الصحة الجنسية بشكل عام.</li>
         </ul>
         <p>ولو عايز تعرف ايه هي العلامات اللي بتدل على انك في بداية ضعف جنسي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759147007/%D8%B9%D9%84%D8%A7%D9%85%D8%A7%D8%AA-%D8%A8%D8%AA%D8%AF%D9%84-%D8%B9%D9%84%D9%89-%D8%A7%D9%86-%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%B6-%D9%81%D9%89-%D8%A8%D8%AF%D8%A7%D9%8A%D8%A9-%D8%B6%D8%B9%D9%81-%D8%AC%D9%86%D8%B3%D9%8A-_-%D8%B9%D9%84%D8%A7%D8%AC-%D8%A7%D9%84%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A-_-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8_s1kwhs.mp4"
                   type="video/mp4"
@@ -1803,12 +1803,12 @@ export const medicalArticles = [
         <p>وتعتبر العلاج النهائي لضعف الانتصاب في حالة فشل العلاج الدوائي أو الحقن الموضعي ، وبتحقق انتصاب مرضي جدا و شبه الطبيعي ، ولها نوعين ، دعامة مرنة ودعامة هيدروليكية ، وبنختار النوع المناسب حسب حالة وإمكانية المريض.</p>
         
         <p>ولو عايز تطمن وتعرف امتي تمارس العلاقة الزوجية بعد تركيب دعامة القضيب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-        <section className={styles.divider}>
-          <div className={styles.container}>
+        <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759147247/%D8%A7%D9%85%D8%AA%D9%89-%D8%AA%D9%85%D8%A7%D8%B1%D8%B3-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B2%D9%88%D8%AC%D9%8A%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83_w1zpx2.mp4"
                   type="video/mp4"
@@ -2009,12 +2009,12 @@ export const medicalArticles = [
       </div>
 
       <p>ولو عايز تعرف مين اللي بيقرر نوع الدعامة سواء مرنة أو هيدروليكية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759147642/%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D9%84%D9%89-%D8%A8%D9%8A%D9%82%D8%B1%D8%B1-%D9%86%D9%88%D8%B9-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8_tiofw4.mp4"
                   type="video/mp4"
@@ -2154,12 +2154,12 @@ export const medicalArticles = [
         <h2>هل تعالج عملية دوالي الخصية العقم؟</h2>
         <p>وبالنسبة للموضوع اللي شاغل بالك ، احب اطمنك واقولك ان عملية دوالي الخصية بتعالج مشكلة العقم ، ولو عايز تعرف امتي ممكن يحصل إنجاب وتحسن في تحليل السائل المنوي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
       </div>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759147914/%D9%87%D9%84-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%87%D8%AA%D8%A3%D8%AB%D8%B1-%D8%B9%D9%84%D9%8A-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%85%D8%AA%D8%A7%D8%B9-%D8%A8%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B2%D9%88%D8%AC%D9%8A%D9%87-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B6%D9%88-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%89-%D9%84%D9%85%D8%B1%D8%B6%D9%89-%D8%A7%D9%84%D8%B3%D9%83%D8%B1_mlm6h3.mp4"
                   type="video/mp4"
@@ -2301,12 +2301,12 @@ export const medicalArticles = [
           <h4>1/ بالموجات التصادمية :</h4>
           <p>فهى تساعد على تحسين تدفق الدم في الأوعية الدموية ، وده بيساعد على تحقيق الانتصاب والحفاظ عليه ، و ده في حالات معينة فقط مش أي حالة ضعف انتصاب هتستفاد من الموجات التصادمية.</p>
           <p>ولو عايز تعرف هل فعلا الموجات التصادمية علاج للضعف الجنسي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      </div><section className={styles.divider}>
-          <div className={styles.container}>
+      </div><section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759148195/%D9%87%D9%84-%D8%A7%D9%84%D9%85%D9%88%D8%AC%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B5%D8%A7%D8%AF%D9%85%D9%8A%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D9%84%D9%84%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D8%AA%D8%B3%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D8%AF%D9%8A-%D9%85%D8%B1%D8%B6-%D8%A8%D9%8A%D8%B1%D9%88%D9%86%D9%89_x42tat.mp4"
                   type="video/mp4"
@@ -2486,12 +2486,12 @@ export const medicalArticles = [
       </div>
 
       <p>ولو عايز تعرف هل تركيب دعامة العضو الذكري هتاثر على الاستمتاع في العلاقة الزوجية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759147914/%D9%87%D9%84-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%87%D8%AA%D8%A3%D8%AB%D8%B1-%D8%B9%D9%84%D9%8A-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%85%D8%AA%D8%A7%D8%B9-%D8%A8%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B2%D9%88%D8%AC%D9%8A%D9%87-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B6%D9%88-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%89-%D9%84%D9%85%D8%B1%D8%B6%D9%89-%D8%A7%D9%84%D8%B3%D9%83%D8%B1_mlm6h3.mp4"
                   type="video/mp4"
@@ -2646,12 +2646,12 @@ export const medicalArticles = [
       </div>
 
       <p>ودلوقتي لو عايز تطمن وتعرف ان حالات انعدام الحيوانات المنوية ممكن يحصل لها حمل طبيعي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759148857/%D9%87%D9%84-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%86%D8%B9%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%85%D9%85%D9%83%D9%86-%D9%8A%D8%AD%D8%B5%D9%84-%D9%85%D8%B9%D8%A7%D9%87%D8%A7-%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%AF-.-%D8%A7%D8%B3%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D9%84-1_jfc1px.mp4"
                   type="video/mp4"
@@ -2791,12 +2791,12 @@ export const medicalArticles = [
         <p>في البداية لازم تكون عارف ان اي مشكلة في الدنيا ليها علاج ، ومشكلة نقص عدد الحيوانات المنوية ليها أكثر من طريقة علاج مختلفة عن التانية ، وعلشان نعالج المشكلة دي ، لازم الاول نعالج السبب اللي ادي الي ظهور المشكلة دي من الاساس.</p>
         
         <p>وده فيديو توضيحى بيوضح أن حالات نقص عدد الحيوانات المنوية لسه عندهم فرصة في العلاج لحدوث حمل طبيعي…</p>
-        <section className={styles.divider}>
-          <div className={styles.container}>
+        <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759149143/%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D9%86%D9%82%D8%B5-%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%84%D8%B3%D9%87-%D8%B9%D9%86%D8%AF%D9%87%D9%85-%D9%81%D8%B1%D8%B5%D8%A9-%D9%81%D9%89-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D8%AC-%D9%88-%D8%AD%D8%AF%D9%88%D8%AB-%D8%AD%D9%85%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%89-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8_moglv7.mp4"
                   type="video/mp4"
@@ -2921,12 +2921,12 @@ export const medicalArticles = [
         <p>هنا بيكون في احتمال أكبر أن دوالي الخصية ترجع تاني بعد العملية ، لان في الأشعة التداخلية ، القسطرة مش بتقدر توصل لكل الأوردة في الخصية ، و كمان وقت العمليه بنضطر اننا نعرض الخصية لجرعة كبيرة جدا من الإشعاع و ده بيضر الخصية وهى اصلا بتكون متضررة بسبب الدوالي.</p>
         
         <p>ولو عايز تعرف ايه هي اضرار علاج دوالي الخصية بالاشعة التداخلية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-        <section className={styles.divider}>
-          <div className={styles.container}>
+        <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759149289/%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%A7%D8%B4%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%A7%D9%81%D8%B6%D9%84-%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9_xgtgv8.mp4"
                   type="video/mp4"
@@ -3098,12 +3098,12 @@ export const medicalArticles = [
       </div>
 
       <p>ولو عاوز تعرف ايه هي الترتيبات اللي لازم تلتزم بيها لو انت مريض قلب او سكر او ضغط قبل تركيب دعامة القضيب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759149804/%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8%D8%A7%D8%AA-%D9%85%D9%87%D9%85%D9%87-%D9%82%D8%A8%D9%84-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%84%D9%85%D8%B1%D8%B6%D9%89-%D8%A7%D9%84%D8%B3%D9%83%D8%B1-%D9%88%D8%A7%D9%84%D9%82%D9%84%D8%A8-%D9%88%D8%A7%D9%84%D8%B6%D8%BA%D8%B7-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83_egzhep.mp4"
                   type="video/mp4"
@@ -3197,12 +3197,12 @@ export const medicalArticles = [
           </div>
           
           <p>ولو عايز تعرف هل الدوالي هي السبب الوحيد لوجع الخصيتين، اسمع الفيديو ده مع الدكتور أسامة البكل…</p>
-          <section className={styles.divider}>
-          <div className={styles.container}>
+          <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759149997/%D9%87%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D9%87%D9%89-%D8%A7%D9%84%D8%B3%D8%A8%D8%A8-%D8%A7%D9%84%D9%88%D8%AD%D9%8A%D8%AF-%D9%84%D9%88%D8%AC%D8%B9-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%AA%D9%8A%D9%86_-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%AA%D9%8A%D9%86_y8tjgr.mp4"
                   type="video/mp4"
@@ -3375,12 +3375,12 @@ export const medicalArticles = [
           </div>
           
           <p>ولو عايز تعرف أكتر ليه دوالي الخصية ممكن ترجع تاني بعد العملية، اسمع الفيديو ده مع الدكتور أسامة البكل…</p>
-          <section className={styles.divider}>
-          <div className={styles.container}>
+          <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759150369/%D9%84%D9%8A%D9%87-%D9%85%D9%85%D9%83%D9%86-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AA%D8%B1%D8%AC%D8%B9-%D8%AA%D8%A7%D9%86%D9%8A-%D8%A8%D8%B9%D8%AF-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-_-%D8%A7%D8%B1%D8%AA%D8%AC%D8%A7%D8%B9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A7%D9%81%D8%B6%D9%84-%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9_iy4lk8.mp4"
                   type="video/mp4"
@@ -3583,12 +3583,12 @@ export const medicalArticles = [
           </div>
           
           <p>ولو عايز تعرف هل حالات انعدام الحيوانات المنوية ممكن يحصل معاها إنجاب طبيعي، اسمع الفيديو ده مع الدكتور أسامة البكل…</p>
-          <section className={styles.divider}>
-          <div className={styles.container}>
+          <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759150956/%D9%87%D9%84-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%86%D8%B9%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%85%D9%85%D9%83%D9%86-%D9%8A%D8%AD%D8%B5%D9%84-%D9%85%D8%B9%D8%A7%D9%87%D8%A7-%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%AF-.-%D8%A7%D8%B3%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D9%84_nsl9xp.mp4"
                   type="video/mp4"
@@ -3767,12 +3767,12 @@ export const medicalArticles = [
           </div>
           
           <p>ولو عايز تحدد هل الأعراض اللي عندك دي ضعف انتصاب ولا سرعة قذف، اسمع الفيديو ده مع الدكتور أسامة البكل…</p>
-          <section className={styles.divider}>
-          <div className={styles.container}>
+          <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759151105/%D8%A7%D8%B2%D8%A7%D9%89-%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%B6-%D9%8A%D9%82%D8%AF%D8%B1-%D9%8A%D8%AD%D8%AF%D8%AF-%D8%A7%D8%B0%D8%A7-%D9%83%D8%A7%D9%86-%D8%B9%D9%86%D8%AF%D9%87-%D8%B6%D8%B9%D9%81-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%88%D9%84%D8%A7-%D8%B3%D8%B1%D8%B9%D8%A9-%D9%82%D8%B0%D9%81-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B3%D8%B1%D8%B9%D8%A9-%D8%A7%D9%84%D9%82%D8%B0%D9%81_mkutqc.mp4"
                   type="video/mp4"
@@ -4379,12 +4379,12 @@ export const medicalArticles = [
           </div>
           
           <p>ولو عايز تعرف هل كل المرضى اللي عندهم دوالي في الخصية من الدرجة الثالثة هيستفيدوا من العملية، اسمع الفيديو ده مع الدكتور أسامة البكل…</p>
-          <section className={styles.divider}>
-          <div className={styles.container}>
+          <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759152175/%D9%87%D9%84-%D9%83%D9%84-%D9%85%D8%B1%D8%B6%D9%8A-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D8%B1%D8%AC%D8%A9-%D8%A7%D9%84%D8%AA%D8%A7%D9%84%D8%AA%D9%87-%D9%87%D9%8A%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%88%D8%A7-%D9%85%D9%86-%D8%A7%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8_v5k0nr.mp4"
                   type="video/mp4"
@@ -4543,12 +4543,12 @@ export const medicalArticles = [
           </div>
           
           <p>ولو عايز تعرف معلومات أكثر عن علاقة الخصية المعلقة بتأخر الإنجاب، اسمع الفيديو ده مع الدكتور أسامة البكل…</p>
-          <section className={styles.divider}>
-          <div className={styles.container}>
+          <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759157541/%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D8%A9-%D8%A8%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D9%84%D9%82%D8%A9-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D8%B1%D8%AC%D8%A7%D9%84-%D9%86%D9%82%D8%B5-%D8%A7%D9%88-%D8%A7%D9%86%D8%B9%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9_2_xh8phc.mp4"
                   type="video/mp4"
@@ -4744,12 +4744,12 @@ export const medicalArticles = [
             </div>
             
             <p>ولو عايز تعرف إمتى تقدر تمارس العلاقة الزوجية وتروح شغلك بعد عملية دوالي الخصية بالميكروسكوب، اسمع الفيديو ده مع الدكتور أسامة البكل…</p>
-            <section className={styles.divider}>
-          <div className={styles.container}>
+            <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759157948/%D8%A7%D9%85%D8%AA%D9%89-%D9%87%D9%82%D8%AF%D8%B1-%D8%A7%D9%85%D8%A7%D8%B1%D8%B3-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B2%D9%88%D8%AC%D9%8A%D8%A9-%D9%88-%D8%A7%D8%B1%D9%88%D8%AD-%D8%B4%D8%BA%D9%84%D9%8A-%D8%A8%D8%B9%D8%AF-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9_ifmgt8.mp4"
                   type="video/mp4"
@@ -5028,12 +5028,12 @@ export const medicalArticles = [
           
           <p>ولو عايز تعرف إيه هي حالات انعدام الحيوانات المنوية اللي ممكن يحصل معاها إنجاب طبيعي، اسمع الفيديو ده مع الدكتور أسامة البكل…</p>
 
-          <section className={styles.divider}>
-          <div className={styles.container}>
+          <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759158332/%D9%87%D9%84-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%86%D8%B9%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%85%D9%85%D9%83%D9%86-%D9%8A%D8%AD%D8%B5%D9%84-%D9%85%D8%B9%D8%A7%D9%87%D8%A7-%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%AF-.-%D8%A7%D8%B3%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D9%84_2_zqaooq.mp4"
                   type="video/mp4"
@@ -5423,12 +5423,12 @@ export const medicalArticles = [
       <p>مينفعش أنهم ياخدوا أدوية أو منشطات ، لكن الدعامة ينفع كل الأشخاص أنهم يركبوها حتى اللي عندهم أمراض مزمنة تحت إشراف متخصص.</p>
 
       <p>ولو عايز تعرف هل مريض القلب ينفع يركب دعامة الانتصاب ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759161983/%D9%87%D9%84-%D9%85%D8%B1%D9%8A%D8%B6-%D8%A7%D9%84%D9%82%D9%84%D8%A8-%D9%8A%D9%86%D9%81%D8%B9-%D9%8A%D8%B1%D9%83%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%84%D9%85%D8%B1%D8%B6%D9%89-%D8%A7%D9%84%D9%82%D9%84%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D9%88-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83_dcyqx7.mp4"
                   type="video/mp4"
@@ -5554,8 +5554,8 @@ export const medicalArticles = [
       <p><strong>لكن في بعض الحالات بيكون عندهم ارتفاع في مستوى هرمون الانوثه وانخفاض في مستوى هرمون الذكورة ، في الحالة دي هنحتاج فترة علاج هرموني الأول قبل عملية التفتيش الميكروسكوبي علشان نقلل من مستوى هرمون الانوثه ونرفع مستوى هرمون الذكورة ، وبعدها نقدر نعمل التفتيش الميكروسكوبي من الخصية وهي عملية بسيطة لكن دقيقة وتحتاج إلى جراح مختص وتستغرق حوالي ساعة غالبًا ، وبتم تحت الميكروسكوب الجراحي عالي التكبير لاستخراج أنسجة بها إنتاج للحيوانات المنوية.</strong></p>
 
       <p>ولو عايز تعرف معلومات وتفاصيل أكثر عن حالات متلازمة كلاينفلتر وكيفية تشخيصها وعلاجها ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -5691,12 +5691,12 @@ export const medicalArticles = [
       <p>وهنا علشان نعالج ارتفاع هرمون البرولاكتين ، لازم الاول نعالج السبب اللي ادي الي ارتفاعه في الجسم ، فمثلا لو كان السبب فى اننا بناخد ادويه معينه هى اللى اتسببت فى زيادة نسبة الهرمون وقتها ممكن نغير الادوية دى ، او لو مقدرناش اننا نغيرها وقتها هناخد علاج نقلل بيه نسبة هرمون البرولاكتين ، وفترة العلاج هتكون من 3 – 6 شهور على حسب نسبة الهرمون وبعد العلاج عدد الحيوانات المنوية هيرجع طبيعى والعلاقة الزوجية مش هيكون فيها اي مشكله وبكده هيكون عندنا فرصة كبيرة ان يحصل حمل طبيعى باذن الله.</p>
 
       <p>ولو عايز تعرف هل حالات انعدام الحيوانات المنوية ممكن يحصل معاها إنجاب طبيعي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759163024/%D9%87%D9%84-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%86%D8%B9%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%85%D9%85%D9%83%D9%86-%D9%8A%D8%AD%D8%B5%D9%84-%D9%85%D8%B9%D8%A7%D9%87%D8%A7-%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%AF-.-%D8%A7%D8%B3%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D9%84_1_h7dat1.mp4"
                   type="video/mp4"
@@ -5797,8 +5797,8 @@ export const medicalArticles = [
       <p>وقتها هيكون حيوان منوي مشوه ومش هيكون عنده القدرة انه يخترق البويضة ويخصبها وهيحصل تأخر في الإنجاب.</p>
 
       <p>ولو عاوز تعرف معلومات اكثر عن مواصفات السائل المنوي القادر على إخصاب البويضة وحدوث الحمل ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
              
             </h3>
@@ -5944,8 +5944,8 @@ export const medicalArticles = [
       <p>بمعنى ان الجهاز المناعي وظيفته انه يهاجم أي أجسام غريبة في جسمنا ، والحيوانات المنوية بالنسبة للجهاز المناعي هي اجسام غريبة ، علشان كدة ربنا سبحانه وتعالي خلق حاجز علشان يمنع الجهاز المناعي انه يتعرف على الحيوانات المنوية ويهاجمها ، لكن لو حصل اي خلل في الحاجز ده ، هيبدأ الجهاز المناعي يكتشف وجود الحيوانات المنوية ويهاجمها ويكون ضدها أجسام مضادة ممكن تتسبب في موتها ، أو أن الحيوانات المنوية كلها تلزق في بعض وقت الحركة ، وده هيسبب ضعف في حركة الحيوانات المنوية و تأخر في الإنجاب.</p>
 
       <p>ولو عايز تعرف معلومات اكثر عن مواصفات السائل المنوي وامتي السائل المنوي يكون طبيعي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
              
             </h3>
@@ -6124,12 +6124,12 @@ export const medicalArticles = [
       </ul>
 
       <p>ولو عاوز تعرف هل الاحساس بالعلاقة الزوجية هيتأثر بعد تركيب دعامة القضيب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759222676/%D9%87%D9%84-%D8%A7%D9%84%D8%A5%D8%AD%D8%B3%D8%A7%D8%B3-%D8%A8%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D9%87%D9%8A%D8%AA%D8%A3%D8%AB%D8%B1-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A%D8%A9_-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D9%88-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8_e98tvt.mp4"
                   type="video/mp4"
@@ -6274,12 +6274,12 @@ export const medicalArticles = [
       <p>لو في ضعف شديد بالقلب، أو فشل في عضلة القلب، لازم يتم تقييم الحالة بعناية قبل الاستخدام.</p>
 
       <p>ولو عايز تعرف هل في بديل ولا لا للمنشطات الجنسية في علاج ضعف الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759222568/%D9%87%D9%84-%D9%81%D9%8A-%D8%A8%D8%AF%D9%8A%D9%84-%D9%84%D9%84%D9%85%D9%86%D8%B4%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A9-%D9%84%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%B5%D8%A7%D8%A8_-%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%B4%D8%B7%D8%A7%D8%AA-%D8%A7%D9%84%D8%AC%D9%86%D8%B3%D9%8A%D8%A9_b5mbx0.mp4"
                   type="video/mp4"
@@ -6357,8 +6357,8 @@ export const medicalArticles = [
       <p>وضعف الانتصاب بيحصل نتيجة عدم قدرة الشخص على بلوغ الانتصاب أو الحفاظ عليه المدة الكافية لحد ما نخلص العلاقة الزوجية، وده بيكون نتيجة خلل في الاوعية الدموية اللي بتوصل الدم إلى القضيب ، والخلل ده إما بيكون بسبب ضعف في ضخ الدم إلى القضيب ، أو أن مش بيتم الاحتفاظ بالدم داخل القضيب لحد ما نخلص العلاقة الزوجية ، نتيجة تسربه خارج العضو الذكري.</p>
 
       <p>ولو عايز تعرف ايه هو أسلوب الحياة الغير صحي وتأثيره على الضعف الجنسي عند الرجال ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-       <section className={styles.divider}>
-          <div className={styles.container}>
+       <section >
+          <div >
             <h3>
              
             </h3>
@@ -6531,12 +6531,12 @@ export const medicalArticles = [
       <p>ودي تعتبر أعلى نسبة بين كل طرق علاج دوالي الخصية.</p>
 
       <p>ولو عايز تعرف معلومات اكثر عن اضرار علاج دوالي الخصية بالأشعة التداخلية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759222379/%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%A7%D8%B4%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%A7%D9%81%D8%B6%D9%84-%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9_1_jorsva.mp4"
                   type="video/mp4"
@@ -6720,12 +6720,12 @@ export const medicalArticles = [
       <p>بنبدا نقفل الجرح بخيوط تجميلية علشان ميكونش ليه اي اثر خالص.</p>
 
       <p>ولو عايز تعرف ازاي ممكن نمنع حدوث التهابات او عدوي بعد تركيب دعامة العضو الذكري ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759222298/%D8%A7%D8%B2%D8%A7%D9%8A-%D9%86%D9%85%D9%86%D8%B9-%D8%AD%D8%AF%D9%88%D8%AB-%D8%A7%D9%84%D8%AA%D9%87%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%88-%D8%B9%D8%AF%D9%88%D9%89-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B6%D9%88-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9_lqayxy.mp4"
                   type="video/mp4"
@@ -6824,12 +6824,12 @@ export const medicalArticles = [
       <p>ساعتها هنعمل الحقن المجهري بس واحنا مطمنين اننا بنستخدم حيوان منوي سليم وجودته كويسة وده طبعا هيرفع من فرص نجاح عملية الحقن المجهري.</p>
 
       <p>ولو عايز تعرف معلومات اكثر عن هل الحقن المجهري بديل لعملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759222102/%D9%87%D9%84-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D8%AC%D9%87%D8%B1%D9%8A-%D8%A8%D8%AF%D9%8A%D9%84-%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-_-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D9%81%D8%B4%D9%84-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D8%AC%D9%87%D8%B1%D9%89_v2g0dq.mp4"
                   type="video/mp4"
@@ -6974,12 +6974,12 @@ export const medicalArticles = [
       <p>لكن ده بيكون الم بسيط جدا وبيروح بالمسكنات و بالكمادات الباردة.</p>
 
       <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي مش هتحتاج للتفتيش الميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759221983/%D8%AD%D8%AA%D9%89-%D9%84%D9%88-%D9%81%D9%89-%D8%A7%D9%86%D8%B9%D8%AF%D8%A7%D9%85-%D9%81%D9%89-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%85%D8%B4-%D9%87%D8%AA%D8%AD%D8%AA%D8%A7%D8%AC-%D9%84%D9%84%D8%AA%D9%81%D8%AA%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8%D9%89-%D9%88-%D9%84%D8%B3%D9%87-%D9%81%D9%89-%D9%81%D8%B1%D8%B5%D8%A9-%D9%84%D8%AD%D8%AF%D9%88%D8%AB-%D8%AD%D9%85%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A_kylqkr.mp4"
                   type="video/mp4"
@@ -7084,12 +7084,12 @@ export const medicalArticles = [
       <p>لازم تكون عارف ان بعد عملية دوالي الخصية بالميكروسكوب لازم ناخد علاج هرموني عشان ننشط بيه الخصية ، وده بيساعدها انها ترجع تاني تنتج حيوانات منوية بشكل طبيعي ، واول تحليل سائل منوي بنعمله بيكون بعد العملية بحوالي 6 شهور ، لأن دورة تكوين الحيوان المنوي بتستغرق 3 شهور ، وبكدة نكون أخذنا وقتنا الكافي لبداية تعافي الخصية من تأثير الدوالي ، وبنلاحظ كمان في تحليل السائل المنوي ان في تحسن في جودة الحيوانات المنوية حوالي 70%، وأن حركة الحيوانات المنوية اتحسنت العدد كمان زاد ونسبة التشوهات قلت ، وان امكانية ان يحصل حمل طبيعي بعد عملية دوالي الخصية تصل لحوالي 40% الي 45%.</p>
 
       <p>ولو عايز تعرف امتي ممكن يحصل حمل طبيعي بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759226885/%D8%A7%D9%85%D8%AA%D9%89-%D9%8A%D8%AD%D8%B5%D9%84-%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D9%88-%D8%AA%D8%AD%D8%B3%D9%86-%D9%81%D9%89-%D8%AA%D8%AD%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%89-%D8%A8%D8%B9%D8%AF-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9_sc3j71.mp4"
                   type="video/mp4"
@@ -7177,12 +7177,12 @@ export const medicalArticles = [
 
       <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي هتحتاج لفترة علاج هرموني قبل عملية التفتيش الميكروسكوبي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
 
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759226533/%D8%A7%D9%85%D8%AA%D9%89-%D9%86%D8%AD%D8%AA%D8%A7%D8%AC-%D9%84%D8%B9%D9%84%D8%A7%D8%AC-%D9%87%D8%B1%D9%85%D9%88%D9%86%D9%89-%D9%82%D8%A8%D9%84-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D8%AA%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8%D9%8A-%D8%A7%D9%86%D8%B9%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8_nmgz3o.mp4"
                   type="video/mp4"
@@ -7293,8 +7293,8 @@ export const medicalArticles = [
 
       <p>ولو عايز تعرف معلومات اكثر عن النسبة الطبيعية لتشوه الحيوانات المنوية ، اسمع الفيديو ده مع الدكتور اسامة محمد البكل …</p>
 
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -7484,12 +7484,12 @@ export const medicalArticles = [
       <h3>6/ وبالنسبة للعلاقة الزوجية بتقدر تمارسها بعد العملية باسبوع واحد بس.</h3>
 
       <p>ولو عايز تعرف امتي تقدر تمارس الرياضة وتروح شغلك بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759226264/%D8%A8%D8%B9%D8%AF-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A7%D9%85%D8%AA%D9%8A-%D9%87%D8%AA%D9%82%D8%AF%D8%B1-%D8%AA%D8%B1%D8%AC%D8%B9-%D9%84%D8%B4%D8%BA%D9%84%D9%83-_-%D9%81%D8%AA%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%81%D9%89-%D8%A8%D8%B9%D8%AF-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8_azrxrs.mp4"
                   type="video/mp4"
@@ -7607,8 +7607,8 @@ export const medicalArticles = [
       <p>بمعنى أن مرض بيروني ده بيكون عبارة عن تليفات بتحصل في أنسجة القضيب ، والتليف ده ممكن يخلي القضيب يبان أقصر وقت الانتصاب ، لأن المنطقة اللي فيها تليفات مش بتتمدد وقت الانتصاب وده بيعمل عند الشخص انتصاب منحني أو معوج ، و ممكن يسبب ضعف انتصاب.</p>
 
       <p>ولو عايز تعرف معلومات اكثر عن مرض بيروني وتشخيصه وعلاجه ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -7760,12 +7760,12 @@ export const medicalArticles = [
       </ul>
 
       <p>ولو عايز تعرف ايه هي الحالات اللي مش هينفع تركب دعامة الانتصاب الهيدروليكية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759226060/%D8%A7%D9%89-%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D9%89-%D9%85%D8%AA%D9%82%D8%AF%D8%B1%D8%B4-%D8%AA%D8%B1%D9%83%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8_nhs4j4.mp4"
                   type="video/mp4"
@@ -7926,12 +7926,12 @@ export const medicalArticles = [
       <p>وده بيكون عن طريق إبرة رفيعة بنحقنها في القضيب قبل ممارسة العلاقة الزوجية مباشرة ، وبتساعد على الانتصاب في خلال 10 دقائق من الحقن.</p>
 
       <p>ولو عايز تعرف هل الحقن الموضعي علاج لكل حالات الضعف الجنسي ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759225924/%D9%87%D9%84-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D9%84%D9%83%D9%84-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%85%D8%B1%D8%B6-%D8%A8%D9%8A%D8%B1%D9%88%D9%86%D9%89-1_vuwtgm.mp4"
                   type="video/mp4"
@@ -8068,12 +8068,12 @@ export const medicalArticles = [
       <h3>5/ وبعد ما خلاص ركبنا الدعامة في مكانها المظبوط ، بنبدأ نقفل الجرح بخيوط تجميلية علشان ميكونش ليه أي أثر.</h3>
 
       <p>ولو عايز تطمن وتعرف امتي هتقدر تمارس العلاقة الزوجية بعد تركيب دعامة القضيب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759225737/videoplayback-10_vwabk5.mp4"
                   type="video/mp4"
@@ -8210,12 +8210,12 @@ export const medicalArticles = [
 
       <p>ولو عايز تعرف ايه هي حالات تأخر الإنجاب اللي هتحتاج للتفتيش الميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
       
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759241074/%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%A7%D9%84%D9%84%D9%89-%D9%87%D8%AA%D8%AD%D8%AA%D8%A7%D8%AC-%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D8%AA%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8%D9%89-%D8%B7%D8%B1%D9%82-%D8%A7%D8%B3%D8%AA%D8%AE%D8%B1%D8%A7%D8%AC-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9_rzxema.mp4"
                   type="video/mp4"
@@ -8370,12 +8370,12 @@ export const medicalArticles = [
       <p><strong>اما بقي لو كان الانسداد في قناة القذف :</strong> وقتها هنستخدم المنظار علشان نسلك بيه الانسداد وبعدها هتطلع الحيوانات المنوية في السائل المنوي وهيكون في فرصة كبيرة ان يحصل حمل طبيعي.</p>
 
       <p>ولو عايز تطمن اكثر على حالتك وتعرف ان في امل حتى لو بتعاني من نقص شديد في عدد الحيوانات المنوية ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759240752/%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D9%86%D9%82%D8%B5-%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%84%D8%B3%D9%87-%D8%B9%D9%86%D8%AF%D9%87%D9%85-%D9%81%D8%B1%D8%B5%D8%A9-%D9%81%D9%89-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D8%AC-%D9%88-%D8%AD%D8%AF%D9%88%D8%AB-%D8%AD%D9%85%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%89-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8_1_sm6bgr.mp4"
                   type="video/mp4"
@@ -8525,12 +8525,12 @@ export const medicalArticles = [
       <h3>7/ ولازم كمان نفضل نتابع مع الدكتور المتخصص علشان نتاكد من التعافي بشكل تام.</h3>
 
       <p>ولو عايز تعرف هل الإحساس بالمتعة أثناء العلاقة الزوجية هيتأثر بعد تركيب دعامة الانتصاب ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759240432/%D9%87%D9%84-%D8%A7%D9%84%D8%A5%D8%AD%D8%B3%D8%A7%D8%B3-%D8%A8%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D9%87%D9%8A%D8%AA%D8%A3%D8%AB%D8%B1-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A%D8%A9_-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D9%88-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-1-1_kbxajt.mp4"
                   type="video/mp4"
@@ -8618,12 +8618,12 @@ export const medicalArticles = [
       <p>وده عبارة عن عيب خلقي بيصيب الأطفال الذكور بعد الولادة مباشرة ، وهنا بنلاقي أن خصية واحدة أو الاتنين مش بتنزل إلى مكانها الطبيعي في كيس الصفن و بتفضل معلقة داخل البطن أو في المنطقة الارابية ، ولازم نعالجها قبل بلوغ الطفل عمر سنة على يد جراح متخصص و كل ما هنتأخر في إنزال الخصية كلما زادت فرصه اننا نوصل لانعدام في الحيوانات المنوية.</p>
 
       <p>ولو عايز تعرف ايه علاقة الخصية المعلقة بتأخر الإنجاب عند الرجال ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759236926/videoplayback-8_bcxj8z.mp4"
                   type="video/mp4"
@@ -8745,8 +8745,8 @@ export const medicalArticles = [
       </ul>
 
       <p>ولو عايز تعرف معلومات اكثر عن المشاكل النفسية وعلاقتها بضعف الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -8935,8 +8935,8 @@ export const medicalArticles = [
       <p>ولو عايز تعرف معلومات أكثر عن أسلوب الحياة غير الصحي وتأثيره على الضعف الجنسي عند الرجال ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
 
       <h2>و بعد ما نمنع و نقلل كل الحاجات اللى قولنا عليها دى ، فى شوية نصائح وتعليمات لازم نلتزم بيها علشان نغير نمط حياتنا للأفضل ويكون عندنا قدرة جنسية عالية ، زي :</h2>
- <section className={styles.divider}>
-          <div className={styles.container}>
+ <section >
+          <div >
             <h3>
              
             </h3>
@@ -9076,12 +9076,12 @@ export const medicalArticles = [
       <p>اللي بيتم عن طريق حقن القضيب موضعياً بإبرة رفيعة جداً ، وده بيساعد على حدوث الانتصاب بعد الحقن بـ 10 دقائق.</p>
 
       <p>ولو عايز تعرف هل الحقن الموضعي علاج لكل حالات ضعف الانتصاب ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759234036/%D9%87%D9%84-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D9%84%D9%83%D9%84-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%AD%D9%82%D9%86-%D8%A7%D9%84%D9%85%D9%88%D8%B6%D8%B9%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%85%D8%B1%D8%B6-%D8%A8%D9%8A%D8%B1%D9%88%D9%86%D9%89_1_q8ieet.mp4"
                   type="video/mp4"
@@ -9223,12 +9223,12 @@ export const medicalArticles = [
       <p>ودي يعتبر اهم العوامل اللي لو التزمت بيها قبل عملية تركيب دعامة العضو الذكري هترفع نسبة نجاح العملية ال 100% باذن الله.</p>
 
       <p>ولو عايز تعرف هل الإحساس بالمتعة في العلاقة الزوجية هيتأثر بعد تركيب دعامة القضيب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759233808/%D9%87%D9%84-%D8%A7%D9%84%D8%A5%D8%AD%D8%B3%D8%A7%D8%B3-%D8%A8%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D9%87%D9%8A%D8%AA%D8%A3%D8%AB%D8%B1-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A%D8%A9_-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D9%88-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-1_jrpioq.mp4"
                   type="video/mp4"
@@ -9304,12 +9304,12 @@ export const medicalArticles = [
         <li><strong>أو لو كان انعدام الحيوانات المنوية سببه انسداد فى مسار خروج الحيوانات المنوية من الخصية</strong></li>
         <li><strong>واخيرا لو كان سبب انعدام الحيوانات المنوية مشكلة بالخصية زي دوالي الخصية</strong></li>
       </ul>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759319041/%D8%AD%D8%AA%D9%89-%D9%84%D9%88-%D9%81%D9%89-%D8%A7%D9%86%D9%80%D8%B9%D9%80%D8%AF%D8%A7%D9%85-%D9%81%D9%89-%D8%A7%D9%84%D9%80%D8%AD%D9%80%D9%8A%D9%80%D9%88%D8%A7%D9%86%D9%80%D8%A7%D8%AA-%D8%A7%D9%84%D9%80%D9%85%D9%80%D9%86%D9%80%D9%88%D9%8A%D9%80%D8%A9-%D9%85%D9%85%D9%83%D9%86-%D9%8A%D9%80%D8%AD%D9%80%D8%B5%D9%80%D9%84-%D8%A7%D9%86%D9%80%D8%AC%D9%80%D8%A7%D8%A8-%D8%B7%D9%80%D8%A8%D9%80%D9%8A%D9%80%D8%B9%D9%80%D9%8A-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8_fwc6al.mp4"
                   type="video/mp4"
@@ -9458,8 +9458,8 @@ export const medicalArticles = [
       <p>لأن الأشخاص المصابين بالسمنة المفرطة بيحسوا بالحرج من أجسامهم وده بيخليهم يتجنبوا العلاقة الزوجية.</p>
 
       <p>ولو عايز تعرف معلومات أكثر عن أسلوب الحياة الغير صحي اللي بيسبب ضعف جنسي عند الرجال ، اسمع الفيديو ده مع الدكتور اسامة محمد البكل…</p>
- <section className={styles.divider}>
-          <div className={styles.container}>
+ <section >
+          <div >
             <h3>
              
             </h3>
@@ -9566,12 +9566,12 @@ export const medicalArticles = [
       </ul>
 
       <p>عشان كده مهم قبل ما نقرر نعمل عملية دوالى الخصية نتأكد من سلامة تحليل السائل المنوي وسلامة الزوجة ومن حجم الخصيتين.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318847/videoplayback-5_ttpnxm.mp4"
                   type="video/mp4"
@@ -9667,12 +9667,12 @@ export const medicalArticles = [
         <li><strong>تشخيص تسريب وريدي غير دقيق</strong></li>
         <li><strong>عادات صحية غلط ماثرة على الانتصاب</strong></li>
       </ul>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318752/videoplayback-6_fizfly.mp4"
                   type="video/mp4"
@@ -9782,12 +9782,12 @@ export const medicalArticles = [
         <li><strong>3/ والرجوع لممارسة الحياة الطبيعية.</strong></li>
         <li><strong>4/ والمتابعة مع الطبيب المعالج لضمان نجاح العملية وتحسن وظيفة الخصية.</strong></li>
       </ul>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318668/videoplayback-3_1_c6ctue.mp4"
                   type="video/mp4"
@@ -9887,12 +9887,12 @@ export const medicalArticles = [
       <h2>المرضي اللي بيعانوا من تأخر في الإنجاب وبياخدوا علاج وحاسين ان مفيش نتيجة ؟</h2>
 
       <p>خليني اقولك ان الخصية بتحتاج وقت من 74 لـ 90 يوم عشان تنتج الحيوانات المنوية ، عشان كده المريض لازم ياخد العلاج لمدة متقلش عن 90 يوم ، وبعدها يعمل تحليل سائل منوى جديد عشان نقدر نحكم ، هل العلاج جايب نتيجة وهيحصل حمل بشكل طبيعى ، ولا محتاجين نشوف خطة علاج ثانية.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318545/videoplayback-4_2_ix6uvb.mp4"
                   type="video/mp4"
@@ -9973,12 +9973,12 @@ export const medicalArticles = [
       <p>لو عندك دوالي على الخصية وبتخطط لعملية الحقن المجهري ، فاحب اقولك انك لازم تعمل عملية دوالي الخصية الأول.</p>
 
       <p>لان دوالي الخصية هتحسن من وظيفة الخصية وممكن يحصل حمل طبيعي من غير حتي ما نلجأ للحقن المجهري ، و حتى لو لجأنا للحقن المجهري ، فبرضوه عملية دوالي الخصية هترفع من نسب نجاح عملية الحقن المجهري.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318438/videoplayback-1_1_kpg1lu.mp4"
                   type="video/mp4"
@@ -10096,12 +10096,12 @@ export const medicalArticles = [
       </ul>
 
       <p><strong>إذ تركيب دعامة القضيب بعيدة عن مصادر الإحساس والإستمتاع.</strong></p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318368/videoplayback-2_1_hz2pwd.mp4"
                   type="video/mp4"
@@ -10175,12 +10175,12 @@ export const medicalArticles = [
     content: `
       <h2>هل الخلايا الجذعية بتعالج ضعف الانتصاب ؟</h2>
       <p>الخلايا الجذعيه وحقن البلازما مش علاج لضعف الانتصاب ، لانهم لسه تحت التجربة والبحث العلمي ومفيش أي حاجة تثبت أنهم علاج فعال لضعف الانتصاب.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318274/videoplayback_1_keaj5r.mp4"
                   type="video/mp4"
@@ -10264,12 +10264,12 @@ export const medicalArticles = [
         <li><strong>المريض اللي سنه صغير لاننا مش هنقدر نحقنه غير مرة كل اسبوع ، وده مش هيكون كافى للزوج ولا الزوجة.</strong></li>
         <li><strong>المرضى اللى بياخدوا ادوية سيولة بجرعات كبيرة مينفعش معاهم الحقن الموضعي.</strong></li>
       </ul>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318187/WhatsApp-Video-2025-06-01-at-1.54.35-PM_fcwrgf.mp4"
                   type="video/mp4"
@@ -10368,12 +10368,12 @@ export const medicalArticles = [
         <li><strong>الحالات اللي عندها مشاكل عصبية في ايدها.</strong></li>
         <li><strong>الحالات اللي ركبت دعامة قبل كدة وشالتها.</strong></li>
       </ul>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318126/%D8%A7%D9%89-%D8%A7%D9%84%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%84%D9%89-%D9%85%D8%AA%D9%82%D8%AF%D8%B1%D8%B4-%D8%AA%D8%B1%D9%83%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8_1_nr8gk0.mp4"
                   type="video/mp4"
@@ -10459,12 +10459,12 @@ export const medicalArticles = [
     content: `
       <h2>هل الزوجة دائما هي السبب في تاخر الانجاب ؟</h2>
       <p>لو فى تأخر في الإنجاب أكثر من سنة ، لازم الزوج و الزوجة يكشفوا هما الاتنين ، لان مش دايما بيكون تأخر الإنجاب سببه مشكلة عند الزوجة و ممكن يكون فى مشكلة كمان عند الزوج هي السبب الرئيسي في تاخر الانجاب.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759318051/WhatsApp-Video-2025-06-01-at-1.39.31-PM_mt3r36.mp4"
                   type="video/mp4"
@@ -10549,12 +10549,12 @@ export const medicalArticles = [
       <h2>هل ممكن يحصل إنجاب مع وجود دوالي في الخصية ؟</h2>
       <p>حالات كثير بتتفاجئ لما الدكتور يقولهم إن عندهم تأخر في الإنجاب رغم إنهم أنجبوا مرة قبل كده ، والسبب ممكن يكون دوالي الخصية اللي كانت موجودة قبل كدة ، بس بدأت تأثر أكثر مع الوقت ، وده بيأكد ان دوالي الخصية مش شرط تمنعك من الانجاب في بداية الجواز ، ولكن مع مرور الوقت تأثيرها بيزيد تدريجيًا ، وده اللي بيؤدي إلى تأخر الإنجاب الثانوي.</p>
 
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759249506/%D8%A7%D8%B2%D8%A7%D9%8A-%D8%AD%D8%B5%D9%84-%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D9%82%D8%A8%D9%84-%D9%83%D8%AF%D8%A7-%D9%88%D8%A7%D9%86%D8%A7-%D9%83%D8%A7%D9%86-%D8%B9%D9%86%D8%AF%D9%8A-%D8%AF%D9%88%D8%A7%D9%84%D9%8A_-%D8%B9%D9%84%D9%85%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%AF-_-%D8%A7%D8%B3%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D9%84_yjwltr.mp4"
                   type="video/mp4"
@@ -10634,12 +10634,12 @@ export const medicalArticles = [
       <h2>امتى تمارس العلاقة الزوجية بعد تركيب دعامة الانتصاب؟</h2>
       <p>بعد تركيب دعامة الانتصاب لازم ننتظر من شهر الى شهرين عشان نمارس العلاقة الزوجية علشان ميحصلش اي مضاعفات أو التهابات ممكن تاثر علي الدعامة وعلي نجاح العملية و نضطر في الاخر اننا نشيل الدعامة تاني.</p>
 
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759249400/%D8%A7%D9%85%D8%AA%D9%89-%D8%AA%D9%85%D8%A7%D8%B1%D8%B3-%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B2%D9%88%D8%AC%D9%8A%D8%A9-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9-%D9%88%D8%A7%D9%84%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D9%84%D9%8A%D9%83_1_plmt15.mp4"
                   type="video/mp4"
@@ -10718,12 +10718,12 @@ export const medicalArticles = [
       <h2>هل القيلة المائية تؤثر على الانجاب او الانتصاب ؟</h2>
       <p>القيلة المائية ممكن تأثر على الانجاب لو الماية اللى على الخصية سببت التهابات مستمرة في الخصية ، لان الالتهابات دى هتسبب تدهور في وظيفة الخصية وده هيأثر على انتاجها للحيوانات المنوية وتاخر في الانجاب.</p>
 
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759249324/videoplayback-4_1_v2cpeh.mp4"
                   type="video/mp4"
@@ -10805,12 +10805,12 @@ export const medicalArticles = [
       <h2>امتي اقدر ارجع شغلي بعد عملية دوالي الخصية بالميكروسكوب ؟</h2>
       <p>لو هتعمل عملية دوالى الخصية بالميكروسكوب فأنت هتقدر ترجع لشغلك وتمارس حياتك بشكل طبيعي بعد العملية باسبوع والأنشطة العنيفة والرياضة بعد العملية بشهر.</p>
       
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759249218/%D8%A8%D8%B9%D8%AF-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A7%D9%85%D8%AA%D9%8A-%D9%87%D8%AA%D9%82%D8%AF%D8%B1-%D8%AA%D8%B1%D8%AC%D8%B9-%D9%84%D8%B4%D8%BA%D9%84%D9%83-_-%D9%81%D8%AA%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%81%D9%89-%D8%A8%D8%B9%D8%AF-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8_1_io3osx.mp4"
                   type="video/mp4"
@@ -10886,12 +10886,12 @@ export const medicalArticles = [
       <h2>هل صغر حجم الخصيتين يؤثر على الانجاب او الانتصاب؟</h2>
       <p>لو بتعاني من تاخر في الانجاب او ضعف في الانتصاب خليني اقولك ان حجم الخصيتين مش دليل على تأخر الانجاب او ضعف الانتصاب ممكن يكون بيدينا مؤشر علشان نشوف إنتاجية الخصية من الحيوانات المنوية وهرمون الذكورة لانهم هما أساس وظيفة الخصية.</p>
       
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759249107/videoplayback-2_jw51yi.mp4"
                   type="video/mp4"
@@ -10965,12 +10965,12 @@ export const medicalArticles = [
     content: `
       <h2>هل الموجات التصادمية علاج للضعف الجنسي ؟</h2>
       <p>الموجات التصادمية من أحدث الحلول لعلاج ضعف الانتصاب ، بس لازم كمان نكون عارفين ان فى نسبة مش قليلة من المرضى ممكن ما ينجحش معاهم العلاج بالموجات التصادمية ، وان فى حالات معينه بس اللى يقدروا يستفيدوا بالطريقة دى.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759249022/videoplayback-3_q65ocq.mp4"
                   type="video/mp4"
@@ -11052,12 +11052,12 @@ export const medicalArticles = [
     content: `
       <h2>هل ممكن يحصل حمل طبيعى وفى ضعف فى حركة الحيوانات المنوية ؟</h2>
       <p>عدد كبير من الرجالة بيعانوا من ضعف في حركة الحيوانات المنوية ، ويفتكروا إن الحل الوحيد هو الحقن المجهري ، ولكن الحقيقة إن بعض الحالات ممكن يحصل فيها حمل طبيعي لو بدأنا التشخيص والعلاج الصح.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759248943/videoplayback_of7qbw.mp4"
                   type="video/mp4"
@@ -11152,12 +11152,12 @@ export const medicalArticles = [
     content: `
       <h2>هل مريض القلب ينفع يركب دعامة الانتصاب ؟</h2>
       <p>دعامة العضو الذكري في بعض الاحيان بتكون خطر على مرضى القلب لو حالة القلب متسمحش بالدخول الى العمليات ، لكن لو وظيفة القلب كويسة ينفع عادي يركب دعامة القضيب من غير أي خطورة أو مضاعفات.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759248819/videoplayback-1_rqixar.mp4"
                   type="video/mp4"
@@ -11235,12 +11235,12 @@ export const medicalArticles = [
       <p>لو بتفكر تعمل عملية دوالي الخصية عشان تعالج مشكلة تأخر الإنجاب وعاوز تلاقي تحسن فى تحليل السائل المنوى و يحصل انجاب طبيعى ، فخلينى اقولك ان الاشعة التداخلية مش هي الحل ، و دا لان :</p>
 
       <p>التحسن بعد عملية دوالي الخصية بالاشعة التداخلية بيكون اقل ، دا غير طبعا فرص ان الدوالى ترجع تانى بعد العملية بتكون اعلى من الجراحة الميكروسكوبية.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759248618/%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D8%A7%D8%B4%D8%B9%D8%A9-%D8%A7%D9%84%D8%AA%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9-%D8%B9%D9%84%D8%A7%D8%AC-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%A7%D9%81%D8%B6%D9%84-%D8%B7%D8%B1%D9%8A%D9%82%D8%A9-%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9_2_lnqnlp.mp4"
                   type="video/mp4"
@@ -11338,12 +11338,12 @@ export const medicalArticles = [
     content: `
       <h2>هل عملية دوالي الخصية ممكن تسبب عقم ؟</h2>
       <p>لو هتعمل عملية دوالي الخصية لازم تبعد عن الجراحة العادية وجراحة المنظار لأنهم هيسببوا ضمور للخصية وضعف في الخصوبة ، لأن المضاعفات هتكون اكبر بكثير من الجراحة الميكروسكوبية.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759248478/%D9%87%D9%84-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%89-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D9%85%D9%85%D9%83%D9%86-%D8%AA%D8%B3%D8%A8%D8%A8-%D8%B9%D9%80%D9%82%D9%80%D9%85-%D9%88%D9%86%D9%82%D8%B5-%D9%84%D9%87%D8%B1%D9%85%D9%88%D9%86-%D8%A7%D9%84%D8%B0%D9%83%D9%88%D8%B1%D8%A9-%D9%88%D8%B6%D9%80%D9%85%D9%80%D9%88%D8%B1-%D8%A8%D8%A7%D9%84%D9%80%D8%AE%D9%80%D8%B5%D9%80%D9%8A%D9%80%D8%A9-%D8%A7%D8%B6%D8%B1%D8%A7%D8%B1-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D9%84%D9%89_z7g2cz.mp4"
                   type="video/mp4"
@@ -11428,12 +11428,12 @@ export const medicalArticles = [
     content: `
       <h2>نصائح بعد عملية التفتيش الميكروسكوبي من الخصية</h2>
       <p>قبل عملية التفتيش الميكروسكوبي من الخصية لازم تتشخص كويس وتكون عارف حالتك ووضع الهرمونات في جسمك علشان تحقق أعلى نسبة نجاح للعملية ، وكمان في شوية حاجات لازم تاخد بالك منها بعد العملية زي وضع هرمون الذكورة في الجسم وخاصة لو كنت من الحالات اللي عندهم صغر في حجم الخصية علشان ميحصلش اي مضاعفات بعد العملية.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759248401/%D9%86%D8%B5%D8%A7%D8%A6%D8%AD-%D8%A8%D8%B9%D8%AF-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D8%AA%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8%D9%8A-%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D9%83%D9%84%D8%A7%D9%8A%D9%86%D9%81%D9%84%D8%AA%D8%B1-%D9%86%D9%82%D8%B5-%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8_nyfsxd.mp4"
                   type="video/mp4"
@@ -11529,12 +11529,12 @@ export const medicalArticles = [
     content: `
       <h2>الفرق بين التسريب الوريدى وضعف ضخ الدم في القضيب ؟</h2>
       <p>تفتكر ليه علاج ضعف الانتصاب مش بيجيب معاك نتيجة ؟ لأن حالات التسريب الوريدي مختلفة تماما عن حالات ضعف ضخ الدم بالقضيب وكل منهم ليه بروتوكول علاج مختلف عن التاني</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759248274/%D9%84%D9%8A%D9%87-%D8%B9%D9%84%D8%A7%D8%AC-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%85%D8%B4-%D8%AC%D8%A7%D9%8A%D8%A8-%D9%85%D8%B9%D8%A7%D9%83-%D9%86%D8%AA%D9%8A%D8%AC%D9%87-%D8%A7%D9%84%D8%AA%D8%B3%D8%B1%D9%8A%D8%A8-%D8%A7%D9%84%D9%88%D8%B1%D9%8A%D8%AF%D9%8A-%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%AF-.-%D8%A7%D8%B3%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D9%84_jcdhcc.mp4"
                   type="video/mp4"
@@ -11648,12 +11648,12 @@ export const medicalArticles = [
       <p>بس في البداية لازم تكون عارف أن زي ما جسم الرجل بيكون محتاج لهرمون الاستروجين علشان يعمل بشكل طبيعي ، إلا أنه لو زاد عن النسب الطبيعي ، هيسبب مشاكل كتير على القدرة الإنجابية زي العقم ، لان ارتفاعه هيؤدي إلى انخفاض هرمون الذكورة اللي بيكون ليه تأثير على انتاج الخصية للحيوانات المنوية ، وبكدة نقص هرمون الذكورة هيسبب نقص في عدد الحيوانات المنوية وضعف في حركتها وزيادة في نسبة تشوهات الحيوان المنوي وكل ده هيكون السبب في الاصابة بالعقم او تاخر الانجاب.</p>
 
       <p>ولو عايز تعرف ازاي بنعالج حالات انعدام الحيوانات المنوية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-        <section className={styles.divider}>
-          <div className={styles.container}>
+        <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759323107/%D8%A7%D9%86%D8%B9%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%84%D8%A7-%D9%8A%D8%B9%D9%86%D9%8A-%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%84-_-%D8%AD%D9%85%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-%D8%A8%D8%AF%D9%88%D9%86-%D8%AA%D9%81%D8%AA%D9%8A%D8%B4-%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8%D9%8A-_-%D8%AF.-%D8%A3%D8%B3%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D9%84_2_waswom.mp4"
                   type="video/mp4"
@@ -11765,12 +11765,12 @@ export const medicalArticles = [
       <p>بيحافظ على أنسجة الخصية.</p>
       
       <p>بيتم إجرائه تحت الميكروسكوب الجراحي بدقة.</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759323011/%D8%AD%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%A7%D9%84%D9%84%D9%89-%D9%87%D8%AA%D8%AD%D8%AA%D8%A7%D8%AC-%D9%84%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%81%D8%AA%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8%D9%89-%D8%B7%D8%B1%D9%82-%D8%A7%D8%B3%D8%AA%D8%AE%D8%B1%D8%A7%D8%AC-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%85%D9%86-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9_1_qgchi7.mp4"
                   type="video/mp4"
@@ -11910,12 +11910,12 @@ export const medicalArticles = [
 
       <p>ودلوقتي لازم تكون أن في حالات كتير بتعاني من انعدام في الحيوانات المنوية وبتكون قابلة للعلاج ومش هتحتاج للتفتيش الميكروسكوبي من الخصية ، لو عايز تعرف انت واحد منهم ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
 
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759322896/%D8%A7%D9%86%D8%B9%D8%AF%D8%A7%D9%85-%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D9%86%D9%88%D9%8A%D8%A9-%D9%84%D8%A7-%D9%8A%D8%B9%D9%86%D9%8A-%D9%86%D9%87%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D9%84-_-%D8%AD%D9%85%D9%84-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A-%D8%A8%D8%AF%D9%88%D9%86-%D8%AA%D9%81%D8%AA%D9%8A%D8%B4-%D9%85%D9%8A%D9%83%D8%B1%D9%88%D8%B3%D9%83%D9%88%D8%A8%D9%8A-_-%D8%AF.-%D8%A3%D8%B3%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D9%84_xs7r00.mp4s"
                   type="video/mp4"
@@ -12074,12 +12074,12 @@ export const medicalArticles = [
 
       <p>وده فيديو توضيحى بيوضح ازاي تتجنب أي التهابات أو عدوى بعد تركيب دعامة العضو الذكري مع الدكتور اسامة البكل…</p>
 
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759322767/%D8%A7%D8%B2%D8%A7%D9%8A-%D9%86%D9%85%D9%86%D8%B9-%D8%AD%D8%AF%D9%88%D8%AB-%D8%A7%D9%84%D8%AA%D9%87%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%88-%D8%B9%D8%AF%D9%88%D9%89-%D8%A8%D8%B9%D8%AF-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B9%D8%B6%D9%88-%D8%A7%D9%84%D8%B0%D9%83%D8%B1%D9%8A-%D8%B6%D8%B9%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%A7%D9%84%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%86%D8%A9_1_tcapkf.mp4"
                   type="video/mp4"
@@ -12209,12 +12209,12 @@ export const medicalArticles = [
       <p><strong>3/ المضخة :</strong> بتتركب في كيس الصفن ، ومسؤولة أنها تطلع السائل من الخزان لما نضغط عليها وتضخه جوا الدعامة فيحصل انتصاب ، وبعد ما بنخلص العلاقة الزوجية بندوس علي الزرار اللي في المضخة ، فالسائل ده يرجع تاني الى الخزان ، فيحصل ارتخاء للعضو الذكري.</p>
 
       <p>ولو عايز تعرف ايه هي الاجراءات اللي لازم تعملها قبل عملية تركيب دعامة القضيب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759322651/%D9%82%D8%A8%D9%84-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AA%D8%B1%D9%83%D9%8A%D8%A8-%D8%AF%D8%B9%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8_-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D9%84%D8%A7%D8%B2%D9%85-%D8%AA%D8%B9%D8%B1%D9%81%D9%87%D8%A7-_-%D8%AF.-%D8%A3%D8%B3%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%A8%D9%83%D9%84-%D9%8A%D9%88%D8%B6%D8%AD_xf5tyj.mp4"
                   type="video/mp4"
@@ -12307,12 +12307,12 @@ export const medicalArticles = [
       <p><strong>5/ الخصية المعلقة :</strong> ودي حالة مرضية بتصيب الأطفال الذكورة بعد الولادة مباشرة ، وده معناه ان في خصية واحدة أو الاثنين معلقين داخل البطن ، والحالة دي لازم تتعالج خلال السنة الأولى من عمر الطفل ، لأنها لو فضلت معلقة داخل البطن ، ده هيعرضها لدرجة حرارة الجسم العالية ، وهتسبب للطفل مشاكل كثير جدا لما يكبر ، لان الخصية المعلقة هتسبب نقص في عدد الحيوانات المنوية و تاخر الانجاب.</p>
 
       <p>ولو عايز تعرف بالتفصيل علاقة الخصية المعلقة بتاخر الانجاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759322538/videoplayback-1_2_mr04vi.mp4"
                   type="video/mp4"
@@ -12428,12 +12428,12 @@ export const medicalArticles = [
       <p><strong>1/ دوالي الخصية :</strong> بمعني ان ممكن كان عندك دوالي في الخصية ولكن كانت بدرجة بسيطة ومش مأثرة علي الانجاب ، بس مع الوقت درجة الدوالي زادت وخاصة لو كانت من الدرجة الثانية او الثالثة ، ساعتها الاوردة اللي بتخرج الدم من الخصية هتضعف ومش هتبقي قادرة انها تخرج الدم ، والدم هيفضل يتراكم جوا الأوردة ويسخن وهيرفع من درجة حرارة الخصية وهيزيد من تراكم المواد المؤكسدة ( ROS ) اللي هتاثر على الخصية وانتاجها للحيوانات المنوية وهتضر بالحيوانات المنوية السليمة والمكتملة ، وهتسبب نقص في عدد الحيوانات المنوية وضعف في حركتها وهترفع من نسبة تشوهات الحيوانات المنوية ، ده غير كمان انها هتسبب تكسير في المادة الوراثية الموجودة في رأس الحيوان المنوي ، وكل ده هيكون سبب العقم او تاخر الانجاب.</p>
 
       <p>ولو عايز تعرف امتي تتاكد انك عندك دوالي في الخصية ولازم تعمل عملية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759322397/%D8%A7%D8%B2%D8%A7%D9%89-%D9%86%D8%AA%D8%A3%D9%83%D8%AF-%D8%A7%D9%86%D9%86%D8%A7-%D9%84%D8%A7%D8%B2%D9%85-%D9%86%D8%B9%D9%85%D9%84-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9-%D8%AF%D9%88%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%AA%D9%8A%D9%86-%D8%AA%D8%A3%D8%AE%D8%B1-%D8%A7%D9%84%D8%A7%D9%86%D8%AC%D8%A7%D8%A8-%D8%AA%D8%B4%D8%AE%D9%8A%D8%B5-%D8%AF%D9%88%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AE%D8%B5%D9%8A%D8%A9_j9qdb5.mp4"
                   type="video/mp4"
@@ -12584,12 +12584,12 @@ export const medicalArticles = [
       <p><strong>6/ وبالنسبة للعلاقة الزوجية بنقدر نمارسها بعد العملية باسبوع واحد بس.</strong></p>
 
       <p>ولو عايز تعرف ايه هي التعليمات والنصائح اللي لازم تلتزم بيها بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده من الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759322262/videoplayback_2_q7lqwd.mp4"
                   type="video/mp4"
@@ -12726,8 +12726,8 @@ export const medicalArticles = [
       <p><strong>4/ والادوية دي هتقلل من خطر الاصابة بالمشاكل الصحية اللي بتسبب ضعف انتصاب زي مرض السكر.</strong></p>
 
       <p>ولو لسه عايز تعرف معلومات اكثر عن هل دوالي الخصية أو عملية دوالي الخصية ممكن تسبب لك ضعف جنسي ، اسمع الفيديو ده من الدكتور اسامة البكل….</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
              
             </h3>
@@ -12865,8 +12865,8 @@ export const medicalArticles = [
       <p>بمعنى أن الضغوط النفسية والمشاكل الزوجية مش بتخلينا نستمتع بالعلاقة الزوجية ولا بيكون عندنا رغبة جنسية ، وزي ما قولنا قبل كدة علشان يحصل انتصاب لازم يكون عندنا رغبة جنسية ، والضغط النفسي مش بيخلي عندنا رغبة ولا اثارة جنسية لممارسة العلاقة الجنسية.</p>
 
       <p>ولو عايز تعرف ازاي المشاكل والخلافات الزوجية بتاثر على العلاقة الزوجية وبتسبب ضعف انتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-        <section className={styles.divider}>
-          <div className={styles.container}>
+        <section >
+          <div >
             <h3>
              
             </h3>
@@ -12995,8 +12995,8 @@ export const medicalArticles = [
       <p><strong>2/ الإصابة بدوالي الخصية.</strong></p>
 
       <p>ولو عايز تعرف هل دوالي الخصية ممكن تسبب للمريض ضعف جنسي ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
              
             </h3>
@@ -13162,12 +13162,12 @@ export const medicalArticles = [
       <p><strong>3/ ولو كان درجة ثالثة :</strong> وقتها العلاج الوحيد والفعال هو تركيب دعامة العضو الذكري.</p>
 
       <p>ولو عايز تعرف امتي يكون تركيب دعامة العضو الذكري الحل الوحيد لعلاج ضعف الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759324597/124_pndipr.mp4"
                   type="video/mp4"
@@ -13253,12 +13253,12 @@ export const medicalArticles = [
       <p>أو إن الحيوان المنوي يخصب البويضة ، لكن بسبب تكسير المادة الوراثية ، الحمل مش هيكمل وهيحصل إجهاض مبكر في الشهور الأولى من الحمل ، لأن الخلل ده بيمنع الجنين من التطور بشكل طبيعي.</p>
 
       <p>ولو عايز تعرف ايه علاقة تكسير المادة الوراثية بالسقط المتكرر عند الزوجة وفشل عملية الحقن المجهري ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759324593/125_ijuszh.mp4"
                   type="video/mp4"
@@ -13403,12 +13403,12 @@ export const medicalArticles = [
       <p>وهتسبب تكسير في المادة الوراثية الموجودة في رأس الحيوان المنوي ، وفي الحالة دي هيكون حيوان منوي مشوه ومش هيتولد اصلا ، او ممكن يتكون ولكن هيحصله اجهاض في أول 3 شهور من الحمل ، وكل ده هيسبب تأخر في الإنجاب.</p>
 
       <p>ولو عايز تعرف امتي بالظبط تلجا لعملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759324612/126_rjhdo2.mp4"
                   type="video/mp4"
@@ -13553,12 +13553,12 @@ export const medicalArticles = [
       <p><strong>1/ دوالي الخصية:</strong> لان دوالي الخصية بتاثر على الدورة الدموية في الخصية وخاصة لو كانت من الدرجة الثانية أو الثالثة هترفع من درجة حرارة الخصية وهتزيد من تراكم المواد المؤكسدة (Ros) اللي بتأثر على خلايا ليدج في الخصية وانتاجها لهرمون الذكورة ، وبالتالي هيأثر على إنتاج الحيوانات المنوية وهيسبب تأخر في الإنجاب.</p>
 
       <p>ولو عايز تعرف هل دوالي الخصية ممكن تسبب للشخص تأخر في الإنجاب ، حتى لو أنجب مرة قبل كدة ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759324582/127_xa95v5.mp4"
                   type="video/mp4"
@@ -13684,12 +13684,12 @@ export const medicalArticles = [
       <p><strong>5/ والعملية نفسها مش بتستغرق أكثر من ساعة واحدة بس ،</strong> وبعدها المريض بيقدر يرجع بيته بعد 3-4 ساعات ، وبيقدر كمان ينزل شغله بعد 3-5 أيام من العملية.</p>
 
       <p>وعشان نضمن نجاح العملية ونتعافى بشكل أسرع ، في شوية تعليمات ونصائح لازم نلتزم بيها بعد العملية ، لو عايز تعرف ايه هي التعلمات دي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759324615/128_ouvd7h.mp4"
                   type="video/mp4"
@@ -13823,12 +13823,12 @@ export const medicalArticles = [
 
       <p>ولو عايز تعرف ايه النصائح اللي تلتزم بيها بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
 
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759327546/131_tftdl8.mp4"
                   type="video/mp4"
@@ -13956,12 +13956,12 @@ export const medicalArticles = [
       <p><strong>7/ وتقدر تمارس العلاقة الزوجية بعد العملية بأسبوع واحد بس.</strong></p>
 
       <p>ولو عايز تعرف امتي بيحصل حمل طبيعي وتحسن في تحليل السائل المنوي بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759327522/132_phe2cu.mp4"
                   type="video/mp4"
@@ -14041,8 +14041,8 @@ export const medicalArticles = [
       <p>في البداية لازم تكون عارف ان حركة الحيوان المنوي هي الدليل اللي بيقول ان الحيوان المنوي ده سليم وجودته كويسه وعنده حيوية وقادر انه ينتقل من الخصية إلى القنوات المنوية ويختلط بالسائل المنوي ويخرج وقت القذف ويوصل الى عنق الرحم ويفضل يعوم لحد ما يوصل إلى قناة فالوب علشان يخصب البويضة.</p>
 
       <p>ولو عايز تعرف امتي تكون حركة الحيوان المنوي طبيعية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-       <section className={styles.divider}>
-          <div className={styles.container}>
+       <section >
+          <div >
             <h3>
              
             </h3>
@@ -14212,12 +14212,12 @@ export const medicalArticles = [
       <p>وبكدة نفهم من كل ده ، ان دوالي الخصيتين هي سبب تأخر الانجاب والاجهاض المتكرر عند الزوجة ، لان مفيش حيوان منوي سليم قادر يخصب البويضة ويكون جنين.</p>
 
       <p>لو عايز تعرف ازاي تتاكد انك لازم تعمل عملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759327538/134_be9wez.mp4"
                   type="video/mp4"
@@ -14333,12 +14333,12 @@ export const medicalArticles = [
       <p><strong>حرقان أثناء القذف مع ألم بين الخصية.</strong></p>
 
       <p>ولو عايز تعرف اي علاقة مشاكل البروستاتا بضعف الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759327508/135_belqjw.mp4"
                   type="video/mp4"
@@ -14465,12 +14465,12 @@ export const medicalArticles = [
       <p><strong>وتقدر تمارس العلاقة الزوجية بعد العملية بأسبوع واحد بس.</strong></p>
 
       <p>ولو عايز تعرف هل عملية الحقن المجهري بديل لعملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759327543/136_e3tugl.mp4"
                   type="video/mp4"
@@ -14566,8 +14566,8 @@ export const medicalArticles = [
 
       <p>ولو عايز تعرف معلومات اكثر عن متلازمة كلاينفلتر وازاي بنشخصها وهل ليها علاج ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
 
-       <section className={styles.divider}>
-          <div className={styles.container}>
+       <section >
+          <div >
             <h3>
              
             </h3>
@@ -14749,12 +14749,12 @@ export const medicalArticles = [
 
       <p>ولو عايز تعرف ايه هي الاجراءات اللي لازم تعملها قبل تركيب دعامة القضيب علشان ميحصلش اي التهابات أو عدوى بعد العملية ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
 
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759327516/138_uvdjuu.mp4"
                   type="video/mp4"
@@ -14865,12 +14865,12 @@ export const medicalArticles = [
       <p>وده عيب خلقي بيصيب الأطفال الذكور بعد الولادة مباشرة ، و يتسبب في أن خصية واحدة أو الاثنين فضلوا معلقين داخل البطن ومنزلتش إلى مكانها الطبيعي في كيس الصفن ، والخصية المعلقة لازم تتعالج بالجراحة خلال السنة الأولى من عمر الطفل ، لأنها لو فضلت معلقة داخل البطن ، هتتعرض لدرجة حرارة الجسم العالية ، وده طبعا هيسبب ضمور للخصية وعدم إنتاجها للحيوانات المنوية.</p>
       
       <p>ولو عايز تعرف اي علاقة الخصية المعلقة بتاخر الانجاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-        <section className={styles.divider}>
-          <div className={styles.container}>
+        <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410938/141_xwlefi.mp4"
                   type="video/mp4"
@@ -15026,12 +15026,12 @@ export const medicalArticles = [
       </ul>
       
       <p>ولو عايز تعرف ليه المنشطات الجنسية مبقتش تجيب معاك نتيجة زي الاول ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410942/142_gbvehi.mp4"
                   type="video/mp4"
@@ -15157,8 +15157,8 @@ export const medicalArticles = [
     </ul>
 
     <p>ولو عايز تعرف ازاي المشاكل والخلافات الزوجية بتسبب ضعف انتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-       <section className={styles.divider}>
-          <div className={styles.container}>
+       <section >
+          <div >
             <h3>
              
             </h3>
@@ -15255,12 +15255,12 @@ export const medicalArticles = [
       <p><strong>إذا الجراح هو اللي بيختار نوع الدعامة المناسبة للمريض حسب تفضيلاته وحالته الصحية.</strong></p>
 
       <p>ولو عايز تعرف ايه هي الاجراءات اللي لازم تعملها قبل تركيب دعامة القضيب علشان تمنع حدوث اي التهابات او عدوي بعد العملية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410948/1403_haqlgj.mp4"
                   type="video/mp4"
@@ -15400,12 +15400,12 @@ export const medicalArticles = [
 
     <div class="video-section">
       <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي لازم تعمل تفتيش ميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410945/144_ue6uvf.mp4"
                   type="video/mp4"
@@ -15543,12 +15543,12 @@ export const medicalArticles = [
       </ul>
 
       <p>ولو عايز تعرف امتي ممكن يحصل حمل طبيعي وتحسن في تحليل السائل المنوي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410942/145_li2bth.mp4"
                   type="video/mp4"
@@ -15658,12 +15658,12 @@ export const medicalArticles = [
 
       <p>ولو عايز تعرف أهمية أشعة الدوبلكس في تشخيص دوالي الخصيتين ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
     
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410932/146_a7xfhs.mp4"
                   type="video/mp4"
@@ -15803,12 +15803,12 @@ export const medicalArticles = [
       <p>ودي حالة مرضية بتحصل للأطفال الذكور بعد الولادة مباشرة ، و هنا الخصية مش بتنزل لكيس الصفن و بتفضل متعلقة فى البطن ، ولازم نعالجها قبل عمر سنة ونصف على يد جراح متخصص ، لأن لو اتأخرنا في علاجها ، ده هيسبب مشاكل كتير جداً في الإنجاب.</p>
 
       <p>ولو عايز تعرف اي علاقة الخصية المعلقة بتأخر الانجاب عند الرجل ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410933/147_dkviqx.mp4"
                   type="video/mp4"
@@ -15970,12 +15970,12 @@ export const medicalArticles = [
       </ul>
 
       <p>ولو عايز تعرف ازاى تهتم بجرح العملية واي الادوية اللي هتاخدها ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759410936/148_n82ci0.mp4"
                   type="video/mp4"
@@ -16061,12 +16061,12 @@ export const medicalArticles = [
       <p>والاشاعات بتقول ان عنده دوالي على الخصية بدرجة كبيرة ، في الأغلب المريض ده ممكن يلجأ لعملية دوالي الخصية ، ولكن ممكن يكون تقييم الاشاعة مش سليم ، لان الشخص ده ممكن يكون عنده صغر في حجم الخصيتين ، فالمريض ده عنده مشكلة رئيسية وهي ضعف في نسيج الخصية ، بالتالي هو مش هيحتاج لعملية دوالي الخصية ، علشان كدة مينفعش يبقى في قرار نهائي للعملية قبل الفحص الظاهري لحالة المريض.</p>
 
       <p>ولو عايز تعرف ازاي تتاكد ان دوالي الخصية اللي عندك ماثرة عليك ومحتاجة للعملية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672568/151_ly1ij8.mp4"
                   type="video/mp4"
@@ -16133,12 +16133,12 @@ export const medicalArticles = [
       <p>لازم تكون عارف ان المشاكل دي كلها لازم تتعالج الاول قبل ما نقرر أن الحل الوحيد هو تركيب الدعامة.</p>
 
       <p>ولو عايز تعرف امتي يكون تركيب دعامة العضو الذكري هي الحل الوحيد لعلاج ضعف الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672544/1501_uuln5n.mp4"
                   type="video/mp4"
@@ -16279,12 +16279,12 @@ export const medicalArticles = [
       </ul>
 
       <p>ولو عايز تعرف ازاي تهتم بالجرح واي الادوية اللي هتاخدها بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672521/152_uoyr0q.mp4"
                   type="video/mp4"
@@ -16378,12 +16378,12 @@ export const medicalArticles = [
       <h3>4/ لو بنتعرض بشكل مستمر للإثارة الجنسية بدون ممارسة العلاقة الزوجية وحدوث القذف</h3>
 
       <p>ولو عايز تعرف ايه الفرق بين الم دوالي الخصية وألم الاحتقان الجنسي الناتج عن الإثارة الجنسية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672497/153_wbjg4i.mp4"
                   type="video/mp4"
@@ -16423,12 +16423,12 @@ export const medicalArticles = [
       </ul>
 
       <p>ولو عاوز تعرف امتي بيحصل حمل بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672569/1503_fkpoox.mp4"
                   type="video/mp4"
@@ -16525,8 +16525,8 @@ export const medicalArticles = [
       <p>لو الشخص ده عنده تاخر في الانجاب بنطلب منه انه يعمل تحليل سائل منوي ويكون أكثر من تحليل ، ولازم يكونوا على فترات متباعدة علشان نتاكد من نتيجة التحليل كويس ، لان تحليل السائل المنوي بيوضح جودة وصحة الحيوانات المنوية من حيث العدد والحركة ونسبة التشوهات ، ونشوف هل دوالي الخصية ماثرة علي تحليل السائل المنوي ولا لا ومحتاجة عملية ولا لا.</p>
 
       <p>ولو عايز تعرف ايه هي شروط تحليل السائل المنوي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -16556,12 +16556,12 @@ export const medicalArticles = [
       <p>ويعتبر هو ده السبب الوحيد والاهم اللي ممكن نعمل بسببه عملية دوالي الخصية ، لو لقينا نسبة تفتت المادة الوراثية مرتفعة ، وفي دوالي في الخصية واضحة في الاشعة وفي الفحص الظاهري ، بالتالي لازم نعمل عملية دوالي الخصية عشان نحسن من تفتت المادة الوراثية ، ونزود فرص حدوث حمل طبيعي ونقلل من فرص حدوث الإجهاض المبكر أو نقلل من فشل عملية الحقن المجهري.</p>
 
       <p>ولو عايز تعرف هل نتيجة تحليل السائل المنوي هي اللي هتحدد إذا كنا هنعمل عملية دوالي الخصية ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672514/1504_ozk41s.mp4"
                   type="video/mp4"
@@ -16633,12 +16633,12 @@ export const medicalArticles = [
       <p><strong>لو كانت دوالي الخصية مسببة ألم شديد للمريض ،</strong> لأن الألم ده بيعيق ممارسة الأنشطة اليومية وبالتالي بيحتاج تدخل جراحي.</p>
 
       <p>ولو عايز تعرف اي علاقة تفتت المادة الوراثية عند الزوج بتاخر الانجاب و السقط المتكرر عند الزوجة ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672517/155_wjvggt.mp4"
                   type="video/mp4"
@@ -16667,12 +16667,12 @@ export const medicalArticles = [
       <p><strong>6/ وكمان بيكون مسموح لنا أننا نمارس العلاقة الزوجية بعد العملية بأسبوع واحد بس.</strong></p>
 
       <p>ولو عايز تعرف امتي بيحصل حمل وتحسن في تحليل السائل المنوي بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672538/1505_i68qmg.mp4"
                   type="video/mp4"
@@ -16766,12 +16766,12 @@ export const medicalArticles = [
       <p>وفي الحالة دي لازم نتشخص بدري ونتعالج علشان منوصلش للنقطة ويكون عندنا تأخر في الإنجاب.</p>
 
       <p>ولو عايز تعرف معلومات اكثر عن علاقة الخصية المعلقة بتاخر الانجاب عند الرجل ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672511/156_dbfe31.mp4"
                   type="video/mp4"
@@ -16821,12 +16821,12 @@ export const medicalArticles = [
 
       <p>ولو عايز تعرف امتي بيحصل حمل بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
       
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672535/1506_wylvj0.mp4"
                   type="video/mp4"
@@ -16933,12 +16933,12 @@ export const medicalArticles = [
       <p><strong>3/ وممكن الجراح ميشوفش الأوردة الصغيرة بالعين المجردة ،</strong> وبكدة هيكون عندنا فرصة كبيرة أن الدوالي ترجع تاني بعد فترة من العملية.</p>
 
       <p>ولو عايز تعرف ليه دوالي الخصية ممكن ترجع تاني بعد العملية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672531/157_mins80.mp4"
                   type="video/mp4"
@@ -16974,12 +16974,12 @@ export const medicalArticles = [
       <p><strong>6/ بتقدر تمارس العلاقة الزوجية بعد اسبوع واحد بس من العملية.</strong></p>
 
       <p>ولو عايز تعرف ازاي تهتم بجرح العملية وتعرف ايه الادوية اللي تاخدها بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672547/1507_mefjjy.mp4"
                   type="video/mp4"
@@ -17085,12 +17085,12 @@ export const medicalArticles = [
     <p>جهاز الدوبلر هو عبارة عن جهاز آمن وغير مؤلم ، ولازم اللي يعمله يكون دكتور متخصص في الأشعة ، لانه بيوضح حجم الخصيتين بالظبط ، وبيحدد كمان حجم الأوردة كام بالظبط بالملى ، لان حجم الأوردة في الطبيعي مش بيزيد عن 2 ملم ، فلما تزيد حجم الأوردة عن 3 ملم ، فكدة بيؤكد وجود دوالي في الخصية.</p>
 
     <p>ولو عايز تعرف معلومات اكثر عن اهمية اشعة الدوبلر في تشخيص دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672561/158_tryw8h.mp4"
                   type="video/mp4"
@@ -17123,12 +17123,12 @@ export const medicalArticles = [
 
     <p>ولو عايز تعرف ازاي تهتم بجرح العملية واي الادوية اللي تاخدها عشان تتعافى بشكل أسرع ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
 
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759672560/1508_ufbqbh.mp4"
                   type="video/mp4"
@@ -17258,12 +17258,12 @@ export const medicalArticles = [
     <p><strong>ويقدر كمان يمارس العلاقة الزوجية بعد اسبوع واحد بس من العملية.</strong></p>
 
     <p>ولو عايز تطمن على الإنجاب وتعرف امتي بيحصل حمل بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759675883/161_uvfnx1.mp4"
                   type="video/mp4"
@@ -17388,8 +17388,8 @@ export const medicalArticles = [
     <p>وخاصة لو كانت الدوالي دي من الدرجة الثانية أو الثالثة ، ساعتها الأوردة اللي بتخرج الدم من الخصية هتضعف ومش هتبقي قادرة انها تخرج الدم بره ، والدم هيبدا يتجمع في الوريد ويسخن ويرفع من درجة حرارة الخصية ويزيد من تراكم المواد المؤكسدة ( ROS ) وده طبعا هياثر علي خلايا ليدج المسؤولة عن إنتاج هرمون الذكورة ، و هياثر علي إنتاج الحيوانات المنوية وبالتالي هيسبب العقم وتاخر الانجاب.</p>
 
     <p>ولو عايز تعرف معلومات اكثر عن الحالات اللي بتسبب نقص في هرمون الذكورة وانعدام الحيوانات المنوية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -17540,12 +17540,12 @@ export const medicalArticles = [
     <p>والحالات دي للاسف مش بيكون عندها فرصة للحمل الطبيعي ولا حتى ينفع نعملها تفتيش ميكروسكوبي من الخصية ، لان مش هيكون في اصلا بؤر منوية نتطلع منها حيوانات منوية.</p>
 
     <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي ينفع تعمل تفتيش ميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759675888/163_cnwccn.mp4"
                   type="video/mp4"
@@ -17649,12 +17649,12 @@ export const medicalArticles = [
     <p><strong>6/ وبعد العملية بناخد فترة علاج هرموني لمدة 3 شهور</strong> عشان ننشط بيه الخصية وترجع تاني تنتج حيوانات منوية بصورة طبيعية</p>
 
     <p>ولو عايز تعرف ازاي تهتم بجرح العملية واي هي الادوية اللي تاخدها علشان تتعافي بشكل اسرع ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759675886/164_wdjh1u.mp4"
                   type="video/mp4"
@@ -17778,12 +17778,12 @@ export const medicalArticles = [
     <p>في الحالة دي هنضطر نستخدم المنظار علشان نسلك بيه الانسداد أو نزيل أي أكياس أو حويصلات في البروستاتا ممكن تكون السبب في الانسداد ، وبعدها الحيوانات المنوية هتخرج من القضيب بسهولة وقت القذف وهيحصل حمل بشكل طبيعي.</p>
 
     <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي قابلة للعلاج ومش هتحتاج تعمل تفتيش ميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759675900/165_qh8fjj.mp4"
                   type="video/mp4"
@@ -17864,8 +17864,8 @@ export const medicalArticles = [
     <p>وتحليل السائل المنوي هو تحليل بنعمله علشان نكشف سبب تأخر الإنجاب عند زوجين عدي علي جوازهم أكثر من سنة والزوجة معندهاش اى موانع ، والتحليل لازم يتعمل في مكان متخصص ، وتكون أكثر من عينة وتكون على فترات متباعدة حوالي 2-3 اسابيع ، علشان نتاكد كويس من نتيجة التحليل.</p>
 
     <p>ولو عايز تعرف بنحتاج نعمل تحليل السائل المنوي كام مرة علشان نحدد سبب تأخر الانجاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -18011,12 +18011,12 @@ export const medicalArticles = [
     <p><strong>2/ تأخر الإنجاب ،</strong> نتيجة ضعف في الأوردة اللي بتخرج الدم من الخصية ، وده هيتسبب في أن الدم هيبدأ يتراكم في الأوردة وهتزيد بسببه درجة حرارة الخصية ، ده غير كمان ان هيحصل زيادة في تراكم المواد المؤكسدة (ROS) وده هيضر بالهرمونات المسؤولة عن إنتاج الحيوانات المنوية و هيأثر علي تكوين الحيوان المنوي نفسه وهيضر بالحيوانات المنوية السليمة وكل ده هيسبب تأخر الإنجاب.</p>
 
     <p>ولو عايز تعرف ازاي تتاكد انك لازم تعمل عملية دوالي الخصية ، اسمع الفيديو ده من الدكتور اسامة البكل…</p>
-  <section className={styles.divider}>
-          <div className={styles.container}>
+  <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759675896/167_trmewj.mp4"
                   type="video/mp4"
@@ -18176,12 +18176,12 @@ export const medicalArticles = [
     <p>والعلاج في الحالة دي هيكون عبارة عن اننا هناخد علاج هرموني لمدة 3-6 شهور علشان نقلل بيه مستوى هرمون البرولاكتين في الجسم ، وبعد العلاج هيحصل زيادة في عدد الحيوانات المنوية وهيبقى عندنا فرصة كبيرة ان يحصل حمل طبيعي.</p>
 
     <p>ولو عايز تعرف معلومات أكثر عن حالات انعدام الحيوانات المنوية اللي لازم تعمل تفتيش ميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-  <section className={styles.divider}>
-          <div className={styles.container}>
+  <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759675901/168_dq8s8q.mp4"
                   type="video/mp4"
@@ -18280,12 +18280,12 @@ export const medicalArticles = [
     <p><strong>2/ تاخر الانجاب.</strong></p>
 
     <p>ولو عايز تعرف ازاي الشخص يخلف مرة قبل كده وبعدها يحصل عنده تأخر في الإنجاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759739488/171_vuykob.mp4"
                   type="video/mp4"
@@ -18397,12 +18397,12 @@ export const medicalArticles = [
     <p><strong>3/ وراس الحيوان المنوي بيكون عليها اكروسوم</strong> زي الكاب كدة ، وبيكون جواه إنزيمات مسؤولة عن اختراق الحيوان المنوي للبويضة ، و الاكروسوم ده لو مش موجود هيكون حيوان منوي مشوه ومش هيقدر يخترق البويضة ويخصبها.</p>
 
     <p>ولو عايز تعرف اي علاقة تفتت المادة الوراثية عند الزوج بالسقط المتكرر عند الزوجة وفشل عملية الحقن المجهري ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759739496/172_itah1b.mp4"
                   type="video/mp4"
@@ -18604,8 +18604,8 @@ export const medicalArticles = [
 
     <p>ولو عايز تعرف معلومات اكثر عن أعراض مرض بيروني وازاى بنشخصه وبنعالجعه ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
 
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -18732,12 +18732,12 @@ export const medicalArticles = [
 
     <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي لازم تاخد فترة علاج هرموني قبل عملية التفتيش الميكروسكوبي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
 
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759739494/175_ec5ejc.mp4"
                   type="video/mp4"
@@ -18859,12 +18859,12 @@ export const medicalArticles = [
     <p><strong>هل الشخص اللي هيركب الدعامة عمل أي عمليات جراحية في البطن أو الحوض ولا لا؟،</strong> علشان ميحصلش أي مضاعفات خطيرة بعد إجراء العملية.</p>
 
     <p>ولو عايز تعرف اكثر عن الاجراءات اللي تعملها قبل عملية تركيب دعامة القضيب علشان تتجنب حدوث أي مضاعفات ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759739494/175_ec5ejc.mp4"
                   type="video/mp4"
@@ -18965,8 +18965,8 @@ export const medicalArticles = [
     <p>وكل الاسباب النفسيه دي بتاثر على ادائك الجنسي وقدرتك علي ممارسه العلاقه الزوجيه وهتعملك انعدام في ثقتك بنفسك وكمان ممكن تكون سبب تأخر الإنجاب الطبيعي ، لانك مش بتكون قادر تمارس العلاقة الزوجية.</p>
 
     <p>ولو عايز تعرف ازاي المشاكل النفسية والخلافات الزوجية ممكن تسبب ضعف انتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
              
             </h3>
@@ -19104,8 +19104,8 @@ export const medicalArticles = [
     <p>علشان يحصل علاقة زوجية سليمة وطبيعية، لازم الطرفين يكون عندهم رغبة في العلاقة، لذلك لو مفيش أي تفاهم بين الطرفين وفي ضغوط نفسية دايماً ، وفي مشاكل وخلافات، كل ده مش هيخلي عندنا رغبة ولا إثارة جنسية لحدوث الانتصاب، وهيؤدي إلى ضعف الإنتصاب أثناء العلاقة الزوجية.</p>
 
     <p>ولو عايز تعرف ازاي الضغوط والمشاكل الزوجية والاكتئاب بيسببوا ضعف انتصاب اثناء العلاقة الزوجية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
              
             </h3>
@@ -19306,12 +19306,12 @@ export const medicalArticles = [
     <p>عملية زرع دعامة العضو الذكري عملية بسيطة جدًا ومش صعبة وملهاش أي مضاعفات ، وكل ما كان الجراح اللي بيعمل العملية متخصص وعنده خبرة ، كل ما كانت العملية ناجحة وسهلة.</p>
 
     <p>ولو عايز تعرف معلومات اكثر عن تركيب دعامة العضو الذكري ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759739483/178_mff4bb.mp4"
                   type="video/mp4"
@@ -19416,12 +19416,12 @@ export const medicalArticles = [
     <p>وكل ده طبعاً هيسبب لنا مشاكل نفسية كثيرة جدا ، لان مش هيكون عندنا أي ثقة في ادائنا وكمان هيخلينا نبعد خالص عن ممارسة العلاقة الزوجية.</p>
 
     <p>ولو عايز تعرف ازاى بنشخص ضعف الانتصاب الاولي وازاي بنعالجه ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759741719/181_kvzvww.mp4"
                   type="video/mp4"
@@ -19642,12 +19642,12 @@ export const medicalArticles = [
     <p><strong>والدعامة الهيدروليكية لو اتركبت بطريقة غلط ،</strong> ممكن يحدث تآكل في الجلد ونزيف ، وكل ده طبعاً بيرجع لخبرة وكفاءة الجراح في العمليات.</p>
 
     <p>ولو عايز تعرف هل عملية تركيب دعامة الانتصاب ممكن تكبر حجم او طول العضو الذكري ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759741737/182_x0ubmd.mp4"
                   type="video/mp4"
@@ -19793,12 +19793,12 @@ export const medicalArticles = [
     <p>إذا مرض بيروني بيسبب للشخص ضعف انتصاب أثناء ممارسة العلاقة الزوجية ، وفي الحالة دي علشان نعالج ضعف الانتصاب ، لازم في الاول نعالج الانحناء والاعوجاج اللي سبب ضعف الانتصاب ، والعلاج الوحيد هنا هيكون عن طريق تركيب دعامة العضو الذكري ، لانها في الحالة دي بتصلح الاعوجاج وكمان بتعالج ضعف الانتصاب.</p>
 
     <p>ولو عايز تعرف هل التليف في العضو الذكري ( مرض بيروني ) ممكن يمنع تركيب دعامة القضيب ؟ ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759741742/183_tvwezg.mp4"
                   type="video/mp4"
@@ -19909,12 +19909,12 @@ export const medicalArticles = [
     <p><strong>3/ انخفاض هرمون التستوستيرون في الجسم بيسبب للشخص حالة من الاجهاد والارهاق ،</strong> وده طبعا بيقلل من الرغبة الجنسية ، وبالتالي هيسبب ضعف انتصاب.</p>
 
     <p>ولو عايز تعرف اكثر عن اسباب ضعف الانتصاب اثناء ممارسة العلاقة الزوجية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759741743/184_kmpyje.mp4"
                   type="video/mp4"
@@ -20061,8 +20061,8 @@ export const medicalArticles = [
     <p><strong>3/ أو من خلال تركيب دعامة العضو الذكري.</strong></p>
 
     <p>ولو عايز تعرف معلومات اكثر عن تشخيص وعلاج التسريب الوريدي في العضو الذكري ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -20194,12 +20194,12 @@ export const medicalArticles = [
     <p>كمان في أدوية بتساعد على تحسين تدفق الدم للقضيب، ولازم تستخدم تحت إشراف طبيب لتجنب أي مضاعفات ، ولو الأدوية ما جابتش نتيجة، بنستخدم الحقن الموضعية اللي بتتحقن مباشرة في العضو الذكري لتحفيز الانتصاب ، وفي الحالات المتقدمة، ممكن يتم اللجوء لزراعة الدعامة الذكرية كحل نهائي.</p>
 
     <p>بس قبل ما تركب دعامة العضو الذكري ، في شوية تعليمات ونصائح لازم تاخد بالك منها عشان تتجنب حدوث أي التهابات بعد عملية تركيب دعامة القضيب وتضطر تعيد العملية تاني ، لو عايز تعرف ايه هي التعليمات دي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759741716/186_k4fabz.mp4"
                   type="video/mp4"
@@ -20348,12 +20348,12 @@ export const medicalArticles = [
     <p><strong>2/ الدعامة الهيدروليكية:</strong> مكونة من 3 أجزاء: الأنبوبة اللي بتزرع في العضو الذكري، المضخة اللي بتزرع في كيس الصفن ، والخزان اللي بيكون في أسفل البطن ، ودي بتعمل زي الانتصاب الطبيعي تمامًا.</p>
 
     <p>ولو عايز تعرف جزء من اسئلة المرضى قبل ما تركب دعامة العضو الذكري ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759741738/187_p9m0kf.mp4"
                   type="video/mp4"
@@ -20507,12 +20507,12 @@ export const medicalArticles = [
     <p>لأنها بتتسبب في تكوين مشاعر سلبية تجاه الجنس، وده طبعاً بيأثر على الأداء الجنسي والإحساس بالمتعة، ولأن اعتقاد الرجل في بعض المجتمعات بأنه لازم يكون هو المسيطر في العلاقة الزوجية، وبالتالي ده بيشكل ضغط نفسي عليه فينعكس سلباً على الوظيفة الجنسية.</p>
 
     <p>وبعد ما عرفنا إيه هي الأسباب العضوية والنفسية لضعف الانتصاب، لو عايزين تعرفوا امتى يكون تركيب دعامة العضو الذكري الحل الوحيد لعلاج ضعف الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759741732/188_nmjfkl.mp4"
                   type="video/mp4"
@@ -20626,12 +20626,12 @@ export const medicalArticles = [
     <p><strong>المعتقدات الثقافية الغلط في المجتمع.</strong></p>
 
     <p>ولو عايز تعرف ايه هي اعراض ضعف الانتصاب ، وامتي لازم ناخد خطوة العلاج ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759745892/191_mj9heh.mp4"
                   type="video/mp4"
@@ -20671,12 +20671,12 @@ export const medicalArticles = [
     <p><strong>ده غير ان مش شرط اللي يركبها يكون سن معين،</strong> وينفع اي شخص انه يركب دعامة العضو الذكري سواء شباب او في منتصف العمر أو حتى كبار السن.</p>
 
     <p>ولو عايز تعرف امتي يكون تركيب دعامة العضو الذكري هي الحل الوحيد لعلاج ضعف الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759746135/1901_rrsn0r.mp4"
                   type="video/mp4"
@@ -20802,12 +20802,12 @@ export const medicalArticles = [
     <p>وهنا خليني اقولك معلومة مهمة جدا… في فرق بين علاج ضعف الانتصاب عند مريض القلب وعند مريض السكر:</p>
 
     <p>اولا الحالتين ينفع يأخذوا منشطات جنسية، ولكن…. في فرق مهم جدا ، لو عايز تعرف الفرق ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759745912/192_bkgx2l.mp4"
                   type="video/mp4"
@@ -20934,12 +20934,12 @@ export const medicalArticles = [
     <p>بمعنى أن نسبة ارتجاع دوالي الخصية تاني في الأشعة التداخلية بتكون اعلي بين كل طرق علاج الدوالي تتجاوز حوالي ال 15% او 20% ، وهي نسبة عالية مقارنة بالجراحة الميكروسكوبية.</p>
 
     <p>ولو عايز تعرف ليه دوالي الخصية ممكن ترجع تاني بعد العملية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759745906/193_udjew8.mp4"
                   type="video/mp4"
@@ -20963,12 +20963,12 @@ export const medicalArticles = [
     <p><strong>4/ والعملية بتاخد حوالي ساعة واحدة والمريض بيرجع بيته في نفس اليوم ويقدر يمارس حياته الطبيعية بعدها بيومين.</strong></p>
 
     <p>وفي النهاية لو عايز تعرف امتي ممكن يحصل حمل وتحسن في تحليل السائل المنوي بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759745902/1903_hfthpq.mp4"
                   type="video/mp4"
@@ -21084,8 +21084,8 @@ export const medicalArticles = [
     <p>بمعنى أن مرض بيروني ده بيكون عبارة عن تليفات بتحصل في أنسجة القضيب ، والتليف ده ممكن يخلي القضيب يبان أقصر وقت الانتصاب ، لأن المنطقة اللي فيها تليفات مش بتتمدد وقت الانتصاب وده بيعمل عند الشخص انتصاب منحني أو معوج، بالتالي انحناء أو اعوجاج القضيب بتسبب ضعف انتصاب.</p>
 
     <p>ولو عايز تعرف معلومات اكثر عن مرض بيروني ، وأعراضه وعلاجه ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -21106,8 +21106,8 @@ export const medicalArticles = [
     <p>لازم تكون عارف أن الحالة النفسية للرجل في السن ده ليها دور كبير جداً، وبتأثر على الأداء الجنسي عند الرجال بعد سن الخمسين، فالرجل اللي بيكون عنده قلق وتوتر من أدائه الجنسي في العلاقة الزوجية، ده بيؤدي إلى ارتخاء العضو الذكري وعدم القدرة على الانتصاب.</p>
 
     <p>ولو عايز تعرف ازاي المشاكل والخلافات الزوجية بتسبب ضعف انتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
- <section className={styles.divider}>
-          <div className={styles.container}>
+ <section >
+          <div >
             <h3>
              
             </h3>
@@ -21229,12 +21229,12 @@ export const medicalArticles = [
     <p><strong>5/ وقت العملية بيكون ساعة واحدة بس وبعدها تقدر تروح في نفس اليوم ، وتنزل الشغل بعد 3-5 أيام ، أما بالنسبة للعلاقة الزوجية تقدر تمارسها بعد العملية باسبوع.</strong></p>
 
     <p>ولو عايز تعرف ازاي تهتم بجرح العملية واي الادوية اللي تاخدها بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759745902/195_pbqzvn.mp4"
                   type="video/mp4"
@@ -21322,8 +21322,8 @@ export const medicalArticles = [
 
     <p>ولو عايز تعرف اكتر عن متلازمة كلاينفلتر وازاي بنشخصها وبنعالجها ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
 
- <section className={styles.divider}>
-          <div className={styles.container}>
+ <section >
+          <div >
             <h3>
              
             </h3>
@@ -21368,12 +21368,12 @@ export const medicalArticles = [
     <p>إذا هي دي حالات انعدام الحيوانات المنوية اللي ملهاش علاج ممكن نستخدمه لاستخراج الحيوانات المنوية من الخصية واللي حلها الوحيد هو عملية التفتيش الميكروسكوبي.</p>
 
     <p>ولو عايز تعرف اي حالات انعدام الحيوانات المنوية اللي حتي عملية التفتيش الميكروسكوبي مش حل وعلاج ليها ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759745884/1906_pnnlcv.mp4"
                   type="video/mp4"
@@ -21458,12 +21458,12 @@ export const medicalArticles = [
     <p>لو بيحصل اجهاض للزوجة بصورة متكررة مع وجود دوالي على الخصية ، لأن دوالي الخصية بتكون السبب في زيادة نسبة تشوهات الحيوانات المنوية وكذلك زيادة في تكسرالمادة الوراثية الموجودة في رأس الحيوان المنوي اللي بيحصل بسببها الإجهاض ، في الحالة دي عملية دوالي الخصية لازم تتعمل علشان نسبة التشوهات تقل والإجهاض يقل ويحصل حمل بشكل طبيعي.</p>
 
     <p>ولو عايز تعرف اي علاقة دوالي الخصية بتفتت المادة الوراثية عند الزوج والسقط المتكرر عند الزوجة وفشل عملية الحقن المجهري ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759745897/197_b6ai5u.mp4"
                   type="video/mp4"
@@ -21569,12 +21569,12 @@ export const medicalArticles = [
     <p>لو هتعمل عملية دوالي الخصية بالجراحة التقليدية لازم تكون عارف ان تكلفتها قليلة مقارنة بالجراحة الميكروسكوبية ولكن مضاعفاتها بعد العملية كتير جدا لانها ممكن تسبب للمريض قيلة مائية أو ضرر في الشرايين وبنسبة كبيرة دوالي الخصية ممكن ترجع تاني بعد العملية بالجراحة التقليدية.</p>
 
     <p>ولو عايز تعرف ليه دوالي الخصية ممكن ترجع تاني بعد العملية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759745897/198_o9ud38.mp4"
                   type="video/mp4"
@@ -21614,12 +21614,12 @@ export const medicalArticles = [
     <p><strong>العملية بتحسن عدد الحيوانات المنوية وحركتها ، وبتقلل من نسبة التشوهات ، ونسبة تحسن تحليل السائل المنوي باستخدام الجراحة الميكروسكوبية بتوصل لـ 70%، وده بيبان في أول تحليل سائل منوي بعد 6 شهور من العملية.</strong></p>
 
     <p>ولو عايز تعرف معلومات اكثر عن امتي بيحصل حمل وتحسن في تحليل السائل المنوي بعد عملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759745900/1908_ylbodm.mp4"
                   type="video/mp4"
@@ -21713,12 +21713,12 @@ export const medicalArticles = [
     <p>وده طبعا ممكن يؤدي الى منع وصول الدم الغني بالاكسجين للخصية ، ويؤدي الي ضمور الخصية.</p>
 
     <p>ولو عايز تعرف أهمية الشريان الخصوي للخصية وازاي نقدر نحافظ عليه وقت عملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755493/201_gdppfb.mp4"
                   type="video/mp4"
@@ -21746,12 +21746,12 @@ export const medicalArticles = [
     <p>أو في حالة ان دوالي الخصية كانت على الناحيتين وعملنا ناحية واحدة بس، كدة الدوالي ممكن ترجع تاني بعد العملية.</p>
 
     <p>ولو عايز تعرف ليه دوالي الخصية ممكن ترجع تاني بعد العملية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-      <section className={styles.divider}>
-          <div className={styles.container}>
+      <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755504/2001_rhe5fb.mp4"
                   type="video/mp4"
@@ -21862,12 +21862,12 @@ export const medicalArticles = [
     <p><strong>6/ وبيقدر يمارس العلاقة الزوجية بعد العملية باسبوع واحد.</strong></p>
 
     <p>ولو عايز تعرف امتي بيحصل حمل وتحسن في تحليل السائل المنوي بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755504/202_mulfdi.mp4"
                   type="video/mp4"
@@ -21950,12 +21950,12 @@ export const medicalArticles = [
     <p>ساعتها الحل الوحيد اننا نعالج دوالي الخصية ، ولازم تكون عارف ان الجراحة الميكروسكوبية افضل واحسن طريقة تعالج بيها دوالي الخصية.</p>
 
     <p>ولو عايز تعرف ازاى هتهتم بجرح العملية واي الادوية اللي هتاخدها بعد عملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755541/203_udcf3w.mp4"
                   type="video/mp4"
@@ -22100,12 +22100,12 @@ export const medicalArticles = [
     <p>لو الشخص ده بيعاني من تأخر الانجاب والزوجة سليمة ومعندهاش اى موانع للحمل ، يبقي اكيد دوالي الخصية هي السبب في تأخر الانجاب.</p>
 
     <p>ولو عايز تعرف ازاي بنشخص الإصابة بدوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755508/204_jyoezy.mp4"
                   type="video/mp4"
@@ -22222,12 +22222,12 @@ export const medicalArticles = [
     <p><strong>3/ وممكن كمان ساعة العملية يربط الاوعية الليمفاوية بالغلط، ودي الاوعية اللي بتخرج السوائل بره الخصية، فلما تتربط ده هيمنع السوائل انها تخرج بره الخصية ويسبب لك قيلة مائية على الخصية.</strong></p>
 
     <p>ولو عايز تعرف ليه دوالي الخصية ممكن ترجع تاني بعد العملية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755541/205_ic3x9b.mp4"
                   type="video/mp4"
@@ -22255,12 +22255,12 @@ export const medicalArticles = [
     <p>اذا في الجراحة الميكروسكوبية وقت التعافي بيكون اسرع وجرح العملية بيكون صغير جدا، يعني في الحالة دي اطمن لو عملت عملية دوالي الخصية بالجراحة الميكروسكوبية، لان الدكتور ساعة الكشف الطبي مش هيكتشف اصلا ان كان عندك دوالي على الخصية وهتعدي من الاختبار على خيير.</p>
 
     <p>ولو عايز تعرف ازاى هتهتم بالجرح واي الادوية اللي هتاخدها بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755531/2005_x4gwrv.mp4"
                   type="video/mp4"
@@ -22351,12 +22351,12 @@ export const medicalArticles = [
     <p>فمهم جدا نعمل تحليل تكسير المادة الوراثية لانه بيكشف عن أي خلل في الحيوان المنوي والي مش بيكشف عنها تحليل السائل المنوي العادي، لذلك مش علشان تحليل السائل المنوي سليم يبقي انت سليم، لان ممكن تحليل السائل المنوي طبيعي وعدد الحيوانات المنوية طبيعية والحركة طبيعية والتشوهات كمان طبيعية ولكن في تاخر في الانجاب، فتكون عارف ان الزوجة مش هي السبب وان المشكلة لسه موجودة عندك بس مش ظاهرة ، ولازم نعمل تحاليل وفحوصات تانية علشان نتاكد.</p>
 
     <p>ولو عايز تعرف اي اسباب تفتت المادة الوراثية عند الزوج واي علاقته بتاخر الانجاب والاجهاض المبكر عند الزوجة ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755542/206_jujydd.mp4"
                   type="video/mp4"
@@ -22383,12 +22383,12 @@ export const medicalArticles = [
     <p>دي كلها مشاكل ممكن تكون مكنتش موجودة في اول حمل بس ظهرت أو زادت مع الوقت.</p>
 
     <p>ولو عايز تعرف ازاي ممكن يحصل عندك تاخر في الانجاب وانت خلفت مرة قبل كدة ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755523/2006_h7iarr.mp4"
                   type="video/mp4"
@@ -22568,12 +22568,12 @@ export const medicalArticles = [
     <p>علاج احتقان الخصية بيكون باستخدام بعض الأدوية والعلاجات اللي بتقلل من الاحتقان في الخصية أو منطقة الحوض ، بالاضافة الى المضادات الحيوية في حالة وجود ميكروب أو التهابات في الخصية أو في البربخ أو في البروستاتا للتقليل من الاحتقان ، وكذلك وضع كيس من الثلج على المنطقة المصابة للتقليل من الألم ، بالإضافة للتعامل مع السبب الذي أدى للاحتقان من الأساس.</p>
 
     <p>ولو عايز تعرف معلومات اكثر عن اسباب وجع الخصية ، وامتي يكون الوجع اللي عندك سببه دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755530/207_aupmcf.mp4"
                   type="video/mp4"
@@ -22695,12 +22695,12 @@ export const medicalArticles = [
     <p>إذا الحالات دي مفيش فيها أي فرصة لحدوث حمل طبيعي او حتي حمل بعملية التفتيش الميكروسكوبي ، ولكن دي كلها حالات نادرة جدا وغير شائعة.</p>
 
     <p>ولو عايز تعرف اكثر عن حالات انعدام الحيوانات المنوية اللي التفتيش الميكروسكوبي مش هيجيب معاها نتيجة ومش هيكون حل ليها ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1759755510/208_po3skm.mp4"
                   type="video/mp4"
@@ -22798,12 +22798,12 @@ export const medicalArticles = [
     <p>لو حصل التهاب في البروستاتا ، والالتهاب ده بيكون موجود بنسبة كبيرة عند الذكور من سن 30-50 سنة ، وده طبعاً بيأثر على عدد وجودة الحيوانات المنوية ، حتى لو كان تحليل السائل المنوي ظاهر طبيعي ومفيش فيه اي مشكلة ، بمعني أن لو عدد الحيوانات المنوية طبيعي والحركة ونسبة التشوهات طبيعية بس في التهاب في البروستاتا وفي نسبة عالية من الصديد في القذف ، فبالتالي جودة الحيوانات المنوية اللي هتبقي خارجة أثناء القذف هتكون أقل من الطبيعي وقدرتها على حدوث حمل هتكون قليلة ، حتي لو الشخص ده عمل عملية حقن مجهري وهو عنده التهاب في البروستاتا ، ففرصة نجاح الحقن المجهري هتكون ضعيفة .</p>
     
     <p>ولو عايز تعرف اكثر عن علاقة مشاكل البروستاتا بتاخر الانجاب وفشل عملية الحقن المجهري ، اسمع الفيديو ده مع الدكتور اسامة البكل………</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051497/211_khyzp1.mp4"
                   type="video/mp4"
@@ -22858,12 +22858,12 @@ export const medicalArticles = [
     <p>في النهاية ، لازم تكون عارف أن مشاكل البروستاتا بتؤثر بشكل كبير على قدرة الرجل الجنسية والانجابية ، ويجب عليك الاهتمام بصحة البروستاتا من خلال الفحوصات الدورية اللازمة اللي بتساعد على الحد من خطر الإصابة بأمراض البروستاتا وزيادة فرص الكشف المبكر عنها.</p>
     
     <p>ولو عايز تعرف ازاي مشاكل وأمراض البروستاتا بتاثر على قدرة الرجل الجنسية ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051513/2101_qqbd3s.mp4"
                   type="video/mp4"
@@ -22967,12 +22967,12 @@ export const medicalArticles = [
     <p>احسن وافضل طريقة نعالج بيها عملية دوالي الخصية ، علشان بتساعدنا نكبر مكان العملية لأن قوة تكبير الميكروسكوب تصل إلى 40 مرة ، فبنقدر نشوف الأوردة والشرايين بشكل واضح ودقيق، ونقدر نشوف الشعيرات الليمفاوية ونتجنب اننا نربطها بالغلط مع الاوردة لان ده ممكن يسبب قيلة مائية على الخصية، ده غير كمان ان وقت العملية مش بياخد اكثر من الساعة وتقدر ترجع بيتك في نفس اليوم وتمارس حياتك العملية بعدها بيومين.</p>
     
     <p>ولو عايز تعرف اكثر عن الفرق بين جراحة المنظار والجراحة الميكروسكوبية في علاج دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051517/212_jfprbt.mp4"
                   type="video/mp4"
@@ -23051,12 +23051,12 @@ export const medicalArticles = [
     <p>أولًا، من خلال أخذ عينة من السائل المنوي وفحصها تحت الميكروسكوب ، و الفحص ده لازم يتكرر مرتين او تلاته علشان نتأكد من عدد الحيوانات المنوية في العينة وشكلها وحركتها، و لو لقينا إن العدد أقل من 15 مليون حيوان منوي ، كدة الشخص ده بيعاني من نقص في الحيوانات المنوية وهيواجه مشكلة كبيرة في الإنجاب.</p>
     
     <p>ولو عايز تعرف ايه هي اسباب نقص عدد الحيوانات المنوية ، اسمع الفيديو ده من الدكتور اسامة البكل..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051525/213_kycvgn.mp4"
                   type="video/mp4"
@@ -23191,12 +23191,12 @@ export const medicalArticles = [
     <p>وده اثبتته دراسة علمية بأن حوالي من 20-40 % من الرجال بتكون نتائج تحليل السائل المنوي عندهم طبيعية ومع ذلك بيكون عندهم خلل وتكسير في المادة الوراثية ، وده طبعا بيكون السبب في حالات تأخر الإنجاب أو الإجهاض المتكرر للزوجة .</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن اسباب تفتت المادة الوراثية عند الرجال وعلاقته بتاخر الانجاب والسقط المبكر عند الزوجة ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051514/214_rcmk18.mp4"
                   type="video/mp4"
@@ -23301,12 +23301,12 @@ export const medicalArticles = [
     </ol>
     
     <p>ولو عايز تعرف اكثر عن اسباب وجع الخصية ، وامتي الوجع ده يكون بسبب الدوالي ، اسمع الفيديو ده مع الدكتور اسامة البكل……..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051471/215_plpjq7.mp4"
                   type="video/mp4"
@@ -23369,12 +23369,12 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف معلومات اكثر عن ازاى تهتم بالجرح بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل…….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051487/2105_dp6xbf.mp4"
                   type="video/mp4"
@@ -23482,12 +23482,12 @@ export const medicalArticles = [
     <p>الدكتور بيطلب التحليل ده عشان يوضح تأثير دوالي الخصية علي انتاج الحيوانات المنوية وعددها و جودتها من حيث الحركة و نسبة التشوهات و في بعض الاحيان علشان يوضح مدي تكسير الحمض النووي للحيوانات المنوية.</p>
     
     <p>ولو لسه عايزين تعرفوا معلومات اكثر عن اهمية أشعة الدوبلكس في تشخيص دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051504/216_b2pnnu.mp4"
                   type="video/mp4"
@@ -23525,12 +23525,12 @@ export const medicalArticles = [
     <p>وبنقدر اننا نروح من المستشفى في نفس اليوم، وننزل شغلنا عادى جدا بعد 3-5 ايام، أما بالنسبة للعلاقة الزوجة، فبنقدر نمارسها بعد العملية بأسبوع.</p>
     
     <p>ولو لسه عايزين تعرفوا الفرق بين جراحة المنظار والجراحة الميكروسكوبية في علاج دوالي الخصية ، اعرف كل المعلومات عنهم من الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051480/2106_c8q5oq.mp4"
                   type="video/mp4"
@@ -23666,8 +23666,8 @@ export const medicalArticles = [
     
     <p>ولو عايزين تعرفوا أكتر عن المواصفات الطبيعية لشكل الحيوان المنوي وازاي بيتحرك ويوصل للبويضة علشان يحصل حمل ، اسمع الفيديو ده من الدكتور اسامة البكل….</p>
 
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -23804,12 +23804,12 @@ export const medicalArticles = [
     </ol>
     
     <p>ولو عايز تعرف اكتر امتي تقدر تمارس العلاقة الزوجية وتنزل شغلك بعد عملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051465/218_u00y84.mp4"
                   type="video/mp4"
@@ -23846,12 +23846,12 @@ export const medicalArticles = [
     <p>وبعد عملية دوالي الخصية وبعد ما بناخد العلاج الهرموني المنشط للخصية ، اول تحليل سائل منوي بنعمله بيكون بعد العملية بحوالي 6 شهور ، لأن دورة تكوين الحيوان المنوي بتستغرق 3 شهور ، فبكدة نكون اخدنا وقتنا الكافي لبداية تعافي الخصية من تأثير الدوالي ، وبنلاحظ كمان في تحليل السائل المنوي ان في تحسن في جودة الحيوانات المنوية حوالي 70%، وان عدد الحيوانات المنوية زاد والحركة كمان زادت ونسبة التشوهات قلت ، وان امكانية ان يحصل حمل طبيعي بعد عملية دوالي الخصية واصلة لحوالي 40% الي 45%.</p>
     
     <p>ولو لسه عايزين تعرفوا أكتر عن امتي ممكن يحصل حمل بعد عملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…………</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761051503/2108_mkho3o.mp4"
                   type="video/mp4"
@@ -23970,12 +23970,12 @@ export const medicalArticles = [
     <p>و اللي بيقيم حجم الخصيتين بالظبط بالملى وبيوضح هل في ارتجاع للدم في الأوردة ولا لا ، وحجم الاوردة قد ايه لان حجم الاوردة الطبيعي مش بيزيد عن 2 ملم ، فلما يزيد عن الطبيعي ده بيأكد في الاشعة ان الشخص ده عنده دوالي في الخصية.</p>
     
     <p>ولو عايزين تعرفوا معلومات اكثر ازاي بنشخص دوالي الخصية باشعة الدوبلكس ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054474/221_hqiwap.mp4"
                   type="video/mp4"
@@ -24077,8 +24077,8 @@ export const medicalArticles = [
     
     <p>ولو لسه عايزين تعرفوا معلومات اكثر عن حركة الحيوان المنوي المطلوبة علشان يحصل انجاب ن اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
 
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -24207,12 +24207,12 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايزين تعرفوا اي علاقة تفتت المادة الوراثية في الحيوان المنوي بالسقط المتكرر عند الزوجة ، اسمع الفيديو ده مع الدكتور اسامة البكل……….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054440/223_jfaewz.mp4"
                   type="video/mp4"
@@ -24248,12 +24248,12 @@ export const medicalArticles = [
     <p>ولازم تكون عارف انك لما تعالج دوالي الخصية، بتحسن من نسبة التشوهات وده هيقلل من معدل تكسير المادة الوراثية الموجودة في رأس الحيوان المنوي وهيكون عندك زيادة في عدد الحيوانات المنوية السليمة والصالحة لتخصيب البويضة وحدوث حمل سليم.</p>
     
     <p>ولو لسه عايزين تعرفوا معلومات اكثر عن اسباب تفتت المادة الوراثية وعلاقتها بتأخر الإنجاب والسقط المبكر عند الزوجة ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054438/2203_g60hvp.mp4"
                   type="video/mp4"
@@ -24381,12 +24381,12 @@ export const medicalArticles = [
     <p>لو عايز تعرف طرق علاج دوالي الخصية اضغط هنا…</p>
     
     <p>ولو عايزين تعرفوا اكثر عن الفرق بين جراحة المنظار والميكروسكوب في علاج دوالي الخصية اسمع الفيديو ده مع الدكتور اسامة البكل..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054478/224_zx02yx.mp4"
                   type="video/mp4"
@@ -24509,12 +24509,12 @@ export const medicalArticles = [
     <p>وبيخرج المريض من المستشفى في نفس اليوم ويقدر بعد يومين من العملية يمارس حياته بشكل طبيعي بس ميعملش اي نشاطات مجهدة وعدم ممارسة العلاقة الزوجية لمدة أسبوع او اتنين من العملية.</p>
     
     <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي هتحتاج تعمل تفتيش ميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054475/225_yzgxu9.mp4"
                   type="video/mp4"
@@ -24642,8 +24642,8 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف اكتر عن ضعف الانتصاب الاولي ، اسمع الفيديو ده مع الدكتور اسامة البكل………</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -24795,12 +24795,12 @@ export const medicalArticles = [
     
     <p>ولو لسه عايز تعرف معلومات اكثر عن الحالات اللي بتعاني من نقص في عدد الحيوانات المنوية واللي لسه عندهم فرصة في العلاج وحدوث حمل طبيعي ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
     
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054471/227_kdzfbn.mp4"
                   type="video/mp4"
@@ -24880,8 +24880,8 @@ export const medicalArticles = [
     <p>ده مرض بيحصل بسبب وجود خلل في جينات الشخص، بمعنى فى الطبيعي إن جينات الشخص بتتكون من 46 كروموسوم، اتنين منهم الكروموسومات الجنسية ( XX للإناث وXY للذكور) ، أما لو الشخص كان مصاب بمتلازمة كلاينفلترفيه فبيكون عندهم كروموسوم X زيادة ، يعنى عدد الكروموسومات عندهم 47 كروموسوم ، ده بيحصل بسبب خلل في مرحلة انقسام الخلايا أثناء توزيع الكروموسومات للجنين من الأب والأم، والمتلازمة دي بتسبب نقص في هرمون الذكورة وبتأثر على إنتاج الخصية للحيوانات المنوية.</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن متلازمة كلاينفلتر وطرق علاجها ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -24918,12 +24918,12 @@ export const medicalArticles = [
     <p>و ده عيب خلقي بيصيب الأطفال الذكور بعد الولادة، و اللى بيتسبب فى ان خصية واحدة أو الاتنين مش بينزلوا لكيس الصفن، وبتفضل معلقة جوا البطن ، و الخصية المعلقة لازم تتعالج خلال السنة الأولى من عمر الطفل ، لأن الخصية لو فضلت معلقة جوا البطن ده هيسبب مشاكل كتير للطفل في مرحلة البلوغ والإنجاب لما يكبر، لأن الخصية المعلقة جوا البطن بتتعرض لدرجة حرارة عالية وده بيسبب ضمور للخصية وعدم إنتاجها للحيوانات المنوية.</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن الخصية المعلقة وتاثيرها على الانجاب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761054487/2208_uqodxi.mp4"
                   type="video/mp4"
@@ -25052,8 +25052,8 @@ export const medicalArticles = [
     <p>ولو كان السبب <strong>خلل فى الهرمونات :</strong> ساعتها هنبدأ نحط خطة علاجية نظبط بيها نسب الهرمونات ، عشان نقدر اننا نعالج ضعف الرغبة الجنسية.</p>
     
     <p>ولو عايز تعرف ازاي المشاكل النفسية والاكتئاب ممكن تسبب ضعف في الرغبة الجنسية وضعف انتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -25167,8 +25167,8 @@ export const medicalArticles = [
     <p>ومن خلال المعايير دي بيتحدد على اساسها اذا كانت العينة طبيعية ولا لا .</p>
     
     <p>ولو لسه عايز تعرف معلومات اكثر عن حركة الحيوان المنوي الطبيعية علشان يحصل حمل ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -25225,12 +25225,12 @@ export const medicalArticles = [
     <p>و ده مش معناه اننا ممكن نعمل حقن المجهري على طول من غير منعالج ضعف حركة الحيوانات المنويه ، و ده لأن استخدام حيوان منوي ضعيف في الحركة هيقلل من فرصة نجاح الحقن المجهري ، و الحيوان المنوي لازم يكون فيه حركة وحيوية ومفيهوش تشوهات عشان يزيد من فرص التلقيح السليم للبويضة وتكوين جنين .</p>
     
     <p>ولو عايز تعرف امتي بيحصل حمل وتحسن في تحليل السائل المنوي بعد عملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761122286/2302_kdeksc.mp4"
                   type="video/mp4"
@@ -25335,8 +25335,8 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف معلومات أكثر عن شروط تحليل السائل المنوي ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -25497,8 +25497,8 @@ export const medicalArticles = [
     <p>او ان الزوج يكون بيتفرج على افلام جنسية و ده بيخليه يتخيل العلاقة الجنسية بشكل معين ، ولما العلاقة الجنسية مش بتحصل بالشكل ده بيبدأ انه ينفر منها و بيكون مش عاوز يعملها.</p>
     
     <p>ولو عايز تعرف ازاي المشاكل والخلافات الزوجية ممكن تسبب ضعف في الرغبة الجنسية وضعف انتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -25683,12 +25683,12 @@ export const medicalArticles = [
     <p>واخيرا لازم متفقدش الامل في العلاج ، لان الامل هيفضل موجود وهتقدر تخلف وتجيب اطفال حتي لو انت بتعاني من صفر حيوانات منوية.</p>
     
     <p>ولو عايزين تعرفوا ايه الحل للحالات اللي بتعاني من نقص في عدد الحيوانات المنوية ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761122299/235_dstpsn.mp4"
                   type="video/mp4"
@@ -25758,8 +25758,8 @@ export const medicalArticles = [
     <p>لو تشخصت إن عندك انعدام في الحيوانات المنوية، مش شرط تكون عندك مشاكل في الخصية أو لخبطة في الهرمونات ، ممكن الخصية تكون سليمة وبتنتج حيوانات منوية بشكل طبيعي، والهرمونات تكون طبيعية، لكن يكون عندك انسداد فى القنوات المنويه هو اللي مانع ان الحيوانات المنوية تخرج من الخصية وتختلط بالسائل المنوي وقت القذف، وده هو السبب في انعدام الحيوانات المنوية.</p>
     
     <p>ولو لسه عايزين تعرفوا معلومات أكثر عن شروط تحليل السائل المنوي ، اسمع الفيديو ده من الدكتور اسامة البكل….</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -25999,8 +25999,8 @@ export const medicalArticles = [
     <p>ضعف حركة الحيوانات المنوية من أهم أسباب تأخر الإنجاب عند الرجال، لأن الحركة الطبيعية ضرورية لوصول الحيوان المنوي للبويضة وإتمام عملية الإخصاب. فهم أنواع الحركة والمعايير الطبيعية يساعد في التشخيص المبكر والعلاج المناسب.</p>
     
     <p>ولو عايز تعرف ايه هي الحركة الطبيعية للحيوان المنوي علشان يحصل إنجاب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -26082,8 +26082,8 @@ export const medicalArticles = [
     <p><strong>المعدل الطبيعي لأعداد الحيوانات المنوية</strong> لازم يزيد عن <strong>15 مليون لكل ملليلتر من السائل المنوي في عملية القذف الواحدة</strong> ، أما في حالة انعدام الحيوانات المنوية (صفر حيوان منوي)، بيكون فى سائل المنوي بيخرج وقت القذف بس مش بيكون فيه أي حيوانات منوية، و ده هيكون سبب فى ان يحصل تأخر فى الانجاب</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن العدد الطبيعي للحيوانات المنوية علشان يحصل يحصل إنجاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -26309,12 +26309,12 @@ export const medicalArticles = [
     <p>و الطريقة اللى نقدر اننا نتجنب بيها كل المضاعفات دى اننا نتأكد من خبر الدكتور اللى هنتعالج معاه ، و اننا كمان نتأكد ان ده الوقت الصح اللى المفروض نبدأ نعالج فيه مرض بيرونى</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن ازاي تتجنب المضاعفات والالتهابات اللي ممكن تحصل بعد تركيب دعامة العضو الذكري ، اسمع الفيديو ده مع الدكتور اسامة البكل..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761122692/241_qrynv2.mp4"
                   type="video/mp4"
@@ -26478,8 +26478,8 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرفوا اكثر عن مشاكل السائل المنوي اللي بتسبب نقص أو انعدام في حركة الحيوانات المنوية ، وامتي السائل المنوي يكون طبيعي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -26644,12 +26644,12 @@ export const medicalArticles = [
     <h2>معلومات إضافية ومراجع</h2>
     
     <p>ولو عايز تعرف هل التليف العنيف في العضو الذكري (بيروني) يمنع تركيب دعامة القضيب ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761122675/243_mkf2mb.mp4"
                   type="video/mp4"
@@ -26769,12 +26769,12 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي لازم تعمل تفتيش ميكروسكوبي ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761122695/244_mutmnw.mp4"
                   type="video/mp4"
@@ -27021,8 +27021,8 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف معلومات اكثر عن أعراض مرض بيروني ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -27246,8 +27246,8 @@ export const medicalArticles = [
     <p>5 – أخر طريقة بنعالج بيها مرض بيرونى ، واللى تعتبر اكثر طريقة فعالة وبنستخدمها في الحالات الصعبة ودرجات الاعوجاج العالية هى التدخل الجراحي واللى بيكون ليه اكتر من طريقة و ده اللى هنعرفه بالتفصيل في المقال ده " اى هى الطرق الجراحية اللى بنعالج بيها مرض بيرونى ؟ "</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن مرض بيروني وازاي بنعالجه ، اسمع الفيديو ده مع الدكتور اسامة محمد البكل…..</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -27325,8 +27325,8 @@ export const medicalArticles = [
     
     <p>ولو لسه عايزين تعرفوا معلومات اكثر عن النسبة الطبيعية لتشوه الحيوانات المنوية ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
     
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
              
             </h3>
@@ -27456,8 +27456,8 @@ export const medicalArticles = [
     <p>زي ما قولنا قبل كده ان تشوه الحيوانات المنوية معناه ان شكل الحيوان المنوى مش طبيعى ، و ان التشوه ده ممكن يحصل فى الرأس أو العنق أو ذيل الحيوان المنوي، وأي عيب فيهم بيخلي الحيوان المنوي مش قادر انه يخصب البويضة و بكده مش هيحصل حمل بشكل طبيعي.</p>
     
     <p>ولو عايزين تعرفوا أكتر عن تكوين وبنية الحيوان المنوي ، تقدروا تعرفوا كل المعلومات عنه من خلال الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -27512,8 +27512,8 @@ export const medicalArticles = [
     <p>و هنا خلينا نقول معلومة مهمة عن تحليل السائل المنوى ، ان لازم التحليل يتعمل في مكان متخصص لأننا بنحتاج نصبغ الحيوانات المنوية بصبغة معينة مش بتكون موجودة في أغلب المعامل ، وبعد كده بنحطها تحت الميكروسكوب علشان نفحص شكل الحيوان المنوي ونعرف نسبة التشوهات.</p>
     
     <p>ولو عايز تعرف معلومات أكثر عن شروط تحليل السائل المنوي ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -27613,8 +27613,8 @@ export const medicalArticles = [
     <p><strong>الجهل في الثقافة الجنسية</strong> ، زى ان ميكونش فيه مداعبة الكافية قبل الجماع لان ده بيقلل من الاثاره الجنسية .</p>
     
     <p>ولو عايز تعرف ازاي المشاكل والخلافات الزوجية ممكن تسبب ضعف انتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
              
             </h3>
@@ -27677,12 +27677,12 @@ export const medicalArticles = [
     <p>او <strong>زيادة فى نسبة هرمون البرولاكتين او هرمون اللبن</strong> ، لان ده هيكون بيأثرعلى الرغبة الجنسية و بيسبب ضعف انتصاب.</p>
     
     <p>ولو لسه عايز تعرف معلومات اكثر عن اسباب ضعف الانتصاب اثناء ممارسة العلاقة الزوجية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761215071/2501_z6rfz3.mp4"
                   type="video/mp4"
@@ -27814,12 +27814,12 @@ export const medicalArticles = [
     
     <p>ولو عايز تعرف هل فى اجراءات لازم نعملها قبل عملية تركيب دعامة القضيب ، اسمع الفيديو ده مع الدكتور اسامة البكل..</p>
     
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761141339/252_api1ex.mp4"
                   type="video/mp4"
@@ -27962,12 +27962,12 @@ export const medicalArticles = [
     <p><strong>لو الدعامة الهيدروليكية اتركبت بطريقه غلط</strong> ممكن تعمل تآكل في الجلد ونزيف وحمى.</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن تركيب دعامة العضو الذكري ، اسمع الفيديو ده مع الدكتور اسامة محمد البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761141362/253_cfzrsq.mp4"
                   type="video/mp4"
@@ -28092,12 +28092,12 @@ export const medicalArticles = [
     <p><strong>كمان الاشخاص اللي اخدت علاجات لسرطان البروستاتا والمثانة والقولون</strong>.</p>
     
     <p>ولو عايز تعرف امتي يكون علاج ضعف الإنتصاب حله الوحيد هو تركيب دعامة القضيب ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761141366/254_c50tjt.mp4"
                   type="video/mp4"
@@ -28194,12 +28194,12 @@ export const medicalArticles = [
     <p>ولو عايز تعرف هل دوالي الخصية بتسبب تأخر في الإنجاب اضغط هنا…</p>
     
     <p>ولو عايزين تعرفوا اكثر عن دوالي الخصية وعلاقتها بتأخر الإنجاب ، وامتي نعمل عملية دوالي الخصية ، اسمع الفيديو ده من الدكتور اسامة البكل..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761141378/255_rwwogn.mp4"
                   type="video/mp4"
@@ -28351,12 +28351,12 @@ export const medicalArticles = [
     <p><strong>ده غير ان تكلفه العمليه</strong> هى بردو اللى بتحدد هنركب الدعامة المرنة و اللى بتعتبر ارخص من الدعامة الهيدروليك</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن تركيب دعامة الانتصاب سواء المرنة او الهيدروليكية ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761141352/256_c3ojyh.mp4"
                   type="video/mp4"
@@ -28511,12 +28511,12 @@ export const medicalArticles = [
     <strong>اننا نكون لسه بنمارس العادات اللى ساعدت من الاول الدوالى انها تظهر</strong> ، زي شيل الاوزان التقيلة لفترات طويلة يوميا ، ده ممكن يتسبب فى الدوالى ترجع تانى .</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن ليه دوالي الخصية ممكن ترجع تاني بعد العملية ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761141367/257_oxgidm.mp4"
                   type="video/mp4"
@@ -28626,12 +28626,12 @@ export const medicalArticles = [
     <strong>لو كان فى تأخر للانجاب اكتر من سنه</strong> و مفيش اى موانع عند الزوجة .</p>
     
     <p>ولو لسه عايز تعرف ليه دوالي الخصية ممكن ترجع تاني بعد العملية ، اسمع الفيديو ده من الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761141373/258_lpxjum.mp4"
                   type="video/mp4"
@@ -28833,12 +28833,12 @@ export const medicalArticles = [
     
     <p>ولو عايز تعرف ازاي تتجنب أي التهابات أو مضاعفات ممكن تحصل بعد تركيب دعامة الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
 
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761138778/261_ezrbyw.mp4"
                   type="video/mp4"
@@ -28933,12 +28933,12 @@ export const medicalArticles = [
     <p><strong>و ممكن كمان يحصل ربط لحاجة اسمها الاوعية الليمفاويه بالغلط</strong> ، و الاوعية الليمفاويه دى هى اللى بتكون مسؤوله عن انها تخرج السوائل الزياده من الخصية ، فلما نربطها ده هيمنع السوائل انها تخرج من الخصية و يسبب لنا قيله مائية على الخصية</p>
     
     <p>وتعالوا نعرف اي اهمية الشريان الخصوي اللي لو حصله اي ضرر وقت عملية دوالي الخصية هيسبب ضمور للخصية ، مع الدكتور اسامة البكل…..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761138809/262_qgfz5m.mp4"
                   type="video/mp4"
@@ -28997,12 +28997,12 @@ export const medicalArticles = [
     <p><strong>و بنقدر نمارس العلاقة الزوجية بعد العملية بأسبوع .</strong></p>
     
     <p>ولو عايز تعرف معلومات اكثر عن الفرق بين جراحة المنظار والجراحة الميكروسكوبية ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761138810/2602_ygxaou.mp4"
                   type="video/mp4"
@@ -29086,12 +29086,12 @@ export const medicalArticles = [
     ده غير ان العضو الذكري بيفضل في وضع انتصاب حتى بعد القذف، و بكده هنقدر نكمل العلاقة لحد ما الزوجة توصل للنشوة الجنسية.</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن هل الاعراض اللي عندك دي ضعف انتصاب ولا سرعة قذف ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761138837/263_qzwcws.mp4"
                   type="video/mp4"
@@ -29118,12 +29118,12 @@ export const medicalArticles = [
     
     <p>وتقدر تعرف معلومات اكتر عن هل حجم وطول العضو الذكري هيتغير بعد دعامه ضعف الانتصاب من الفيديو دا مع دكتور أسامة البكل ………</p>
     
-<section className={styles.divider}>
-          <div className={styles.container}>
+<section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761138806/2603_zbbg6p.mp4"
                   type="video/mp4"
@@ -29276,12 +29276,12 @@ export const medicalArticles = [
     <p><strong>و لازم كمان نتأكد ان الخصيتين فى حجمهم الطبيعى</strong> ، لان احيانا الدوالى بتأثر على حجم الخصية</p>
     
     <p>ولو عايز تتاكد ان دوالي الخصية ماثرة على الإنجاب ولازم تعمل عملية الدوالي ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761138827/264_t6q9o4.mp4"
                   type="video/mp4"
@@ -29489,12 +29489,12 @@ export const medicalArticles = [
     <p><strong>اما لو كانت الدعامة اطول من العضو الذكري</strong> ، فده هيخلينا نحس بألم في رأس العضو وقت الانتصاب ، و الأصعب ان الدعامة ممكن تخرم رأس العضو الذكرى</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن هل دعامة الانتصاب ممكن تكبر حجم العضو الذكري أو تزود طوله ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761138807/265_mg1pum.mp4"
                   type="video/mp4"
@@ -29605,8 +29605,8 @@ export const medicalArticles = [
     <p><strong>وخلينى بردو اوضحلك نقطة تانية ، ان متلازمة الكلاينفلتر مش هتتنقل للجنين</strong> لان فى ناس كتير بتفتكر انه مدام هى مشكلة جينية يبقى هتتنقل للطفل ، وده مش صح لاننا قولنا فوق ان الخليه المنوية اللى تقدر انها تنتج حيوان منوي نقدر نلقح بيه بويضة و يكون جنين ،لازم تكون خليه سليمة او قدرت تتخلص من الكرموسوم الزياده و معنى كده ان الحيوان المنوي سليم ، و بكده مش هيكون فى اى ضرر على الجنين .</p>
     
     <p>ولو عايز تعرف اكثر عن متلازمة كلاينفلتر وطرق علاجها ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -29690,12 +29690,12 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف اكثر عن الحالات اللي حتي التفتيش الميكروسكوبي مش حل وعلاج ليها ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761138811/2606_r9nofb.mp4"
                   type="video/mp4"
@@ -29850,12 +29850,12 @@ export const medicalArticles = [
     <p>لو كل اللى قولنا عليه ده حصل وقتها هنضمن انشاء الله ان العمليه هتنجح و هنقولك مبروك هتبقى اب ، و هتقوم كمان من العمليه بالسلامة من غير اى مضاعفات .</p>
     
     <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي لازم تعمل تفتيش ميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761138792/267_wz7xoi.mp4"
                   type="video/mp4"
@@ -30040,8 +30040,8 @@ export const medicalArticles = [
       <li>وضع اللاب توب على الرجل</li>
     </ul>
     <p>ولو عايز تعرف معلومات اكثر عن العادات الغير الصحية اللي بتسبب ضعف انتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -30167,8 +30167,8 @@ export const medicalArticles = [
 
 <h3>
 ولو عايز تعرف اكتر عن شروط تحليل السائل المنوي ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</h3>
- <section className={styles.divider}>
-          <div className={styles.container}>
+ <section >
+          <div >
             <h3>
              
             </h3>
@@ -30369,12 +30369,12 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف هل في بديل للمنشطات الجنسية ولا لا ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761223496/272_mlegga.mp4"
                   type="video/mp4"
@@ -30480,12 +30480,12 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف ايه هي الحالات اللي بتعاني من انعدام الحيوانات المنوية و لازم تعمل تفتيش ميكروسكوبي ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761223433/273_dn92dh.mp4"
                   type="video/mp4"
@@ -30666,21 +30666,20 @@ export const medicalArticles = [
     <p>بس ده مش بيحصل لكل الناس اللى عندها قذف جاف</p>
     
     <p>ولو عايز تعرف الفرق بين سرعة القذف وضعف الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
-            <h3>
-            </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
-                <source
-                  src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761221538/274_oiztql.mp4"
-                  type="video/mp4"
-                />
-                متصفحك لا يدعم تشغيل الفيديو.
-              </video>
-            </div>
-          </div>
-        </section>
+    <section >
+      <div>
+        <h3></h3>
+        <div class="videoWrapper">
+          <video class="video" controls>
+            <source
+              src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761221538/274_oiztql.mp4"
+              type="video/mp4"
+            />
+            متصفحك لا يدعم تشغيل الفيديو.
+          </video>
+        </div>
+      </div>
+    </section>
     
     <h4>علاج القذف الجاف</h4>
     
@@ -30739,8 +30738,8 @@ export const medicalArticles = [
     <p>هنا لازم نفهم إن القذف الارتجاعي مش بيأثر على الانتصاب ولا القدرة الجنسية ، أنت هنا بتمارس العلاقة الزوجية بشكل طبيعي جداً وبتوصل للنشوة الجنسية، لكن التأثير هنا هيكون على الإنجاب لأن مفيش سائل منوي بيطلع، فكده مفيش حيوانات منويه نخصب بيها البويضة.</p>
     
     <p>ولو عايز تعرف معلومات اكثر عن اسباب نقص كمية السائل المنوي وقت القذف اثناء العلاقة الزوجية ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -30984,8 +30983,8 @@ export const medicalArticles = [
     
     <p>ولازم كمان تكون عارف ان في أسلوب حياة غير صحي ممكن ياثر على العلاقة الجنسية ويسبب كمان ضعف انتصاب ، لو عايز تعرف ازاي ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
     
- <section className={styles.divider}>
-          <div className={styles.container}>
+ <section >
+          <div >
             <h3>
              
             </h3>
@@ -31147,8 +31146,8 @@ export const medicalArticles = [
     
     <p>ولو عايز تعرف معلومات اكثر عن نقص كمية السائل المنوي وقت القذف ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
 
-    <section className={styles.divider}>
-    <div className={styles.container}>
+    <section >
+    <div >
       <h3>
        
       </h3>
@@ -31308,12 +31307,12 @@ export const medicalArticles = [
     <p>هنا الاجابه هتكون لا ، لان زى ما قولنا من شوية المشكلة هنا مش فى الهرمونات المشكله هنا فى الخصية نفسها ، بمعنى ان الخصية مبتنتجش حيوانات منويه نهائى فهنلاقى ان الغده النخامية بتنتج هرمون FSH و LH بكميات اكبر من الطبيعى ، عشان تنشط الخصية و تخليها تنتج حيوانات منوية ، و لازم تعرف حاجة مهم انك لو روحت لدكتور مش متخصص و كتبلك علاج تقلل بية نسبة هرمون FSH و LH ، فانت كده بتقضى على البؤر المنوية الموجودة في الخصية اللى ممكن تنتج حيوانات منوية و فى الحالة دى مش هيكون فى اى فرصة ان يحصل حمل حتى بالتفتيش الميكروسكوبى.</p>
     
     <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي لازم تعمل تفتيش ميكروسكوبي من الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل……</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761221800/277_jpu91g.mp4"
                   type="video/mp4"
@@ -31442,12 +31441,12 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عاوز تعرف اكثر عن الاجراءات اللي تعملها قبل عملية تركيب دعامة الانتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761221893/278_jm4vg8.mp4"
                   type="video/mp4"
@@ -31481,12 +31480,12 @@ export const medicalArticles = [
     <p>لو الشخص اللى هيركب الدعامة كان مريض ضغط لازم الضغط يكون مظبوط .</p>
     
     <p>ولو عايز تعرف هل في فرق في علاج ضعف الانتصاب عند مريض السكر ومريض القلب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761222002/2708_bti1k7.mp4"
                   type="video/mp4"
@@ -31654,12 +31653,12 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف ازاي بنهتم بالجرح بعد عملية دوالي الخصية بالميكروسكوب ، اسمع الفيديو ده مع الدكتور اسامة البكل….</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761135568/281_ejshhc.mp4"
                   type="video/mp4"
@@ -31787,12 +31786,12 @@ export const medicalArticles = [
     <p>و هنا خليني اوضحلك حاجه ان وارد تحس بكل الاعراض دى ، ووراد تحس بعرض او اتنين على حسب حالة التليف ، فلازم بمجرد ما تحس بحاجه لازم تكشف فورا علشان تطمن على نفسك ، ولو عايز تعرف اي هو تشخيص وعلاج مرض بيروني اضغط هنا….</p>
     
     <p>ولو عايز تعرف هل التليف العنيف في العضو الذكري ممكن يمنع تركيب دعامة العضو الذكري ، اسمع الفيديو ده مع الدكتور اسامة البكل.</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761135567/282_amgotw.mp4"
                   type="video/mp4"
@@ -31875,12 +31874,12 @@ export const medicalArticles = [
     </ul>
     
     <p>وتعالوا نعرف ايه هي الأعراض أو العلامات اللي بتوضح انك في بداية ضعف جنسي ، مع الدكتور اسامة البكل.</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761135584/283_wytqbq.mp4"
                   type="video/mp4"
@@ -31931,8 +31930,8 @@ export const medicalArticles = [
     
     <p>ولو عايز تعرف ازاي المشاكل النفسية والخلافات الزوجية بتسبب ضعف انتصاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
 
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -32108,12 +32107,12 @@ export const medicalArticles = [
     <p>و هنا العلاج بيكون اننا فى الاول ناخد علاج نحاول ننشط و نعالج بيه الخصية ، و بعد العلاج بنعمل تحليل للسائل المنوي ، لأن هنا ممكن يحصل استجابة كبيرة مع العلاج و تبدأ الخصية تصنع حيوانات منوية ، وتخرج مع السائل المنوي وقت القذف ، وأوقات تانية ممكن نحتاج اننا نعمل تفتيش ميكرسكوبي من الخصية نوصل بيه للحيوانات المنوية.</p>
     
     <p>ولو عايز تعرف ايه هي حالات انعدام الحيوانات المنوية اللي لازم تعمل تفتيش ميكروسكوبي ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761135585/284_xplb7k.mp4"
                   type="video/mp4"
@@ -32272,12 +32271,12 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف ازاى نتاكد ان اننا لازم نعمل عملية دوالي الخصية ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-    <section className={styles.divider}>
-          <div className={styles.container}>
+    <section >
+          <div >
             <h3>
             </h3>
-            <div className={styles.videoWrapper}>
-              <video className={styles.video} controls>
+            <div class="videoWrapper">
+              <video class="video" controls>
                 <source
                   src="https://res.cloudinary.com/dvbusrvgi/video/upload/v1761135583/285_paqlus.mp4"
                   type="video/mp4"
@@ -32417,8 +32416,8 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف ازاى بنشخص التسريب الوريدي في العضو الذكري ، اسمع الفيديو ده مع الدكتور اسامة البكل…..</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -32595,8 +32594,8 @@ export const medicalArticles = [
     <p><strong>اولاّ :</strong> لازم نعمل تحليل سائل منوى ، و نشوف وضع الحيوانات المنوية هل فى نقص ولا انعدام .</p>
     
     <p>ولو عايز تعرف بنحتاج نعمل كام تحليل سائل منوي علشان نحدد سبب تأخر الإنجاب ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
@@ -32710,8 +32709,8 @@ export const medicalArticles = [
     </ul>
     
     <p>ولو عايز تعرف معلومات اكثر عن نقص كمية السائل المنوي وقت القذف ، اسمع الفيديو ده مع الدكتور اسامة البكل…</p>
-     <section className={styles.divider}>
-          <div className={styles.container}>
+     <section >
+          <div >
             <h3>
              
             </h3>
