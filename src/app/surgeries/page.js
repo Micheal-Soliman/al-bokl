@@ -6,7 +6,7 @@ import styles from "./surgeries.module.css";
 // SEO metadata
 export async function generateMetadata() {
   return generateSEOMetadata({
-    title: "العمليات الجراحي | د. أسامة البكل",
+    title: "العمليات الجراحي - د. أسامة البكل",
     description:
       "العمليات الجراحية المتخصصة في أمراض الذكورة: دوالي الخصيتين، دعامات العضو الذكري، التفتيش الميكروسكوبي، إصلاح اعوجاج القضيب مع د. أسامة البكل.",
     keywords: [
