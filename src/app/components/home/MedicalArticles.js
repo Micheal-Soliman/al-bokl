@@ -14,17 +14,20 @@ export default function MedicalArticles() {
       description: `متى تكون دوالي الخصية خطيرة ؟ ما هي دوالي الخصية ؟ ما هي المضاعفات اللي بتسببها دوالي الخصيتين ؟ ليه الجراحة الميكروسكوبية افضل طريقة لعلاج دوالي الخصية ؟`,
       image: "/ser2.webp",
       category: "دوالي الخصية",
-      link: "/articles/varicocele-dangers",
+      link: "/articles/when-varicocele-dangerous",
     },
     {
       id: 2,
       date: "30",
       month: "اغسطس",
       title: `هل تشوه الحيوانات المنوية سبب الاجهاض المتكرر ؟`,
+
+
+
       description: `هل تشوه الحيوانات المنوية سبب الاجهاض المتكرر ؟ وإيه هي تشوه الحيوانات المنوية ؟ وايه علاقة تشوه الحيوان المنوي بالإجهاض عند الزوجة ؟ ازاي نعالج تشوه الحيوان المنوي عشان يكون عندنا اعلى فرصة لحدوث الحمل الطبيعي ؟`,
       image: "/ser3.webp",
       category: "الصحة النفسية",
-      link: "/articles/psychological-effects-congestion",
+      link: "/articles/sperm-abnormality-miscarriage",
     },
     {
       id: 3,
@@ -34,7 +37,7 @@ export default function MedicalArticles() {
       description: `ما هي الحقن الموضعية المستخدمة في علاج ضعف الانتصاب ؟ ايه هي الحالات اللي مينفعش تستخدم الحقن الموضعي في القضيب كعلاج لضعف الانتصاب ؟ ايه هي مضاعفات الحقن الموضعي ؟ ليه دعامة العضو الذكري افضل علاج لضعف الانتصاب ؟`,
       image: "/ser2.webp",
       category: "ضعف الانتصاب",
-      link: "/articles/prostate-injections-treatment",
+      link: "/articles/local-injections-erectile-dysfunction",
     },
   ];
 
