@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NAVIGATION_ITEMS, SITE_CONFIG, CLINICS } from "../utils/constants";
+import { medicalArticles } from "../../../data/articles/articlesData";
 import styles from "./Navbar.module.css";
 import { FaTiktok, FaInstagram, FaYoutube, FaFacebook, FaWhatsapp, FaSnapchat, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -90,6 +91,20 @@ export default function Navbar() {
 
   // Handle keyboard navigation
   const handleKeyDown = (event, index, action) => {
+    const target = event.target;
+
+    // لا تمنع الإدخال داخل حقول الكتابة (مثل السيرش)
+    if (
+      target &&
+      target.tagName &&
+      ["INPUT", "TEXTAREA"].includes(target.tagName)
+    ) {
+      if (event.key === "Escape") {
+        closeAllDropdowns();
+      }
+      return;
+    }
+
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
       if (action === "dropdown") {
@@ -148,30 +163,38 @@ export default function Navbar() {
     }
   }, []);
 
+  const ARTICLE_SEARCH_ITEMS = medicalArticles.map((article) => {
+    const title = article.title || "";
+    const description = article.excerpt || article.description || "";
+    const keywords = article.keywords || [];
+    const slug = article.slug;
+
+    return {
+      title,
+      description,
+      keywords,
+      link: `/articles/${slug}`,
+    };
+  });
+
   const handleSearch = () => {
-    if (searchQuery.trim()) {
-      const mockResults = [
-        {
-          title: "دوالي الخصيتين",
-          description: "علاج دوالي الخصيتين بالجراحة الميكروسكوبية",
-          link: "/surgeries/varicocele",
-        },
-        {
-          title: "ضعف الإنتصاب",
-          description: "علاج ضعف الإنتصاب والحلول المتاحة",
-          link: "/sexual-health/erectile-dysfunction",
-        },
-        {
-          title: "دعامات العضو الذكري",
-          description: "الحل النهائي لضعف الإنتصاب",
-          link: "/surgeries/penile-implants",
-        },
-      ].filter(
-        (item) =>
-          item.title.includes(searchQuery) ||
-          item.description.includes(searchQuery)
-      );
-      setSearchResults(mockResults);
+    const query = searchQuery.trim();
+    if (query) {
+      const lowerQuery = query.toLowerCase();
+
+      const results = ARTICLE_SEARCH_ITEMS.filter((item) => {
+        const inTitle = item.title.toLowerCase().includes(lowerQuery);
+        const inDescription = item.description
+          .toLowerCase()
+          .includes(lowerQuery);
+        const inKeywords = (item.keywords || []).some((kw) =>
+          kw.toLowerCase().includes(lowerQuery)
+        );
+
+        return inTitle || inDescription || inKeywords;
+      });
+
+      setSearchResults(results);
     }
   };
 
