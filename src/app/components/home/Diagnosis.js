@@ -76,10 +76,10 @@ export default function Diagnosis() {
 وفي بعض الحالات بيكون التدخل الجراحي هو آخر خطوة علاجية بعد استنفاد كل الطرق الأخرى، وبيكون فعلاً الحل النهائي للتخلص من المشكلة تمامًا.
 
               </p>
-              <p className={styles.surgeryNote}>
+              {/* <p className={styles.surgeryNote}>
                 وبرضا بنكون حريص على إجراء التدخل الجراحي هو آخر الحلول المتاحة
                 للتخلص نهائياً من المشكلة.
-              </p>
+              </p> */}
             </div>
 
             <Link href="/contact" className={styles.appointmentBtn}>
