@@ -83,11 +83,11 @@ export default function TreatmentServices() {
 
         <div className={styles.servicesGrid}>
           {services.map((service, index) => (
-            <Link
-              key={index}
-              href={service.link}
-              className={styles.serviceCardLink}
-            >
+            // <Link
+            //   key={index}
+            //   href={service.link}
+            //   className={styles.serviceCardLink}
+            // >
               <div className={styles.serviceCard}>
                 <div className={styles.serviceIcon}>{service.icon}</div>
                 <p className={styles.serviceTitle}><strong>{service.title}</strong></p>
@@ -97,7 +97,7 @@ export default function TreatmentServices() {
                 </p>
                 {/* <div className={styles.readMore}>اعرف أكثر ←</div> */}
               </div>
-            </Link>
+            // </Link>
           ))}
         </div>
       </div>
