@@ -19,7 +19,10 @@ export default function Services() {
                 </div>
                 <p className={styles.serviceTitle}><strong>{service.title}</strong></p>
                 <p className={styles.serviceSubtitle}>{service.subtitle}</p>
-                <p className={styles.serviceDescription}>{service.description}</p>
+                <p
+                  className={styles.serviceDescription}
+                  dangerouslySetInnerHTML={{ __html: service.description }}
+                />
                 <div className={styles.serviceArrow}>
                   <span className={styles.arrowIcon}>←</span>
                   <span className={styles.arrowText}>تفاصيل أكثر</span>
