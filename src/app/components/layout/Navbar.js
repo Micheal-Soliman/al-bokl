@@ -537,7 +537,6 @@ export default function Navbar() {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className={styles.searchModalInput}
                 onKeyPress={(e) => e.key === "Enter" && handleSearch()}
-                onKeyDown={(e) => handleKeyDown(e, -1, false)}
                 aria-label="حقل البحث"
                 autoFocus
               />
@@ -545,7 +544,6 @@ export default function Navbar() {
                 onClick={handleSearch}
                 className={styles.searchModalButton}
                 aria-label="بحث"
-                onKeyDown={(e) => handleKeyDown(e, -1, false)}
               >
                 🔍
               </button>
