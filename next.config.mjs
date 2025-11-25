@@ -73,6 +73,25 @@ const nextConfig = {
       },
     ];
   },
+  async redirects() {
+    return [
+      { source: '/contact-us', destination: '/contact', permanent: true },
+      { source: '/contact-us-dr-osama-albokl', destination: '/contact', permanent: true },
+      { source: '/videos-dr-osama-albokl', destination: '/videos', permanent: true },
+      { source: '/about-dr-osama-albokl', destination: '/about/doctor', permanent: true },
+      { source: '/category/:path*', destination: '/articles', permanent: true },
+      { source: '/tag/:path*', destination: '/articles', permanent: true },
+      { source: '/author/:path*', destination: '/articles', permanent: true },
+      { source: '/blogs-dr-osama-albokl/:path*', destination: '/articles', permanent: true },
+      { source: '/portfolio-category/:path*', destination: '/articles', permanent: true },
+      { source: '/:path*/feed', destination: '/articles', permanent: true },
+      { source: '/services/sexual-health', destination: '/sexual-health', permanent: true },
+      { source: '/services/premature-ejaculation', destination: '/sexual-problems/premature-ejaculation', permanent: true },
+      { source: '/services/testosterone-deficiency', destination: '/sexual-health', permanent: true },
+      { source: '/services/premarital-counseling', destination: '/contact/appointment', permanent: true },
+      { source: '/services/healthy-habits', destination: '/videos', permanent: true }
+    ];
+  },
 };
 
 export default nextConfig;

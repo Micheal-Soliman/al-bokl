@@ -4,7 +4,7 @@ export const generatePageMetadata = ({
   description,
   keywords,
   path = '',
-  image = '/images/doctor-osama.webp',
+  image = '/serp.png',
   type = 'website'
 }) => {
   const baseUrl = 'https://www.albokl.com';

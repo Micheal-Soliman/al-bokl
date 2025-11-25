@@ -10,6 +10,7 @@ const redirects = {
   '/contact-us-dr-osama-albokl': '/contact',
   '/videos-dr-osama-albokl': '/videos',
   '/puberty': '/puberty-issues',
+  '/search': '/articles',
   // Common legacy single slugs to known routes
   '/penile-implants': '/surgeries/penile-implants',
   '/penile-curvature': '/surgeries/penile-curvature',
@@ -62,10 +63,21 @@ export function middleware(request) {
     return new NextResponse(null, { status: 410 });
   }
   
+  // Obvious draft URLs -> 410 Gone
+  if (/مسودة-تلقائية/.test(pathname) || /\b(draft|auto-draft)\b/i.test(pathname)) {
+    return new NextResponse(null, { status: 410 });
+  }
+  
   // Redirect common WordPress structures to articles listing
   if (/^\/(category|tag|author|blogs-dr-osama-albokl|portfolio-category)(\/|$)/.test(pathname)
       || /^\/articles\/(category|tag)(\/|$)/.test(pathname)) {
     const redirectUrl = new URL('/articles', request.url);
+    return NextResponse.redirect(redirectUrl, 301);
+  }
+  
+  // Legacy team-member profiles -> About Doctor
+  if (/^\/team-member\//.test(pathname)) {
+    const redirectUrl = new URL('/about/doctor', request.url);
     return NextResponse.redirect(redirectUrl, 301);
   }
   

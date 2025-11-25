@@ -23,6 +23,29 @@ export const metadata = {
   verification: {
     google: 'ZsLHn2oROl-NJ6fle80I8hTW92q9KqcycP8hjz6MDKE',
   },
+  metadataBase: new URL('https://www.albokl.com'),
+  openGraph: {
+    title: "دكتور أسامة البكل",
+    description: "موقع الدكتور أسامة البكل, مدرس وإستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب والصحة الجنسية بطب قصر العيني",
+    url: 'https://www.albokl.com',
+    siteName: 'الدكتور أسامة البكل',
+    images: [
+      {
+        url: '/serp.png',
+        width: 1200,
+        height: 630,
+        alt: 'الدكتور أسامة محمد البكل',
+      },
+    ],
+    locale: 'ar_EG',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "دكتور أسامة البكل",
+    description: "موقع الدكتور أسامة البكل, مدرس وإستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب والصحة الجنسية بطب قصر العيني",
+    images: ['/serp.png'],
+  },
 };
 
 export default function RootLayout({ children }) {
