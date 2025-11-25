@@ -11,7 +11,7 @@ export const metadata = {
     description: 'نبذة مختصرة عن الدكتور أسامة البكل, مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب القصر العيني',
     type: 'website',
     locale: 'ar_EG',
-    url: 'https://albokl.com/about-doctor',
+    url: 'https://www.albokl.com/about/doctor',
     siteName: 'الدكتور أسامة البكل',
     images: [
       {
@@ -29,7 +29,7 @@ export const metadata = {
     images: ['/images/doctor-osama.webp']
   },
   alternates: {
-    canonical: 'https://albokl.com/about-doctor'
+    canonical: 'https://www.albokl.com/about/doctor'
   },
   robots: {
     index: true,
@@ -50,14 +50,14 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://albokl.com/about-doctor#person",
+      "@id": "https://www.albokl.com/about/doctor#person",
       "name": "الدكتور أسامة البكل",
       "alternateName": "Dr. Osama Al-Bokl",
       "description": "مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب القصر العيني",
-      "url": "https://albokl.com/about-doctor",
+      "url": "https://www.albokl.com/about/doctor",
       "image": {
         "@type": "ImageObject",
-        "url": "https://albokl.com/images/doctor-osama.webp",
+        "url": "https://www.albokl.com/images/doctor-osama.webp",
         "width": 400,
         "height": 400
       },
@@ -102,20 +102,20 @@ const structuredData = {
     },
     {
       "@type": "WebPage",
-      "@id": "https://albokl.com/about-doctor#webpage",
-      "url": "https://albokl.com/about-doctor",
+      "@id": "https://www.albokl.com/about/doctor#webpage",
+      "url": "https://www.albokl.com/about/doctor",
       "name": "عن الدكتور أسامة البكل",
-      "description": "نبذة مختصرة عن الدكتور أسامة البكل, مدرس وإستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب قصر العيني",
+      "description": "نبذة مختصرة عن الدكتور أسامة البكل, مدرس وإستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب القصر العيني",
       "inLanguage": "ar-EG",
       "isPartOf": {
         "@type": "WebSite",
-        "@id": "https://albokl.com#website"
+        "@id": "https://www.albokl.com#website"
       },
       "about": {
-        "@id": "https://albokl.com/about-doctor#person"
+        "@id": "https://www.albokl.com/about/doctor#person"
       },
       "mainEntity": {
-        "@id": "https://albokl.com/about-doctor#person"
+        "@id": "https://www.albokl.com/about/doctor#person"
       }
     }
   ]

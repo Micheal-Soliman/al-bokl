@@ -12,6 +12,14 @@ const redirects = {
   '/puberty': '/puberty-issues',
   '/search': '/articles',
   // Common legacy single slugs to known routes
+  '/الأمراض-الجنسية': '/sexual-health',
+  '/علاج-دوالي-الخصية': '/surgeries/varicocele',
+  '/عمليه-دوالى-الخصية': '/surgeries/varicocele',
+  '/دعامة-العضو-الذكرى': '/surgeries/penile-implants',
+  '/انعدام-الحيوانات-المنوية': '/fertility/azoospermia',
+  '/zero-sperm-count-azoospermia': '/fertility/azoospermia',
+  '/طرق-علاج-نقص-عدد-الحيوانات-المنوية': '/fertility',
+  '/varicocele-': '/surgeries/varicocele',
   '/penile-implants': '/surgeries/penile-implants',
   '/penile-curvature': '/surgeries/penile-curvature',
   '/hydrocele-men': '/surgeries/hydrocele',
@@ -59,7 +67,8 @@ export function middleware(request) {
   }
   
   // Handle legacy WordPress feeds -> return 410 Gone
-  if (/\/feed\/?$/.test(pathname)) {
+  // Match /feed, /feed/, /feed/rss2/, category/tag feeds, etc.
+  if (/(^|\/)feed(\/|$)/.test(pathname)) {
     return new NextResponse(null, { status: 410 });
   }
   

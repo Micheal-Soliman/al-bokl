@@ -12,4 +12,7 @@ export default function ErectileDysfunction() {
 export const metadata = {
   title: 'مشاكل الانتصاب - الدكتور أسامة البكل',
   description: 'علاج ضعف الانتصاب ومشاكل الأداء الجنسي بأحدث الطرق الطبية والجراحية',
+  alternates: {
+    canonical: 'https://www.albokl.com/erectile-dysfunction',
+  },
 };

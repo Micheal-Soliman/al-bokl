@@ -12,7 +12,7 @@ export async function GET() {
       priority: 1.0,
     },
     {
-      url: `${baseUrl}/about-doctor`,
+      url: `${baseUrl}/about/doctor`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
@@ -34,6 +34,18 @@ export async function GET() {
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/videos`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/erectile-dysfunction`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
     },
   ];
 
