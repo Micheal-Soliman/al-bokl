@@ -420,6 +420,9 @@
   .hero {
     min-height: 90vh;
   }
+  .backgroundElements {
+    display: none;
+  }
   
   .heroContent {
     padding: 0 1rem;

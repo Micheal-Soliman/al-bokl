@@ -88,7 +88,7 @@ export default function TreatmentServices() {
             //   href={service.link}
             //   className={styles.serviceCardLink}
             // >
-              <div className={styles.serviceCard}>
+              <div className={styles.serviceCard} key={`${index}-${service.link || service.title}`}>
                 <div className={styles.serviceIcon}>{service.icon}</div>
                 <p className={styles.serviceTitle}><strong>{service.title}</strong></p>
                 <p className={styles.serviceSubtitle}>{service.subtitle}</p>

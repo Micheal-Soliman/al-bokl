@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./Diagnosis.module.css";
+import Image from "next/image";
 
 export default function Diagnosis() {
   return (
@@ -89,7 +90,7 @@ export default function Diagnosis() {
 
           <div className={styles.imageContent}>
             <div className={styles.doctorImage}>
-              <img src="/home/3.webp" alt="د. أسامة البقل" />
+              <Image src="/home/3.webp" alt="د. أسامة البقل" width={500} height={650} loading="lazy" sizes="(max-width: 768px) 80vw, 500px" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               <div className={styles.imageOverlay}>
                 <div className={styles.overlayBanner}>
                   <div className={styles.bannerLeft}>

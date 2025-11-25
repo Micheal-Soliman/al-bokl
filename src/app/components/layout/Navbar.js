@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NAVIGATION_ITEMS, SITE_CONFIG, CLINICS } from "../utils/constants";
-import { medicalArticles } from "../../../data/articles/articlesData";
 import styles from "./Navbar.module.css";
 import { FaTiktok, FaInstagram, FaYoutube, FaFacebook, FaWhatsapp, FaSnapchat, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -19,6 +18,8 @@ export default function Navbar() {
   const [searchQuery, setSearchQuery] = useState("");
   const [isSearchModalOpen, setIsSearchModalOpen] = useState(false);
   const [searchResults, setSearchResults] = useState([]);
+  const [articleIndex, setArticleIndex] = useState(null);
+  const [loadingSearchData, setLoadingSearchData] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isClinicModalOpen, setIsClinicModalOpen] = useState(false);
   const [selectedClinic, setSelectedClinic] = useState(null);
@@ -117,8 +118,24 @@ export default function Navbar() {
     }
   };
 
-  const openSearchModal = () => {
+  const openSearchModal = async () => {
     setIsSearchModalOpen(true);
+    if (!articleIndex && !loadingSearchData) {
+      setLoadingSearchData(true);
+      try {
+        const mod = await import("../../../data/articles/articlesData");
+        const articles = (mod && mod.medicalArticles) || [];
+        const index = articles.map((article) => ({
+          title: article.title || "",
+          description: article.excerpt || article.description || "",
+          keywords: article.keywords || [],
+          link: `/articles/${article.slug}`,
+        }));
+        setArticleIndex(index);
+      } finally {
+        setLoadingSearchData(false);
+      }
+    }
   };
 
   const closeSearchModal = () => {
@@ -163,37 +180,39 @@ export default function Navbar() {
     }
   }, []);
 
-  const ARTICLE_SEARCH_ITEMS = medicalArticles.map((article) => {
-    const title = article.title || "";
-    const description = article.excerpt || article.description || "";
-    const keywords = article.keywords || [];
-    const slug = article.slug;
-
-    return {
-      title,
-      description,
-      keywords,
-      link: `/articles/${slug}`,
-    };
-  });
-
-  const handleSearch = () => {
+  const handleSearch = async () => {
     const query = searchQuery.trim();
-    if (query) {
-      const lowerQuery = query.toLowerCase();
+    if (!query) return;
+    let index = articleIndex;
+    if (!index && !loadingSearchData) {
+      setLoadingSearchData(true);
+      try {
+        const mod = await import("../../../data/articles/articlesData");
+        const articles = (mod && mod.medicalArticles) || [];
+        index = articles.map((article) => ({
+          title: article.title || "",
+          description: article.excerpt || article.description || "",
+          keywords: article.keywords || [],
+          link: `/articles/${article.slug}`,
+        }));
+        setArticleIndex(index);
+      } finally {
+        setLoadingSearchData(false);
+      }
+    }
 
-      const results = ARTICLE_SEARCH_ITEMS.filter((item) => {
-        const inTitle = item.title.toLowerCase().includes(lowerQuery);
-        const inDescription = item.description
+    if (index) {
+      const lowerQuery = query.toLowerCase();
+      const results = index.filter((item) => {
+        const inTitle = (item.title || "").toLowerCase().includes(lowerQuery);
+        const inDescription = (item.description || "")
           .toLowerCase()
           .includes(lowerQuery);
         const inKeywords = (item.keywords || []).some((kw) =>
-          kw.toLowerCase().includes(lowerQuery)
+          (kw || "").toLowerCase().includes(lowerQuery)
         );
-
         return inTitle || inDescription || inKeywords;
       });
-
       setSearchResults(results);
     }
   };
@@ -300,7 +319,7 @@ export default function Navbar() {
                       src="/logo-final-22222.webp"
                       alt="د. أسامة البكل"
                       width={140}
-                      height={60}
+                      height={38}
                       // className={styles.logoImage}
                     />
                   </div>

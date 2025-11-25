@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './ArticleSearch.module.css';
 import Link from 'next/link';
-import { medicalArticles } from '../../../data/articles/articlesData';
+let articlesCache = null;
 
 const ArticleSearch = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -14,30 +14,32 @@ const ArticleSearch = () => {
   const inputRef = useRef(null);
 
   // Search function
-  const performSearch = (term) => {
+  const performSearch = async (term) => {
     if (!term.trim()) {
       setSearchResults([]);
       return;
     }
 
     setIsLoading(true);
-    
-    // Simulate search delay for better UX
-    setTimeout(() => {
-      const results = medicalArticles.filter(article => {
+    try {
+      if (!articlesCache) {
+        const mod = await import('../../../data/articles/articlesData');
+        articlesCache = mod && mod.medicalArticles ? mod.medicalArticles : [];
+      }
+      const results = (articlesCache || []).filter(article => {
         const searchText = term.toLowerCase();
         return (
-          article.title.toLowerCase().includes(searchText) ||
-          article.excerpt.toLowerCase().includes(searchText) ||
-          article.category.toLowerCase().includes(searchText) ||
-          article.tags.some(tag => tag.toLowerCase().includes(searchText)) ||
-          article.keywords.some(keyword => keyword.toLowerCase().includes(searchText))
+          (article.title || '').toLowerCase().includes(searchText) ||
+          (article.excerpt || '').toLowerCase().includes(searchText) ||
+          (article.category || '').toLowerCase().includes(searchText) ||
+          (article.tags || []).some(tag => (tag || '').toLowerCase().includes(searchText)) ||
+          (article.keywords || []).some(keyword => (keyword || '').toLowerCase().includes(searchText))
         );
       });
-      
-      setSearchResults(results.slice(0, 8)); // Limit to 8 results
+      setSearchResults(results.slice(0, 8));
+    } finally {
       setIsLoading(false);
-    }, 300);
+    }
   };
 
   // Handle search input

@@ -69,6 +69,10 @@ const nextConfig = {
             key: 'Cross-Origin-Opener-Policy',
             value: 'same-origin-allow-popups',
           },
+          {
+            key: 'Content-Security-Policy',
+            value: "upgrade-insecure-requests; default-src 'self'; base-uri 'self'; form-action 'self' https://www.facebook.com; img-src 'self' data: blob: https:; media-src 'self' https:; font-src 'self' data: https:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net https://www.facebook.com; connect-src 'self' https:; frame-src https://www.facebook.com https://www.youtube.com",
+          },
         ],
       },
     ];

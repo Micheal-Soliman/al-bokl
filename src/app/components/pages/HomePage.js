@@ -2,12 +2,10 @@ import Hero from '../home/Hero';
 import Services from '../home/Services';
 import Diagnosis from '../home/Diagnosis';
 import BeliefSection from '../home/BeliefSection';
-import MedicalStats from '../home/MedicalStats';
-import TreatmentServices from '../home/TreatmentServices';
-import BookingContact from '../home/BookingContact';
-import MedicalArticles from '../home/MedicalArticles';
-import TreatmentOptions from '../home/TreatmentOptions';
-import Testimonials from '../home/Testimonials';
+import HomeDeferred from './HomeDeferred';
+import dynamic from 'next/dynamic';
+// Keep articles server-rendered but code-split on client
+const MedicalArticles = dynamic(() => import('../home/MedicalArticles'));
 
 export default function HomePage() {
   return (
@@ -15,9 +13,7 @@ export default function HomePage() {
       <Hero />
       <Services />
       <Diagnosis />
-      <MedicalStats />
-      <TreatmentServices />
-      <BookingContact />
+      <HomeDeferred />
       <MedicalArticles />
       {/* <TreatmentOptions />
       <Testimonials /> */}
