@@ -8,7 +8,6 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 
 const ArticleLayout = ({ article }) => {
-  console.log(`article`, article);
 
   const [showCommentForm, setShowCommentForm] = useState(false);
   const [comment, setComment] = useState({
