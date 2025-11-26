@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './ArticleSearch.module.css';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 let articlesCache = null;
 
 const ArticleSearch = () => {
@@ -12,6 +13,7 @@ const ArticleSearch = () => {
   const [isLoading, setIsLoading] = useState(false);
   const searchRef = useRef(null);
   const inputRef = useRef(null);
+  const searchParams = useSearchParams();
 
   // Search function
   const performSearch = async (term) => {
@@ -50,6 +52,17 @@ const ArticleSearch = () => {
     performSearch(value);
   };
 
+  // Prefill from URL ?search=... and auto-run search
+  useEffect(() => {
+    const initial = (searchParams?.get('search') || '').trim();
+    if (initial) {
+      setSearchTerm(initial);
+      setIsOpen(true);
+      performSearch(initial);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
+
   // Handle click outside to close
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -71,16 +84,16 @@ const ArticleSearch = () => {
   };
 
   const highlightText = (text, highlight) => {
-    if (!highlight.trim()) return text;
-    
-    const regex = new RegExp(`(${highlight})`, 'gi');
-    const parts = text.split(regex);
-    
-    return parts.map((part, index) => 
-      regex.test(part) ? (
+    const term = (highlight || '').trim();
+    if (!term) return text;
+    const escaped = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(${escaped})`, 'gi');
+    const parts = String(text || '').split(regex);
+    return parts.map((part, index) => (
+      index % 2 === 1 ? (
         <mark key={index} className={styles.highlight}>{part}</mark>
       ) : part
-    );
+    ));
   };
 
   return (
@@ -121,21 +134,23 @@ const ArticleSearch = () => {
               <div className={styles.resultsList}>
                 {searchResults.map((article) => (
                   <Link
-                    key={article.id}
+                    key={article.id || article.slug}
                     href={`/articles/${article.slug}`}
                     className={styles.resultItem}
                     onClick={() => setIsOpen(false)}
                   >
                     <div className={styles.resultContent}>
                       <h4 className={styles.resultTitle}>
-                        {highlightText(article.title, searchTerm)}
+                        {highlightText(article.title || '', searchTerm)}
                       </h4>
                       <p className={styles.resultExcerpt}>
-                        {highlightText(article.excerpt.substring(0, 120) + '...', searchTerm)}
+                        {highlightText(((article.excerpt || article.description || '')).substring(0, 120) + '...', searchTerm)}
                       </p>
                       <div className={styles.resultMeta}>
-                        <span className={styles.resultCategory}>{article.category}</span>
-                        <span className={styles.resultReadTime}>{article.readTime} دقائق</span>
+                        <span className={styles.resultCategory}>{article.category || ''}</span>
+                        {article.readTime && (
+                          <span className={styles.resultReadTime}>{article.readTime} دقائق</span>
+                        )}
                       </div>
                     </div>
                   </Link>

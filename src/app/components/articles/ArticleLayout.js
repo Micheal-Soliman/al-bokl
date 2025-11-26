@@ -5,6 +5,7 @@ import styles from "./ArticleLayout.module.css";
 import Link from "next/link";
 import { SITE_CONFIG } from "../utils/constants";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const ArticleLayout = ({ article }) => {
   console.log(`article`, article);
@@ -16,6 +17,8 @@ const ArticleLayout = ({ article }) => {
     website: "",
     message: "",
   });
+  const [searchTerm, setSearchTerm] = useState("");
+  const router = useRouter();
 
   const handleCommentSubmit = (e) => {
     e.preventDefault();
@@ -31,6 +34,12 @@ const ArticleLayout = ({ article }) => {
       ...prev,
       [name]: value,
     }));
+  };
+
+  const handleArticleSearch = () => {
+    const term = (searchTerm || "").trim();
+    if (!term) return;
+    router.push(`/articles?search=${encodeURIComponent(term)}`);
   };
 
   return (
@@ -66,8 +75,18 @@ const ArticleLayout = ({ article }) => {
                   type="text"
                   placeholder="ابحث في المقالات..."
                   className={styles.searchInput}
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  onKeyDown={(e) => e.key === "Enter" && handleArticleSearch()}
                 />
-                <button className={styles.searchBtn}>🔍</button>
+                <button
+                  className={styles.searchBtn}
+                  type="button"
+                  onClick={handleArticleSearch}
+                  aria-label="بحث"
+                >
+                  🔍
+                </button>
               </div>
             </div>
 
