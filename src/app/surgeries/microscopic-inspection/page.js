@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import MainLayout from '../../components/layout/MainLayout';
 import SurgeryImageCard from '../../components/ui/SurgeryImageCard';
 import VideoSection from '../../components/ui/VideoSection';

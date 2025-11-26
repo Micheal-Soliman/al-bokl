@@ -1,4 +1,3 @@
-import { Metadata } from 'next';
 import MainLayout from '../components/layout/MainLayout';
 import AboutDoctorPage from '../components/pages/AboutDoctorPage';
 

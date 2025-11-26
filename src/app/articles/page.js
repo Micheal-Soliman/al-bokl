@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import MainLayout from '../components/layout/MainLayout';
 import ArticlesPage from '../components/pages/ArticlesPage';
 import Breadcrumb from '../components/seo/Breadcrumb';
@@ -28,12 +29,13 @@ export default function Articles() {
           __html: JSON.stringify(articlesStructuredData)
         }}
       />
-      
       <div style={{ padding: '0 2rem' }}>
         {/* Breadcrumb Navigation */}
         <Breadcrumb items={breadcrumbItems} />
         
-        <ArticlesPage />
+        <Suspense fallback={null}>
+          <ArticlesPage />
+        </Suspense>
       </div>
     </MainLayout>
   );

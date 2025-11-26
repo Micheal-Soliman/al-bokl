@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, Suspense } from "react";
 import styles from "./ArticlesPage.module.css";
 import Link from "next/link";
 import {
@@ -159,7 +159,9 @@ const ArticlesPage = () => {
       {/* Search and Categories */}
       <section className={styles.searchSection}>
         <div className={styles.container}>
-          <ArticleSearch />
+          <Suspense fallback={null}>
+            <ArticleSearch />
+          </Suspense>
         </div>
       </section>
 

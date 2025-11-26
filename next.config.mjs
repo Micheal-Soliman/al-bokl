@@ -19,8 +19,6 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['lucide-react', 'react-icons'],
   },
-  // Optimize font loading
-  optimizeFonts: true,
   // Headers for caching and security
   async headers() {
     return [
