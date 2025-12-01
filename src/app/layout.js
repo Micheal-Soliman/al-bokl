@@ -18,7 +18,9 @@ export const metadata = {
   description: "موقع الدكتور أسامة البكل, مدرس وإستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب والصحة الجنسية بطب قصر العيني",
   icons: {
     icon: '/favico.png',
-    apple: '/favico.png',
+    apple: [
+      { url: '/apple.png', sizes: '180x180' }
+    ],
   },
   verification: {
     google: 'ZsLHn2oROl-NJ6fle80I8hTW92q9KqcycP8hjz6MDKE',

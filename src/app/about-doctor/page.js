@@ -14,7 +14,7 @@ export const metadata = {
     siteName: 'الدكتور أسامة البكل',
     images: [
       {
-        url: '/images/doctor-osama.webp',
+        url: '/serp.png',
         width: 1200,
         height: 630,
         alt: 'الدكتور أسامة البكل'
@@ -25,7 +25,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'عن الدكتور أسامة البكل - مدرس واستشاري طب وجراحة أمراض الذكورة',
     description: 'نبذة مختصرة عن الدكتور أسامة البكل,مدرس واستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب بطب القصر العيني',
-    images: ['/images/doctor-osama.webp']
+    images: ['/serp.png']
   },
   alternates: {
     canonical: 'https://www.albokl.com/about/doctor'

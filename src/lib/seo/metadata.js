@@ -9,6 +9,7 @@ export const generatePageMetadata = ({
 }) => {
   const baseUrl = 'https://www.albokl.com';
   const fullTitle = title ? `${title} - الدكتور أسامة البكل` : 'الدكتور أسامة البكل - إستشاري طب وجراحة أمراض الذكورة';
+  const ogImage = '/serp.png';
   
   return {
     title: fullTitle,
@@ -21,7 +22,7 @@ export const generatePageMetadata = ({
       siteName: 'الدكتور أسامة البكل',
       images: [
         {
-          url: `${baseUrl}${image}`,
+          url: `${baseUrl}${ogImage}`,
           width: 1200,
           height: 630,
           alt: title || 'الدكتور أسامة محمد البكل',
@@ -34,7 +35,7 @@ export const generatePageMetadata = ({
       card: 'summary_large_image',
       title: fullTitle,
       description,
-      images: [`${baseUrl}${image}`],
+      images: [`${baseUrl}${ogImage}`],
     },
     alternates: {
       canonical: `${baseUrl}${path}`,

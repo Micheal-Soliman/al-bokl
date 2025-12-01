@@ -15,7 +15,7 @@ export const generateSEOMetadata = (options) => {
       siteName: 'د. أسامة البكل - استشاري أمراض الذكورة',
       images: [
         {
-          url: options.image || `${baseUrl}/serp.png`,
+          url: `${baseUrl}/serp.png`,
           width: 1200,
           height: 630,
           alt: options.title,
@@ -33,7 +33,7 @@ export const generateSEOMetadata = (options) => {
       card: 'summary_large_image',
       title: options.title,
       description: options.description,
-      images: [options.image || `${baseUrl}/serp.png`],
+      images: [`${baseUrl}/serp.png`],
       creator: '@dr_osama_albokl',
       site: '@dr_osama_albokl',
     },
@@ -96,7 +96,7 @@ export const generateArticleMetadata = (article) => {
       siteName: 'د. أسامة البكل - استشاري أمراض الذكورة',
       images: [
         {
-          url: article.featuredImage || `${baseUrl}/serp.png`,
+          url: `${baseUrl}/serp.png`,
           width: 1200,
           height: 630,
           alt: article.title,
@@ -116,7 +116,7 @@ export const generateArticleMetadata = (article) => {
       card: 'summary_large_image',
       title: article.title,
       description: article.excerpt || article.description,
-      images: [article.featuredImage || `${baseUrl}/serp.png`],
+      images: [`${baseUrl}/serp.png`],
       creator: '@dr_osama_albokl',
       site: '@dr_osama_albokl',
     },
