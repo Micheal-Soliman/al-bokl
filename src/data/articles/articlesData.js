@@ -32827,7 +32827,7 @@ export const medicalArticles = [
     id: 225,
     slug: "andrologist-doctor-male-specialist",
     title: "دكتور ذكورة: من هو 'دكتور جنسية'؟ وما هي أحدث طرق تشخيص وعلاج أمراض الذكورة",
-    img: "/doctor-andrology-specialist.webp",
+    img: "/serp.png",
     excerpt:
       "دكتور ذكورة (Andrologist): من هو دكتور جنسية؟ ومتى تحتاج لطبيب ذكورة متخصص؟",
     description:
@@ -32994,7 +32994,7 @@ export const medicalArticles = [
     id: 226,
     slug: "complete-premature-ejaculation-treatment-guide",
     title: "وداعًا لسرعة القذف: الدليل الطبي الشامل لعلاج سرعة القذف نهائيًا",
-    img: "/premature-ejaculation-treatment-guide.webp",
+    img: "/sperm-2.webp",
     excerpt:
       "تُعد سرعة القذف من أكثر المشكلات الجنسية شيوعًا بين الرجال في مصر والشرق الأوسط، وهي ليست مجرد عرض عابر، بل قد تكون علامة على اضطراب عضوي أو نفسي يحتاج إلى تشخيص دقيق لدى دكتور ذكورة متخصص.",
     description:
