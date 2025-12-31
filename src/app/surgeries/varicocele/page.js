@@ -31,34 +31,31 @@ export const metadata = generatePageMetadata({
 
 const faqData = [
   {
-    question: "ازاى بتحصل دوالى الخصية؟",
+    question: "هل دوالي الخصية تسبب ضعف الانتصاب؟",
     answer:
-      "دوالى الخصية بتحصل بسبب ضعف فى جدار الوريد اللى بيكون مسؤل عن انه يخرج بقايا الدم من الخصية، و بسبب الضعف ده الدم مبيخرجش و بيفضل متجمع فى الوريد اللى بيفضل يتمدد عشان يستوعب كل الدم اللى بيترسب فيه.",
+      "لا تسبب دوالي الخصية ضعف الانتصاب بشكل مباش، ولكن الألم المزمن، والحالة النفسية قد تؤثر على القدرة الجنسية.",
   },
   {
-    question: "ايه هى اعراض دوالي الخصية؟",
-    answer:
-      "الأعراض تشمل: الاحساس بتقل في الخصية، ألم فى الخصية عند الجلوس و بذل اى مجهود، تأخر فى الانجاب، تضخم في أوردة الخصية، تورم فى كيس الصفن، وانكماش أو ضمور فى الخصية.",
+    question: "هل عملية الدوالي مؤلمة؟",
+    answer: "ألم بسيط يُسيطر عليه بالمسكنات.",
   },
   {
-    question: "امتى دوالى الخصية تكون محتاجة لعلاج؟",
-    answer:
-      "لو بنحس بوجع مستمر، لو دوالى الخصية هى السبب فى تأخر الانجاب، أو لو فى انعدام في الحيونات المنويه و كان فى دوالى بدرجة كبيرة.",
+    question: "هل يمكن أن تعود الدوالي؟",
+    answer: "نادرًا (1–3%) مع الجراحة الميكروسكوبية.",
   },
   {
-    question: "ليه الجراحة الميكروسكوبية هي الأفضل؟",
+    question: "هل يمكن الحمل بدون علاج الدوالي؟",
     answer:
-      "لأن الميكروسكوب الجراحي بيساعد في تكبير مكان العملية وتحديد الشرايين والأوردة بشكل واضح، وبيمكن الجراح من الوصول للأوردة الدقيقة وربطها، وتجنب ربط الشريان الخصوي والأوعية الليمفاوية.",
+      "قد يحدث حمل مع وجود دوالي في نسبة من الحالات، لكن نقرر الجراحة إذا كان هناك: تأخر إنجاب، ضعف واضح في تحليل السائل المنوي، ارتفاع تكسير المادة الوراثية، صغر حجم الخصية أو تراجعها، دوالي درجة 2 أو 3 مؤثرة، ألم مزمن، أو انعدام الحيوانات المنوية مع دوالي كبيرة بعد تقييم الهرمونات وحجم الخصية.",
   },
   {
-    question: "كم تستغرق العملية ومتى يمكن العودة للعمل؟",
-    answer:
-      "العملية مش بتاخد أكتر من ساعة، والمريض بيقدر يروح البيت في نفس اليوم، ويرجع للشغل بعد 3-5 أيام، ويمارس العلاقة الزوجية بعد أسبوع من وقت العملية.",
+    question: "هل تؤثر على هرمون الذكورة؟",
+    answer: "نادرا وفي حالات متأخرة فقط.",
   },
   {
-    question: "ازاي دوالي الخصية بتأثر على الإنجاب؟",
+    question: "هل الدوالي هي السبب الوحيد لتأخر الإنجاب؟",
     answer:
-      "دوالي الخصية بترفع درجة حرارة الخصية وبتنتج مواد مؤكسدة بتضر بالهرمونات المسؤولة عن إنتاج الحيوانات المنوية، وبتأثر على جودة الحيوانات المنوية من حيث العدد والحركة والتشوهات.",
+      "لا، توجد أسباب أخرى مثل انعدام الحيوانات المنوية، انسداد القنوات المنوية، اختلالات الهرمونات، التهابات مزمنة، وأسباب وراثية. لذلك يلزم فحص الرجل كاملًا وتقييم السبب بدقة.",
   },
 ];
 
@@ -120,6 +117,7 @@ export default function VaricocelePage() {
           {/* Main Content */}
           <div className={styles.content}>
             <div className={styles.contentWrapper}>
+
               {/* Introduction to Varicocele */}
               <div className={styles.section}>
                 {/* <h1 className={styles.mainTitle}>دوالي الخصية :</h1>
@@ -130,344 +128,336 @@ export default function VaricocelePage() {
                   title="دوالي الخصية وتأثيرها على الإنجاب"
                   description="فهم آلية حدوث دوالي الخصية وتأثيرها على الحيوانات المنوية والخصوبة"
                 /> */}
-                <h1 className={styles.mainTitle}>دوالي الخصية :</h1>
+                <h1 className={styles.mainTitle}>دوالي الخصية Varicocele</h1>
+                <p className={styles.introText}>المقال يشمل شرح طبي متكامل لعلاج الدوالي وتحسين الخصوبة</p>
                 <p className={styles.introText}>
-                  الخصية هى مصنع الخصوبة و الصفات الذكورية ، و ده لانها المسؤولة
-                  عن تصنيع الحيوانات المنوية ، و انتاج هرمون الذكورة ، عشان كده
-                  اى مشكلة فيها بتسبب قلق كبير جدا ، لانها بتأثر على القدره
-                  الجنسية و الانجابيه .
+                  دوالي الخصية من أكثر المشكلات شيوعًا عند الرجال، وتُعد من أهم الأسباب القابلة للعلاج لتحسين الخصوبة وجودة السائل المنوي. تأثيرها لا يقتصر فقط على ألم أو ثقل… بل تمتد لتؤثر على:
                 </p>
+                <ul>
+                  <li>عدد الحيوانات المنوية</li>
+                  <li>الحركة</li>
+                  <li>نسبة التشوهات</li>
+                  <li>تكسير المادة الوراثية (DFI) DNA Fragmentation</li>
+                  <li>فرص الحمل الطبيعي والحقن المجهري</li>
+                </ul>
+                <p className={styles.introText}>في هذا الدليل الشامل نقدم كل ما تحتاج معرفته عن: دوالي الخصية</p>
+                <ul>
+                  <li>ما هي دوالي الخصية؟</li>
+                  <li>أسبابها وأعراضها ودرجاتها</li>
+                  <li>تأثيرها على الخصوبة</li>
+                  <li>تأثيرها على تكسير المادة الوراثية للحيوان المنوي</li>
+                  <li>متى تحتاج لعملية دوالي؟</li>
+                  <li>مقارنة طرق العلاج</li>
+                  <li>لماذا الجراحة الميكروسكوبية هي الأفضل عالميًا؟ <em>Gold Standard</em></li>
+                  <li>التحسن ونسب النجاح</li>
+                  <li>المضاعفات وكيف نتجنبها</li>
+                  <li>نصائح قبل وبعد الجراحة</li>
+                  <li>الأسئلة الشائعة</li>
+                  <li>لماذا تختار د. أسامة البكل؟</li>
+                </ul>
               </div>
 
               {/* How Varicocele Occurs */}
               <div className={styles.section}>
-                <h2 className={styles.sectionTitle}>
-                  ازاى بتحصل دوالى الخصية :
-                </h2>
-                <p className={styles.explanationText}>
-                  دوالى الخصية بتحصل بسبب ضعف فى جدار الوريد اللى بيكون مسؤل عن
-                  انه يخرج بقايا الدم من الخصية بعد ما تكون استفادت منها للدورة
-                  الدموية ، و بسبب الضعف ده الدم مبيخرجش و بيفضل متجمع فى الوريد
-                  اللى بيفضل يتمدد عشان يستوعب كل الدم اللى بيترسب فيه ، و هو ده
-                  اللى بيسبب دوالي الخصية و كمان ترسب الدم بيضر بالحيوانات
-                  المنويه لانه بيكون مليان بمواد مؤكسده .
-                </p>
+                <h2 className={styles.sectionTitle}>ما هي دوالي الخصية؟ (Varicocele)</h2>
+                <p className={styles.explanationText}>دوالي الخصية هي توسع غير طبيعي في الأوردة المحيطة بالخصية داخل الحبل المنوي.</p>
+                <p>هذا التوسع يؤدي إلى:</p>
+                <ul>
+                  <li>تجمع الدم داخل الأوردة</li>
+                  <li>ارتفاع حرارة الخصية</li>
+                  <li>زيادة المواد المؤكسدة (ROS)</li>
+                  <li>ضعف إنتاج الحيوانات المنوية</li>
+                  <li>انخفاض هرمون الذكورة بمرور الوقت و ده فقط في الحالات المتأخرة جدا.</li>
+                </ul>
+                <p>الخصية هي "مصنع الخصوبة والرجولة"، وأي اضطراب في الدورة الدموية داخلها يؤثر على القدرة الإنجابية.</p>
               </div>
 
               {/* Causes of Varicocele */}
               <div className={styles.section}>
-                <h2 className={styles.sectionTitle}>
-                  تعالوا بقى دلوقتى نعرف اى هى اسباب الاصابه بدوالي الخصيه :
-                </h2>
-                <div className={styles.causesList}>
-                  <div className={styles.causeItem}>
-                    <span className={styles.causeNumber}>1</span>
-                    <p>
-                      عوامل وراثية ، بمعنى وجود تاريخ مرضى فى الإصابة بدوالي
-                      الخصية .
-                    </p>
-                  </div>
-                  <div className={styles.causeItem}>
-                    <span className={styles.causeNumber}>2</span>
-                    <p>لو حصل تورم الغدد الليمفاوية .</p>
-                  </div>
-                  <div className={styles.causeItem}>
-                    <span className={styles.causeNumber}>3</span>
-                    <p>التعرض المستمر للإثارة الجنسية بدون ممارسة .</p>
-                  </div>
-                  <div className={styles.causeItem}>
-                    <span className={styles.causeNumber}>4</span>
-                    <p>الاصابة بجلطات الاوردة .</p>
-                  </div>
-                  <div className={styles.causeItem}>
-                    <span className={styles.causeNumber}>5</span>
-                    <p>لو عندنا خلل في الأوردة الدموية المغذية .</p>
-                  </div>
-                </div>
+                <h2 className={styles.sectionTitle}>أسباب دوالي الخصية</h2>
+                <p>تشمل أهم الأسباب:</p>
+                <ul>
+                  <li>عوامل وراثية وضعف في الانسجة الضامة المحيطة للحبل المنوي</li>
+                  <li>ضعف/فشل الصمامات داخل الأوردة</li>
+                  <li>التعرض المستمر لحرارة عالية</li>
+                  <li>الوقوف لفترات طويلة</li>
+                  <li>اضطرابات الغدد الليمفاوية</li>
+                  <li>الإثارة الجنسية المتكررة بدون تفريغ</li>
+                  <li>وفي حالات نادرة اورام البطن وارتفاع الضغط داخل البطن أو الحوض</li>
+                </ul>
+                <p>هذه العوامل تسبب ركود الدم في الأوردة وتمدّدها، فيظهر ما نسميه دوالي الخصية.</p>
               </div>
 
               {/* Symptoms Section */}
               <div className={styles.section}>
-                <h2 className={styles.sectionTitle}>
-                  طيب ازاى اقدر اعرف ان انا عندى دوالي فى الخصية :
-                </h2>
-                <div className={styles.symptomsList}>
-                  <div className={styles.symptomItem}>
-                    <span className={styles.symptomBullet}>•</span>
-                    <p>الاحساس بتقل في الخصية</p>
-                  </div>
-                  <div className={styles.symptomItem}>
-                    <span className={styles.symptomBullet}>•</span>
-                    <p>
-                      لو حسيت بألم فى الخصية عند الجلوس و بذل اى مجهود ، والالم
-                      ده بيختفى بمجرد الاستلقاء و الراحة .
-                    </p>
-                  </div>
-                  <div className={styles.symptomItem}>
-                    <span className={styles.symptomBullet}>•</span>
-                    <p>
-                      لو فى تأخر فى الانجاب لان دوالي الخصية بتأثر على الخصوبة و
-                      على الحيوانات المنوية .
-                    </p>
-                  </div>
-                  <div className={styles.symptomItem}>
-                    <span className={styles.symptomBullet}>•</span>
-                    <p>تضخم في أوردة الخصية .</p>
-                  </div>
-                  <div className={styles.symptomItem}>
-                    <span className={styles.symptomBullet}>•</span>
-                    <p>
-                      لو حسيت بتورم فى كيس الصفن و ده ممكن نلاحظه بمجرد النظر أو
-                      عن طريق لمس كيس الصفن .
-                    </p>
-                  </div>
-                  <div className={styles.symptomItem}>
-                    <span className={styles.symptomBullet}>•</span>
-                    <p>
-                      و اخيرا من اضرار دوالى الخصية انكماش أو ضمور فى الخصية .
-                    </p>
-                  </div>
-                  <div className={styles.symptomItem}>
-                    <span className={styles.symptomBullet}>•</span>
-                    <p>نقص فى نسبة هرمون الذكورة .</p>
-                  </div>
-                </div>
+                <h2 className={styles.sectionTitle}>أعراض دوالي الخصية</h2>
+                <p>قد تظهر الأعراض بشكل تدريجي وتختلف من حالة لحالة وتشمل:</p>
+                <ul>
+                  <li>شعور بثقل في الخصية</li>
+                  <li>ألم يزيد مع الوقوف والمجهود ويختفي مع الراحة</li>
+                  <li>تورم أو بروز أوردة متعرجة في كيس الصفن</li>
+                  <li>إحساس بحرارة أو انزعاج</li>
+                  <li>صغر أو ضمور الخصية في الحالات المتقدمة</li>
+                </ul>
+                <p>و من أهم و أخطر أعراض دوالي الخصية في حالات كتير تأثّرها المباشر على السائل المنوي، حيث تؤدي إلى:</p>
+                <ul>
+                  <li>نقص العدد (Concentration)</li>
+                  <li>ضعف الحركة (Motility)</li>
+                  <li>زيادة الأشكال غير الطبيعية و التشوهات (Morphology)</li>
+                  <li>ارتفاع معدل تكسّر الحمض النووي للحيوانات المنوية (DNA Fragmentation index, DFI)</li>
+                </ul>
+              <div className={styles.section}>
+                <p>وهذا بدوره يجعلها من أهم أسباب تأخر الحمل وضعف الخصوبة عند الرجال.</p>
+              </div>
+
+              {/* Grades of Varicocele */}
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>درجات دوالي الخصية</h2>
+                <ul>
+                  <li><strong>Grade 1:</strong> لا تُرى بالعين وتُكتشف بالفحص الإكلينيكي او سونار الخصية (دوبلر الخصية) فقط</li>
+                  <li><strong>Grade 2:</strong> تُلمَس بسهولة عند الفحص، لكنها لا تكون واضحة جدًا بالنظر</li>
+                  <li><strong>Grade 3:</strong> تكون الأوردة متضخمة وواضحة بالعين المجردة، وتشبه "كيس الديدان"</li>
+                </ul>
+                <p>لمعرفة المزيد عن درجات دوالي الخصية وطرق علاج كل درجة يمكنك قراءة:</p>
+                <p>
+                  <a href="https://www.albokl.com/articles/what-are-the-degrees-of-varicocele-and-how-do-we-treat-it" target="_blank" rel="noopener noreferrer">ما هي درجات دوالي الخصية وازاى نعالجها؟</a>
+                </p>
+                <p><strong>المهم أن حجم أو درجة الدوالي لا يكفي وحده لتقييم مدى خطورتها؛ فالعبرة الأساسية تكون بالأعراض وتأثيرها...</strong></p>
+                <ul>
+                  <li>هل مؤثرة على تحليل السائل المنوي؟</li>
+                  <li>هل تسبب زيادة في تكسير المادة الوراثية (DNA Fragmentation)؟</li>
+                  <li>هل أدّت إلى صغر أو ضمور في حجم الخصية؟</li>
+                </ul>
+                <p>وهذا بدوره يحدد ما إذا كانت دوالي الخصية سببًا في:</p>
+                <ul>
+                  <li>تأخر الإنجاب عند الرجل</li>
+                  <li>الإجهاض المتكرر</li>
+                  <li>فشل محاولات الحقن المجهري (ICSI) والاخصاب المساعد</li>
+                </ul>
               </div>
 
               {/* When Treatment is Needed */}
               <div className={styles.section}>
-                <h2 className={styles.sectionTitle}>
-                  امتى دوالى الخصية تكون محتاجة لعلاج :
-                </h2>
-                <div className={styles.treatmentList}>
-                  <div className={styles.treatmentItem}>
-                    <span className={styles.treatmentNumber}>1</span>
-                    <p>
-                      لو بنحس بوجع مستمر ، وبيزيد مع الوقفة و بيقل مع الراحة .
-                    </p>
-                  </div>
-                  <div className={styles.treatmentItem}>
-                    <span className={styles.treatmentNumber}>2</span>
-                    <p>
-                      لو دوالى الخصية هى السبب فى تأخر الانجاب ، لان فى بعض
-                      الحالات دوالي الخصية مش بتأثر على الانجاب و خصوصاّ لو كانت
-                      الدوالى من الدرجة الاولى .
-                    </p>
-                  </div>
-                  <div className={styles.treatmentItem}>
-                    <span className={styles.treatmentNumber}>3</span>
-                    <p>
-                      لو فى انعدام في الحيونات المنويه ، و كان فى دوالى بدرجة
-                      كبيرة هنا لازم نعالج دوالى الخصية و بعد العلاج 40 % من
-                      المرضى بيقدروا يطلعوا حيوانات منوية وقت القذف ، بس لازم
-                      نتأكد من ان هرمونFSH و هرمون LH نسبتهم طبيعيه و ان
-                      الخصيتين فى حجمهم الطبيعى .
-                    </p>
-                  </div>
-                </div>
+                <h2 className={styles.sectionTitle}>متى نحتاج إلى عملية دوالي الخصية؟</h2>
+                <p>لا ننصح بإجراء عملية دوالي الخصية لمجرد وجود دوالي في السونار فقط، بل نقرر التدخل الجراحي فقط في حالة:</p>
+                <ul>
+                  <li>تأخر إنجاب مع وجود دوالي</li>
+                  <li>ضعف واضح في تحليل السائل المنوي</li>
+                  <li>ارتفاع تكسير المادة الوراثية Sperm DNA Fragmentation</li>
+                  <li>صغر حجم الخصية أو تراجعها</li>
+                  <li>وجود دوالي درجة 2 أو 3 مؤثرة على الخصوبة</li>
+                  <li>ألم مزمن يزيد مع الوقوف ويؤثر على الحياة اليومية</li>
+                  <li>انعدام الحيوانات المنوية مع وجود دوالي كبيرة (بعد تقييم الهرمونات وحجم الخصية)</li>
+                </ul>
+                <p>
+                  للمزيد حول علاقة العملية بعلاج العقم عند الرجال يمكنك مراجعة:
+                  <a href="https://www.albokl.com/articles/does-varicocele-surgery-treat-male-infertility" target="_blank" rel="noopener noreferrer"> هل عملية دوالي الخصية بتعالج العقم عند الرجال؟</a>
+                </p>
+              </div>
+
+              {/* Non-surgical treatment? */}
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>هل يوجد علاج لدوالي الخصية بدون جراحة؟</h2>
+                <p>لا يوجد علاج دوائي أو أعشاب أو مكملات يمكنها علاج دوالي الخصية. قد تساعد الأدوية، المكملات، والغذاء الصحي في تحسين بعض المؤشرات، لكنها لا تغلق الأوردة المتوسعة ولا تعالج السبب الأساسي للمشكلة. الكريمات والمراهم أو الأعشاب لا تعالج الدوالي.</p>
+                <p>إذا كانت الدوالي مؤثرة على الخصوبة أو السائل المنوي، يكون الحل هو العلاج الجراحي، وأدق طريقة هي الجراحة الميكروسكوبية.</p>
+                <p>للمزيد: <a href="https://www.albokl.com/articles/can-varicocele-be-treated-without-surgery" target="_blank" rel="noopener noreferrer">هل يمكن علاج دوالي الخصية بدون جراحة؟</a></p>
               </div>
 
               {/* How Varicocele Affects Fertility */}
               <div className={styles.section}>
-                <h2 className={styles.sectionTitle}>
-                  طب ازاي دوالي الخصية بتكون هي السبب في تاخر الانجاب :
-                </h2>
-                <p className={styles.fertilityIntro}>
-                  في البداية لازم تكون عارف ان الخصية هي المصنع اللي بينتج
-                  الحيوانات المنوية ، وبتنتج حوالي 150 إلى 300 مليون حيوان منوي
-                  ، و علشان الخصية تقدر تنتج حيوان منوي سليم يقدر يخصب البويضة
-                  ويكون جنين ، لازم درجة حرارتها تكون أقل من درجة حرارة الجسم
-                  بحوالي درجتين ، عشان كده ربنا خلق الخصية برا الجسم جوا كيس
-                  الصفن علشان يحميها من درجة الحرارة العالية وكمان عشان الدم
-                  اللي يوصلها يكون دم بارد علشان تقدر تنتج حيوانات منوية .
+                <h2 className={styles.sectionTitle}>تأثير دوالي الخصية على الخصوبة وتحليل السائل المنوي</h2>
+                <p>دوالي الخصية تُعد من اهم الأسباب القابلة للعلاج لتحسين الخصوبة وزيادة فرص حدوث الحمل..</p>
+                <p>تؤثر على:</p>
+                <ul>
+                  <li>عدد الحيوانات المنوية</li>
+                  <li>الحركة</li>
+                  <li>التشوهات</li>
+                  <li>الحيوية</li>
+                  <li>ارتفاع تكسير المادة الوراثية Sperm DNA Fragmentation</li>
+                </ul>
+                <p>
+                  قبل عمل أي تحاليل للسائل المنوي ننصح بقراءة:
+                  <a href="https://www.albokl.com/articles/semen-analysis-conditions" target="_blank" rel="noopener noreferrer"> ما هي شروط إجراء تحليل السائل المنوي للرجال؟</a>
                 </p>
-                <p className={styles.fertilityHighlight}>
-                  ولكن مع وجود دوالي الخصية، وخصوصاً لو كانت الدوالي من الدرجة
-                  الثانية أو الثالثة ، فالدوالي هتسبب :
+                <p>
+                  وإذا كان لديك ضعف في الحركة يمكنك مراجعة:
+                  <a href="https://www.albokl.com/articles/treatment-weak-sperm-motility" target="_blank" rel="noopener noreferrer"> طرق علاج ضعف حركة الحيوان المنوى</a>
                 </p>
-                <div className={styles.fertilityEffectsList}>
-                  <div className={styles.fertilityEffect}>
-                    <span className={styles.effectBullet}>•</span>
-                    <p>
-                      ضعف في الأوردة اللي بتخرج الدم من الخصية ، وده طبعا هيتسبب
-                      في أن الدم يتراكم في الأوردة ، و ده بيرفع درجة حرارة
-                      الخصية.
-                    </p>
-                  </div>
-                  <div className={styles.fertilityEffect}>
-                    <span className={styles.effectBullet}>•</span>
-                    <p>
-                      وبسبب ارتفاع الحرارة وتراكم الدم هيتم إنتاج مواد مؤكسد
-                      (ROS) ، و اللى بتضر بالهرمونات المسؤولة عن إنتاج الحيوانات
-                      المنوية، ده غير تأثيرها على جودة الحيوانات المنوية نفسها
-                      من حيث العدد و الحركة و التشوهات و كمان بتزود تكسير المادة
-                      الوراثية.
-                    </p>
-                  </div>
-                  <div className={styles.fertilityEffect}>
-                    <span className={styles.effectBullet}>•</span>
-                    <p>
-                      و دوالي الخصية كمان هتأثر على خلايا ليدج المسؤولة عن إنتاج
-                      هرمون التستوستيرون، وده هيتسبب فى ان مستوياته تقل في
-                      الخصية و في الجسم و ده بيأثر على إنتاج الحيوان المنوي و
-                      جودتها و كمان ممكن يسبب ضعف في حركة الحيوانات المنوية، و
-                      نقص في عددها ، وزيادة في نسبة التشوهات.
-                    </p>
-                  </div>
-                </div>
-                <p className={styles.fertilityConclusion}>
-                  وكل ده هيكون سبب تاخر الانجاب ، لان مفيش حيوان منوي سليم قادر
-                  انه يخصب البويضة.
+                <p>
+                  وهذا المقال يجيب على سؤال مهم:
+                  <a href="https://www.albokl.com/articles/can-pregnancy-occur-with-poor-sperm-motility" target="_blank" rel="noopener noreferrer"> هل يحدث حمل مع ضعف حركة الحيوان المنوي؟</a>
                 </p>
               </div>
 
-              {/* Treatment Options */}
+              {/* DNA Fragmentation Impact */}
               <div className={styles.section}>
-                <h2 className={styles.sectionTitle}>
-                  و دلوقتى جه الوقت عشان نعرف ازاى بنعالج دوالى الخصية ،
-                </h2>
-                <p className={styles.treatmentIntro}>
-                  الجراحة الميكروسكوبية هي المعيار الذهبي، وقد تُستخدم المناظير
-                  أو الأشعة التداخلية في ظروف محددة.
+                <h2 className={styles.sectionTitle}>تأثير دوالي الخصية على تكسير المادة الوراثية للحيوان المنوي</h2>
+                <p>إحدى أخطر التأثيرات غير المرئية لدوالي الخصية هي ارتفاع نسبة تكسير الحمض النووي داخل الحيوانات المنوية (Sperm DNA Fragmentation).</p>
+                <p><strong>مهم معرفة ان حتى مع تحليل سائل منوي يبدو مقبول من حيث العدد و الحركة و التشوهات ارتفاع تكسير المادة الوراثية قد يؤدي إلى:</strong></p>
+                <ul>
+                  <li>تأخر الانجاب الطبيعي</li>
+                  <li>فشل الحقن المجهري</li>
+                  <li>ضعف قدرة الحيوان المنوي على تلقيح البويضات</li>
+                  <li>زيادة الإجهاض المبكر</li>
+                </ul>
+                <p>علاج دوالي الخصية بالجراحة الميكروسكوبية يساعد في خفض نسبة الـ DNA Fragmentation بشكل واضح، مما يزيد فرص حدوث حمل طبيعي أو نجاح الحقن المجهري.</p>
+              </div>
+
+              {/* Comparison intro */}
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>مقارنة بين طرق علاج دوالي الخصية</h2>
+                <p>هناك عدة طرق لعلاج دوالي الخصية...</p>
+                <h3><strong>1) الجراحة التقليدية</strong></h3>
+                <ul>
+                  <li>جرح أكبر</li>
+                  <li>رؤية ضعيفة</li>
+                  <li>نسبة ارتجاع أعلى</li>
+                  <li>مضاعفات اكثر مثل إصابة الشريان الرئيسي وضمور الخصية او حدوث قيلة مائية</li>
+                </ul>
+                <h3><strong>2) جراحة المنظار</strong></h3>
+                <ul>
+                  <li>فتحات متعددة في البطن</li>
+                  <li>نسب ارتجاع ومضاعفات أعلى من الميكروسكوب</li>
+                </ul>
+                <h3><strong>3) الأشعة التداخلية (Embolization)</strong></h3>
+                <ul>
+                  <li>بدون جرح</li>
+                  <li>مناسبة لحالات معينة فقط كحل بديل</li>
+                  <li>نسب الفشل والارتجاع أعلى</li>
+                </ul>
+                <h3><strong>4) الجراحة الميكروسكوبية (Microsurgical Varicocelectomy)</strong></h3>
+                <p><strong>⭐ الأفضل عالميًا – Gold Standard</strong></p>
+                <p>تعتبر عملية دوالي الخصية الميكروسكوبية هي المعيار الذهبي عالميًا لعلاج دوالي الخصية، وذلك للأسباب التالية:</p>
+                <ul>
+                  <li>أعلى نسب نجاح تصل إلى 92–98%</li>
+                  <li>أقل نسب ارتجاع (1–3%)</li>
+                  <li>جرح صغير جدا في المنطقة التحت أربية اقل من 2 سم فقط بخيوط تجميلية</li>
+                  <li>رؤية مكبرة حتى 20 مرة</li>
+                  <li>الحفاظ على الشرايين والأعصاب والاوعية الليمفاوية بدقة عالية</li>
+                  <li>أقل مضاعفات</li>
+                  <li>أفضل نتائج لتحسين الخصوبة</li>
+                  <li>عودة سريعة للحياة اليومية والعمل</li>
+                </ul>
+                <p>
+                  لمزيد من التفاصيل عن العملية يمكنك قراءة:
+                  <a href="https://www.albokl.com/articles/varicocele-surgery" target="_blank" rel="noopener noreferrer"> عملية دوالي الخصية</a>
+                </p>
+                <p>
+                  وعن الجراحة الميكروسكوبية تحديدًا:
+                  <a href="https://www.albokl.com/articles/microscopic-varicocele-surgery" target="_blank" rel="noopener noreferrer"> عملية دوالي الخصية بالميكروسكوب</a>
                 </p>
               </div>
 
-              {/* Traditional Surgery Problems */}
-              <div className={styles.surgerySection}>
-                <h3 className={styles.surgeryTitle}>الجراحة التقليدية</h3>
-                <div className={styles.surgeryProblemsList}>
-                  <div className={styles.surgeryProblem}>
-                    <span className={styles.problemBullet}>•</span>
-                    <p>
-                      لان في الجراحة التقليدية الجراح بيعتمد على بصره و أدواته
-                      الجراحية فقط من غير استخدام أدوات حديثة تساعده يشوف مكان
-                      العملية بوضوح.
-                    </p>
-                  </div>
-                  <div className={styles.surgeryProblem}>
-                    <span className={styles.problemBullet}>•</span>
-                    <p>
-                      وفي الجراحة التقليدية ، الجراح مش بيقدر يشوف الأوردة
-                      الصغيرة و الدقيقة الثانوية اللي بدأت تتضخم ، و ده بيخلي
-                      الدوالي ترجع تانى بعد فترة من العملية.
-                    </p>
-                  </div>
-                  <div className={styles.surgeryProblem}>
-                    <span className={styles.problemBullet}>•</span>
-                    <p>
-                      ممكن نعرض الشريان الخصويه اللي بيغذي الخصية بالدم للقطع ،
-                      لأنه بيكون موجود وسط الأوردة وبيكون صعب اننا نميزه بعنينا
-                      بدون تكبير ، وبكده هنكون منعنا الدم من انه يوصل للخصية
-                      ويغذيها ، وده ممكن يسبب ضمور للخصية.
-                    </p>
-                  </div>
-                  <div className={styles.surgeryProblem}>
-                    <span className={styles.problemBullet}>•</span>
-                    <p>
-                      وممكن كمان في الجراحة التقليدية اننا نربط الأوعية
-                      الليمفاوية بالغلط وقت العملية ، وهي اللي بتكون مسؤولة عن
-                      تصريف السوائل الزائدة من الخصية ، ولو تم ربطها بالغلط ، ده
-                      ممكن يسبب قيلة مائية على الخصية.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Laparoscopic Surgery Problems */}
-              <div className={styles.surgerySection}>
-                <h3 className={styles.surgeryTitle}>الجراحة بالمنظار</h3>
-                <p className={styles.surgeryProblemText}>
-                  مش بتخلينا نقدر نشوف كل الاورده الدقيقة جدا و كده ممكن نضر
-                  الشريان الخصوي وقت العملية ، ونسبة ان دوالي الخصية ترجع تانى
-                  بتكون كبيرة .
-                </p>
-              </div>
-
-              {/* Interventional Radiology Problems */}
-              <div className={styles.surgerySection}>
-                <h3 className={styles.surgeryTitle}>الاشعه التداخيله</h3>
-                <p className={styles.surgeryProblemText}>
-                  دى بتكون مضرة للخصية اكتر من ضرر الدوالى نفسها لاننا بنعرض
-                  الخصية لجرعة كبيرة جدا من الإشعاع و ده بيضر الخصية ، و كمان
-                  بيكون فى احتمال أن يحصل ارتجاع للدوالي مرة تانيه ، لاننا مش
-                  بنقدر نوصل لكل الأوردة .
-                </p>
-              </div>
-
-              {/* Microscopic Surgery Benefits */}
-              <div className={styles.bestSurgerySection}>
-                <h3 className={styles.bestSurgeryTitle}>
-                  الجراحة الميكروسكوبية
-                </h3>
-                <p className={styles.bestSurgeryIntro}>
-                  افضل واحسن طريقة نعمل بيها عملية دوالي الخصية هي الجراحة
-                  الميكروسكوبية :
-                </p>
-                <div className={styles.microscopicBenefits}>
-                  <div className={styles.microscopicBenefit}>
-                    <span className={styles.benefitBullet}>•</span>
-                    <p>
-                      لأن الميكروسكوب الجراحي بيساعد في تكبير مكان العملية، وده
-                      بيساعد في تحديد الشرايين والأوردة بشكل واضح جداً، لان
-                      المكان اللى احنا بنعمل فيه العملية هو مكان دقيق جدا.
-                    </p>
-                  </div>
-                  <div className={styles.microscopicBenefit}>
-                    <span className={styles.benefitBullet}>•</span>
-                    <p>
-                      بفضل التكبير، الجراح بيقدر يتجنب ربط الشريان الخصوي،
-                      ويحافظ على وظيفة الخصية.
-                    </p>
-                  </div>
-                  <div className={styles.microscopicBenefit}>
-                    <span className={styles.benefitBullet}>•</span>
-                    <p>
-                      الجراحة الميكروسكوبية بتمكن الجراح من الوصول للأوردة
-                      الدقيقة وربطها، عشان ميحصلش ارتجاع للدوالى مره تانيه وده
-                      اللي مش بنقدر نعمله في الجراحة التقليدية.
-                    </p>
-                  </div>
-                  <div className={styles.microscopicBenefit}>
-                    <span className={styles.benefitBullet}>•</span>
-                    <p>
-                      الميكروسكوب الجراحي بيساعد الجراح إنه يميز الأوعية
-                      الليمفاوية ويتجنب ربطها، وبالتالي بيقلل من تكوّن قيلة
-                      مائية على الخصية.
-                    </p>
-                  </div>
-                  <div className={styles.microscopicBenefit}>
-                    <span className={styles.benefitBullet}>•</span>
-                    <p>
-                      العملية مش بتاخد أكتر من ساعة، والمريض بيقدر يروح البيت في
-                      نفس اليوم، ويرجع للشغل بعد 3-5 أيام.
-                    </p>
-                  </div>
-                </div>
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>خطوات الجراحة الميكروسكوبية لدوالي الخصية</h2>
+                <ol>
+                  <li>تخدير نصفي/كلي حسب الحالة</li>
+                  <li>جرح صغير أسفل البطن في المنطقة التحت أربية</li>
+                  <li>استخدام ميكروسكوب جراحي لتكبير حتى 20 مرة</li>
+                  <li>تحديد جميع الاوردة المتوسعة وربطها بدقة</li>
+                  <li>تحديد الشريان الخصوي والقنوات الليمفاوية و الحفاظ عليها</li>
+                  <li>غلق الجرح تجميليًا</li>
+                  <li>خروج المريض في نفس اليوم</li>
+                </ol>
               </div>
 
               {/* Post-Surgery Recovery */}
-              <div className={styles.recoverySection}>
-                <h3 className={styles.recoveryTitle}>
-                  اما بالنسبة لما بعد العملية :
-                </h3>
-                <div className={styles.recoveryList}>
-                  <div className={styles.recoveryItem}>
-                    <span className={styles.recoveryBullet}>•</span>
-                    <p>بنقدر نروح بعد العملية بأربع ساعات أو اقل .</p>
-                  </div>
-                  <div className={styles.recoveryItem}>
-                    <span className={styles.recoveryBullet}>•</span>
-                    <p>و بنقدر ننزل الشغل بعد 3-5 أيام .</p>
-                  </div>
-                  <div className={styles.recoveryItem}>
-                    <span className={styles.recoveryBullet}>•</span>
-                    <p>
-                      و كمان بنقدر اننا نمارس العلاقة الزوجية بعد 2-4 أسابيع وفق
-                      تقييم الطبيب.
-                    </p>
-                  </div>
-                </div>
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>التحسن بعد العملية ونسب النجاح</h2>
+                <ul>
+                  <li>يصل لأفضل نتيجة خلال 6 أشهر في اغلب الحالات</li>
+                  <li>نسب الحمل الطبيعي 40–60% خلال اول سنة بعد العملية</li>
+                  <li>انخفاض كبير في تكسير المادة الوراثية DNA Fragmentation بعد الجراحة</li>
+                  <li>بالتالي فرص نجاح الحقن المجهري اعلى في حالات الفشل المتكرر قبل العملية</li>
+                </ul>
               </div>
+              {/* Complications */}
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>مضاعفات عملية دوالي الخصية وكيف نتجنبها</h2>
+                <p>المضاعفات قليلة جدًا:</p>
+                <ul>
+                  <li>ألم بسيط</li>
+                  <li>تورم خفيف</li>
+                  <li>تجمع قيلة مائية (نادر مع الميكروسكوب)</li>
+                  <li>احتمال ارتجاع بسيط (1–3%)</li>
+                </ul>
+                <p><strong>اختيار جراح متخصص في جراحات الذكورة الميكروسكوبية يقلل هذه المضاعفات إلى أدنى درجة ممكنة.</strong></p>
+                <p>
+                  لمعرفة المزيد عن المضاعفات في حال إهمال الدوالي وعدم علاجها يمكنك قراءة:
+                  <a href="https://www.albokl.com/articles/what-complications-will-occur-if-we-do-not-treat-varicocele" target="_blank" rel="noopener noreferrer"> ايه هي المضاعفات اللي هتحصل لو معالجناش دوالي الخصية؟</a>
+                </p>
+                <p>
+                  وعن مضاعفات الدرجة الثالثة:
+                  <a href="https://www.albokl.com/articles/complications-caused-by-third-degree-varicocele" target="_blank" rel="noopener noreferrer"> المضاعفات اللي بتسببها الدرجة الثالثة من دوالي الخصية</a>
+                </p>
+              </div>
+              {/* Tips before/after */}
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>نصائح قبل وبعد عملية دوالي الخصية</h2>
+                <h3>قبل العملية:</h3>
+                <ul>
+                  <li>صيام 6 ساعات حسب تعليمات التخدير</li>
+                  <li>إبلاغ الطبيب بجميع الادوية التي تتناولها</li>
+                  <li>التوقف عن التدخين</li>
+                  <li>عمل التحاليل المطلوبة قبل الجراحة</li>
+                </ul>
+                <p>
+                  تفاصيل أكثر في:
+                  <a href="https://www.albokl.com/articles/tips-for-every-patient-before-varicocele-surgery" target="_blank" rel="noopener noreferrer"> نصائح تهم كل مريض قبل عملية دوالي الخصية</a>
+                </p>
+                <h3>بعد العملية:</h3>
+                <ul>
+                  <li>راحة من 2–3 أيام</li>
+                  <li>كمادات باردة خلال 24 ساعة الأولى</li>
+                  <li>ارتداء كيس رافع للخصية scrotal suspender</li>
+                  <li>الامتناع عن العلاقة لمدة أسبوع</li>
+                  <li>تجنب المجهود العنيف ورفع الأوزان الثقيلة</li>
+                  <li>الالتزام بالأدوية الموصوفة ومتابعة الجرح مع الطبيب</li>
+                </ul>
+                <p>
+                  ولمعرفة متى يمكنك العودة للعمل بالظبط راجع:
+                  <a href="https://www.albokl.com/articles/when-return-work-after-microscopic-varicocele-surgery" target="_blank" rel="noopener noreferrer"> امتي اقدر ارجع شغلي بعد عملية دوالي الخصية بالميكروسكوب؟</a>
+                </p>
+              </div>
+              {/* Why choose Dr. Osama */}
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>لماذا تختار د. أسامة البكل؟</h2>
+                <ul>
+                  <li>استشاري أمراض الذكورة والعقم بكلية طب قصر العيني</li>
+                  <li>خبرة واسعة في جراحات دوالي الخصية الميكروسكوبية</li>
+                  <li>إجراء آلاف العمليات بنسب نجاح مرتفعة جدًا</li>
+                  <li>استخدام أحدث الميكروسكوبات الجراحية</li>
+                  <li>نسب ارتجاع شبه معدومة</li>
+                  <li>متابعة دقيقة وخطة شاملة لتحسين الخصوبة بعد العملية</li>
+                </ul>
+                <p>عملية دوالي الخصية يعتمد بشكل أساسي على خبرة الجراح ودقته في استخدام الميكروسكوب الجراحي.</p>
+              </div>
+
+              {/* Textual FAQ */}
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>أسئلة شائعة (FAQ)</h2>
+                <h3>هل دوالي الخصية تسبب ضعف الانتصاب؟</h3>
+                <p>لا تسبب دوالي الخصية ضعف الانتصاب بشكل مباش، ولكن الألم المزمن، والحالة النفسية قد تؤثر على القدرة الجنسية.</p>
+                <h3>هل عملية الدوالي مؤلمة؟</h3>
+                <p>ألم بسيط يُسيطر عليه بالمسكنات.</p>
+                <h3>هل يمكن أن تعود الدوالي؟</h3>
+                <p>نادرًا (1–3%) مع الجراحة الميكروسكوبية.</p>
+                <h3>هل يمكن الحمل بدون علاج الدوالي؟</h3>
+                <ul>
+                  <li>تأخر إنجاب مع وجود دوالي</li>
+                  <li>ضعف واضح في تحليل السائل المنوي</li>
+                  <li>ارتفاع تكسير المادة الوراثية Sperm DNA Fragmentation</li>
+                  <li>صغر حجم الخصية أو تراجعها</li>
+                  <li>وجود دوالي درجة 2 أو 3 مؤثرة على الخصوبة</li>
+                  <li>ألم مزمن يزيد مع الوقوف ويؤثر على الحياة اليومية</li>
+                  <li>انعدام الحيوانات المنوية مع وجود دوالي كبيرة (بعد تقييم الهرمونات وحجم الخصية)</li>
+                </ul>
+                <h3>هل تؤثر على هرمون الذكورة؟</h3>
+                <p>نادرا وفي حالات متأخرة فقط.</p>
+                <h3>هل الدوالي هي السبب الوحيد لتأخر الإنجاب؟</h3>
+                <p>هناك أسباب أخرى: انعدام الحيوانات المنوية (Azoospermia)، انسداد القنوات المنوية، اختلالات الهرمونات، التهابات البروستاتا أو البربخ، وأسباب وراثية.</p>
+              </div>
+
               <section className={styles.divider}>
                 <div className={styles.container}>
                   <h3>
@@ -533,13 +523,38 @@ export default function VaricocelePage() {
               <ContactSection />
 
               <BookingForm /> */}
+              {/* Booking CTA */}
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>احجز الآن لعلاج دوالي الخصية واستعادة الخصوبة</h2>
+                <p>كلما كان علاج دوالي الخصية مبكرًا، كانت النتائج أفضل على المدى القصير والبعيد. التأجيل المستمر قد يؤدي إلى تراجع أكبر في عدد وحركة الحيوانات المنوية، وارتفاع في نسبة تكسير المادة الوراثية، وصغر في حجم الخصية.</p>
+                <p>لو عندك:</p>
+                <ul>
+                  <li>دوالي خصية مشخصة</li>
+                  <li>تحليل سائل منوي غير طبيعي</li>
+                  <li>أو تأخر إنجاب بدون سبب واضح</li>
+                </ul>
+                <p>فالفحص المتخصص ووضع خطة علاج واضحة هو أهم خطوة الآن.</p>
+              
+                
+              </div>
+              {/* Internal Linking */}
+              <div className={styles.section}>
+                <h2 className={styles.sectionTitle}>مقالات مهمة مرتبطة</h2>
+                <ul>
+                  <li><a href="https://www.albokl.com/articles/what-are-the-degrees-of-varicocele-and-how-do-we-treat-it" target="_blank" rel="noopener noreferrer">ما هي درجات دوالي الخصية وازاى نعالجها؟</a></li>
+                  <li><a href="https://www.albokl.com/articles/can-varicocele-be-treated-without-surgery" target="_blank" rel="noopener noreferrer">هل يمكن علاج دوالي الخصية بدون جراحة؟</a></li>
+                  <li><a href="https://www.albokl.com/articles/varicocele-surgery" target="_blank" rel="noopener noreferrer">عملية دوالي الخصية</a></li>
+                  <li><a href="https://www.albokl.com/articles/microscopic-varicocele-surgery" target="_blank" rel="noopener noreferrer">عملية دوالي الخصية بالميكروسكوب</a></li>
+                </ul>
+              </div>
+              </div>
             </div>
 
             {/* FAQ Section */}
             {/* <FAQ faqs={faqData} title="الأسئلة الشائعة حول دوالي الخصية" /> */}
-          </div>
-        </div>
       </div>
-    </MainLayout>
+    </div>
+  </div>
+</MainLayout>
   );
 }
