@@ -14,7 +14,7 @@ const cairo = Cairo({
 });
 
 export const metadata = {
-  title: "دكتور أسامة ",
+  title: "دكتور أسامة البكل",
   description: "موقع الدكتور أسامة البكل, مدرس وإستشاري طب وجراحة أمراض الذكورة وتأخر الإنجاب والصحة الجنسية بطب قصر العيني",
   icons: {
     icon: '/favico.png',
